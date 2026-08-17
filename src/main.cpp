@@ -1,58 +1,42 @@
 #include <QApplication>
-#include <QSqlDatabase>
-#include <QSqlQuery>
-#include <QSqlError>
-#include <QDebug>
-#include <QDir>
-#include <iostream>
+#include <QMessageBox>
 #include "database/DatabaseManager.h"
+#include "services/MembershipService.h"
+#include "services/NotificationService.h"
+#include "widgets/LoginWindow.h"
+#include "widgets/MainWindow.h"
+#include "utils/ThemeManager.h"
 
 int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
+    app.setApplicationName("FitCore Gym Management System");
+    app.setOrganizationName("FitCore Software");
+    app.setApplicationVersion("1.0.0");
 
-    // Set library paths for Qt plugins
-    QString appDir = QApplication::applicationDirPath();
-    QApplication::addLibraryPath(appDir);
-    QApplication::addLibraryPath(appDir + "/sqldrivers");
-    QApplication::addLibraryPath(appDir + "/platforms");
-    QApplication::addLibraryPath("D:/Qt/6.7.2/mingw_64/plugins");
+    // Apply global stylesheet theme
+    app.setStyleSheet(FitCore::ThemeManager::getDarkThemeQss());
 
-    std::cout << "[INFO] FitCore Initialization Mode" << std::endl;
-    std::cout << "[INFO] Available SQL Drivers: " << QSqlDatabase::drivers().join(", ").toStdString() << std::endl;
-
-    if (!FitCore::DatabaseManager::instance().initialize("data/fitcore.db")) {
-        std::cerr << "[CRIT] Database initialization failed: " << FitCore::DatabaseManager::instance().lastError().toStdString() << std::endl;
+    // 1. Initialize SQLite Database Singleton
+    if (!FitCore::DatabaseManager::instance().open("data/fitcore.db")) {
+        QMessageBox::critical(nullptr, "Database Error", "Failed to connect to SQLite database.\nPlease check file permissions.");
         return 1;
     }
 
-    std::cout << "[INFO] Database initialized & seeded successfully at data/fitcore.db" << std::endl;
+    // 2. Perform automated maintenance background tasks
+    FitCore::MembershipService membershipService;
+    membershipService.updateAutoExpiries();
 
-    // Verify record counts
-    QSqlQuery q(FitCore::DatabaseManager::instance().getDatabase());
-    if (q.exec("SELECT COUNT(*) FROM users;")) {
-        if (q.next()) {
-            std::cout << "[INFO] Seeded Users Count: " << q.value(0).toInt() << std::endl;
-        }
-    }
+    FitCore::NotificationService notificationService;
+    notificationService.checkAndGenerateExpiriesAndAlerts();
 
-    if (q.exec("SELECT COUNT(*) FROM members;")) {
-        if (q.next()) {
-            std::cout << "[INFO] Seeded Members Count: " << q.value(0).toInt() << std::endl;
-        }
-    }
-
-    if (q.exec("SELECT COUNT(*) FROM membership_plans;")) {
-        if (q.next()) {
-            std::cout << "[INFO] Seeded Plans Count: " << q.value(0).toInt() << std::endl;
-        }
-    }
-
-    std::cout << "[SUCCESS] Database Architecture & Schema Verification PASSED!" << std::endl;
-    
-    // If CLI argument --test passed, exit cleanly after DB initialization
-    for (int i = 1; i < argc; ++i) {
-        if (QString(argv[i]) == "--test") {
-            return 0;
+    // 3. Show Authentication Login Window
+    FitCore::LoginWindow loginWindow;
+    if (loginWindow.exec() == QDialog::Accepted) {
+        auto userOpt = loginWindow.getAuthenticatedUser();
+        if (userOpt.has_value()) {
+            FitCore::MainWindow mainWindow(userOpt.value());
+            mainWindow.show();
+            return app.exec();
         }
     }
 
