@@ -562,6 +562,894 @@ src/models/WorkoutPlan.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/WorkoutPlan.cpp.s
 .PHONY : src/models/WorkoutPlan.cpp.s
 
+src/repositories/AttendanceRepository.obj: src/repositories/AttendanceRepository.cpp.obj
+.PHONY : src/repositories/AttendanceRepository.obj
+
+# target to build an object file
+src/repositories/AttendanceRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/AttendanceRepository.cpp.obj
+.PHONY : src/repositories/AttendanceRepository.cpp.obj
+
+src/repositories/AttendanceRepository.i: src/repositories/AttendanceRepository.cpp.i
+.PHONY : src/repositories/AttendanceRepository.i
+
+# target to preprocess a source file
+src/repositories/AttendanceRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/AttendanceRepository.cpp.i
+.PHONY : src/repositories/AttendanceRepository.cpp.i
+
+src/repositories/AttendanceRepository.s: src/repositories/AttendanceRepository.cpp.s
+.PHONY : src/repositories/AttendanceRepository.s
+
+# target to generate assembly for a file
+src/repositories/AttendanceRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/AttendanceRepository.cpp.s
+.PHONY : src/repositories/AttendanceRepository.cpp.s
+
+src/repositories/AuditRepository.obj: src/repositories/AuditRepository.cpp.obj
+.PHONY : src/repositories/AuditRepository.obj
+
+# target to build an object file
+src/repositories/AuditRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/AuditRepository.cpp.obj
+.PHONY : src/repositories/AuditRepository.cpp.obj
+
+src/repositories/AuditRepository.i: src/repositories/AuditRepository.cpp.i
+.PHONY : src/repositories/AuditRepository.i
+
+# target to preprocess a source file
+src/repositories/AuditRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/AuditRepository.cpp.i
+.PHONY : src/repositories/AuditRepository.cpp.i
+
+src/repositories/AuditRepository.s: src/repositories/AuditRepository.cpp.s
+.PHONY : src/repositories/AuditRepository.s
+
+# target to generate assembly for a file
+src/repositories/AuditRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/AuditRepository.cpp.s
+.PHONY : src/repositories/AuditRepository.cpp.s
+
+src/repositories/EquipmentRepository.obj: src/repositories/EquipmentRepository.cpp.obj
+.PHONY : src/repositories/EquipmentRepository.obj
+
+# target to build an object file
+src/repositories/EquipmentRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/EquipmentRepository.cpp.obj
+.PHONY : src/repositories/EquipmentRepository.cpp.obj
+
+src/repositories/EquipmentRepository.i: src/repositories/EquipmentRepository.cpp.i
+.PHONY : src/repositories/EquipmentRepository.i
+
+# target to preprocess a source file
+src/repositories/EquipmentRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/EquipmentRepository.cpp.i
+.PHONY : src/repositories/EquipmentRepository.cpp.i
+
+src/repositories/EquipmentRepository.s: src/repositories/EquipmentRepository.cpp.s
+.PHONY : src/repositories/EquipmentRepository.s
+
+# target to generate assembly for a file
+src/repositories/EquipmentRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/EquipmentRepository.cpp.s
+.PHONY : src/repositories/EquipmentRepository.cpp.s
+
+src/repositories/ExpenseRepository.obj: src/repositories/ExpenseRepository.cpp.obj
+.PHONY : src/repositories/ExpenseRepository.obj
+
+# target to build an object file
+src/repositories/ExpenseRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/ExpenseRepository.cpp.obj
+.PHONY : src/repositories/ExpenseRepository.cpp.obj
+
+src/repositories/ExpenseRepository.i: src/repositories/ExpenseRepository.cpp.i
+.PHONY : src/repositories/ExpenseRepository.i
+
+# target to preprocess a source file
+src/repositories/ExpenseRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/ExpenseRepository.cpp.i
+.PHONY : src/repositories/ExpenseRepository.cpp.i
+
+src/repositories/ExpenseRepository.s: src/repositories/ExpenseRepository.cpp.s
+.PHONY : src/repositories/ExpenseRepository.s
+
+# target to generate assembly for a file
+src/repositories/ExpenseRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/ExpenseRepository.cpp.s
+.PHONY : src/repositories/ExpenseRepository.cpp.s
+
+src/repositories/MemberRepository.obj: src/repositories/MemberRepository.cpp.obj
+.PHONY : src/repositories/MemberRepository.obj
+
+# target to build an object file
+src/repositories/MemberRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/MemberRepository.cpp.obj
+.PHONY : src/repositories/MemberRepository.cpp.obj
+
+src/repositories/MemberRepository.i: src/repositories/MemberRepository.cpp.i
+.PHONY : src/repositories/MemberRepository.i
+
+# target to preprocess a source file
+src/repositories/MemberRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/MemberRepository.cpp.i
+.PHONY : src/repositories/MemberRepository.cpp.i
+
+src/repositories/MemberRepository.s: src/repositories/MemberRepository.cpp.s
+.PHONY : src/repositories/MemberRepository.s
+
+# target to generate assembly for a file
+src/repositories/MemberRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/MemberRepository.cpp.s
+.PHONY : src/repositories/MemberRepository.cpp.s
+
+src/repositories/MembershipPlanRepository.obj: src/repositories/MembershipPlanRepository.cpp.obj
+.PHONY : src/repositories/MembershipPlanRepository.obj
+
+# target to build an object file
+src/repositories/MembershipPlanRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/MembershipPlanRepository.cpp.obj
+.PHONY : src/repositories/MembershipPlanRepository.cpp.obj
+
+src/repositories/MembershipPlanRepository.i: src/repositories/MembershipPlanRepository.cpp.i
+.PHONY : src/repositories/MembershipPlanRepository.i
+
+# target to preprocess a source file
+src/repositories/MembershipPlanRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/MembershipPlanRepository.cpp.i
+.PHONY : src/repositories/MembershipPlanRepository.cpp.i
+
+src/repositories/MembershipPlanRepository.s: src/repositories/MembershipPlanRepository.cpp.s
+.PHONY : src/repositories/MembershipPlanRepository.s
+
+# target to generate assembly for a file
+src/repositories/MembershipPlanRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/MembershipPlanRepository.cpp.s
+.PHONY : src/repositories/MembershipPlanRepository.cpp.s
+
+src/repositories/MembershipRepository.obj: src/repositories/MembershipRepository.cpp.obj
+.PHONY : src/repositories/MembershipRepository.obj
+
+# target to build an object file
+src/repositories/MembershipRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.obj
+.PHONY : src/repositories/MembershipRepository.cpp.obj
+
+src/repositories/MembershipRepository.i: src/repositories/MembershipRepository.cpp.i
+.PHONY : src/repositories/MembershipRepository.i
+
+# target to preprocess a source file
+src/repositories/MembershipRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.i
+.PHONY : src/repositories/MembershipRepository.cpp.i
+
+src/repositories/MembershipRepository.s: src/repositories/MembershipRepository.cpp.s
+.PHONY : src/repositories/MembershipRepository.s
+
+# target to generate assembly for a file
+src/repositories/MembershipRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.s
+.PHONY : src/repositories/MembershipRepository.cpp.s
+
+src/repositories/NotificationRepository.obj: src/repositories/NotificationRepository.cpp.obj
+.PHONY : src/repositories/NotificationRepository.obj
+
+# target to build an object file
+src/repositories/NotificationRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/NotificationRepository.cpp.obj
+.PHONY : src/repositories/NotificationRepository.cpp.obj
+
+src/repositories/NotificationRepository.i: src/repositories/NotificationRepository.cpp.i
+.PHONY : src/repositories/NotificationRepository.i
+
+# target to preprocess a source file
+src/repositories/NotificationRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/NotificationRepository.cpp.i
+.PHONY : src/repositories/NotificationRepository.cpp.i
+
+src/repositories/NotificationRepository.s: src/repositories/NotificationRepository.cpp.s
+.PHONY : src/repositories/NotificationRepository.s
+
+# target to generate assembly for a file
+src/repositories/NotificationRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/NotificationRepository.cpp.s
+.PHONY : src/repositories/NotificationRepository.cpp.s
+
+src/repositories/PaymentRepository.obj: src/repositories/PaymentRepository.cpp.obj
+.PHONY : src/repositories/PaymentRepository.obj
+
+# target to build an object file
+src/repositories/PaymentRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/PaymentRepository.cpp.obj
+.PHONY : src/repositories/PaymentRepository.cpp.obj
+
+src/repositories/PaymentRepository.i: src/repositories/PaymentRepository.cpp.i
+.PHONY : src/repositories/PaymentRepository.i
+
+# target to preprocess a source file
+src/repositories/PaymentRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/PaymentRepository.cpp.i
+.PHONY : src/repositories/PaymentRepository.cpp.i
+
+src/repositories/PaymentRepository.s: src/repositories/PaymentRepository.cpp.s
+.PHONY : src/repositories/PaymentRepository.s
+
+# target to generate assembly for a file
+src/repositories/PaymentRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/PaymentRepository.cpp.s
+.PHONY : src/repositories/PaymentRepository.cpp.s
+
+src/repositories/ProgressRepository.obj: src/repositories/ProgressRepository.cpp.obj
+.PHONY : src/repositories/ProgressRepository.obj
+
+# target to build an object file
+src/repositories/ProgressRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/ProgressRepository.cpp.obj
+.PHONY : src/repositories/ProgressRepository.cpp.obj
+
+src/repositories/ProgressRepository.i: src/repositories/ProgressRepository.cpp.i
+.PHONY : src/repositories/ProgressRepository.i
+
+# target to preprocess a source file
+src/repositories/ProgressRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/ProgressRepository.cpp.i
+.PHONY : src/repositories/ProgressRepository.cpp.i
+
+src/repositories/ProgressRepository.s: src/repositories/ProgressRepository.cpp.s
+.PHONY : src/repositories/ProgressRepository.s
+
+# target to generate assembly for a file
+src/repositories/ProgressRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/ProgressRepository.cpp.s
+.PHONY : src/repositories/ProgressRepository.cpp.s
+
+src/repositories/SettingsRepository.obj: src/repositories/SettingsRepository.cpp.obj
+.PHONY : src/repositories/SettingsRepository.obj
+
+# target to build an object file
+src/repositories/SettingsRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/SettingsRepository.cpp.obj
+.PHONY : src/repositories/SettingsRepository.cpp.obj
+
+src/repositories/SettingsRepository.i: src/repositories/SettingsRepository.cpp.i
+.PHONY : src/repositories/SettingsRepository.i
+
+# target to preprocess a source file
+src/repositories/SettingsRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/SettingsRepository.cpp.i
+.PHONY : src/repositories/SettingsRepository.cpp.i
+
+src/repositories/SettingsRepository.s: src/repositories/SettingsRepository.cpp.s
+.PHONY : src/repositories/SettingsRepository.s
+
+# target to generate assembly for a file
+src/repositories/SettingsRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/SettingsRepository.cpp.s
+.PHONY : src/repositories/SettingsRepository.cpp.s
+
+src/repositories/TrainerRepository.obj: src/repositories/TrainerRepository.cpp.obj
+.PHONY : src/repositories/TrainerRepository.obj
+
+# target to build an object file
+src/repositories/TrainerRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/TrainerRepository.cpp.obj
+.PHONY : src/repositories/TrainerRepository.cpp.obj
+
+src/repositories/TrainerRepository.i: src/repositories/TrainerRepository.cpp.i
+.PHONY : src/repositories/TrainerRepository.i
+
+# target to preprocess a source file
+src/repositories/TrainerRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/TrainerRepository.cpp.i
+.PHONY : src/repositories/TrainerRepository.cpp.i
+
+src/repositories/TrainerRepository.s: src/repositories/TrainerRepository.cpp.s
+.PHONY : src/repositories/TrainerRepository.s
+
+# target to generate assembly for a file
+src/repositories/TrainerRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/TrainerRepository.cpp.s
+.PHONY : src/repositories/TrainerRepository.cpp.s
+
+src/repositories/UserRepository.obj: src/repositories/UserRepository.cpp.obj
+.PHONY : src/repositories/UserRepository.obj
+
+# target to build an object file
+src/repositories/UserRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/UserRepository.cpp.obj
+.PHONY : src/repositories/UserRepository.cpp.obj
+
+src/repositories/UserRepository.i: src/repositories/UserRepository.cpp.i
+.PHONY : src/repositories/UserRepository.i
+
+# target to preprocess a source file
+src/repositories/UserRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/UserRepository.cpp.i
+.PHONY : src/repositories/UserRepository.cpp.i
+
+src/repositories/UserRepository.s: src/repositories/UserRepository.cpp.s
+.PHONY : src/repositories/UserRepository.s
+
+# target to generate assembly for a file
+src/repositories/UserRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/UserRepository.cpp.s
+.PHONY : src/repositories/UserRepository.cpp.s
+
+src/repositories/WorkoutRepository.obj: src/repositories/WorkoutRepository.cpp.obj
+.PHONY : src/repositories/WorkoutRepository.obj
+
+# target to build an object file
+src/repositories/WorkoutRepository.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/WorkoutRepository.cpp.obj
+.PHONY : src/repositories/WorkoutRepository.cpp.obj
+
+src/repositories/WorkoutRepository.i: src/repositories/WorkoutRepository.cpp.i
+.PHONY : src/repositories/WorkoutRepository.i
+
+# target to preprocess a source file
+src/repositories/WorkoutRepository.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/WorkoutRepository.cpp.i
+.PHONY : src/repositories/WorkoutRepository.cpp.i
+
+src/repositories/WorkoutRepository.s: src/repositories/WorkoutRepository.cpp.s
+.PHONY : src/repositories/WorkoutRepository.s
+
+# target to generate assembly for a file
+src/repositories/WorkoutRepository.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/WorkoutRepository.cpp.s
+.PHONY : src/repositories/WorkoutRepository.cpp.s
+
+src/services/AttendanceService.obj: src/services/AttendanceService.cpp.obj
+.PHONY : src/services/AttendanceService.obj
+
+# target to build an object file
+src/services/AttendanceService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/AttendanceService.cpp.obj
+.PHONY : src/services/AttendanceService.cpp.obj
+
+src/services/AttendanceService.i: src/services/AttendanceService.cpp.i
+.PHONY : src/services/AttendanceService.i
+
+# target to preprocess a source file
+src/services/AttendanceService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/AttendanceService.cpp.i
+.PHONY : src/services/AttendanceService.cpp.i
+
+src/services/AttendanceService.s: src/services/AttendanceService.cpp.s
+.PHONY : src/services/AttendanceService.s
+
+# target to generate assembly for a file
+src/services/AttendanceService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/AttendanceService.cpp.s
+.PHONY : src/services/AttendanceService.cpp.s
+
+src/services/AuthenticationService.obj: src/services/AuthenticationService.cpp.obj
+.PHONY : src/services/AuthenticationService.obj
+
+# target to build an object file
+src/services/AuthenticationService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/AuthenticationService.cpp.obj
+.PHONY : src/services/AuthenticationService.cpp.obj
+
+src/services/AuthenticationService.i: src/services/AuthenticationService.cpp.i
+.PHONY : src/services/AuthenticationService.i
+
+# target to preprocess a source file
+src/services/AuthenticationService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/AuthenticationService.cpp.i
+.PHONY : src/services/AuthenticationService.cpp.i
+
+src/services/AuthenticationService.s: src/services/AuthenticationService.cpp.s
+.PHONY : src/services/AuthenticationService.s
+
+# target to generate assembly for a file
+src/services/AuthenticationService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/AuthenticationService.cpp.s
+.PHONY : src/services/AuthenticationService.cpp.s
+
+src/services/BackupService.obj: src/services/BackupService.cpp.obj
+.PHONY : src/services/BackupService.obj
+
+# target to build an object file
+src/services/BackupService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/BackupService.cpp.obj
+.PHONY : src/services/BackupService.cpp.obj
+
+src/services/BackupService.i: src/services/BackupService.cpp.i
+.PHONY : src/services/BackupService.i
+
+# target to preprocess a source file
+src/services/BackupService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/BackupService.cpp.i
+.PHONY : src/services/BackupService.cpp.i
+
+src/services/BackupService.s: src/services/BackupService.cpp.s
+.PHONY : src/services/BackupService.s
+
+# target to generate assembly for a file
+src/services/BackupService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/BackupService.cpp.s
+.PHONY : src/services/BackupService.cpp.s
+
+src/services/MembershipService.obj: src/services/MembershipService.cpp.obj
+.PHONY : src/services/MembershipService.obj
+
+# target to build an object file
+src/services/MembershipService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/MembershipService.cpp.obj
+.PHONY : src/services/MembershipService.cpp.obj
+
+src/services/MembershipService.i: src/services/MembershipService.cpp.i
+.PHONY : src/services/MembershipService.i
+
+# target to preprocess a source file
+src/services/MembershipService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/MembershipService.cpp.i
+.PHONY : src/services/MembershipService.cpp.i
+
+src/services/MembershipService.s: src/services/MembershipService.cpp.s
+.PHONY : src/services/MembershipService.s
+
+# target to generate assembly for a file
+src/services/MembershipService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/MembershipService.cpp.s
+.PHONY : src/services/MembershipService.cpp.s
+
+src/services/NotificationService.obj: src/services/NotificationService.cpp.obj
+.PHONY : src/services/NotificationService.obj
+
+# target to build an object file
+src/services/NotificationService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.obj
+.PHONY : src/services/NotificationService.cpp.obj
+
+src/services/NotificationService.i: src/services/NotificationService.cpp.i
+.PHONY : src/services/NotificationService.i
+
+# target to preprocess a source file
+src/services/NotificationService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.i
+.PHONY : src/services/NotificationService.cpp.i
+
+src/services/NotificationService.s: src/services/NotificationService.cpp.s
+.PHONY : src/services/NotificationService.s
+
+# target to generate assembly for a file
+src/services/NotificationService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.s
+.PHONY : src/services/NotificationService.cpp.s
+
+src/services/ReportService.obj: src/services/ReportService.cpp.obj
+.PHONY : src/services/ReportService.obj
+
+# target to build an object file
+src/services/ReportService.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/ReportService.cpp.obj
+.PHONY : src/services/ReportService.cpp.obj
+
+src/services/ReportService.i: src/services/ReportService.cpp.i
+.PHONY : src/services/ReportService.i
+
+# target to preprocess a source file
+src/services/ReportService.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/ReportService.cpp.i
+.PHONY : src/services/ReportService.cpp.i
+
+src/services/ReportService.s: src/services/ReportService.cpp.s
+.PHONY : src/services/ReportService.s
+
+# target to generate assembly for a file
+src/services/ReportService.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/ReportService.cpp.s
+.PHONY : src/services/ReportService.cpp.s
+
+src/utils/ThemeManager.obj: src/utils/ThemeManager.cpp.obj
+.PHONY : src/utils/ThemeManager.obj
+
+# target to build an object file
+src/utils/ThemeManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.obj
+.PHONY : src/utils/ThemeManager.cpp.obj
+
+src/utils/ThemeManager.i: src/utils/ThemeManager.cpp.i
+.PHONY : src/utils/ThemeManager.i
+
+# target to preprocess a source file
+src/utils/ThemeManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.i
+.PHONY : src/utils/ThemeManager.cpp.i
+
+src/utils/ThemeManager.s: src/utils/ThemeManager.cpp.s
+.PHONY : src/utils/ThemeManager.s
+
+# target to generate assembly for a file
+src/utils/ThemeManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.s
+.PHONY : src/utils/ThemeManager.cpp.s
+
+src/widgets/AttendanceWidget.obj: src/widgets/AttendanceWidget.cpp.obj
+.PHONY : src/widgets/AttendanceWidget.obj
+
+# target to build an object file
+src/widgets/AttendanceWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.obj
+.PHONY : src/widgets/AttendanceWidget.cpp.obj
+
+src/widgets/AttendanceWidget.i: src/widgets/AttendanceWidget.cpp.i
+.PHONY : src/widgets/AttendanceWidget.i
+
+# target to preprocess a source file
+src/widgets/AttendanceWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.i
+.PHONY : src/widgets/AttendanceWidget.cpp.i
+
+src/widgets/AttendanceWidget.s: src/widgets/AttendanceWidget.cpp.s
+.PHONY : src/widgets/AttendanceWidget.s
+
+# target to generate assembly for a file
+src/widgets/AttendanceWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.s
+.PHONY : src/widgets/AttendanceWidget.cpp.s
+
+src/widgets/AuditLogsWidget.obj: src/widgets/AuditLogsWidget.cpp.obj
+.PHONY : src/widgets/AuditLogsWidget.obj
+
+# target to build an object file
+src/widgets/AuditLogsWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.obj
+.PHONY : src/widgets/AuditLogsWidget.cpp.obj
+
+src/widgets/AuditLogsWidget.i: src/widgets/AuditLogsWidget.cpp.i
+.PHONY : src/widgets/AuditLogsWidget.i
+
+# target to preprocess a source file
+src/widgets/AuditLogsWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.i
+.PHONY : src/widgets/AuditLogsWidget.cpp.i
+
+src/widgets/AuditLogsWidget.s: src/widgets/AuditLogsWidget.cpp.s
+.PHONY : src/widgets/AuditLogsWidget.s
+
+# target to generate assembly for a file
+src/widgets/AuditLogsWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.s
+.PHONY : src/widgets/AuditLogsWidget.cpp.s
+
+src/widgets/DashboardWidget.obj: src/widgets/DashboardWidget.cpp.obj
+.PHONY : src/widgets/DashboardWidget.obj
+
+# target to build an object file
+src/widgets/DashboardWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj
+.PHONY : src/widgets/DashboardWidget.cpp.obj
+
+src/widgets/DashboardWidget.i: src/widgets/DashboardWidget.cpp.i
+.PHONY : src/widgets/DashboardWidget.i
+
+# target to preprocess a source file
+src/widgets/DashboardWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.i
+.PHONY : src/widgets/DashboardWidget.cpp.i
+
+src/widgets/DashboardWidget.s: src/widgets/DashboardWidget.cpp.s
+.PHONY : src/widgets/DashboardWidget.s
+
+# target to generate assembly for a file
+src/widgets/DashboardWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.s
+.PHONY : src/widgets/DashboardWidget.cpp.s
+
+src/widgets/EquipmentWidget.obj: src/widgets/EquipmentWidget.cpp.obj
+.PHONY : src/widgets/EquipmentWidget.obj
+
+# target to build an object file
+src/widgets/EquipmentWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.obj
+.PHONY : src/widgets/EquipmentWidget.cpp.obj
+
+src/widgets/EquipmentWidget.i: src/widgets/EquipmentWidget.cpp.i
+.PHONY : src/widgets/EquipmentWidget.i
+
+# target to preprocess a source file
+src/widgets/EquipmentWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.i
+.PHONY : src/widgets/EquipmentWidget.cpp.i
+
+src/widgets/EquipmentWidget.s: src/widgets/EquipmentWidget.cpp.s
+.PHONY : src/widgets/EquipmentWidget.s
+
+# target to generate assembly for a file
+src/widgets/EquipmentWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.s
+.PHONY : src/widgets/EquipmentWidget.cpp.s
+
+src/widgets/ExpensesWidget.obj: src/widgets/ExpensesWidget.cpp.obj
+.PHONY : src/widgets/ExpensesWidget.obj
+
+# target to build an object file
+src/widgets/ExpensesWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.obj
+.PHONY : src/widgets/ExpensesWidget.cpp.obj
+
+src/widgets/ExpensesWidget.i: src/widgets/ExpensesWidget.cpp.i
+.PHONY : src/widgets/ExpensesWidget.i
+
+# target to preprocess a source file
+src/widgets/ExpensesWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.i
+.PHONY : src/widgets/ExpensesWidget.cpp.i
+
+src/widgets/ExpensesWidget.s: src/widgets/ExpensesWidget.cpp.s
+.PHONY : src/widgets/ExpensesWidget.s
+
+# target to generate assembly for a file
+src/widgets/ExpensesWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.s
+.PHONY : src/widgets/ExpensesWidget.cpp.s
+
+src/widgets/LoginWindow.obj: src/widgets/LoginWindow.cpp.obj
+.PHONY : src/widgets/LoginWindow.obj
+
+# target to build an object file
+src/widgets/LoginWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.obj
+.PHONY : src/widgets/LoginWindow.cpp.obj
+
+src/widgets/LoginWindow.i: src/widgets/LoginWindow.cpp.i
+.PHONY : src/widgets/LoginWindow.i
+
+# target to preprocess a source file
+src/widgets/LoginWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.i
+.PHONY : src/widgets/LoginWindow.cpp.i
+
+src/widgets/LoginWindow.s: src/widgets/LoginWindow.cpp.s
+.PHONY : src/widgets/LoginWindow.s
+
+# target to generate assembly for a file
+src/widgets/LoginWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.s
+.PHONY : src/widgets/LoginWindow.cpp.s
+
+src/widgets/MainWindow.obj: src/widgets/MainWindow.cpp.obj
+.PHONY : src/widgets/MainWindow.obj
+
+# target to build an object file
+src/widgets/MainWindow.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.obj
+.PHONY : src/widgets/MainWindow.cpp.obj
+
+src/widgets/MainWindow.i: src/widgets/MainWindow.cpp.i
+.PHONY : src/widgets/MainWindow.i
+
+# target to preprocess a source file
+src/widgets/MainWindow.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.i
+.PHONY : src/widgets/MainWindow.cpp.i
+
+src/widgets/MainWindow.s: src/widgets/MainWindow.cpp.s
+.PHONY : src/widgets/MainWindow.s
+
+# target to generate assembly for a file
+src/widgets/MainWindow.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.s
+.PHONY : src/widgets/MainWindow.cpp.s
+
+src/widgets/MembersWidget.obj: src/widgets/MembersWidget.cpp.obj
+.PHONY : src/widgets/MembersWidget.obj
+
+# target to build an object file
+src/widgets/MembersWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.obj
+.PHONY : src/widgets/MembersWidget.cpp.obj
+
+src/widgets/MembersWidget.i: src/widgets/MembersWidget.cpp.i
+.PHONY : src/widgets/MembersWidget.i
+
+# target to preprocess a source file
+src/widgets/MembersWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.i
+.PHONY : src/widgets/MembersWidget.cpp.i
+
+src/widgets/MembersWidget.s: src/widgets/MembersWidget.cpp.s
+.PHONY : src/widgets/MembersWidget.s
+
+# target to generate assembly for a file
+src/widgets/MembersWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.s
+.PHONY : src/widgets/MembersWidget.cpp.s
+
+src/widgets/MembershipsWidget.obj: src/widgets/MembershipsWidget.cpp.obj
+.PHONY : src/widgets/MembershipsWidget.obj
+
+# target to build an object file
+src/widgets/MembershipsWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.obj
+.PHONY : src/widgets/MembershipsWidget.cpp.obj
+
+src/widgets/MembershipsWidget.i: src/widgets/MembershipsWidget.cpp.i
+.PHONY : src/widgets/MembershipsWidget.i
+
+# target to preprocess a source file
+src/widgets/MembershipsWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.i
+.PHONY : src/widgets/MembershipsWidget.cpp.i
+
+src/widgets/MembershipsWidget.s: src/widgets/MembershipsWidget.cpp.s
+.PHONY : src/widgets/MembershipsWidget.s
+
+# target to generate assembly for a file
+src/widgets/MembershipsWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.s
+.PHONY : src/widgets/MembershipsWidget.cpp.s
+
+src/widgets/NotificationsWidget.obj: src/widgets/NotificationsWidget.cpp.obj
+.PHONY : src/widgets/NotificationsWidget.obj
+
+# target to build an object file
+src/widgets/NotificationsWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.obj
+.PHONY : src/widgets/NotificationsWidget.cpp.obj
+
+src/widgets/NotificationsWidget.i: src/widgets/NotificationsWidget.cpp.i
+.PHONY : src/widgets/NotificationsWidget.i
+
+# target to preprocess a source file
+src/widgets/NotificationsWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.i
+.PHONY : src/widgets/NotificationsWidget.cpp.i
+
+src/widgets/NotificationsWidget.s: src/widgets/NotificationsWidget.cpp.s
+.PHONY : src/widgets/NotificationsWidget.s
+
+# target to generate assembly for a file
+src/widgets/NotificationsWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.s
+.PHONY : src/widgets/NotificationsWidget.cpp.s
+
+src/widgets/PaymentsWidget.obj: src/widgets/PaymentsWidget.cpp.obj
+.PHONY : src/widgets/PaymentsWidget.obj
+
+# target to build an object file
+src/widgets/PaymentsWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.obj
+.PHONY : src/widgets/PaymentsWidget.cpp.obj
+
+src/widgets/PaymentsWidget.i: src/widgets/PaymentsWidget.cpp.i
+.PHONY : src/widgets/PaymentsWidget.i
+
+# target to preprocess a source file
+src/widgets/PaymentsWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.i
+.PHONY : src/widgets/PaymentsWidget.cpp.i
+
+src/widgets/PaymentsWidget.s: src/widgets/PaymentsWidget.cpp.s
+.PHONY : src/widgets/PaymentsWidget.s
+
+# target to generate assembly for a file
+src/widgets/PaymentsWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.s
+.PHONY : src/widgets/PaymentsWidget.cpp.s
+
+src/widgets/ProgressWidget.obj: src/widgets/ProgressWidget.cpp.obj
+.PHONY : src/widgets/ProgressWidget.obj
+
+# target to build an object file
+src/widgets/ProgressWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.obj
+.PHONY : src/widgets/ProgressWidget.cpp.obj
+
+src/widgets/ProgressWidget.i: src/widgets/ProgressWidget.cpp.i
+.PHONY : src/widgets/ProgressWidget.i
+
+# target to preprocess a source file
+src/widgets/ProgressWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.i
+.PHONY : src/widgets/ProgressWidget.cpp.i
+
+src/widgets/ProgressWidget.s: src/widgets/ProgressWidget.cpp.s
+.PHONY : src/widgets/ProgressWidget.s
+
+# target to generate assembly for a file
+src/widgets/ProgressWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.s
+.PHONY : src/widgets/ProgressWidget.cpp.s
+
+src/widgets/ReportsWidget.obj: src/widgets/ReportsWidget.cpp.obj
+.PHONY : src/widgets/ReportsWidget.obj
+
+# target to build an object file
+src/widgets/ReportsWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.obj
+.PHONY : src/widgets/ReportsWidget.cpp.obj
+
+src/widgets/ReportsWidget.i: src/widgets/ReportsWidget.cpp.i
+.PHONY : src/widgets/ReportsWidget.i
+
+# target to preprocess a source file
+src/widgets/ReportsWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.i
+.PHONY : src/widgets/ReportsWidget.cpp.i
+
+src/widgets/ReportsWidget.s: src/widgets/ReportsWidget.cpp.s
+.PHONY : src/widgets/ReportsWidget.s
+
+# target to generate assembly for a file
+src/widgets/ReportsWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.s
+.PHONY : src/widgets/ReportsWidget.cpp.s
+
+src/widgets/SettingsWidget.obj: src/widgets/SettingsWidget.cpp.obj
+.PHONY : src/widgets/SettingsWidget.obj
+
+# target to build an object file
+src/widgets/SettingsWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.obj
+.PHONY : src/widgets/SettingsWidget.cpp.obj
+
+src/widgets/SettingsWidget.i: src/widgets/SettingsWidget.cpp.i
+.PHONY : src/widgets/SettingsWidget.i
+
+# target to preprocess a source file
+src/widgets/SettingsWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.i
+.PHONY : src/widgets/SettingsWidget.cpp.i
+
+src/widgets/SettingsWidget.s: src/widgets/SettingsWidget.cpp.s
+.PHONY : src/widgets/SettingsWidget.s
+
+# target to generate assembly for a file
+src/widgets/SettingsWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.s
+.PHONY : src/widgets/SettingsWidget.cpp.s
+
+src/widgets/TrainersWidget.obj: src/widgets/TrainersWidget.cpp.obj
+.PHONY : src/widgets/TrainersWidget.obj
+
+# target to build an object file
+src/widgets/TrainersWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.obj
+.PHONY : src/widgets/TrainersWidget.cpp.obj
+
+src/widgets/TrainersWidget.i: src/widgets/TrainersWidget.cpp.i
+.PHONY : src/widgets/TrainersWidget.i
+
+# target to preprocess a source file
+src/widgets/TrainersWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.i
+.PHONY : src/widgets/TrainersWidget.cpp.i
+
+src/widgets/TrainersWidget.s: src/widgets/TrainersWidget.cpp.s
+.PHONY : src/widgets/TrainersWidget.s
+
+# target to generate assembly for a file
+src/widgets/TrainersWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.s
+.PHONY : src/widgets/TrainersWidget.cpp.s
+
+src/widgets/WorkoutWidget.obj: src/widgets/WorkoutWidget.cpp.obj
+.PHONY : src/widgets/WorkoutWidget.obj
+
+# target to build an object file
+src/widgets/WorkoutWidget.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.obj
+.PHONY : src/widgets/WorkoutWidget.cpp.obj
+
+src/widgets/WorkoutWidget.i: src/widgets/WorkoutWidget.cpp.i
+.PHONY : src/widgets/WorkoutWidget.i
+
+# target to preprocess a source file
+src/widgets/WorkoutWidget.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.i
+.PHONY : src/widgets/WorkoutWidget.cpp.i
+
+src/widgets/WorkoutWidget.s: src/widgets/WorkoutWidget.cpp.s
+.PHONY : src/widgets/WorkoutWidget.s
+
+# target to generate assembly for a file
+src/widgets/WorkoutWidget.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.s
+.PHONY : src/widgets/WorkoutWidget.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -624,6 +1512,117 @@ help:
 	@echo ... src/models/WorkoutPlan.obj
 	@echo ... src/models/WorkoutPlan.i
 	@echo ... src/models/WorkoutPlan.s
+	@echo ... src/repositories/AttendanceRepository.obj
+	@echo ... src/repositories/AttendanceRepository.i
+	@echo ... src/repositories/AttendanceRepository.s
+	@echo ... src/repositories/AuditRepository.obj
+	@echo ... src/repositories/AuditRepository.i
+	@echo ... src/repositories/AuditRepository.s
+	@echo ... src/repositories/EquipmentRepository.obj
+	@echo ... src/repositories/EquipmentRepository.i
+	@echo ... src/repositories/EquipmentRepository.s
+	@echo ... src/repositories/ExpenseRepository.obj
+	@echo ... src/repositories/ExpenseRepository.i
+	@echo ... src/repositories/ExpenseRepository.s
+	@echo ... src/repositories/MemberRepository.obj
+	@echo ... src/repositories/MemberRepository.i
+	@echo ... src/repositories/MemberRepository.s
+	@echo ... src/repositories/MembershipPlanRepository.obj
+	@echo ... src/repositories/MembershipPlanRepository.i
+	@echo ... src/repositories/MembershipPlanRepository.s
+	@echo ... src/repositories/MembershipRepository.obj
+	@echo ... src/repositories/MembershipRepository.i
+	@echo ... src/repositories/MembershipRepository.s
+	@echo ... src/repositories/NotificationRepository.obj
+	@echo ... src/repositories/NotificationRepository.i
+	@echo ... src/repositories/NotificationRepository.s
+	@echo ... src/repositories/PaymentRepository.obj
+	@echo ... src/repositories/PaymentRepository.i
+	@echo ... src/repositories/PaymentRepository.s
+	@echo ... src/repositories/ProgressRepository.obj
+	@echo ... src/repositories/ProgressRepository.i
+	@echo ... src/repositories/ProgressRepository.s
+	@echo ... src/repositories/SettingsRepository.obj
+	@echo ... src/repositories/SettingsRepository.i
+	@echo ... src/repositories/SettingsRepository.s
+	@echo ... src/repositories/TrainerRepository.obj
+	@echo ... src/repositories/TrainerRepository.i
+	@echo ... src/repositories/TrainerRepository.s
+	@echo ... src/repositories/UserRepository.obj
+	@echo ... src/repositories/UserRepository.i
+	@echo ... src/repositories/UserRepository.s
+	@echo ... src/repositories/WorkoutRepository.obj
+	@echo ... src/repositories/WorkoutRepository.i
+	@echo ... src/repositories/WorkoutRepository.s
+	@echo ... src/services/AttendanceService.obj
+	@echo ... src/services/AttendanceService.i
+	@echo ... src/services/AttendanceService.s
+	@echo ... src/services/AuthenticationService.obj
+	@echo ... src/services/AuthenticationService.i
+	@echo ... src/services/AuthenticationService.s
+	@echo ... src/services/BackupService.obj
+	@echo ... src/services/BackupService.i
+	@echo ... src/services/BackupService.s
+	@echo ... src/services/MembershipService.obj
+	@echo ... src/services/MembershipService.i
+	@echo ... src/services/MembershipService.s
+	@echo ... src/services/NotificationService.obj
+	@echo ... src/services/NotificationService.i
+	@echo ... src/services/NotificationService.s
+	@echo ... src/services/ReportService.obj
+	@echo ... src/services/ReportService.i
+	@echo ... src/services/ReportService.s
+	@echo ... src/utils/ThemeManager.obj
+	@echo ... src/utils/ThemeManager.i
+	@echo ... src/utils/ThemeManager.s
+	@echo ... src/widgets/AttendanceWidget.obj
+	@echo ... src/widgets/AttendanceWidget.i
+	@echo ... src/widgets/AttendanceWidget.s
+	@echo ... src/widgets/AuditLogsWidget.obj
+	@echo ... src/widgets/AuditLogsWidget.i
+	@echo ... src/widgets/AuditLogsWidget.s
+	@echo ... src/widgets/DashboardWidget.obj
+	@echo ... src/widgets/DashboardWidget.i
+	@echo ... src/widgets/DashboardWidget.s
+	@echo ... src/widgets/EquipmentWidget.obj
+	@echo ... src/widgets/EquipmentWidget.i
+	@echo ... src/widgets/EquipmentWidget.s
+	@echo ... src/widgets/ExpensesWidget.obj
+	@echo ... src/widgets/ExpensesWidget.i
+	@echo ... src/widgets/ExpensesWidget.s
+	@echo ... src/widgets/LoginWindow.obj
+	@echo ... src/widgets/LoginWindow.i
+	@echo ... src/widgets/LoginWindow.s
+	@echo ... src/widgets/MainWindow.obj
+	@echo ... src/widgets/MainWindow.i
+	@echo ... src/widgets/MainWindow.s
+	@echo ... src/widgets/MembersWidget.obj
+	@echo ... src/widgets/MembersWidget.i
+	@echo ... src/widgets/MembersWidget.s
+	@echo ... src/widgets/MembershipsWidget.obj
+	@echo ... src/widgets/MembershipsWidget.i
+	@echo ... src/widgets/MembershipsWidget.s
+	@echo ... src/widgets/NotificationsWidget.obj
+	@echo ... src/widgets/NotificationsWidget.i
+	@echo ... src/widgets/NotificationsWidget.s
+	@echo ... src/widgets/PaymentsWidget.obj
+	@echo ... src/widgets/PaymentsWidget.i
+	@echo ... src/widgets/PaymentsWidget.s
+	@echo ... src/widgets/ProgressWidget.obj
+	@echo ... src/widgets/ProgressWidget.i
+	@echo ... src/widgets/ProgressWidget.s
+	@echo ... src/widgets/ReportsWidget.obj
+	@echo ... src/widgets/ReportsWidget.i
+	@echo ... src/widgets/ReportsWidget.s
+	@echo ... src/widgets/SettingsWidget.obj
+	@echo ... src/widgets/SettingsWidget.i
+	@echo ... src/widgets/SettingsWidget.s
+	@echo ... src/widgets/TrainersWidget.obj
+	@echo ... src/widgets/TrainersWidget.i
+	@echo ... src/widgets/TrainersWidget.s
+	@echo ... src/widgets/WorkoutWidget.obj
+	@echo ... src/widgets/WorkoutWidget.i
+	@echo ... src/widgets/WorkoutWidget.s
 .PHONY : help
 
 

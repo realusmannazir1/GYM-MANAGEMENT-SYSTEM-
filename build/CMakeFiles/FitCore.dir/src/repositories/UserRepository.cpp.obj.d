@@ -1,9 +1,10 @@
-CMakeFiles/FitCore.dir/src/main.cpp.obj: \
- D:\Projects\GYM\ MANAGEMENT\ SYSTEM\src\main.cpp \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/QApplication \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qapplication.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qtguiglobal.h \
+CMakeFiles/FitCore.dir/src/repositories/UserRepository.cpp.obj: \
+ D:\Projects\GYM\ MANAGEMENT\ SYSTEM\src\repositories\UserRepository.cpp \
+ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/UserRepository.h \
+ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/User.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/QString \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qstring.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qchar.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qglobal.h \
  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/type_traits \
  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -143,13 +144,6 @@ CMakeFiles/FitCore.dir/src/main.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qtresource.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qttranslation.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qversiontagging.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qtgui-config.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qtguiexports.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qcoreapplication.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qstring.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qchar.h \
  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/functional \
  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/stl_function.h \
  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/backward/binders.h \
@@ -289,18 +283,14 @@ CMakeFiles/FitCore.dir/src/main.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qutf8stringview.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qstringtokenizer.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qstringbuilder.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qstring.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qstringconverter.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qstringconverter_base.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qcoreevent.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qobjectdefs.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qobjectdefs_impl.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qfunctionaltools_impl.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qdeadlinetimer.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qelapsedtimer.h \
- D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/chrono \
- D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/chrono.h \
- D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/ratio \
- D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/ctime \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/QDateTime \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qdatetime.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qcalendar.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qlocale.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qvariant.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qmetatype.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qcompare.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qcomparehelpers.h \
@@ -318,6 +308,9 @@ CMakeFiles/FitCore.dir/src/main.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qmetacontainer.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qcontainerinfo.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qtaggedpointer.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qobjectdefs.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qobjectdefs_impl.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qfunctionaltools_impl.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qscopeguard.h \
  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/list \
  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/stl_list.h \
@@ -326,16 +319,6 @@ CMakeFiles/FitCore.dir/src/main.cpp.obj: \
  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/stl_tree.h \
  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/stl_map.h \
  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/stl_multimap.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qeventloop.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qobject.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qlist.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qiterator.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qbytearraylist.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qstringlist.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qstringmatcher.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qobject_impl.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qbindingstorage.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qnativeinterface.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qdebug.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qtextstream.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qcontiguouscache.h \
@@ -343,55 +326,25 @@ CMakeFiles/FitCore.dir/src/main.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qsharedpointer.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qshareddata.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qsharedpointer_impl.h \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/chrono \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/chrono.h \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/ratio \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/ctime \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qlist.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qiterator.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qbytearraylist.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qstringlist.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qstringmatcher.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qmap.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qshareddata_impl.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qset.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qhash.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qvarlengtharray.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qcoreapplication_platform.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qpoint.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/q23utility.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qsize.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qmargins.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qcursor.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qbitmap.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qpixmap.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qpaintdevice.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qrect.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qcolor.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qrgb.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qrgba64.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qimage.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qpixelformat.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qtransform.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qpolygon.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qregion.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qline.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qguiapplication.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qinputmethod.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qlocale.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qvariant.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qguiapplication_platform.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/QMessageBox \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qmessagebox.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialog.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qwidget.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qaction.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qkeysequence.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qicon.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qpalette.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qbrush.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qfont.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qendian.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qfontmetrics.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qfontinfo.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qobject.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qobject_impl.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qbindingstorage.h \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/database/DatabaseManager.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/QString \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qstring.h \
  D:/Qt/6.7.2/mingw_64/include/QtSql/QSqlDatabase \
  D:/Qt/6.7.2/mingw_64/include/QtSql/qsqldatabase.h \
  D:/Qt/6.7.2/mingw_64/include/QtSql/qtsqlglobal.h \
@@ -407,108 +360,5 @@ CMakeFiles/FitCore.dir/src/main.cpp.obj: \
  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/mutex \
  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/std_mutex.h \
  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/unique_lock.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/services/MembershipService.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/Membership.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/QDate \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qdatetime.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qcalendar.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/MembershipPlan.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/MembershipRepository.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/MembershipPlanRepository.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/MemberRepository.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/Member.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/PaymentRepository.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/Payment.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/AuditRepository.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/AuditLog.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/services/NotificationService.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/Notification.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/NotificationRepository.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/LoginWindow.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/QDialog \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialog.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/QLineEdit \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlineedit.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qframe.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qtextcursor.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qtextdocument.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qurl.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qtextformat.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qpen.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qtextoption.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/QPushButton \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/QLabel \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlabel.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qpicture.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qiodevice.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/User.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/QDateTime \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/MainWindow.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/QMainWindow \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/QStackedWidget \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qstackedwidget.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/QListWidget \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlistwidget.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlistview.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemview.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qabstractitemmodel.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qitemselectionmodel.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qstyleoption.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qvalidator.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qregularexpression.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qslider.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractslider.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qstyle.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabbar.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qrubberband.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/DashboardWidget.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/QWidget \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qwidget.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/QTableWidget \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtablewidget.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtableview.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/services/ReportService.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/MembersWidget.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/QComboBox \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qcombobox.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/AttendanceRepository.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/Attendance.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/QTime \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/WorkoutRepository.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/Exercise.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/WorkoutPlan.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/ProgressRepository.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/ProgressRecord.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/MembershipsWidget.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/TrainersWidget.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/TrainerRepository.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/Trainer.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/QStringList \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qstringlist.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/AttendanceWidget.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/services/AttendanceService.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/PaymentsWidget.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/WorkoutWidget.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/ProgressWidget.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/EquipmentWidget.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/EquipmentRepository.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/Equipment.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/ExpensesWidget.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/ExpenseRepository.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/Expense.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/ReportsWidget.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/QTextEdit \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtextedit.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/NotificationsWidget.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/SettingsWidget.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/services/BackupService.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/SettingsRepository.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/AuditLogsWidget.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/utils/ThemeManager.h
+ D:/Qt/6.7.2/mingw_64/include/QtCore/QDebug \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qdebug.h

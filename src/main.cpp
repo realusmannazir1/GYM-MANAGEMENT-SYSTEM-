@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
     app.setStyleSheet(FitCore::ThemeManager::getDarkThemeQss());
 
     // 1. Initialize SQLite Database Singleton
-    if (!FitCore::DatabaseManager::instance().open("data/fitcore.db")) {
+    if (!FitCore::DatabaseManager::instance().open()) {
         QMessageBox::critical(nullptr, "Database Error", "Failed to connect to SQLite database.\nPlease check file permissions.");
         return 1;
     }

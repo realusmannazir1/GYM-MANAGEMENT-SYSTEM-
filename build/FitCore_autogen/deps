@@ -58,6 +58,43 @@ FitCore_autogen/timestamp: \
 	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/Trainer.cpp \
 	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/User.cpp \
 	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/WorkoutPlan.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/AttendanceRepository.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/AuditRepository.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/EquipmentRepository.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/ExpenseRepository.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/MemberRepository.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/MembershipPlanRepository.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/MembershipRepository.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/NotificationRepository.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/PaymentRepository.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/ProgressRepository.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/SettingsRepository.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/TrainerRepository.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/UserRepository.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/WorkoutRepository.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/AttendanceService.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/AuthenticationService.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/BackupService.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/MembershipService.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/NotificationService.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/ReportService.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/utils/ThemeManager.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/AttendanceWidget.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/AuditLogsWidget.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/DashboardWidget.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/EquipmentWidget.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/ExpensesWidget.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/LoginWindow.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/MainWindow.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/MembersWidget.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/MembershipsWidget.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/NotificationsWidget.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/PaymentsWidget.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/ProgressWidget.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/ReportsWidget.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/SettingsWidget.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/TrainersWidget.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/WorkoutWidget.cpp \
 	D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
 	D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
 	D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake \

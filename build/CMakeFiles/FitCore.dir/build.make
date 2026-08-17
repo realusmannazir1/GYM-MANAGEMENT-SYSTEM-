@@ -333,6 +333,561 @@ CMakeFiles/FitCore.dir/src/models/AuditLog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/models/AuditLog.cpp.s"
 	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\models\AuditLog.cpp" -o CMakeFiles\FitCore.dir\src\models\AuditLog.cpp.s
 
+CMakeFiles/FitCore.dir/src/repositories/UserRepository.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/repositories/UserRepository.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/repositories/UserRepository.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/UserRepository.cpp
+CMakeFiles/FitCore.dir/src/repositories/UserRepository.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/FitCore.dir/src/repositories/UserRepository.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/repositories/UserRepository.cpp.obj -MF CMakeFiles\FitCore.dir\src\repositories\UserRepository.cpp.obj.d -o CMakeFiles\FitCore.dir\src\repositories\UserRepository.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\UserRepository.cpp"
+
+CMakeFiles/FitCore.dir/src/repositories/UserRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/repositories/UserRepository.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\UserRepository.cpp" > CMakeFiles\FitCore.dir\src\repositories\UserRepository.cpp.i
+
+CMakeFiles/FitCore.dir/src/repositories/UserRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/repositories/UserRepository.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\UserRepository.cpp" -o CMakeFiles\FitCore.dir\src\repositories\UserRepository.cpp.s
+
+CMakeFiles/FitCore.dir/src/repositories/MemberRepository.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/repositories/MemberRepository.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/repositories/MemberRepository.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/MemberRepository.cpp
+CMakeFiles/FitCore.dir/src/repositories/MemberRepository.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/FitCore.dir/src/repositories/MemberRepository.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/repositories/MemberRepository.cpp.obj -MF CMakeFiles\FitCore.dir\src\repositories\MemberRepository.cpp.obj.d -o CMakeFiles\FitCore.dir\src\repositories\MemberRepository.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\MemberRepository.cpp"
+
+CMakeFiles/FitCore.dir/src/repositories/MemberRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/repositories/MemberRepository.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\MemberRepository.cpp" > CMakeFiles\FitCore.dir\src\repositories\MemberRepository.cpp.i
+
+CMakeFiles/FitCore.dir/src/repositories/MemberRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/repositories/MemberRepository.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\MemberRepository.cpp" -o CMakeFiles\FitCore.dir\src\repositories\MemberRepository.cpp.s
+
+CMakeFiles/FitCore.dir/src/repositories/MembershipPlanRepository.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/repositories/MembershipPlanRepository.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/repositories/MembershipPlanRepository.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/MembershipPlanRepository.cpp
+CMakeFiles/FitCore.dir/src/repositories/MembershipPlanRepository.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/FitCore.dir/src/repositories/MembershipPlanRepository.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/repositories/MembershipPlanRepository.cpp.obj -MF CMakeFiles\FitCore.dir\src\repositories\MembershipPlanRepository.cpp.obj.d -o CMakeFiles\FitCore.dir\src\repositories\MembershipPlanRepository.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\MembershipPlanRepository.cpp"
+
+CMakeFiles/FitCore.dir/src/repositories/MembershipPlanRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/repositories/MembershipPlanRepository.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\MembershipPlanRepository.cpp" > CMakeFiles\FitCore.dir\src\repositories\MembershipPlanRepository.cpp.i
+
+CMakeFiles/FitCore.dir/src/repositories/MembershipPlanRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/repositories/MembershipPlanRepository.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\MembershipPlanRepository.cpp" -o CMakeFiles\FitCore.dir\src\repositories\MembershipPlanRepository.cpp.s
+
+CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/MembershipRepository.cpp
+CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.obj -MF CMakeFiles\FitCore.dir\src\repositories\MembershipRepository.cpp.obj.d -o CMakeFiles\FitCore.dir\src\repositories\MembershipRepository.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\MembershipRepository.cpp"
+
+CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\MembershipRepository.cpp" > CMakeFiles\FitCore.dir\src\repositories\MembershipRepository.cpp.i
+
+CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\MembershipRepository.cpp" -o CMakeFiles\FitCore.dir\src\repositories\MembershipRepository.cpp.s
+
+CMakeFiles/FitCore.dir/src/repositories/TrainerRepository.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/repositories/TrainerRepository.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/repositories/TrainerRepository.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/TrainerRepository.cpp
+CMakeFiles/FitCore.dir/src/repositories/TrainerRepository.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/FitCore.dir/src/repositories/TrainerRepository.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/repositories/TrainerRepository.cpp.obj -MF CMakeFiles\FitCore.dir\src\repositories\TrainerRepository.cpp.obj.d -o CMakeFiles\FitCore.dir\src\repositories\TrainerRepository.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\TrainerRepository.cpp"
+
+CMakeFiles/FitCore.dir/src/repositories/TrainerRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/repositories/TrainerRepository.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\TrainerRepository.cpp" > CMakeFiles\FitCore.dir\src\repositories\TrainerRepository.cpp.i
+
+CMakeFiles/FitCore.dir/src/repositories/TrainerRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/repositories/TrainerRepository.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\TrainerRepository.cpp" -o CMakeFiles\FitCore.dir\src\repositories\TrainerRepository.cpp.s
+
+CMakeFiles/FitCore.dir/src/repositories/AttendanceRepository.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/repositories/AttendanceRepository.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/repositories/AttendanceRepository.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/AttendanceRepository.cpp
+CMakeFiles/FitCore.dir/src/repositories/AttendanceRepository.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/FitCore.dir/src/repositories/AttendanceRepository.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/repositories/AttendanceRepository.cpp.obj -MF CMakeFiles\FitCore.dir\src\repositories\AttendanceRepository.cpp.obj.d -o CMakeFiles\FitCore.dir\src\repositories\AttendanceRepository.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\AttendanceRepository.cpp"
+
+CMakeFiles/FitCore.dir/src/repositories/AttendanceRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/repositories/AttendanceRepository.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\AttendanceRepository.cpp" > CMakeFiles\FitCore.dir\src\repositories\AttendanceRepository.cpp.i
+
+CMakeFiles/FitCore.dir/src/repositories/AttendanceRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/repositories/AttendanceRepository.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\AttendanceRepository.cpp" -o CMakeFiles\FitCore.dir\src\repositories\AttendanceRepository.cpp.s
+
+CMakeFiles/FitCore.dir/src/repositories/PaymentRepository.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/repositories/PaymentRepository.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/repositories/PaymentRepository.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/PaymentRepository.cpp
+CMakeFiles/FitCore.dir/src/repositories/PaymentRepository.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/FitCore.dir/src/repositories/PaymentRepository.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/repositories/PaymentRepository.cpp.obj -MF CMakeFiles\FitCore.dir\src\repositories\PaymentRepository.cpp.obj.d -o CMakeFiles\FitCore.dir\src\repositories\PaymentRepository.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\PaymentRepository.cpp"
+
+CMakeFiles/FitCore.dir/src/repositories/PaymentRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/repositories/PaymentRepository.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\PaymentRepository.cpp" > CMakeFiles\FitCore.dir\src\repositories\PaymentRepository.cpp.i
+
+CMakeFiles/FitCore.dir/src/repositories/PaymentRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/repositories/PaymentRepository.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\PaymentRepository.cpp" -o CMakeFiles\FitCore.dir\src\repositories\PaymentRepository.cpp.s
+
+CMakeFiles/FitCore.dir/src/repositories/ExpenseRepository.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/repositories/ExpenseRepository.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/repositories/ExpenseRepository.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/ExpenseRepository.cpp
+CMakeFiles/FitCore.dir/src/repositories/ExpenseRepository.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/FitCore.dir/src/repositories/ExpenseRepository.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/repositories/ExpenseRepository.cpp.obj -MF CMakeFiles\FitCore.dir\src\repositories\ExpenseRepository.cpp.obj.d -o CMakeFiles\FitCore.dir\src\repositories\ExpenseRepository.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\ExpenseRepository.cpp"
+
+CMakeFiles/FitCore.dir/src/repositories/ExpenseRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/repositories/ExpenseRepository.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\ExpenseRepository.cpp" > CMakeFiles\FitCore.dir\src\repositories\ExpenseRepository.cpp.i
+
+CMakeFiles/FitCore.dir/src/repositories/ExpenseRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/repositories/ExpenseRepository.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\ExpenseRepository.cpp" -o CMakeFiles\FitCore.dir\src\repositories\ExpenseRepository.cpp.s
+
+CMakeFiles/FitCore.dir/src/repositories/WorkoutRepository.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/repositories/WorkoutRepository.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/repositories/WorkoutRepository.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/WorkoutRepository.cpp
+CMakeFiles/FitCore.dir/src/repositories/WorkoutRepository.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/FitCore.dir/src/repositories/WorkoutRepository.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/repositories/WorkoutRepository.cpp.obj -MF CMakeFiles\FitCore.dir\src\repositories\WorkoutRepository.cpp.obj.d -o CMakeFiles\FitCore.dir\src\repositories\WorkoutRepository.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\WorkoutRepository.cpp"
+
+CMakeFiles/FitCore.dir/src/repositories/WorkoutRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/repositories/WorkoutRepository.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\WorkoutRepository.cpp" > CMakeFiles\FitCore.dir\src\repositories\WorkoutRepository.cpp.i
+
+CMakeFiles/FitCore.dir/src/repositories/WorkoutRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/repositories/WorkoutRepository.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\WorkoutRepository.cpp" -o CMakeFiles\FitCore.dir\src\repositories\WorkoutRepository.cpp.s
+
+CMakeFiles/FitCore.dir/src/repositories/ProgressRepository.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/repositories/ProgressRepository.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/repositories/ProgressRepository.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/ProgressRepository.cpp
+CMakeFiles/FitCore.dir/src/repositories/ProgressRepository.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/FitCore.dir/src/repositories/ProgressRepository.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/repositories/ProgressRepository.cpp.obj -MF CMakeFiles\FitCore.dir\src\repositories\ProgressRepository.cpp.obj.d -o CMakeFiles\FitCore.dir\src\repositories\ProgressRepository.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\ProgressRepository.cpp"
+
+CMakeFiles/FitCore.dir/src/repositories/ProgressRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/repositories/ProgressRepository.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\ProgressRepository.cpp" > CMakeFiles\FitCore.dir\src\repositories\ProgressRepository.cpp.i
+
+CMakeFiles/FitCore.dir/src/repositories/ProgressRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/repositories/ProgressRepository.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\ProgressRepository.cpp" -o CMakeFiles\FitCore.dir\src\repositories\ProgressRepository.cpp.s
+
+CMakeFiles/FitCore.dir/src/repositories/EquipmentRepository.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/repositories/EquipmentRepository.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/repositories/EquipmentRepository.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/EquipmentRepository.cpp
+CMakeFiles/FitCore.dir/src/repositories/EquipmentRepository.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/FitCore.dir/src/repositories/EquipmentRepository.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/repositories/EquipmentRepository.cpp.obj -MF CMakeFiles\FitCore.dir\src\repositories\EquipmentRepository.cpp.obj.d -o CMakeFiles\FitCore.dir\src\repositories\EquipmentRepository.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\EquipmentRepository.cpp"
+
+CMakeFiles/FitCore.dir/src/repositories/EquipmentRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/repositories/EquipmentRepository.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\EquipmentRepository.cpp" > CMakeFiles\FitCore.dir\src\repositories\EquipmentRepository.cpp.i
+
+CMakeFiles/FitCore.dir/src/repositories/EquipmentRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/repositories/EquipmentRepository.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\EquipmentRepository.cpp" -o CMakeFiles\FitCore.dir\src\repositories\EquipmentRepository.cpp.s
+
+CMakeFiles/FitCore.dir/src/repositories/NotificationRepository.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/repositories/NotificationRepository.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/repositories/NotificationRepository.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/NotificationRepository.cpp
+CMakeFiles/FitCore.dir/src/repositories/NotificationRepository.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/FitCore.dir/src/repositories/NotificationRepository.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/repositories/NotificationRepository.cpp.obj -MF CMakeFiles\FitCore.dir\src\repositories\NotificationRepository.cpp.obj.d -o CMakeFiles\FitCore.dir\src\repositories\NotificationRepository.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\NotificationRepository.cpp"
+
+CMakeFiles/FitCore.dir/src/repositories/NotificationRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/repositories/NotificationRepository.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\NotificationRepository.cpp" > CMakeFiles\FitCore.dir\src\repositories\NotificationRepository.cpp.i
+
+CMakeFiles/FitCore.dir/src/repositories/NotificationRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/repositories/NotificationRepository.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\NotificationRepository.cpp" -o CMakeFiles\FitCore.dir\src\repositories\NotificationRepository.cpp.s
+
+CMakeFiles/FitCore.dir/src/repositories/AuditRepository.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/repositories/AuditRepository.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/repositories/AuditRepository.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/AuditRepository.cpp
+CMakeFiles/FitCore.dir/src/repositories/AuditRepository.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/FitCore.dir/src/repositories/AuditRepository.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/repositories/AuditRepository.cpp.obj -MF CMakeFiles\FitCore.dir\src\repositories\AuditRepository.cpp.obj.d -o CMakeFiles\FitCore.dir\src\repositories\AuditRepository.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\AuditRepository.cpp"
+
+CMakeFiles/FitCore.dir/src/repositories/AuditRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/repositories/AuditRepository.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\AuditRepository.cpp" > CMakeFiles\FitCore.dir\src\repositories\AuditRepository.cpp.i
+
+CMakeFiles/FitCore.dir/src/repositories/AuditRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/repositories/AuditRepository.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\AuditRepository.cpp" -o CMakeFiles\FitCore.dir\src\repositories\AuditRepository.cpp.s
+
+CMakeFiles/FitCore.dir/src/repositories/SettingsRepository.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/repositories/SettingsRepository.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/repositories/SettingsRepository.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/SettingsRepository.cpp
+CMakeFiles/FitCore.dir/src/repositories/SettingsRepository.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/FitCore.dir/src/repositories/SettingsRepository.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/repositories/SettingsRepository.cpp.obj -MF CMakeFiles\FitCore.dir\src\repositories\SettingsRepository.cpp.obj.d -o CMakeFiles\FitCore.dir\src\repositories\SettingsRepository.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\SettingsRepository.cpp"
+
+CMakeFiles/FitCore.dir/src/repositories/SettingsRepository.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/repositories/SettingsRepository.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\SettingsRepository.cpp" > CMakeFiles\FitCore.dir\src\repositories\SettingsRepository.cpp.i
+
+CMakeFiles/FitCore.dir/src/repositories/SettingsRepository.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/repositories/SettingsRepository.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\SettingsRepository.cpp" -o CMakeFiles\FitCore.dir\src\repositories\SettingsRepository.cpp.s
+
+CMakeFiles/FitCore.dir/src/services/AuthenticationService.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/services/AuthenticationService.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/services/AuthenticationService.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/AuthenticationService.cpp
+CMakeFiles/FitCore.dir/src/services/AuthenticationService.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/FitCore.dir/src/services/AuthenticationService.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/services/AuthenticationService.cpp.obj -MF CMakeFiles\FitCore.dir\src\services\AuthenticationService.cpp.obj.d -o CMakeFiles\FitCore.dir\src\services\AuthenticationService.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\AuthenticationService.cpp"
+
+CMakeFiles/FitCore.dir/src/services/AuthenticationService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/services/AuthenticationService.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\AuthenticationService.cpp" > CMakeFiles\FitCore.dir\src\services\AuthenticationService.cpp.i
+
+CMakeFiles/FitCore.dir/src/services/AuthenticationService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/services/AuthenticationService.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\AuthenticationService.cpp" -o CMakeFiles\FitCore.dir\src\services\AuthenticationService.cpp.s
+
+CMakeFiles/FitCore.dir/src/services/MembershipService.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/services/MembershipService.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/services/MembershipService.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/MembershipService.cpp
+CMakeFiles/FitCore.dir/src/services/MembershipService.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/FitCore.dir/src/services/MembershipService.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/services/MembershipService.cpp.obj -MF CMakeFiles\FitCore.dir\src\services\MembershipService.cpp.obj.d -o CMakeFiles\FitCore.dir\src\services\MembershipService.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\MembershipService.cpp"
+
+CMakeFiles/FitCore.dir/src/services/MembershipService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/services/MembershipService.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\MembershipService.cpp" > CMakeFiles\FitCore.dir\src\services\MembershipService.cpp.i
+
+CMakeFiles/FitCore.dir/src/services/MembershipService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/services/MembershipService.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\MembershipService.cpp" -o CMakeFiles\FitCore.dir\src\services\MembershipService.cpp.s
+
+CMakeFiles/FitCore.dir/src/services/AttendanceService.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/services/AttendanceService.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/services/AttendanceService.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/AttendanceService.cpp
+CMakeFiles/FitCore.dir/src/services/AttendanceService.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/FitCore.dir/src/services/AttendanceService.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/services/AttendanceService.cpp.obj -MF CMakeFiles\FitCore.dir\src\services\AttendanceService.cpp.obj.d -o CMakeFiles\FitCore.dir\src\services\AttendanceService.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\AttendanceService.cpp"
+
+CMakeFiles/FitCore.dir/src/services/AttendanceService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/services/AttendanceService.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\AttendanceService.cpp" > CMakeFiles\FitCore.dir\src\services\AttendanceService.cpp.i
+
+CMakeFiles/FitCore.dir/src/services/AttendanceService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/services/AttendanceService.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\AttendanceService.cpp" -o CMakeFiles\FitCore.dir\src\services\AttendanceService.cpp.s
+
+CMakeFiles/FitCore.dir/src/services/ReportService.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/services/ReportService.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/services/ReportService.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/ReportService.cpp
+CMakeFiles/FitCore.dir/src/services/ReportService.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/FitCore.dir/src/services/ReportService.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/services/ReportService.cpp.obj -MF CMakeFiles\FitCore.dir\src\services\ReportService.cpp.obj.d -o CMakeFiles\FitCore.dir\src\services\ReportService.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\ReportService.cpp"
+
+CMakeFiles/FitCore.dir/src/services/ReportService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/services/ReportService.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\ReportService.cpp" > CMakeFiles\FitCore.dir\src\services\ReportService.cpp.i
+
+CMakeFiles/FitCore.dir/src/services/ReportService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/services/ReportService.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\ReportService.cpp" -o CMakeFiles\FitCore.dir\src\services\ReportService.cpp.s
+
+CMakeFiles/FitCore.dir/src/services/BackupService.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/services/BackupService.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/services/BackupService.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/BackupService.cpp
+CMakeFiles/FitCore.dir/src/services/BackupService.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/FitCore.dir/src/services/BackupService.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/services/BackupService.cpp.obj -MF CMakeFiles\FitCore.dir\src\services\BackupService.cpp.obj.d -o CMakeFiles\FitCore.dir\src\services\BackupService.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\BackupService.cpp"
+
+CMakeFiles/FitCore.dir/src/services/BackupService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/services/BackupService.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\BackupService.cpp" > CMakeFiles\FitCore.dir\src\services\BackupService.cpp.i
+
+CMakeFiles/FitCore.dir/src/services/BackupService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/services/BackupService.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\BackupService.cpp" -o CMakeFiles\FitCore.dir\src\services\BackupService.cpp.s
+
+CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/NotificationService.cpp
+CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.obj -MF CMakeFiles\FitCore.dir\src\services\NotificationService.cpp.obj.d -o CMakeFiles\FitCore.dir\src\services\NotificationService.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\NotificationService.cpp"
+
+CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\NotificationService.cpp" > CMakeFiles\FitCore.dir\src\services\NotificationService.cpp.i
+
+CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\NotificationService.cpp" -o CMakeFiles\FitCore.dir\src\services\NotificationService.cpp.s
+
+CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/utils/ThemeManager.cpp
+CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.obj -MF CMakeFiles\FitCore.dir\src\utils\ThemeManager.cpp.obj.d -o CMakeFiles\FitCore.dir\src\utils\ThemeManager.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\utils\ThemeManager.cpp"
+
+CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\utils\ThemeManager.cpp" > CMakeFiles\FitCore.dir\src\utils\ThemeManager.cpp.i
+
+CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\utils\ThemeManager.cpp" -o CMakeFiles\FitCore.dir\src\utils\ThemeManager.cpp.s
+
+CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/LoginWindow.cpp
+CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\LoginWindow.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\LoginWindow.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\LoginWindow.cpp"
+
+CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\LoginWindow.cpp" > CMakeFiles\FitCore.dir\src\widgets\LoginWindow.cpp.i
+
+CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\LoginWindow.cpp" -o CMakeFiles\FitCore.dir\src\widgets\LoginWindow.cpp.s
+
+CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/MainWindow.cpp
+CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\MainWindow.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\MainWindow.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\MainWindow.cpp"
+
+CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\MainWindow.cpp" > CMakeFiles\FitCore.dir\src\widgets\MainWindow.cpp.i
+
+CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\MainWindow.cpp" -o CMakeFiles\FitCore.dir\src\widgets\MainWindow.cpp.s
+
+CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/DashboardWidget.cpp
+CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\DashboardWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\DashboardWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\DashboardWidget.cpp"
+
+CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\DashboardWidget.cpp" > CMakeFiles\FitCore.dir\src\widgets\DashboardWidget.cpp.i
+
+CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\DashboardWidget.cpp" -o CMakeFiles\FitCore.dir\src\widgets\DashboardWidget.cpp.s
+
+CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/MembersWidget.cpp
+CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\MembersWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\MembersWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\MembersWidget.cpp"
+
+CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\MembersWidget.cpp" > CMakeFiles\FitCore.dir\src\widgets\MembersWidget.cpp.i
+
+CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\MembersWidget.cpp" -o CMakeFiles\FitCore.dir\src\widgets\MembersWidget.cpp.s
+
+CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/MembershipsWidget.cpp
+CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\MembershipsWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\MembershipsWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\MembershipsWidget.cpp"
+
+CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\MembershipsWidget.cpp" > CMakeFiles\FitCore.dir\src\widgets\MembershipsWidget.cpp.i
+
+CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\MembershipsWidget.cpp" -o CMakeFiles\FitCore.dir\src\widgets\MembershipsWidget.cpp.s
+
+CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/TrainersWidget.cpp
+CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\TrainersWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\TrainersWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\TrainersWidget.cpp"
+
+CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\TrainersWidget.cpp" > CMakeFiles\FitCore.dir\src\widgets\TrainersWidget.cpp.i
+
+CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\TrainersWidget.cpp" -o CMakeFiles\FitCore.dir\src\widgets\TrainersWidget.cpp.s
+
+CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/AttendanceWidget.cpp
+CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\AttendanceWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\AttendanceWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\AttendanceWidget.cpp"
+
+CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\AttendanceWidget.cpp" > CMakeFiles\FitCore.dir\src\widgets\AttendanceWidget.cpp.i
+
+CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\AttendanceWidget.cpp" -o CMakeFiles\FitCore.dir\src\widgets\AttendanceWidget.cpp.s
+
+CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/PaymentsWidget.cpp
+CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\PaymentsWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\PaymentsWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\PaymentsWidget.cpp"
+
+CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\PaymentsWidget.cpp" > CMakeFiles\FitCore.dir\src\widgets\PaymentsWidget.cpp.i
+
+CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\PaymentsWidget.cpp" -o CMakeFiles\FitCore.dir\src\widgets\PaymentsWidget.cpp.s
+
+CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/WorkoutWidget.cpp
+CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\WorkoutWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\WorkoutWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\WorkoutWidget.cpp"
+
+CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\WorkoutWidget.cpp" > CMakeFiles\FitCore.dir\src\widgets\WorkoutWidget.cpp.i
+
+CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\WorkoutWidget.cpp" -o CMakeFiles\FitCore.dir\src\widgets\WorkoutWidget.cpp.s
+
+CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/ProgressWidget.cpp
+CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\ProgressWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\ProgressWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\ProgressWidget.cpp"
+
+CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\ProgressWidget.cpp" > CMakeFiles\FitCore.dir\src\widgets\ProgressWidget.cpp.i
+
+CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\ProgressWidget.cpp" -o CMakeFiles\FitCore.dir\src\widgets\ProgressWidget.cpp.s
+
+CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/EquipmentWidget.cpp
+CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\EquipmentWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\EquipmentWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\EquipmentWidget.cpp"
+
+CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\EquipmentWidget.cpp" > CMakeFiles\FitCore.dir\src\widgets\EquipmentWidget.cpp.i
+
+CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\EquipmentWidget.cpp" -o CMakeFiles\FitCore.dir\src\widgets\EquipmentWidget.cpp.s
+
+CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/ExpensesWidget.cpp
+CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\ExpensesWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\ExpensesWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\ExpensesWidget.cpp"
+
+CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\ExpensesWidget.cpp" > CMakeFiles\FitCore.dir\src\widgets\ExpensesWidget.cpp.i
+
+CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\ExpensesWidget.cpp" -o CMakeFiles\FitCore.dir\src\widgets\ExpensesWidget.cpp.s
+
+CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/ReportsWidget.cpp
+CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\ReportsWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\ReportsWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\ReportsWidget.cpp"
+
+CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\ReportsWidget.cpp" > CMakeFiles\FitCore.dir\src\widgets\ReportsWidget.cpp.i
+
+CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\ReportsWidget.cpp" -o CMakeFiles\FitCore.dir\src\widgets\ReportsWidget.cpp.s
+
+CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/NotificationsWidget.cpp
+CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\NotificationsWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\NotificationsWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\NotificationsWidget.cpp"
+
+CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\NotificationsWidget.cpp" > CMakeFiles\FitCore.dir\src\widgets\NotificationsWidget.cpp.i
+
+CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\NotificationsWidget.cpp" -o CMakeFiles\FitCore.dir\src\widgets\NotificationsWidget.cpp.s
+
+CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/SettingsWidget.cpp
+CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\SettingsWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\SettingsWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\SettingsWidget.cpp"
+
+CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\SettingsWidget.cpp" > CMakeFiles\FitCore.dir\src\widgets\SettingsWidget.cpp.i
+
+CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\SettingsWidget.cpp" -o CMakeFiles\FitCore.dir\src\widgets\SettingsWidget.cpp.s
+
+CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/AuditLogsWidget.cpp
+CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\AuditLogsWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\AuditLogsWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\AuditLogsWidget.cpp"
+
+CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\AuditLogsWidget.cpp" > CMakeFiles\FitCore.dir\src\widgets\AuditLogsWidget.cpp.i
+
+CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\AuditLogsWidget.cpp" -o CMakeFiles\FitCore.dir\src\widgets\AuditLogsWidget.cpp.s
+
 # Object files for target FitCore
 FitCore_OBJECTS = \
 "CMakeFiles/FitCore.dir/FitCore_autogen/mocs_compilation.cpp.obj" \
@@ -351,7 +906,44 @@ FitCore_OBJECTS = \
 "CMakeFiles/FitCore.dir/src/models/ProgressRecord.cpp.obj" \
 "CMakeFiles/FitCore.dir/src/models/Equipment.cpp.obj" \
 "CMakeFiles/FitCore.dir/src/models/Notification.cpp.obj" \
-"CMakeFiles/FitCore.dir/src/models/AuditLog.cpp.obj"
+"CMakeFiles/FitCore.dir/src/models/AuditLog.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/repositories/UserRepository.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/repositories/MemberRepository.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/repositories/MembershipPlanRepository.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/repositories/TrainerRepository.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/repositories/AttendanceRepository.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/repositories/PaymentRepository.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/repositories/ExpenseRepository.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/repositories/WorkoutRepository.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/repositories/ProgressRepository.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/repositories/EquipmentRepository.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/repositories/NotificationRepository.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/repositories/AuditRepository.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/repositories/SettingsRepository.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/services/AuthenticationService.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/services/MembershipService.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/services/AttendanceService.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/services/ReportService.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/services/BackupService.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.obj"
 
 # External object files for target FitCore
 FitCore_EXTERNAL_OBJECTS =
@@ -373,6 +965,43 @@ FitCore.exe: CMakeFiles/FitCore.dir/src/models/ProgressRecord.cpp.obj
 FitCore.exe: CMakeFiles/FitCore.dir/src/models/Equipment.cpp.obj
 FitCore.exe: CMakeFiles/FitCore.dir/src/models/Notification.cpp.obj
 FitCore.exe: CMakeFiles/FitCore.dir/src/models/AuditLog.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/repositories/UserRepository.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/repositories/MemberRepository.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/repositories/MembershipPlanRepository.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/repositories/TrainerRepository.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/repositories/AttendanceRepository.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/repositories/PaymentRepository.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/repositories/ExpenseRepository.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/repositories/WorkoutRepository.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/repositories/ProgressRepository.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/repositories/EquipmentRepository.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/repositories/NotificationRepository.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/repositories/AuditRepository.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/repositories/SettingsRepository.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/services/AuthenticationService.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/services/MembershipService.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/services/AttendanceService.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/services/ReportService.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/services/BackupService.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.obj
 FitCore.exe: CMakeFiles/FitCore.dir/build.make
 FitCore.exe: D:/Qt/6.7.2/mingw_64/lib/libQt6Sql.a
 FitCore.exe: D:/Qt/6.7.2/mingw_64/lib/libQt6Charts.a
@@ -385,7 +1014,7 @@ FitCore.exe: D:/Qt/6.7.2/mingw_64/lib/libQt6Core.a
 FitCore.exe: CMakeFiles/FitCore.dir/linkLibs.rsp
 FitCore.exe: CMakeFiles/FitCore.dir/objects1.rsp
 FitCore.exe: CMakeFiles/FitCore.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable FitCore.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Linking CXX executable FitCore.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FitCore.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
