@@ -206,6 +206,22 @@ set(TEST_SOURCES
     src/services/BackupService.cpp
     src/services/NotificationService.cpp
     src/utils/ThemeManager.cpp
+    src/widgets/LoginWindow.cpp
+    src/widgets/MainWindow.cpp
+    src/widgets/DashboardWidget.cpp
+    src/widgets/MembersWidget.cpp
+    src/widgets/MembershipsWidget.cpp
+    src/widgets/TrainersWidget.cpp
+    src/widgets/AttendanceWidget.cpp
+    src/widgets/PaymentsWidget.cpp
+    src/widgets/WorkoutWidget.cpp
+    src/widgets/ProgressWidget.cpp
+    src/widgets/EquipmentWidget.cpp
+    src/widgets/ExpensesWidget.cpp
+    src/widgets/ReportsWidget.cpp
+    src/widgets/NotificationsWidget.cpp
+    src/widgets/SettingsWidget.cpp
+    src/widgets/AuditLogsWidget.cpp
 )
 
 add_executable(FitCoreTest ${TEST_SOURCES} ${HEADERS})
