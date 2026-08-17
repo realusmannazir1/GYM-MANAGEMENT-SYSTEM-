@@ -1,7 +1,7 @@
-CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.obj: \
- D:\Projects\GYM\ MANAGEMENT\ SYSTEM\src\repositories\MembershipRepository.cpp \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/MembershipRepository.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/Membership.h \
+CMakeFiles/FitCore.dir/src/repositories/TrainerRepository.cpp.obj: \
+ D:\Projects\GYM\ MANAGEMENT\ SYSTEM\src\repositories\TrainerRepository.cpp \
+ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/TrainerRepository.h \
+ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/Trainer.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/QString \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qstring.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qchar.h \
@@ -286,10 +286,27 @@ CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qstring.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qstringconverter.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qstringconverter_base.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/QDate \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qdatetime.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qcalendar.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qlocale.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/QStringList \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qstringlist.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qlist.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qhashfunctions.h \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/numeric \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/stl_numeric.h \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/pstl/glue_numeric_defs.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qiterator.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qbytearraylist.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qstringlist.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qalgorithms.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qstringmatcher.h \
+ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/database/DatabaseManager.h \
+ D:/Qt/6.7.2/mingw_64/include/QtSql/QSqlDatabase \
+ D:/Qt/6.7.2/mingw_64/include/QtSql/qsqldatabase.h \
+ D:/Qt/6.7.2/mingw_64/include/QtSql/qtsqlglobal.h \
+ D:/Qt/6.7.2/mingw_64/include/QtSql/qtsql-config.h \
+ D:/Qt/6.7.2/mingw_64/include/QtSql/qtsqlexports.h \
+ D:/Qt/6.7.2/mingw_64/include/QtSql/QSqlQuery \
+ D:/Qt/6.7.2/mingw_64/include/QtSql/qsqlquery.h \
+ D:/Qt/6.7.2/mingw_64/include/QtSql/qsqldatabase.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qvariant.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qmetatype.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qcompare.h \
@@ -298,12 +315,7 @@ CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qscopedpointer.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qiodevicebase.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qfloat16.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qhashfunctions.h \
- D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/numeric \
- D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/stl_numeric.h \
- D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/pstl/glue_numeric_defs.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qmath.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qalgorithms.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qiterable.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qmetacontainer.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qcontainerinfo.h \
@@ -330,11 +342,6 @@ CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.obj: \
  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/chrono.h \
  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/ratio \
  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/ctime \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qlist.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qiterator.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qbytearraylist.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qstringlist.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qstringmatcher.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qmap.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qshareddata_impl.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qset.h \
@@ -344,23 +351,10 @@ CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qobject.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qobject_impl.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qbindingstorage.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/database/DatabaseManager.h \
- D:/Qt/6.7.2/mingw_64/include/QtSql/QSqlDatabase \
- D:/Qt/6.7.2/mingw_64/include/QtSql/qsqldatabase.h \
- D:/Qt/6.7.2/mingw_64/include/QtSql/qtsqlglobal.h \
- D:/Qt/6.7.2/mingw_64/include/QtSql/qtsql-config.h \
- D:/Qt/6.7.2/mingw_64/include/QtSql/qtsqlexports.h \
- D:/Qt/6.7.2/mingw_64/include/QtSql/QSqlQuery \
- D:/Qt/6.7.2/mingw_64/include/QtSql/qsqlquery.h \
- D:/Qt/6.7.2/mingw_64/include/QtSql/qsqldatabase.h \
  D:/Qt/6.7.2/mingw_64/include/QtSql/QSqlError \
  D:/Qt/6.7.2/mingw_64/include/QtSql/qsqlerror.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/QVariant \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qvariant.h \
  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/mutex \
  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/std_mutex.h \
- D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/unique_lock.h \
- D:/Qt/6.7.2/mingw_64/include/QtSql/QSqlRecord \
- D:/Qt/6.7.2/mingw_64/include/QtSql/qsqlrecord.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/QDebug \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qdebug.h
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/unique_lock.h
