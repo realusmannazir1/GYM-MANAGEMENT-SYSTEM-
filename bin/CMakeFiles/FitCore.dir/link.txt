@@ -1,3 +1,0 @@
-C:\Users\uk078\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E rm -f CMakeFiles\FitCore.dir/objects.a
-D:\Software\mingw64\mingw64\bin\ar.exe qc CMakeFiles\FitCore.dir/objects.a @CMakeFiles\FitCore.dir\objects1.rsp
-D:\Software\mingw64\mingw64\bin\g++.exe -Wl,--allow-multiple-definition -Wl,--whole-archive CMakeFiles\FitCore.dir/objects.a -Wl,--no-whole-archive -o FitCore.exe -Wl,--out-implib,libFitCore.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FitCore.dir\linkLibs.rsp
