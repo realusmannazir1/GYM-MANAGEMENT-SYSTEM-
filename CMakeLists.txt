@@ -86,13 +86,69 @@ set(SOURCES
     src/widgets/AuditLogsWidget.cpp
 )
 
+# Header files for Qt AUTOMOC
+set(HEADERS
+    include/database/DatabaseManager.h
+    include/models/User.h
+    include/models/Member.h
+    include/models/MembershipPlan.h
+    include/models/Membership.h
+    include/models/Trainer.h
+    include/models/Attendance.h
+    include/models/Payment.h
+    include/models/Expense.h
+    include/models/Exercise.h
+    include/models/WorkoutPlan.h
+    include/models/ProgressRecord.h
+    include/models/Equipment.h
+    include/models/Notification.h
+    include/models/AuditLog.h
+    include/repositories/UserRepository.h
+    include/repositories/MemberRepository.h
+    include/repositories/MembershipPlanRepository.h
+    include/repositories/MembershipRepository.h
+    include/repositories/TrainerRepository.h
+    include/repositories/AttendanceRepository.h
+    include/repositories/PaymentRepository.h
+    include/repositories/ExpenseRepository.h
+    include/repositories/WorkoutRepository.h
+    include/repositories/ProgressRepository.h
+    include/repositories/EquipmentRepository.h
+    include/repositories/NotificationRepository.h
+    include/repositories/AuditRepository.h
+    include/repositories/SettingsRepository.h
+    include/services/AuthenticationService.h
+    include/services/MembershipService.h
+    include/services/AttendanceService.h
+    include/services/ReportService.h
+    include/services/BackupService.h
+    include/services/NotificationService.h
+    include/utils/ThemeManager.h
+    include/widgets/LoginWindow.h
+    include/widgets/MainWindow.h
+    include/widgets/DashboardWidget.h
+    include/widgets/MembersWidget.h
+    include/widgets/MembershipsWidget.h
+    include/widgets/TrainersWidget.h
+    include/widgets/AttendanceWidget.h
+    include/widgets/PaymentsWidget.h
+    include/widgets/WorkoutWidget.h
+    include/widgets/ProgressWidget.h
+    include/widgets/EquipmentWidget.h
+    include/widgets/ExpensesWidget.h
+    include/widgets/ReportsWidget.h
+    include/widgets/NotificationsWidget.h
+    include/widgets/SettingsWidget.h
+    include/widgets/AuditLogsWidget.h
+)
+
 # Resources (icons/styles if present)
 set(RESOURCES "")
 if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/assets/resources.qrc")
     list(APPEND RESOURCES assets/resources.qrc)
 endif()
 
-add_executable(FitCore ${SOURCES} ${RESOURCES})
+add_executable(FitCore ${SOURCES} ${HEADERS} ${RESOURCES})
 
 target_link_libraries(FitCore PRIVATE
     Qt6::Core

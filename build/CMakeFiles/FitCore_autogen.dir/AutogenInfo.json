@@ -293,7 +293,321 @@
 	"CROSS_CONFIG" : false,
 	"DEP_FILE" : "D:/Projects/GYM MANAGEMENT SYSTEM/build/FitCore_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "FitCore_autogen/timestamp",
-	"HEADERS" : [],
+	"HEADERS" : 
+	[
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/database/DatabaseManager.h",
+			"MU",
+			"CRGL2FGSXR/moc_DatabaseManager.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Attendance.h",
+			"MU",
+			"EPPU6REHSQ/moc_Attendance.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/models/AuditLog.h",
+			"MU",
+			"EPPU6REHSQ/moc_AuditLog.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Equipment.h",
+			"MU",
+			"EPPU6REHSQ/moc_Equipment.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Exercise.h",
+			"MU",
+			"EPPU6REHSQ/moc_Exercise.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Expense.h",
+			"MU",
+			"EPPU6REHSQ/moc_Expense.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Member.h",
+			"MU",
+			"EPPU6REHSQ/moc_Member.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Membership.h",
+			"MU",
+			"EPPU6REHSQ/moc_Membership.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/models/MembershipPlan.h",
+			"MU",
+			"EPPU6REHSQ/moc_MembershipPlan.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Notification.h",
+			"MU",
+			"EPPU6REHSQ/moc_Notification.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Payment.h",
+			"MU",
+			"EPPU6REHSQ/moc_Payment.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/models/ProgressRecord.h",
+			"MU",
+			"EPPU6REHSQ/moc_ProgressRecord.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Trainer.h",
+			"MU",
+			"EPPU6REHSQ/moc_Trainer.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/models/User.h",
+			"MU",
+			"EPPU6REHSQ/moc_User.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/models/WorkoutPlan.h",
+			"MU",
+			"EPPU6REHSQ/moc_WorkoutPlan.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/AttendanceRepository.h",
+			"MU",
+			"UG4ER4BXDK/moc_AttendanceRepository.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/AuditRepository.h",
+			"MU",
+			"UG4ER4BXDK/moc_AuditRepository.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/EquipmentRepository.h",
+			"MU",
+			"UG4ER4BXDK/moc_EquipmentRepository.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/ExpenseRepository.h",
+			"MU",
+			"UG4ER4BXDK/moc_ExpenseRepository.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/MemberRepository.h",
+			"MU",
+			"UG4ER4BXDK/moc_MemberRepository.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/MembershipPlanRepository.h",
+			"MU",
+			"UG4ER4BXDK/moc_MembershipPlanRepository.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/MembershipRepository.h",
+			"MU",
+			"UG4ER4BXDK/moc_MembershipRepository.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/NotificationRepository.h",
+			"MU",
+			"UG4ER4BXDK/moc_NotificationRepository.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/PaymentRepository.h",
+			"MU",
+			"UG4ER4BXDK/moc_PaymentRepository.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/ProgressRepository.h",
+			"MU",
+			"UG4ER4BXDK/moc_ProgressRepository.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/SettingsRepository.h",
+			"MU",
+			"UG4ER4BXDK/moc_SettingsRepository.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/TrainerRepository.h",
+			"MU",
+			"UG4ER4BXDK/moc_TrainerRepository.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/UserRepository.h",
+			"MU",
+			"UG4ER4BXDK/moc_UserRepository.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/WorkoutRepository.h",
+			"MU",
+			"UG4ER4BXDK/moc_WorkoutRepository.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/services/AttendanceService.h",
+			"MU",
+			"VEA5UQ63SX/moc_AttendanceService.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/services/AuthenticationService.h",
+			"MU",
+			"VEA5UQ63SX/moc_AuthenticationService.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/services/BackupService.h",
+			"MU",
+			"VEA5UQ63SX/moc_BackupService.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/services/MembershipService.h",
+			"MU",
+			"VEA5UQ63SX/moc_MembershipService.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/services/NotificationService.h",
+			"MU",
+			"VEA5UQ63SX/moc_NotificationService.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/services/ReportService.h",
+			"MU",
+			"VEA5UQ63SX/moc_ReportService.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/utils/ThemeManager.h",
+			"MU",
+			"KLZYWGTNTX/moc_ThemeManager.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/AttendanceWidget.h",
+			"MU",
+			"MROXUFLNXW/moc_AttendanceWidget.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/AuditLogsWidget.h",
+			"MU",
+			"MROXUFLNXW/moc_AuditLogsWidget.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/DashboardWidget.h",
+			"MU",
+			"MROXUFLNXW/moc_DashboardWidget.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/EquipmentWidget.h",
+			"MU",
+			"MROXUFLNXW/moc_EquipmentWidget.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/ExpensesWidget.h",
+			"MU",
+			"MROXUFLNXW/moc_ExpensesWidget.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/LoginWindow.h",
+			"MU",
+			"MROXUFLNXW/moc_LoginWindow.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/MainWindow.h",
+			"MU",
+			"MROXUFLNXW/moc_MainWindow.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/MembersWidget.h",
+			"MU",
+			"MROXUFLNXW/moc_MembersWidget.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/MembershipsWidget.h",
+			"MU",
+			"MROXUFLNXW/moc_MembershipsWidget.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/NotificationsWidget.h",
+			"MU",
+			"MROXUFLNXW/moc_NotificationsWidget.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/PaymentsWidget.h",
+			"MU",
+			"MROXUFLNXW/moc_PaymentsWidget.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/ProgressWidget.h",
+			"MU",
+			"MROXUFLNXW/moc_ProgressWidget.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/ReportsWidget.h",
+			"MU",
+			"MROXUFLNXW/moc_ReportsWidget.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/SettingsWidget.h",
+			"MU",
+			"MROXUFLNXW/moc_SettingsWidget.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/TrainersWidget.h",
+			"MU",
+			"MROXUFLNXW/moc_TrainersWidget.cpp",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/WorkoutWidget.h",
+			"MU",
+			"MROXUFLNXW/moc_WorkoutWidget.cpp",
+			null
+		]
+	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
 	"INCLUDE_DIR" : "D:/Projects/GYM MANAGEMENT SYSTEM/build/FitCore_autogen/include",
 	"MOC_COMPILATION_FILE" : "D:/Projects/GYM MANAGEMENT SYSTEM/build/FitCore_autogen/mocs_compilation.cpp",

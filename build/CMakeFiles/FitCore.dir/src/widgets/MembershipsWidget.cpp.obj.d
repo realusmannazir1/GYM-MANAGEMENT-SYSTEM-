@@ -438,12 +438,18 @@ CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qmessagebox.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialog.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/QLineEdit \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlineedit.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qtextcursor.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qtextdocument.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qurl.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qtextformat.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qpen.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qtextoption.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QDoubleSpinBox \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qspinbox.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QSpinBox \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QLabel \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlabel.h \
  D:/Qt/6.7.2/mingw_64/include/QtGui/qpicture.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qiodevice.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qtextdocument.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qurl.h
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qiodevice.h
