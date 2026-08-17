@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run FitCore Gym Management System",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/FitCore.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [
+                {
+                    "name": "PATH",
+                    "value": "D:\\Qt\\6.7.2\\mingw_64\\bin;${env:PATH}"
+                },
+                {
+                    "name": "QT_PLUGIN_PATH",
+                    "value": "D:\\Qt\\6.7.2\\mingw_64\\plugins"
+                }
+            ],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "D:/Qt/6.7.2/mingw_64/bin/gdb.exe"
+        }
+    ]
+}
