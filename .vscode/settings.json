@@ -1,6 +1,6 @@
 {
     "code-runner.executorMap": {
-        "cpp": "$env:PATH='D:\\Qt\\6.7.2\\mingw_64\\bin;' + $env:PATH; cd $workspaceRoot; .\\build\\FitCore.exe"
+        "cpp": "$env:PATH='D:\\Qt\\6.7.2\\mingw_64\\bin;' + $env:PATH; cd \"$workspaceRoot\"; .\\build\\FitCore.exe"
     },
     "code-runner.clearPreviousOutput": true,
     "code-runner.showExecutionMessage": false,
