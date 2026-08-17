@@ -787,8 +787,6 @@ CMakeFiles/FitCore.dir/main.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/main.cp
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/allocator.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/atomic_base.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/atomic_lockfree_defines.h \
-  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/basic_ios.h \
-  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/basic_ios.tcc \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/basic_string.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/basic_string.tcc \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/char_traits.h \
@@ -810,12 +808,9 @@ CMakeFiles/FitCore.dir/main.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/main.cp
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/hashtable_policy.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/invoke.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/ios_base.h \
-  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/istream.tcc \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/list.tcc \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/locale_classes.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/locale_classes.tcc \
-  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/locale_facets.h \
-  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/locale_facets.tcc \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/localefwd.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/memory_resource.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/memoryfwd.h \
@@ -824,8 +819,6 @@ CMakeFiles/FitCore.dir/main.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/main.cp
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/nested_exception.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/new_allocator.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/node_handle.h \
-  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/ostream.h \
-  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/ostream.tcc \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/ostream_insert.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/parse_numbers.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/postypes.h \
@@ -890,7 +883,6 @@ CMakeFiles/FitCore.dir/main.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/main.cp
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/cstring \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/ctime \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/cwchar \
-  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/cwctype \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/debug/assertions.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/debug/debug.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/exception \
@@ -903,10 +895,7 @@ CMakeFiles/FitCore.dir/main.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/main.cp
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/ext/type_traits.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/functional \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/initializer_list \
-  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/ios \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/iosfwd \
-  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/iostream \
-  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/istream \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/iterator \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/limits \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/list \
@@ -916,7 +905,6 @@ CMakeFiles/FitCore.dir/main.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/main.cp
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/new \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/numeric \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/optional \
-  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/ostream \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/pstl/execution_defs.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/pstl/glue_algorithm_defs.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/pstl/glue_memory_defs.h \
@@ -954,8 +942,6 @@ CMakeFiles/FitCore.dir/main.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/main.cp
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
-  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
-  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
   D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
@@ -1014,8 +1000,7 @@ CMakeFiles/FitCore.dir/main.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/main.cp
   D:/Software/mingw64/mingw64/x86_64-w64-mingw32/include/sys/timeb.h \
   D:/Software/mingw64/mingw64/x86_64-w64-mingw32/include/time.h \
   D:/Software/mingw64/mingw64/x86_64-w64-mingw32/include/vadefs.h \
-  D:/Software/mingw64/mingw64/x86_64-w64-mingw32/include/wchar.h \
-  D:/Software/mingw64/mingw64/x86_64-w64-mingw32/include/wctype.h
+  D:/Software/mingw64/mingw64/x86_64-w64-mingw32/include/wchar.h
 
 CMakeFiles/FitCore.dir/src/database/DatabaseManager.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/database/DatabaseManager.cpp \
   D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/database/DatabaseManager.h \
@@ -22253,20 +22238,6 @@ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialogbuttonbox.h:
 
 D:/Qt/6.7.2/mingw_64/include/QtWidgets/qmessagebox.h:
 
-D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/basic_ios.h:
-
-D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
-
-D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/istream.tcc:
-
-FitCore_autogen/moc_predefs.h:
-
-D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/locale_facets.h:
-
-D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/ostream.h:
-
-D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/ostream.tcc:
-
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginTargets-relwithdebinfo.cmake:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/FindVulkan.cmake:
@@ -22276,16 +22247,6 @@ D:/Qt/6.7.2/mingw_64/include/QtCore/qfiledevice.h:
 D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/std_mutex.h:
 
 D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/unique_lock.h:
-
-D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/iostream:
-
-D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/ostream:
-
-D:/Qt/6.7.2/mingw_64/include/QtWidgets/QFileDialog:
-
-D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
-
-D:/Software/mingw64/mingw64/x86_64-w64-mingw32/include/wctype.h:
 
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/database/DatabaseManager.cpp:
 
@@ -22303,6 +22264,8 @@ D:/Qt/6.7.2/mingw_64/include/QtCore/qfileinfo.h:
 
 D:/Qt/6.7.2/mingw_64/include/QtCore/qtimezone.h:
 
+D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/basic_ios.h:
+
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreConfigVersionImpl.cmake:
 
 D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/codecvt.h:
@@ -22311,7 +22274,19 @@ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/f
 
 D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/fs_ops.h:
 
+D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
+
+D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/istream.tcc:
+
 D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/locale_conv.h:
+
+FitCore_autogen/moc_predefs.h:
+
+D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/locale_facets.h:
+
+D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/ostream.h:
+
+D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/ostream.tcc:
 
 D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/quoted_string.h:
 
@@ -22323,7 +22298,17 @@ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/filesy
 
 D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/iomanip:
 
+D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/iostream:
+
 D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/locale:
+
+D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/ostream:
+
+D:/Qt/6.7.2/mingw_64/include/QtWidgets/QFileDialog:
+
+D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h:
+
+D:/Software/mingw64/mingw64/x86_64-w64-mingw32/include/wctype.h:
 
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/Equipment.cpp:
 
