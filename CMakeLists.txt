@@ -166,3 +166,51 @@ else()
     target_compile_options(FitCore PRIVATE -Wall -Wextra)
     target_link_options(FitCore PRIVATE -Wl,--allow-multiple-definition)
 endif()
+
+# Test Executable Target
+set(TEST_SOURCES
+    src/tests/test_main.cpp
+    src/database/DatabaseManager.cpp
+    src/models/User.cpp
+    src/models/Member.cpp
+    src/models/MembershipPlan.cpp
+    src/models/Membership.cpp
+    src/models/Trainer.cpp
+    src/models/Attendance.cpp
+    src/models/Payment.cpp
+    src/models/Expense.cpp
+    src/models/Exercise.cpp
+    src/models/WorkoutPlan.cpp
+    src/models/ProgressRecord.cpp
+    src/models/Equipment.cpp
+    src/models/Notification.cpp
+    src/models/AuditLog.cpp
+    src/repositories/UserRepository.cpp
+    src/repositories/MemberRepository.cpp
+    src/repositories/MembershipPlanRepository.cpp
+    src/repositories/MembershipRepository.cpp
+    src/repositories/TrainerRepository.cpp
+    src/repositories/AttendanceRepository.cpp
+    src/repositories/PaymentRepository.cpp
+    src/repositories/ExpenseRepository.cpp
+    src/repositories/WorkoutRepository.cpp
+    src/repositories/ProgressRepository.cpp
+    src/repositories/EquipmentRepository.cpp
+    src/repositories/NotificationRepository.cpp
+    src/repositories/AuditRepository.cpp
+    src/repositories/SettingsRepository.cpp
+    src/services/AuthenticationService.cpp
+    src/services/MembershipService.cpp
+    src/services/AttendanceService.cpp
+    src/services/ReportService.cpp
+    src/services/BackupService.cpp
+    src/services/NotificationService.cpp
+    src/utils/ThemeManager.cpp
+)
+
+add_executable(FitCoreTest ${TEST_SOURCES} ${HEADERS})
+target_link_libraries(FitCoreTest PRIVATE Qt6::Core Qt6::Gui Qt6::Widgets Qt6::Sql Qt6::Charts Qt6::Svg)
+if(NOT MSVC)
+    target_link_options(FitCoreTest PRIVATE -Wl,--allow-multiple-definition)
+endif()
+

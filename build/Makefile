@@ -129,6 +129,19 @@ FitCore/fast:
 .PHONY : FitCore/fast
 
 #=============================================================================
+# Target rules for targets named FitCoreTest
+
+# Build rule for target.
+FitCoreTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FitCoreTest
+.PHONY : FitCoreTest
+
+# fast build rule for target.
+FitCoreTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/build
+.PHONY : FitCoreTest/fast
+
+#=============================================================================
 # Target rules for targets named FitCore_autogen_timestamp_deps
 
 # Build rule for target.
@@ -153,6 +166,56 @@ FitCore_autogen: cmake_check_build_system
 FitCore_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore_autogen.dir\build.make CMakeFiles/FitCore_autogen.dir/build
 .PHONY : FitCore_autogen/fast
+
+#=============================================================================
+# Target rules for targets named FitCoreTest_autogen_timestamp_deps
+
+# Build rule for target.
+FitCoreTest_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FitCoreTest_autogen_timestamp_deps
+.PHONY : FitCoreTest_autogen_timestamp_deps
+
+# fast build rule for target.
+FitCoreTest_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest_autogen_timestamp_deps.dir\build.make CMakeFiles/FitCoreTest_autogen_timestamp_deps.dir/build
+.PHONY : FitCoreTest_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named FitCoreTest_autogen
+
+# Build rule for target.
+FitCoreTest_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 FitCoreTest_autogen
+.PHONY : FitCoreTest_autogen
+
+# fast build rule for target.
+FitCoreTest_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest_autogen.dir\build.make CMakeFiles/FitCoreTest_autogen.dir/build
+.PHONY : FitCoreTest_autogen/fast
+
+FitCoreTest_autogen/mocs_compilation.obj: FitCoreTest_autogen/mocs_compilation.cpp.obj
+.PHONY : FitCoreTest_autogen/mocs_compilation.obj
+
+# target to build an object file
+FitCoreTest_autogen/mocs_compilation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/FitCoreTest_autogen/mocs_compilation.cpp.obj
+.PHONY : FitCoreTest_autogen/mocs_compilation.cpp.obj
+
+FitCoreTest_autogen/mocs_compilation.i: FitCoreTest_autogen/mocs_compilation.cpp.i
+.PHONY : FitCoreTest_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+FitCoreTest_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/FitCoreTest_autogen/mocs_compilation.cpp.i
+.PHONY : FitCoreTest_autogen/mocs_compilation.cpp.i
+
+FitCoreTest_autogen/mocs_compilation.s: FitCoreTest_autogen/mocs_compilation.cpp.s
+.PHONY : FitCoreTest_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+FitCoreTest_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/FitCoreTest_autogen/mocs_compilation.cpp.s
+.PHONY : FitCoreTest_autogen/mocs_compilation.cpp.s
 
 FitCore_autogen/mocs_compilation.obj: FitCore_autogen/mocs_compilation.cpp.obj
 .PHONY : FitCore_autogen/mocs_compilation.obj
@@ -208,6 +271,7 @@ src/database/DatabaseManager.obj: src/database/DatabaseManager.cpp.obj
 # target to build an object file
 src/database/DatabaseManager.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/database/DatabaseManager.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/database/DatabaseManager.cpp.obj
 .PHONY : src/database/DatabaseManager.cpp.obj
 
 src/database/DatabaseManager.i: src/database/DatabaseManager.cpp.i
@@ -216,6 +280,7 @@ src/database/DatabaseManager.i: src/database/DatabaseManager.cpp.i
 # target to preprocess a source file
 src/database/DatabaseManager.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/database/DatabaseManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/database/DatabaseManager.cpp.i
 .PHONY : src/database/DatabaseManager.cpp.i
 
 src/database/DatabaseManager.s: src/database/DatabaseManager.cpp.s
@@ -224,6 +289,7 @@ src/database/DatabaseManager.s: src/database/DatabaseManager.cpp.s
 # target to generate assembly for a file
 src/database/DatabaseManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/database/DatabaseManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/database/DatabaseManager.cpp.s
 .PHONY : src/database/DatabaseManager.cpp.s
 
 src/models/Attendance.obj: src/models/Attendance.cpp.obj
@@ -232,6 +298,7 @@ src/models/Attendance.obj: src/models/Attendance.cpp.obj
 # target to build an object file
 src/models/Attendance.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Attendance.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Attendance.cpp.obj
 .PHONY : src/models/Attendance.cpp.obj
 
 src/models/Attendance.i: src/models/Attendance.cpp.i
@@ -240,6 +307,7 @@ src/models/Attendance.i: src/models/Attendance.cpp.i
 # target to preprocess a source file
 src/models/Attendance.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Attendance.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Attendance.cpp.i
 .PHONY : src/models/Attendance.cpp.i
 
 src/models/Attendance.s: src/models/Attendance.cpp.s
@@ -248,6 +316,7 @@ src/models/Attendance.s: src/models/Attendance.cpp.s
 # target to generate assembly for a file
 src/models/Attendance.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Attendance.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Attendance.cpp.s
 .PHONY : src/models/Attendance.cpp.s
 
 src/models/AuditLog.obj: src/models/AuditLog.cpp.obj
@@ -256,6 +325,7 @@ src/models/AuditLog.obj: src/models/AuditLog.cpp.obj
 # target to build an object file
 src/models/AuditLog.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/AuditLog.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/AuditLog.cpp.obj
 .PHONY : src/models/AuditLog.cpp.obj
 
 src/models/AuditLog.i: src/models/AuditLog.cpp.i
@@ -264,6 +334,7 @@ src/models/AuditLog.i: src/models/AuditLog.cpp.i
 # target to preprocess a source file
 src/models/AuditLog.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/AuditLog.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/AuditLog.cpp.i
 .PHONY : src/models/AuditLog.cpp.i
 
 src/models/AuditLog.s: src/models/AuditLog.cpp.s
@@ -272,6 +343,7 @@ src/models/AuditLog.s: src/models/AuditLog.cpp.s
 # target to generate assembly for a file
 src/models/AuditLog.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/AuditLog.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/AuditLog.cpp.s
 .PHONY : src/models/AuditLog.cpp.s
 
 src/models/Equipment.obj: src/models/Equipment.cpp.obj
@@ -280,6 +352,7 @@ src/models/Equipment.obj: src/models/Equipment.cpp.obj
 # target to build an object file
 src/models/Equipment.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Equipment.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Equipment.cpp.obj
 .PHONY : src/models/Equipment.cpp.obj
 
 src/models/Equipment.i: src/models/Equipment.cpp.i
@@ -288,6 +361,7 @@ src/models/Equipment.i: src/models/Equipment.cpp.i
 # target to preprocess a source file
 src/models/Equipment.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Equipment.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Equipment.cpp.i
 .PHONY : src/models/Equipment.cpp.i
 
 src/models/Equipment.s: src/models/Equipment.cpp.s
@@ -296,6 +370,7 @@ src/models/Equipment.s: src/models/Equipment.cpp.s
 # target to generate assembly for a file
 src/models/Equipment.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Equipment.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Equipment.cpp.s
 .PHONY : src/models/Equipment.cpp.s
 
 src/models/Exercise.obj: src/models/Exercise.cpp.obj
@@ -304,6 +379,7 @@ src/models/Exercise.obj: src/models/Exercise.cpp.obj
 # target to build an object file
 src/models/Exercise.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Exercise.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Exercise.cpp.obj
 .PHONY : src/models/Exercise.cpp.obj
 
 src/models/Exercise.i: src/models/Exercise.cpp.i
@@ -312,6 +388,7 @@ src/models/Exercise.i: src/models/Exercise.cpp.i
 # target to preprocess a source file
 src/models/Exercise.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Exercise.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Exercise.cpp.i
 .PHONY : src/models/Exercise.cpp.i
 
 src/models/Exercise.s: src/models/Exercise.cpp.s
@@ -320,6 +397,7 @@ src/models/Exercise.s: src/models/Exercise.cpp.s
 # target to generate assembly for a file
 src/models/Exercise.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Exercise.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Exercise.cpp.s
 .PHONY : src/models/Exercise.cpp.s
 
 src/models/Expense.obj: src/models/Expense.cpp.obj
@@ -328,6 +406,7 @@ src/models/Expense.obj: src/models/Expense.cpp.obj
 # target to build an object file
 src/models/Expense.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Expense.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Expense.cpp.obj
 .PHONY : src/models/Expense.cpp.obj
 
 src/models/Expense.i: src/models/Expense.cpp.i
@@ -336,6 +415,7 @@ src/models/Expense.i: src/models/Expense.cpp.i
 # target to preprocess a source file
 src/models/Expense.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Expense.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Expense.cpp.i
 .PHONY : src/models/Expense.cpp.i
 
 src/models/Expense.s: src/models/Expense.cpp.s
@@ -344,6 +424,7 @@ src/models/Expense.s: src/models/Expense.cpp.s
 # target to generate assembly for a file
 src/models/Expense.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Expense.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Expense.cpp.s
 .PHONY : src/models/Expense.cpp.s
 
 src/models/Member.obj: src/models/Member.cpp.obj
@@ -352,6 +433,7 @@ src/models/Member.obj: src/models/Member.cpp.obj
 # target to build an object file
 src/models/Member.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Member.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Member.cpp.obj
 .PHONY : src/models/Member.cpp.obj
 
 src/models/Member.i: src/models/Member.cpp.i
@@ -360,6 +442,7 @@ src/models/Member.i: src/models/Member.cpp.i
 # target to preprocess a source file
 src/models/Member.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Member.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Member.cpp.i
 .PHONY : src/models/Member.cpp.i
 
 src/models/Member.s: src/models/Member.cpp.s
@@ -368,6 +451,7 @@ src/models/Member.s: src/models/Member.cpp.s
 # target to generate assembly for a file
 src/models/Member.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Member.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Member.cpp.s
 .PHONY : src/models/Member.cpp.s
 
 src/models/Membership.obj: src/models/Membership.cpp.obj
@@ -376,6 +460,7 @@ src/models/Membership.obj: src/models/Membership.cpp.obj
 # target to build an object file
 src/models/Membership.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Membership.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Membership.cpp.obj
 .PHONY : src/models/Membership.cpp.obj
 
 src/models/Membership.i: src/models/Membership.cpp.i
@@ -384,6 +469,7 @@ src/models/Membership.i: src/models/Membership.cpp.i
 # target to preprocess a source file
 src/models/Membership.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Membership.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Membership.cpp.i
 .PHONY : src/models/Membership.cpp.i
 
 src/models/Membership.s: src/models/Membership.cpp.s
@@ -392,6 +478,7 @@ src/models/Membership.s: src/models/Membership.cpp.s
 # target to generate assembly for a file
 src/models/Membership.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Membership.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Membership.cpp.s
 .PHONY : src/models/Membership.cpp.s
 
 src/models/MembershipPlan.obj: src/models/MembershipPlan.cpp.obj
@@ -400,6 +487,7 @@ src/models/MembershipPlan.obj: src/models/MembershipPlan.cpp.obj
 # target to build an object file
 src/models/MembershipPlan.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/MembershipPlan.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/MembershipPlan.cpp.obj
 .PHONY : src/models/MembershipPlan.cpp.obj
 
 src/models/MembershipPlan.i: src/models/MembershipPlan.cpp.i
@@ -408,6 +496,7 @@ src/models/MembershipPlan.i: src/models/MembershipPlan.cpp.i
 # target to preprocess a source file
 src/models/MembershipPlan.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/MembershipPlan.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/MembershipPlan.cpp.i
 .PHONY : src/models/MembershipPlan.cpp.i
 
 src/models/MembershipPlan.s: src/models/MembershipPlan.cpp.s
@@ -416,6 +505,7 @@ src/models/MembershipPlan.s: src/models/MembershipPlan.cpp.s
 # target to generate assembly for a file
 src/models/MembershipPlan.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/MembershipPlan.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/MembershipPlan.cpp.s
 .PHONY : src/models/MembershipPlan.cpp.s
 
 src/models/Notification.obj: src/models/Notification.cpp.obj
@@ -424,6 +514,7 @@ src/models/Notification.obj: src/models/Notification.cpp.obj
 # target to build an object file
 src/models/Notification.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Notification.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Notification.cpp.obj
 .PHONY : src/models/Notification.cpp.obj
 
 src/models/Notification.i: src/models/Notification.cpp.i
@@ -432,6 +523,7 @@ src/models/Notification.i: src/models/Notification.cpp.i
 # target to preprocess a source file
 src/models/Notification.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Notification.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Notification.cpp.i
 .PHONY : src/models/Notification.cpp.i
 
 src/models/Notification.s: src/models/Notification.cpp.s
@@ -440,6 +532,7 @@ src/models/Notification.s: src/models/Notification.cpp.s
 # target to generate assembly for a file
 src/models/Notification.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Notification.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Notification.cpp.s
 .PHONY : src/models/Notification.cpp.s
 
 src/models/Payment.obj: src/models/Payment.cpp.obj
@@ -448,6 +541,7 @@ src/models/Payment.obj: src/models/Payment.cpp.obj
 # target to build an object file
 src/models/Payment.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Payment.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Payment.cpp.obj
 .PHONY : src/models/Payment.cpp.obj
 
 src/models/Payment.i: src/models/Payment.cpp.i
@@ -456,6 +550,7 @@ src/models/Payment.i: src/models/Payment.cpp.i
 # target to preprocess a source file
 src/models/Payment.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Payment.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Payment.cpp.i
 .PHONY : src/models/Payment.cpp.i
 
 src/models/Payment.s: src/models/Payment.cpp.s
@@ -464,6 +559,7 @@ src/models/Payment.s: src/models/Payment.cpp.s
 # target to generate assembly for a file
 src/models/Payment.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Payment.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Payment.cpp.s
 .PHONY : src/models/Payment.cpp.s
 
 src/models/ProgressRecord.obj: src/models/ProgressRecord.cpp.obj
@@ -472,6 +568,7 @@ src/models/ProgressRecord.obj: src/models/ProgressRecord.cpp.obj
 # target to build an object file
 src/models/ProgressRecord.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/ProgressRecord.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/ProgressRecord.cpp.obj
 .PHONY : src/models/ProgressRecord.cpp.obj
 
 src/models/ProgressRecord.i: src/models/ProgressRecord.cpp.i
@@ -480,6 +577,7 @@ src/models/ProgressRecord.i: src/models/ProgressRecord.cpp.i
 # target to preprocess a source file
 src/models/ProgressRecord.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/ProgressRecord.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/ProgressRecord.cpp.i
 .PHONY : src/models/ProgressRecord.cpp.i
 
 src/models/ProgressRecord.s: src/models/ProgressRecord.cpp.s
@@ -488,6 +586,7 @@ src/models/ProgressRecord.s: src/models/ProgressRecord.cpp.s
 # target to generate assembly for a file
 src/models/ProgressRecord.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/ProgressRecord.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/ProgressRecord.cpp.s
 .PHONY : src/models/ProgressRecord.cpp.s
 
 src/models/Trainer.obj: src/models/Trainer.cpp.obj
@@ -496,6 +595,7 @@ src/models/Trainer.obj: src/models/Trainer.cpp.obj
 # target to build an object file
 src/models/Trainer.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Trainer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Trainer.cpp.obj
 .PHONY : src/models/Trainer.cpp.obj
 
 src/models/Trainer.i: src/models/Trainer.cpp.i
@@ -504,6 +604,7 @@ src/models/Trainer.i: src/models/Trainer.cpp.i
 # target to preprocess a source file
 src/models/Trainer.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Trainer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Trainer.cpp.i
 .PHONY : src/models/Trainer.cpp.i
 
 src/models/Trainer.s: src/models/Trainer.cpp.s
@@ -512,6 +613,7 @@ src/models/Trainer.s: src/models/Trainer.cpp.s
 # target to generate assembly for a file
 src/models/Trainer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/Trainer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/Trainer.cpp.s
 .PHONY : src/models/Trainer.cpp.s
 
 src/models/User.obj: src/models/User.cpp.obj
@@ -520,6 +622,7 @@ src/models/User.obj: src/models/User.cpp.obj
 # target to build an object file
 src/models/User.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/User.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/User.cpp.obj
 .PHONY : src/models/User.cpp.obj
 
 src/models/User.i: src/models/User.cpp.i
@@ -528,6 +631,7 @@ src/models/User.i: src/models/User.cpp.i
 # target to preprocess a source file
 src/models/User.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/User.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/User.cpp.i
 .PHONY : src/models/User.cpp.i
 
 src/models/User.s: src/models/User.cpp.s
@@ -536,6 +640,7 @@ src/models/User.s: src/models/User.cpp.s
 # target to generate assembly for a file
 src/models/User.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/User.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/User.cpp.s
 .PHONY : src/models/User.cpp.s
 
 src/models/WorkoutPlan.obj: src/models/WorkoutPlan.cpp.obj
@@ -544,6 +649,7 @@ src/models/WorkoutPlan.obj: src/models/WorkoutPlan.cpp.obj
 # target to build an object file
 src/models/WorkoutPlan.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/WorkoutPlan.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/WorkoutPlan.cpp.obj
 .PHONY : src/models/WorkoutPlan.cpp.obj
 
 src/models/WorkoutPlan.i: src/models/WorkoutPlan.cpp.i
@@ -552,6 +658,7 @@ src/models/WorkoutPlan.i: src/models/WorkoutPlan.cpp.i
 # target to preprocess a source file
 src/models/WorkoutPlan.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/WorkoutPlan.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/WorkoutPlan.cpp.i
 .PHONY : src/models/WorkoutPlan.cpp.i
 
 src/models/WorkoutPlan.s: src/models/WorkoutPlan.cpp.s
@@ -560,6 +667,7 @@ src/models/WorkoutPlan.s: src/models/WorkoutPlan.cpp.s
 # target to generate assembly for a file
 src/models/WorkoutPlan.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/models/WorkoutPlan.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/models/WorkoutPlan.cpp.s
 .PHONY : src/models/WorkoutPlan.cpp.s
 
 src/repositories/AttendanceRepository.obj: src/repositories/AttendanceRepository.cpp.obj
@@ -568,6 +676,7 @@ src/repositories/AttendanceRepository.obj: src/repositories/AttendanceRepository
 # target to build an object file
 src/repositories/AttendanceRepository.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/AttendanceRepository.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/AttendanceRepository.cpp.obj
 .PHONY : src/repositories/AttendanceRepository.cpp.obj
 
 src/repositories/AttendanceRepository.i: src/repositories/AttendanceRepository.cpp.i
@@ -576,6 +685,7 @@ src/repositories/AttendanceRepository.i: src/repositories/AttendanceRepository.c
 # target to preprocess a source file
 src/repositories/AttendanceRepository.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/AttendanceRepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/AttendanceRepository.cpp.i
 .PHONY : src/repositories/AttendanceRepository.cpp.i
 
 src/repositories/AttendanceRepository.s: src/repositories/AttendanceRepository.cpp.s
@@ -584,6 +694,7 @@ src/repositories/AttendanceRepository.s: src/repositories/AttendanceRepository.c
 # target to generate assembly for a file
 src/repositories/AttendanceRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/AttendanceRepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/AttendanceRepository.cpp.s
 .PHONY : src/repositories/AttendanceRepository.cpp.s
 
 src/repositories/AuditRepository.obj: src/repositories/AuditRepository.cpp.obj
@@ -592,6 +703,7 @@ src/repositories/AuditRepository.obj: src/repositories/AuditRepository.cpp.obj
 # target to build an object file
 src/repositories/AuditRepository.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/AuditRepository.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/AuditRepository.cpp.obj
 .PHONY : src/repositories/AuditRepository.cpp.obj
 
 src/repositories/AuditRepository.i: src/repositories/AuditRepository.cpp.i
@@ -600,6 +712,7 @@ src/repositories/AuditRepository.i: src/repositories/AuditRepository.cpp.i
 # target to preprocess a source file
 src/repositories/AuditRepository.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/AuditRepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/AuditRepository.cpp.i
 .PHONY : src/repositories/AuditRepository.cpp.i
 
 src/repositories/AuditRepository.s: src/repositories/AuditRepository.cpp.s
@@ -608,6 +721,7 @@ src/repositories/AuditRepository.s: src/repositories/AuditRepository.cpp.s
 # target to generate assembly for a file
 src/repositories/AuditRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/AuditRepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/AuditRepository.cpp.s
 .PHONY : src/repositories/AuditRepository.cpp.s
 
 src/repositories/EquipmentRepository.obj: src/repositories/EquipmentRepository.cpp.obj
@@ -616,6 +730,7 @@ src/repositories/EquipmentRepository.obj: src/repositories/EquipmentRepository.c
 # target to build an object file
 src/repositories/EquipmentRepository.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/EquipmentRepository.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/EquipmentRepository.cpp.obj
 .PHONY : src/repositories/EquipmentRepository.cpp.obj
 
 src/repositories/EquipmentRepository.i: src/repositories/EquipmentRepository.cpp.i
@@ -624,6 +739,7 @@ src/repositories/EquipmentRepository.i: src/repositories/EquipmentRepository.cpp
 # target to preprocess a source file
 src/repositories/EquipmentRepository.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/EquipmentRepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/EquipmentRepository.cpp.i
 .PHONY : src/repositories/EquipmentRepository.cpp.i
 
 src/repositories/EquipmentRepository.s: src/repositories/EquipmentRepository.cpp.s
@@ -632,6 +748,7 @@ src/repositories/EquipmentRepository.s: src/repositories/EquipmentRepository.cpp
 # target to generate assembly for a file
 src/repositories/EquipmentRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/EquipmentRepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/EquipmentRepository.cpp.s
 .PHONY : src/repositories/EquipmentRepository.cpp.s
 
 src/repositories/ExpenseRepository.obj: src/repositories/ExpenseRepository.cpp.obj
@@ -640,6 +757,7 @@ src/repositories/ExpenseRepository.obj: src/repositories/ExpenseRepository.cpp.o
 # target to build an object file
 src/repositories/ExpenseRepository.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/ExpenseRepository.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/ExpenseRepository.cpp.obj
 .PHONY : src/repositories/ExpenseRepository.cpp.obj
 
 src/repositories/ExpenseRepository.i: src/repositories/ExpenseRepository.cpp.i
@@ -648,6 +766,7 @@ src/repositories/ExpenseRepository.i: src/repositories/ExpenseRepository.cpp.i
 # target to preprocess a source file
 src/repositories/ExpenseRepository.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/ExpenseRepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/ExpenseRepository.cpp.i
 .PHONY : src/repositories/ExpenseRepository.cpp.i
 
 src/repositories/ExpenseRepository.s: src/repositories/ExpenseRepository.cpp.s
@@ -656,6 +775,7 @@ src/repositories/ExpenseRepository.s: src/repositories/ExpenseRepository.cpp.s
 # target to generate assembly for a file
 src/repositories/ExpenseRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/ExpenseRepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/ExpenseRepository.cpp.s
 .PHONY : src/repositories/ExpenseRepository.cpp.s
 
 src/repositories/MemberRepository.obj: src/repositories/MemberRepository.cpp.obj
@@ -664,6 +784,7 @@ src/repositories/MemberRepository.obj: src/repositories/MemberRepository.cpp.obj
 # target to build an object file
 src/repositories/MemberRepository.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/MemberRepository.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/MemberRepository.cpp.obj
 .PHONY : src/repositories/MemberRepository.cpp.obj
 
 src/repositories/MemberRepository.i: src/repositories/MemberRepository.cpp.i
@@ -672,6 +793,7 @@ src/repositories/MemberRepository.i: src/repositories/MemberRepository.cpp.i
 # target to preprocess a source file
 src/repositories/MemberRepository.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/MemberRepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/MemberRepository.cpp.i
 .PHONY : src/repositories/MemberRepository.cpp.i
 
 src/repositories/MemberRepository.s: src/repositories/MemberRepository.cpp.s
@@ -680,6 +802,7 @@ src/repositories/MemberRepository.s: src/repositories/MemberRepository.cpp.s
 # target to generate assembly for a file
 src/repositories/MemberRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/MemberRepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/MemberRepository.cpp.s
 .PHONY : src/repositories/MemberRepository.cpp.s
 
 src/repositories/MembershipPlanRepository.obj: src/repositories/MembershipPlanRepository.cpp.obj
@@ -688,6 +811,7 @@ src/repositories/MembershipPlanRepository.obj: src/repositories/MembershipPlanRe
 # target to build an object file
 src/repositories/MembershipPlanRepository.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/MembershipPlanRepository.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/MembershipPlanRepository.cpp.obj
 .PHONY : src/repositories/MembershipPlanRepository.cpp.obj
 
 src/repositories/MembershipPlanRepository.i: src/repositories/MembershipPlanRepository.cpp.i
@@ -696,6 +820,7 @@ src/repositories/MembershipPlanRepository.i: src/repositories/MembershipPlanRepo
 # target to preprocess a source file
 src/repositories/MembershipPlanRepository.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/MembershipPlanRepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/MembershipPlanRepository.cpp.i
 .PHONY : src/repositories/MembershipPlanRepository.cpp.i
 
 src/repositories/MembershipPlanRepository.s: src/repositories/MembershipPlanRepository.cpp.s
@@ -704,6 +829,7 @@ src/repositories/MembershipPlanRepository.s: src/repositories/MembershipPlanRepo
 # target to generate assembly for a file
 src/repositories/MembershipPlanRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/MembershipPlanRepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/MembershipPlanRepository.cpp.s
 .PHONY : src/repositories/MembershipPlanRepository.cpp.s
 
 src/repositories/MembershipRepository.obj: src/repositories/MembershipRepository.cpp.obj
@@ -712,6 +838,7 @@ src/repositories/MembershipRepository.obj: src/repositories/MembershipRepository
 # target to build an object file
 src/repositories/MembershipRepository.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/MembershipRepository.cpp.obj
 .PHONY : src/repositories/MembershipRepository.cpp.obj
 
 src/repositories/MembershipRepository.i: src/repositories/MembershipRepository.cpp.i
@@ -720,6 +847,7 @@ src/repositories/MembershipRepository.i: src/repositories/MembershipRepository.c
 # target to preprocess a source file
 src/repositories/MembershipRepository.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/MembershipRepository.cpp.i
 .PHONY : src/repositories/MembershipRepository.cpp.i
 
 src/repositories/MembershipRepository.s: src/repositories/MembershipRepository.cpp.s
@@ -728,6 +856,7 @@ src/repositories/MembershipRepository.s: src/repositories/MembershipRepository.c
 # target to generate assembly for a file
 src/repositories/MembershipRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/MembershipRepository.cpp.s
 .PHONY : src/repositories/MembershipRepository.cpp.s
 
 src/repositories/NotificationRepository.obj: src/repositories/NotificationRepository.cpp.obj
@@ -736,6 +865,7 @@ src/repositories/NotificationRepository.obj: src/repositories/NotificationReposi
 # target to build an object file
 src/repositories/NotificationRepository.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/NotificationRepository.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/NotificationRepository.cpp.obj
 .PHONY : src/repositories/NotificationRepository.cpp.obj
 
 src/repositories/NotificationRepository.i: src/repositories/NotificationRepository.cpp.i
@@ -744,6 +874,7 @@ src/repositories/NotificationRepository.i: src/repositories/NotificationReposito
 # target to preprocess a source file
 src/repositories/NotificationRepository.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/NotificationRepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/NotificationRepository.cpp.i
 .PHONY : src/repositories/NotificationRepository.cpp.i
 
 src/repositories/NotificationRepository.s: src/repositories/NotificationRepository.cpp.s
@@ -752,6 +883,7 @@ src/repositories/NotificationRepository.s: src/repositories/NotificationReposito
 # target to generate assembly for a file
 src/repositories/NotificationRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/NotificationRepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/NotificationRepository.cpp.s
 .PHONY : src/repositories/NotificationRepository.cpp.s
 
 src/repositories/PaymentRepository.obj: src/repositories/PaymentRepository.cpp.obj
@@ -760,6 +892,7 @@ src/repositories/PaymentRepository.obj: src/repositories/PaymentRepository.cpp.o
 # target to build an object file
 src/repositories/PaymentRepository.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/PaymentRepository.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/PaymentRepository.cpp.obj
 .PHONY : src/repositories/PaymentRepository.cpp.obj
 
 src/repositories/PaymentRepository.i: src/repositories/PaymentRepository.cpp.i
@@ -768,6 +901,7 @@ src/repositories/PaymentRepository.i: src/repositories/PaymentRepository.cpp.i
 # target to preprocess a source file
 src/repositories/PaymentRepository.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/PaymentRepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/PaymentRepository.cpp.i
 .PHONY : src/repositories/PaymentRepository.cpp.i
 
 src/repositories/PaymentRepository.s: src/repositories/PaymentRepository.cpp.s
@@ -776,6 +910,7 @@ src/repositories/PaymentRepository.s: src/repositories/PaymentRepository.cpp.s
 # target to generate assembly for a file
 src/repositories/PaymentRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/PaymentRepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/PaymentRepository.cpp.s
 .PHONY : src/repositories/PaymentRepository.cpp.s
 
 src/repositories/ProgressRepository.obj: src/repositories/ProgressRepository.cpp.obj
@@ -784,6 +919,7 @@ src/repositories/ProgressRepository.obj: src/repositories/ProgressRepository.cpp
 # target to build an object file
 src/repositories/ProgressRepository.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/ProgressRepository.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/ProgressRepository.cpp.obj
 .PHONY : src/repositories/ProgressRepository.cpp.obj
 
 src/repositories/ProgressRepository.i: src/repositories/ProgressRepository.cpp.i
@@ -792,6 +928,7 @@ src/repositories/ProgressRepository.i: src/repositories/ProgressRepository.cpp.i
 # target to preprocess a source file
 src/repositories/ProgressRepository.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/ProgressRepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/ProgressRepository.cpp.i
 .PHONY : src/repositories/ProgressRepository.cpp.i
 
 src/repositories/ProgressRepository.s: src/repositories/ProgressRepository.cpp.s
@@ -800,6 +937,7 @@ src/repositories/ProgressRepository.s: src/repositories/ProgressRepository.cpp.s
 # target to generate assembly for a file
 src/repositories/ProgressRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/ProgressRepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/ProgressRepository.cpp.s
 .PHONY : src/repositories/ProgressRepository.cpp.s
 
 src/repositories/SettingsRepository.obj: src/repositories/SettingsRepository.cpp.obj
@@ -808,6 +946,7 @@ src/repositories/SettingsRepository.obj: src/repositories/SettingsRepository.cpp
 # target to build an object file
 src/repositories/SettingsRepository.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/SettingsRepository.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/SettingsRepository.cpp.obj
 .PHONY : src/repositories/SettingsRepository.cpp.obj
 
 src/repositories/SettingsRepository.i: src/repositories/SettingsRepository.cpp.i
@@ -816,6 +955,7 @@ src/repositories/SettingsRepository.i: src/repositories/SettingsRepository.cpp.i
 # target to preprocess a source file
 src/repositories/SettingsRepository.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/SettingsRepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/SettingsRepository.cpp.i
 .PHONY : src/repositories/SettingsRepository.cpp.i
 
 src/repositories/SettingsRepository.s: src/repositories/SettingsRepository.cpp.s
@@ -824,6 +964,7 @@ src/repositories/SettingsRepository.s: src/repositories/SettingsRepository.cpp.s
 # target to generate assembly for a file
 src/repositories/SettingsRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/SettingsRepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/SettingsRepository.cpp.s
 .PHONY : src/repositories/SettingsRepository.cpp.s
 
 src/repositories/TrainerRepository.obj: src/repositories/TrainerRepository.cpp.obj
@@ -832,6 +973,7 @@ src/repositories/TrainerRepository.obj: src/repositories/TrainerRepository.cpp.o
 # target to build an object file
 src/repositories/TrainerRepository.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/TrainerRepository.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/TrainerRepository.cpp.obj
 .PHONY : src/repositories/TrainerRepository.cpp.obj
 
 src/repositories/TrainerRepository.i: src/repositories/TrainerRepository.cpp.i
@@ -840,6 +982,7 @@ src/repositories/TrainerRepository.i: src/repositories/TrainerRepository.cpp.i
 # target to preprocess a source file
 src/repositories/TrainerRepository.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/TrainerRepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/TrainerRepository.cpp.i
 .PHONY : src/repositories/TrainerRepository.cpp.i
 
 src/repositories/TrainerRepository.s: src/repositories/TrainerRepository.cpp.s
@@ -848,6 +991,7 @@ src/repositories/TrainerRepository.s: src/repositories/TrainerRepository.cpp.s
 # target to generate assembly for a file
 src/repositories/TrainerRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/TrainerRepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/TrainerRepository.cpp.s
 .PHONY : src/repositories/TrainerRepository.cpp.s
 
 src/repositories/UserRepository.obj: src/repositories/UserRepository.cpp.obj
@@ -856,6 +1000,7 @@ src/repositories/UserRepository.obj: src/repositories/UserRepository.cpp.obj
 # target to build an object file
 src/repositories/UserRepository.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/UserRepository.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/UserRepository.cpp.obj
 .PHONY : src/repositories/UserRepository.cpp.obj
 
 src/repositories/UserRepository.i: src/repositories/UserRepository.cpp.i
@@ -864,6 +1009,7 @@ src/repositories/UserRepository.i: src/repositories/UserRepository.cpp.i
 # target to preprocess a source file
 src/repositories/UserRepository.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/UserRepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/UserRepository.cpp.i
 .PHONY : src/repositories/UserRepository.cpp.i
 
 src/repositories/UserRepository.s: src/repositories/UserRepository.cpp.s
@@ -872,6 +1018,7 @@ src/repositories/UserRepository.s: src/repositories/UserRepository.cpp.s
 # target to generate assembly for a file
 src/repositories/UserRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/UserRepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/UserRepository.cpp.s
 .PHONY : src/repositories/UserRepository.cpp.s
 
 src/repositories/WorkoutRepository.obj: src/repositories/WorkoutRepository.cpp.obj
@@ -880,6 +1027,7 @@ src/repositories/WorkoutRepository.obj: src/repositories/WorkoutRepository.cpp.o
 # target to build an object file
 src/repositories/WorkoutRepository.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/WorkoutRepository.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/WorkoutRepository.cpp.obj
 .PHONY : src/repositories/WorkoutRepository.cpp.obj
 
 src/repositories/WorkoutRepository.i: src/repositories/WorkoutRepository.cpp.i
@@ -888,6 +1036,7 @@ src/repositories/WorkoutRepository.i: src/repositories/WorkoutRepository.cpp.i
 # target to preprocess a source file
 src/repositories/WorkoutRepository.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/WorkoutRepository.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/WorkoutRepository.cpp.i
 .PHONY : src/repositories/WorkoutRepository.cpp.i
 
 src/repositories/WorkoutRepository.s: src/repositories/WorkoutRepository.cpp.s
@@ -896,6 +1045,7 @@ src/repositories/WorkoutRepository.s: src/repositories/WorkoutRepository.cpp.s
 # target to generate assembly for a file
 src/repositories/WorkoutRepository.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/repositories/WorkoutRepository.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/repositories/WorkoutRepository.cpp.s
 .PHONY : src/repositories/WorkoutRepository.cpp.s
 
 src/services/AttendanceService.obj: src/services/AttendanceService.cpp.obj
@@ -904,6 +1054,7 @@ src/services/AttendanceService.obj: src/services/AttendanceService.cpp.obj
 # target to build an object file
 src/services/AttendanceService.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/AttendanceService.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/AttendanceService.cpp.obj
 .PHONY : src/services/AttendanceService.cpp.obj
 
 src/services/AttendanceService.i: src/services/AttendanceService.cpp.i
@@ -912,6 +1063,7 @@ src/services/AttendanceService.i: src/services/AttendanceService.cpp.i
 # target to preprocess a source file
 src/services/AttendanceService.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/AttendanceService.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/AttendanceService.cpp.i
 .PHONY : src/services/AttendanceService.cpp.i
 
 src/services/AttendanceService.s: src/services/AttendanceService.cpp.s
@@ -920,6 +1072,7 @@ src/services/AttendanceService.s: src/services/AttendanceService.cpp.s
 # target to generate assembly for a file
 src/services/AttendanceService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/AttendanceService.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/AttendanceService.cpp.s
 .PHONY : src/services/AttendanceService.cpp.s
 
 src/services/AuthenticationService.obj: src/services/AuthenticationService.cpp.obj
@@ -928,6 +1081,7 @@ src/services/AuthenticationService.obj: src/services/AuthenticationService.cpp.o
 # target to build an object file
 src/services/AuthenticationService.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/AuthenticationService.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/AuthenticationService.cpp.obj
 .PHONY : src/services/AuthenticationService.cpp.obj
 
 src/services/AuthenticationService.i: src/services/AuthenticationService.cpp.i
@@ -936,6 +1090,7 @@ src/services/AuthenticationService.i: src/services/AuthenticationService.cpp.i
 # target to preprocess a source file
 src/services/AuthenticationService.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/AuthenticationService.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/AuthenticationService.cpp.i
 .PHONY : src/services/AuthenticationService.cpp.i
 
 src/services/AuthenticationService.s: src/services/AuthenticationService.cpp.s
@@ -944,6 +1099,7 @@ src/services/AuthenticationService.s: src/services/AuthenticationService.cpp.s
 # target to generate assembly for a file
 src/services/AuthenticationService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/AuthenticationService.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/AuthenticationService.cpp.s
 .PHONY : src/services/AuthenticationService.cpp.s
 
 src/services/BackupService.obj: src/services/BackupService.cpp.obj
@@ -952,6 +1108,7 @@ src/services/BackupService.obj: src/services/BackupService.cpp.obj
 # target to build an object file
 src/services/BackupService.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/BackupService.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/BackupService.cpp.obj
 .PHONY : src/services/BackupService.cpp.obj
 
 src/services/BackupService.i: src/services/BackupService.cpp.i
@@ -960,6 +1117,7 @@ src/services/BackupService.i: src/services/BackupService.cpp.i
 # target to preprocess a source file
 src/services/BackupService.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/BackupService.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/BackupService.cpp.i
 .PHONY : src/services/BackupService.cpp.i
 
 src/services/BackupService.s: src/services/BackupService.cpp.s
@@ -968,6 +1126,7 @@ src/services/BackupService.s: src/services/BackupService.cpp.s
 # target to generate assembly for a file
 src/services/BackupService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/BackupService.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/BackupService.cpp.s
 .PHONY : src/services/BackupService.cpp.s
 
 src/services/MembershipService.obj: src/services/MembershipService.cpp.obj
@@ -976,6 +1135,7 @@ src/services/MembershipService.obj: src/services/MembershipService.cpp.obj
 # target to build an object file
 src/services/MembershipService.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/MembershipService.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/MembershipService.cpp.obj
 .PHONY : src/services/MembershipService.cpp.obj
 
 src/services/MembershipService.i: src/services/MembershipService.cpp.i
@@ -984,6 +1144,7 @@ src/services/MembershipService.i: src/services/MembershipService.cpp.i
 # target to preprocess a source file
 src/services/MembershipService.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/MembershipService.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/MembershipService.cpp.i
 .PHONY : src/services/MembershipService.cpp.i
 
 src/services/MembershipService.s: src/services/MembershipService.cpp.s
@@ -992,6 +1153,7 @@ src/services/MembershipService.s: src/services/MembershipService.cpp.s
 # target to generate assembly for a file
 src/services/MembershipService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/MembershipService.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/MembershipService.cpp.s
 .PHONY : src/services/MembershipService.cpp.s
 
 src/services/NotificationService.obj: src/services/NotificationService.cpp.obj
@@ -1000,6 +1162,7 @@ src/services/NotificationService.obj: src/services/NotificationService.cpp.obj
 # target to build an object file
 src/services/NotificationService.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/NotificationService.cpp.obj
 .PHONY : src/services/NotificationService.cpp.obj
 
 src/services/NotificationService.i: src/services/NotificationService.cpp.i
@@ -1008,6 +1171,7 @@ src/services/NotificationService.i: src/services/NotificationService.cpp.i
 # target to preprocess a source file
 src/services/NotificationService.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/NotificationService.cpp.i
 .PHONY : src/services/NotificationService.cpp.i
 
 src/services/NotificationService.s: src/services/NotificationService.cpp.s
@@ -1016,6 +1180,7 @@ src/services/NotificationService.s: src/services/NotificationService.cpp.s
 # target to generate assembly for a file
 src/services/NotificationService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/NotificationService.cpp.s
 .PHONY : src/services/NotificationService.cpp.s
 
 src/services/ReportService.obj: src/services/ReportService.cpp.obj
@@ -1024,6 +1189,7 @@ src/services/ReportService.obj: src/services/ReportService.cpp.obj
 # target to build an object file
 src/services/ReportService.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/ReportService.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/ReportService.cpp.obj
 .PHONY : src/services/ReportService.cpp.obj
 
 src/services/ReportService.i: src/services/ReportService.cpp.i
@@ -1032,6 +1198,7 @@ src/services/ReportService.i: src/services/ReportService.cpp.i
 # target to preprocess a source file
 src/services/ReportService.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/ReportService.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/ReportService.cpp.i
 .PHONY : src/services/ReportService.cpp.i
 
 src/services/ReportService.s: src/services/ReportService.cpp.s
@@ -1040,7 +1207,32 @@ src/services/ReportService.s: src/services/ReportService.cpp.s
 # target to generate assembly for a file
 src/services/ReportService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/ReportService.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/ReportService.cpp.s
 .PHONY : src/services/ReportService.cpp.s
+
+src/tests/test_main.obj: src/tests/test_main.cpp.obj
+.PHONY : src/tests/test_main.obj
+
+# target to build an object file
+src/tests/test_main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/tests/test_main.cpp.obj
+.PHONY : src/tests/test_main.cpp.obj
+
+src/tests/test_main.i: src/tests/test_main.cpp.i
+.PHONY : src/tests/test_main.i
+
+# target to preprocess a source file
+src/tests/test_main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/tests/test_main.cpp.i
+.PHONY : src/tests/test_main.cpp.i
+
+src/tests/test_main.s: src/tests/test_main.cpp.s
+.PHONY : src/tests/test_main.s
+
+# target to generate assembly for a file
+src/tests/test_main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/tests/test_main.cpp.s
+.PHONY : src/tests/test_main.cpp.s
 
 src/utils/ThemeManager.obj: src/utils/ThemeManager.cpp.obj
 .PHONY : src/utils/ThemeManager.obj
@@ -1048,6 +1240,7 @@ src/utils/ThemeManager.obj: src/utils/ThemeManager.cpp.obj
 # target to build an object file
 src/utils/ThemeManager.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/utils/ThemeManager.cpp.obj
 .PHONY : src/utils/ThemeManager.cpp.obj
 
 src/utils/ThemeManager.i: src/utils/ThemeManager.cpp.i
@@ -1056,6 +1249,7 @@ src/utils/ThemeManager.i: src/utils/ThemeManager.cpp.i
 # target to preprocess a source file
 src/utils/ThemeManager.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/utils/ThemeManager.cpp.i
 .PHONY : src/utils/ThemeManager.cpp.i
 
 src/utils/ThemeManager.s: src/utils/ThemeManager.cpp.s
@@ -1064,6 +1258,7 @@ src/utils/ThemeManager.s: src/utils/ThemeManager.cpp.s
 # target to generate assembly for a file
 src/utils/ThemeManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/utils/ThemeManager.cpp.s
 .PHONY : src/utils/ThemeManager.cpp.s
 
 src/widgets/AttendanceWidget.obj: src/widgets/AttendanceWidget.cpp.obj
@@ -1458,9 +1653,15 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... FitCoreTest_autogen
+	@echo ... FitCoreTest_autogen_timestamp_deps
 	@echo ... FitCore_autogen
 	@echo ... FitCore_autogen_timestamp_deps
 	@echo ... FitCore
+	@echo ... FitCoreTest
+	@echo ... FitCoreTest_autogen/mocs_compilation.obj
+	@echo ... FitCoreTest_autogen/mocs_compilation.i
+	@echo ... FitCoreTest_autogen/mocs_compilation.s
 	@echo ... FitCore_autogen/mocs_compilation.obj
 	@echo ... FitCore_autogen/mocs_compilation.i
 	@echo ... FitCore_autogen/mocs_compilation.s
@@ -1572,6 +1773,9 @@ help:
 	@echo ... src/services/ReportService.obj
 	@echo ... src/services/ReportService.i
 	@echo ... src/services/ReportService.s
+	@echo ... src/tests/test_main.obj
+	@echo ... src/tests/test_main.i
+	@echo ... src/tests/test_main.s
 	@echo ... src/utils/ThemeManager.obj
 	@echo ... src/utils/ThemeManager.i
 	@echo ... src/utils/ThemeManager.s
