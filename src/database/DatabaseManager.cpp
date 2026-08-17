@@ -5,6 +5,7 @@
 #include <QFileInfo>
 #include <QTextStream>
 #include <QDebug>
+#include <iostream>
 
 namespace FitCore {
 
@@ -18,7 +19,8 @@ DatabaseManager::~DatabaseManager() {
 }
 
 bool DatabaseManager::initialize(const QString& dbPath) {
-    std::lock_guard<std::mutex> lock(m_mutex);
+    std::cout << "  [DB] Entering initialize()..." << std::endl;
+    std::lock_guard<std::recursive_mutex> lock(m_mutex);
 
     m_dbPath = dbPath;
     m_connectionName = "FitCoreConnection";
@@ -28,16 +30,18 @@ bool DatabaseManager::initialize(const QString& dbPath) {
     if (!dir.exists()) {
         if (!dir.mkpath(".")) {
             m_lastError = "Failed to create database directory: " + dir.path();
+            std::cout << "  [DB ERROR] " << m_lastError.toStdString() << std::endl;
             qCritical() << m_lastError;
             return false;
         }
     }
 
-    bool dbExists = fileInfo.exists();
-
+    std::cout << "  [DB] Calling open()..." << std::endl;
     if (!open()) {
+        std::cout << "  [DB ERROR] open() returned false!" << std::endl;
         return false;
     }
+    std::cout << "  [DB] open() succeeded. Checking sqlite_master..." << std::endl;
 
     // Execute schema if new database or tables missing
     QSqlQuery checkQuery("SELECT name FROM sqlite_master WHERE type='table' AND name='users';", getDatabase());
@@ -64,6 +68,7 @@ bool DatabaseManager::initialize(const QString& dbPath) {
 
         if (!schemaExecuted) {
             m_lastError = "Failed to locate and execute database schema creation script (schema.sql).";
+            std::cout << "[DatabaseManager ERROR] " << m_lastError.toStdString() << std::endl;
             qCritical() << m_lastError;
             return false;
         }
@@ -100,6 +105,7 @@ bool DatabaseManager::open() {
 
     if (!db.open()) {
         m_lastError = db.lastError().text();
+        std::cout << "[DatabaseManager ERROR] Database open error: " << m_lastError.toStdString() << std::endl;
         qCritical() << "Database open error:" << m_lastError;
         return false;
     }
@@ -114,7 +120,7 @@ bool DatabaseManager::open() {
 }
 
 void DatabaseManager::close() {
-    std::lock_guard<std::mutex> lock(m_mutex);
+    std::lock_guard<std::recursive_mutex> lock(m_mutex);
     if (QSqlDatabase::contains(m_connectionName)) {
         {
             QSqlDatabase db = QSqlDatabase::database(m_connectionName);
@@ -141,7 +147,7 @@ QSqlDatabase DatabaseManager::getDatabase() {
 }
 
 bool DatabaseManager::execute(const QString& sql) {
-    std::lock_guard<std::mutex> lock(m_mutex);
+    std::lock_guard<std::recursive_mutex> lock(m_mutex);
     QSqlQuery query(getDatabase());
     if (!query.exec(sql)) {
         m_lastError = query.lastError().text();

@@ -411,4 +411,5 @@ CMakeFiles/FitCore.dir/src/database/DatabaseManager.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtCore/QTextStream \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qtextstream.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/QDebug \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qdebug.h
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qdebug.h \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/iostream

@@ -8,6 +8,10 @@
 #include "utils/ThemeManager.h"
 
 int main(int argc, char *argv[]) {
+    QCoreApplication::addLibraryPath("D:/Qt/6.7.2/mingw_64/plugins");
+    QCoreApplication::addLibraryPath(QCoreApplication::applicationDirPath() + "/plugins");
+    QCoreApplication::addLibraryPath(QCoreApplication::applicationDirPath());
+
     QApplication app(argc, argv);
     app.setApplicationName("FitCore Gym Management System");
     app.setOrganizationName("FitCore Software");
@@ -42,3 +46,5 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
+
+

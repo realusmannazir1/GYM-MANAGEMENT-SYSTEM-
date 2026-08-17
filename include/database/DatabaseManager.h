@@ -44,7 +44,7 @@ private:
 
     QString m_dbPath;
     QString m_connectionName;
-    mutable std::mutex m_mutex;
+    mutable std::recursive_mutex m_mutex;
     QString m_lastError;
 };
 
