@@ -1,0 +1,8 @@
+{
+    "code-runner.executorMap": {
+        "cpp": "$env:PATH='D:\\Qt\\6.7.2\\mingw_64\\bin;' + $env:PATH; cd $dir; cmake --build build; .\\build\\FitCore.exe"
+    },
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.showExecutionMessage": true,
+    "code-runner.saveFileBeforeRun": true
+}

@@ -877,6 +877,86 @@
 			"D:/Projects/GYM MANAGEMENT SYSTEM/src/utils/ThemeManager.cpp",
 			"MU",
 			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/AttendanceWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/AuditLogsWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/DashboardWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/EquipmentWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/ExpensesWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/LoginWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/MainWindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/MembersWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/MembershipsWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/NotificationsWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/PaymentsWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/ProgressWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/ReportsWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/SettingsWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/TrainersWidget.cpp",
+			"MU",
+			null
+		],
+		[
+			"D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/WorkoutWidget.cpp",
+			"MU",
+			null
 		]
 	],
 	"UIC_OPTIONS" : [],

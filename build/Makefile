@@ -1267,6 +1267,7 @@ src/widgets/AttendanceWidget.obj: src/widgets/AttendanceWidget.cpp.obj
 # target to build an object file
 src/widgets/AttendanceWidget.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/AttendanceWidget.cpp.obj
 .PHONY : src/widgets/AttendanceWidget.cpp.obj
 
 src/widgets/AttendanceWidget.i: src/widgets/AttendanceWidget.cpp.i
@@ -1275,6 +1276,7 @@ src/widgets/AttendanceWidget.i: src/widgets/AttendanceWidget.cpp.i
 # target to preprocess a source file
 src/widgets/AttendanceWidget.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/AttendanceWidget.cpp.i
 .PHONY : src/widgets/AttendanceWidget.cpp.i
 
 src/widgets/AttendanceWidget.s: src/widgets/AttendanceWidget.cpp.s
@@ -1283,6 +1285,7 @@ src/widgets/AttendanceWidget.s: src/widgets/AttendanceWidget.cpp.s
 # target to generate assembly for a file
 src/widgets/AttendanceWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/AttendanceWidget.cpp.s
 .PHONY : src/widgets/AttendanceWidget.cpp.s
 
 src/widgets/AuditLogsWidget.obj: src/widgets/AuditLogsWidget.cpp.obj
@@ -1291,6 +1294,7 @@ src/widgets/AuditLogsWidget.obj: src/widgets/AuditLogsWidget.cpp.obj
 # target to build an object file
 src/widgets/AuditLogsWidget.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/AuditLogsWidget.cpp.obj
 .PHONY : src/widgets/AuditLogsWidget.cpp.obj
 
 src/widgets/AuditLogsWidget.i: src/widgets/AuditLogsWidget.cpp.i
@@ -1299,6 +1303,7 @@ src/widgets/AuditLogsWidget.i: src/widgets/AuditLogsWidget.cpp.i
 # target to preprocess a source file
 src/widgets/AuditLogsWidget.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/AuditLogsWidget.cpp.i
 .PHONY : src/widgets/AuditLogsWidget.cpp.i
 
 src/widgets/AuditLogsWidget.s: src/widgets/AuditLogsWidget.cpp.s
@@ -1307,6 +1312,7 @@ src/widgets/AuditLogsWidget.s: src/widgets/AuditLogsWidget.cpp.s
 # target to generate assembly for a file
 src/widgets/AuditLogsWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/AuditLogsWidget.cpp.s
 .PHONY : src/widgets/AuditLogsWidget.cpp.s
 
 src/widgets/DashboardWidget.obj: src/widgets/DashboardWidget.cpp.obj
@@ -1315,6 +1321,7 @@ src/widgets/DashboardWidget.obj: src/widgets/DashboardWidget.cpp.obj
 # target to build an object file
 src/widgets/DashboardWidget.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/DashboardWidget.cpp.obj
 .PHONY : src/widgets/DashboardWidget.cpp.obj
 
 src/widgets/DashboardWidget.i: src/widgets/DashboardWidget.cpp.i
@@ -1323,6 +1330,7 @@ src/widgets/DashboardWidget.i: src/widgets/DashboardWidget.cpp.i
 # target to preprocess a source file
 src/widgets/DashboardWidget.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/DashboardWidget.cpp.i
 .PHONY : src/widgets/DashboardWidget.cpp.i
 
 src/widgets/DashboardWidget.s: src/widgets/DashboardWidget.cpp.s
@@ -1331,6 +1339,7 @@ src/widgets/DashboardWidget.s: src/widgets/DashboardWidget.cpp.s
 # target to generate assembly for a file
 src/widgets/DashboardWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/DashboardWidget.cpp.s
 .PHONY : src/widgets/DashboardWidget.cpp.s
 
 src/widgets/EquipmentWidget.obj: src/widgets/EquipmentWidget.cpp.obj
@@ -1339,6 +1348,7 @@ src/widgets/EquipmentWidget.obj: src/widgets/EquipmentWidget.cpp.obj
 # target to build an object file
 src/widgets/EquipmentWidget.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/EquipmentWidget.cpp.obj
 .PHONY : src/widgets/EquipmentWidget.cpp.obj
 
 src/widgets/EquipmentWidget.i: src/widgets/EquipmentWidget.cpp.i
@@ -1347,6 +1357,7 @@ src/widgets/EquipmentWidget.i: src/widgets/EquipmentWidget.cpp.i
 # target to preprocess a source file
 src/widgets/EquipmentWidget.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/EquipmentWidget.cpp.i
 .PHONY : src/widgets/EquipmentWidget.cpp.i
 
 src/widgets/EquipmentWidget.s: src/widgets/EquipmentWidget.cpp.s
@@ -1355,6 +1366,7 @@ src/widgets/EquipmentWidget.s: src/widgets/EquipmentWidget.cpp.s
 # target to generate assembly for a file
 src/widgets/EquipmentWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/EquipmentWidget.cpp.s
 .PHONY : src/widgets/EquipmentWidget.cpp.s
 
 src/widgets/ExpensesWidget.obj: src/widgets/ExpensesWidget.cpp.obj
@@ -1363,6 +1375,7 @@ src/widgets/ExpensesWidget.obj: src/widgets/ExpensesWidget.cpp.obj
 # target to build an object file
 src/widgets/ExpensesWidget.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/ExpensesWidget.cpp.obj
 .PHONY : src/widgets/ExpensesWidget.cpp.obj
 
 src/widgets/ExpensesWidget.i: src/widgets/ExpensesWidget.cpp.i
@@ -1371,6 +1384,7 @@ src/widgets/ExpensesWidget.i: src/widgets/ExpensesWidget.cpp.i
 # target to preprocess a source file
 src/widgets/ExpensesWidget.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/ExpensesWidget.cpp.i
 .PHONY : src/widgets/ExpensesWidget.cpp.i
 
 src/widgets/ExpensesWidget.s: src/widgets/ExpensesWidget.cpp.s
@@ -1379,6 +1393,7 @@ src/widgets/ExpensesWidget.s: src/widgets/ExpensesWidget.cpp.s
 # target to generate assembly for a file
 src/widgets/ExpensesWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/ExpensesWidget.cpp.s
 .PHONY : src/widgets/ExpensesWidget.cpp.s
 
 src/widgets/LoginWindow.obj: src/widgets/LoginWindow.cpp.obj
@@ -1387,6 +1402,7 @@ src/widgets/LoginWindow.obj: src/widgets/LoginWindow.cpp.obj
 # target to build an object file
 src/widgets/LoginWindow.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/LoginWindow.cpp.obj
 .PHONY : src/widgets/LoginWindow.cpp.obj
 
 src/widgets/LoginWindow.i: src/widgets/LoginWindow.cpp.i
@@ -1395,6 +1411,7 @@ src/widgets/LoginWindow.i: src/widgets/LoginWindow.cpp.i
 # target to preprocess a source file
 src/widgets/LoginWindow.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/LoginWindow.cpp.i
 .PHONY : src/widgets/LoginWindow.cpp.i
 
 src/widgets/LoginWindow.s: src/widgets/LoginWindow.cpp.s
@@ -1403,6 +1420,7 @@ src/widgets/LoginWindow.s: src/widgets/LoginWindow.cpp.s
 # target to generate assembly for a file
 src/widgets/LoginWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/LoginWindow.cpp.s
 .PHONY : src/widgets/LoginWindow.cpp.s
 
 src/widgets/MainWindow.obj: src/widgets/MainWindow.cpp.obj
@@ -1411,6 +1429,7 @@ src/widgets/MainWindow.obj: src/widgets/MainWindow.cpp.obj
 # target to build an object file
 src/widgets/MainWindow.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/MainWindow.cpp.obj
 .PHONY : src/widgets/MainWindow.cpp.obj
 
 src/widgets/MainWindow.i: src/widgets/MainWindow.cpp.i
@@ -1419,6 +1438,7 @@ src/widgets/MainWindow.i: src/widgets/MainWindow.cpp.i
 # target to preprocess a source file
 src/widgets/MainWindow.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/MainWindow.cpp.i
 .PHONY : src/widgets/MainWindow.cpp.i
 
 src/widgets/MainWindow.s: src/widgets/MainWindow.cpp.s
@@ -1427,6 +1447,7 @@ src/widgets/MainWindow.s: src/widgets/MainWindow.cpp.s
 # target to generate assembly for a file
 src/widgets/MainWindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/MainWindow.cpp.s
 .PHONY : src/widgets/MainWindow.cpp.s
 
 src/widgets/MembersWidget.obj: src/widgets/MembersWidget.cpp.obj
@@ -1435,6 +1456,7 @@ src/widgets/MembersWidget.obj: src/widgets/MembersWidget.cpp.obj
 # target to build an object file
 src/widgets/MembersWidget.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/MembersWidget.cpp.obj
 .PHONY : src/widgets/MembersWidget.cpp.obj
 
 src/widgets/MembersWidget.i: src/widgets/MembersWidget.cpp.i
@@ -1443,6 +1465,7 @@ src/widgets/MembersWidget.i: src/widgets/MembersWidget.cpp.i
 # target to preprocess a source file
 src/widgets/MembersWidget.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/MembersWidget.cpp.i
 .PHONY : src/widgets/MembersWidget.cpp.i
 
 src/widgets/MembersWidget.s: src/widgets/MembersWidget.cpp.s
@@ -1451,6 +1474,7 @@ src/widgets/MembersWidget.s: src/widgets/MembersWidget.cpp.s
 # target to generate assembly for a file
 src/widgets/MembersWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/MembersWidget.cpp.s
 .PHONY : src/widgets/MembersWidget.cpp.s
 
 src/widgets/MembershipsWidget.obj: src/widgets/MembershipsWidget.cpp.obj
@@ -1459,6 +1483,7 @@ src/widgets/MembershipsWidget.obj: src/widgets/MembershipsWidget.cpp.obj
 # target to build an object file
 src/widgets/MembershipsWidget.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/MembershipsWidget.cpp.obj
 .PHONY : src/widgets/MembershipsWidget.cpp.obj
 
 src/widgets/MembershipsWidget.i: src/widgets/MembershipsWidget.cpp.i
@@ -1467,6 +1492,7 @@ src/widgets/MembershipsWidget.i: src/widgets/MembershipsWidget.cpp.i
 # target to preprocess a source file
 src/widgets/MembershipsWidget.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/MembershipsWidget.cpp.i
 .PHONY : src/widgets/MembershipsWidget.cpp.i
 
 src/widgets/MembershipsWidget.s: src/widgets/MembershipsWidget.cpp.s
@@ -1475,6 +1501,7 @@ src/widgets/MembershipsWidget.s: src/widgets/MembershipsWidget.cpp.s
 # target to generate assembly for a file
 src/widgets/MembershipsWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/MembershipsWidget.cpp.s
 .PHONY : src/widgets/MembershipsWidget.cpp.s
 
 src/widgets/NotificationsWidget.obj: src/widgets/NotificationsWidget.cpp.obj
@@ -1483,6 +1510,7 @@ src/widgets/NotificationsWidget.obj: src/widgets/NotificationsWidget.cpp.obj
 # target to build an object file
 src/widgets/NotificationsWidget.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/NotificationsWidget.cpp.obj
 .PHONY : src/widgets/NotificationsWidget.cpp.obj
 
 src/widgets/NotificationsWidget.i: src/widgets/NotificationsWidget.cpp.i
@@ -1491,6 +1519,7 @@ src/widgets/NotificationsWidget.i: src/widgets/NotificationsWidget.cpp.i
 # target to preprocess a source file
 src/widgets/NotificationsWidget.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/NotificationsWidget.cpp.i
 .PHONY : src/widgets/NotificationsWidget.cpp.i
 
 src/widgets/NotificationsWidget.s: src/widgets/NotificationsWidget.cpp.s
@@ -1499,6 +1528,7 @@ src/widgets/NotificationsWidget.s: src/widgets/NotificationsWidget.cpp.s
 # target to generate assembly for a file
 src/widgets/NotificationsWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/NotificationsWidget.cpp.s
 .PHONY : src/widgets/NotificationsWidget.cpp.s
 
 src/widgets/PaymentsWidget.obj: src/widgets/PaymentsWidget.cpp.obj
@@ -1507,6 +1537,7 @@ src/widgets/PaymentsWidget.obj: src/widgets/PaymentsWidget.cpp.obj
 # target to build an object file
 src/widgets/PaymentsWidget.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/PaymentsWidget.cpp.obj
 .PHONY : src/widgets/PaymentsWidget.cpp.obj
 
 src/widgets/PaymentsWidget.i: src/widgets/PaymentsWidget.cpp.i
@@ -1515,6 +1546,7 @@ src/widgets/PaymentsWidget.i: src/widgets/PaymentsWidget.cpp.i
 # target to preprocess a source file
 src/widgets/PaymentsWidget.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/PaymentsWidget.cpp.i
 .PHONY : src/widgets/PaymentsWidget.cpp.i
 
 src/widgets/PaymentsWidget.s: src/widgets/PaymentsWidget.cpp.s
@@ -1523,6 +1555,7 @@ src/widgets/PaymentsWidget.s: src/widgets/PaymentsWidget.cpp.s
 # target to generate assembly for a file
 src/widgets/PaymentsWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/PaymentsWidget.cpp.s
 .PHONY : src/widgets/PaymentsWidget.cpp.s
 
 src/widgets/ProgressWidget.obj: src/widgets/ProgressWidget.cpp.obj
@@ -1531,6 +1564,7 @@ src/widgets/ProgressWidget.obj: src/widgets/ProgressWidget.cpp.obj
 # target to build an object file
 src/widgets/ProgressWidget.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/ProgressWidget.cpp.obj
 .PHONY : src/widgets/ProgressWidget.cpp.obj
 
 src/widgets/ProgressWidget.i: src/widgets/ProgressWidget.cpp.i
@@ -1539,6 +1573,7 @@ src/widgets/ProgressWidget.i: src/widgets/ProgressWidget.cpp.i
 # target to preprocess a source file
 src/widgets/ProgressWidget.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/ProgressWidget.cpp.i
 .PHONY : src/widgets/ProgressWidget.cpp.i
 
 src/widgets/ProgressWidget.s: src/widgets/ProgressWidget.cpp.s
@@ -1547,6 +1582,7 @@ src/widgets/ProgressWidget.s: src/widgets/ProgressWidget.cpp.s
 # target to generate assembly for a file
 src/widgets/ProgressWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/ProgressWidget.cpp.s
 .PHONY : src/widgets/ProgressWidget.cpp.s
 
 src/widgets/ReportsWidget.obj: src/widgets/ReportsWidget.cpp.obj
@@ -1555,6 +1591,7 @@ src/widgets/ReportsWidget.obj: src/widgets/ReportsWidget.cpp.obj
 # target to build an object file
 src/widgets/ReportsWidget.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/ReportsWidget.cpp.obj
 .PHONY : src/widgets/ReportsWidget.cpp.obj
 
 src/widgets/ReportsWidget.i: src/widgets/ReportsWidget.cpp.i
@@ -1563,6 +1600,7 @@ src/widgets/ReportsWidget.i: src/widgets/ReportsWidget.cpp.i
 # target to preprocess a source file
 src/widgets/ReportsWidget.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/ReportsWidget.cpp.i
 .PHONY : src/widgets/ReportsWidget.cpp.i
 
 src/widgets/ReportsWidget.s: src/widgets/ReportsWidget.cpp.s
@@ -1571,6 +1609,7 @@ src/widgets/ReportsWidget.s: src/widgets/ReportsWidget.cpp.s
 # target to generate assembly for a file
 src/widgets/ReportsWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/ReportsWidget.cpp.s
 .PHONY : src/widgets/ReportsWidget.cpp.s
 
 src/widgets/SettingsWidget.obj: src/widgets/SettingsWidget.cpp.obj
@@ -1579,6 +1618,7 @@ src/widgets/SettingsWidget.obj: src/widgets/SettingsWidget.cpp.obj
 # target to build an object file
 src/widgets/SettingsWidget.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/SettingsWidget.cpp.obj
 .PHONY : src/widgets/SettingsWidget.cpp.obj
 
 src/widgets/SettingsWidget.i: src/widgets/SettingsWidget.cpp.i
@@ -1587,6 +1627,7 @@ src/widgets/SettingsWidget.i: src/widgets/SettingsWidget.cpp.i
 # target to preprocess a source file
 src/widgets/SettingsWidget.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/SettingsWidget.cpp.i
 .PHONY : src/widgets/SettingsWidget.cpp.i
 
 src/widgets/SettingsWidget.s: src/widgets/SettingsWidget.cpp.s
@@ -1595,6 +1636,7 @@ src/widgets/SettingsWidget.s: src/widgets/SettingsWidget.cpp.s
 # target to generate assembly for a file
 src/widgets/SettingsWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/SettingsWidget.cpp.s
 .PHONY : src/widgets/SettingsWidget.cpp.s
 
 src/widgets/TrainersWidget.obj: src/widgets/TrainersWidget.cpp.obj
@@ -1603,6 +1645,7 @@ src/widgets/TrainersWidget.obj: src/widgets/TrainersWidget.cpp.obj
 # target to build an object file
 src/widgets/TrainersWidget.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/TrainersWidget.cpp.obj
 .PHONY : src/widgets/TrainersWidget.cpp.obj
 
 src/widgets/TrainersWidget.i: src/widgets/TrainersWidget.cpp.i
@@ -1611,6 +1654,7 @@ src/widgets/TrainersWidget.i: src/widgets/TrainersWidget.cpp.i
 # target to preprocess a source file
 src/widgets/TrainersWidget.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/TrainersWidget.cpp.i
 .PHONY : src/widgets/TrainersWidget.cpp.i
 
 src/widgets/TrainersWidget.s: src/widgets/TrainersWidget.cpp.s
@@ -1619,6 +1663,7 @@ src/widgets/TrainersWidget.s: src/widgets/TrainersWidget.cpp.s
 # target to generate assembly for a file
 src/widgets/TrainersWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/TrainersWidget.cpp.s
 .PHONY : src/widgets/TrainersWidget.cpp.s
 
 src/widgets/WorkoutWidget.obj: src/widgets/WorkoutWidget.cpp.obj
@@ -1627,6 +1672,7 @@ src/widgets/WorkoutWidget.obj: src/widgets/WorkoutWidget.cpp.obj
 # target to build an object file
 src/widgets/WorkoutWidget.cpp.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/WorkoutWidget.cpp.obj
 .PHONY : src/widgets/WorkoutWidget.cpp.obj
 
 src/widgets/WorkoutWidget.i: src/widgets/WorkoutWidget.cpp.i
@@ -1635,6 +1681,7 @@ src/widgets/WorkoutWidget.i: src/widgets/WorkoutWidget.cpp.i
 # target to preprocess a source file
 src/widgets/WorkoutWidget.cpp.i:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/WorkoutWidget.cpp.i
 .PHONY : src/widgets/WorkoutWidget.cpp.i
 
 src/widgets/WorkoutWidget.s: src/widgets/WorkoutWidget.cpp.s
@@ -1643,6 +1690,7 @@ src/widgets/WorkoutWidget.s: src/widgets/WorkoutWidget.cpp.s
 # target to generate assembly for a file
 src/widgets/WorkoutWidget.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/widgets/WorkoutWidget.cpp.s
 .PHONY : src/widgets/WorkoutWidget.cpp.s
 
 # Help Target

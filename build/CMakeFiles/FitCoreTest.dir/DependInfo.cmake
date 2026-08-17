@@ -47,6 +47,22 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "D:/Projects/GYM MANAGEMENT SYSTEM/src/services/ReportService.cpp" "CMakeFiles/FitCoreTest.dir/src/services/ReportService.cpp.obj" "gcc" "CMakeFiles/FitCoreTest.dir/src/services/ReportService.cpp.obj.d"
   "D:/Projects/GYM MANAGEMENT SYSTEM/src/tests/test_main.cpp" "CMakeFiles/FitCoreTest.dir/src/tests/test_main.cpp.obj" "gcc" "CMakeFiles/FitCoreTest.dir/src/tests/test_main.cpp.obj.d"
   "D:/Projects/GYM MANAGEMENT SYSTEM/src/utils/ThemeManager.cpp" "CMakeFiles/FitCoreTest.dir/src/utils/ThemeManager.cpp.obj" "gcc" "CMakeFiles/FitCoreTest.dir/src/utils/ThemeManager.cpp.obj.d"
+  "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/AttendanceWidget.cpp" "CMakeFiles/FitCoreTest.dir/src/widgets/AttendanceWidget.cpp.obj" "gcc" "CMakeFiles/FitCoreTest.dir/src/widgets/AttendanceWidget.cpp.obj.d"
+  "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/AuditLogsWidget.cpp" "CMakeFiles/FitCoreTest.dir/src/widgets/AuditLogsWidget.cpp.obj" "gcc" "CMakeFiles/FitCoreTest.dir/src/widgets/AuditLogsWidget.cpp.obj.d"
+  "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/DashboardWidget.cpp" "CMakeFiles/FitCoreTest.dir/src/widgets/DashboardWidget.cpp.obj" "gcc" "CMakeFiles/FitCoreTest.dir/src/widgets/DashboardWidget.cpp.obj.d"
+  "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/EquipmentWidget.cpp" "CMakeFiles/FitCoreTest.dir/src/widgets/EquipmentWidget.cpp.obj" "gcc" "CMakeFiles/FitCoreTest.dir/src/widgets/EquipmentWidget.cpp.obj.d"
+  "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/ExpensesWidget.cpp" "CMakeFiles/FitCoreTest.dir/src/widgets/ExpensesWidget.cpp.obj" "gcc" "CMakeFiles/FitCoreTest.dir/src/widgets/ExpensesWidget.cpp.obj.d"
+  "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/LoginWindow.cpp" "CMakeFiles/FitCoreTest.dir/src/widgets/LoginWindow.cpp.obj" "gcc" "CMakeFiles/FitCoreTest.dir/src/widgets/LoginWindow.cpp.obj.d"
+  "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/MainWindow.cpp" "CMakeFiles/FitCoreTest.dir/src/widgets/MainWindow.cpp.obj" "gcc" "CMakeFiles/FitCoreTest.dir/src/widgets/MainWindow.cpp.obj.d"
+  "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/MembersWidget.cpp" "CMakeFiles/FitCoreTest.dir/src/widgets/MembersWidget.cpp.obj" "gcc" "CMakeFiles/FitCoreTest.dir/src/widgets/MembersWidget.cpp.obj.d"
+  "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/MembershipsWidget.cpp" "CMakeFiles/FitCoreTest.dir/src/widgets/MembershipsWidget.cpp.obj" "gcc" "CMakeFiles/FitCoreTest.dir/src/widgets/MembershipsWidget.cpp.obj.d"
+  "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/NotificationsWidget.cpp" "CMakeFiles/FitCoreTest.dir/src/widgets/NotificationsWidget.cpp.obj" "gcc" "CMakeFiles/FitCoreTest.dir/src/widgets/NotificationsWidget.cpp.obj.d"
+  "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/PaymentsWidget.cpp" "CMakeFiles/FitCoreTest.dir/src/widgets/PaymentsWidget.cpp.obj" "gcc" "CMakeFiles/FitCoreTest.dir/src/widgets/PaymentsWidget.cpp.obj.d"
+  "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/ProgressWidget.cpp" "CMakeFiles/FitCoreTest.dir/src/widgets/ProgressWidget.cpp.obj" "gcc" "CMakeFiles/FitCoreTest.dir/src/widgets/ProgressWidget.cpp.obj.d"
+  "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/ReportsWidget.cpp" "CMakeFiles/FitCoreTest.dir/src/widgets/ReportsWidget.cpp.obj" "gcc" "CMakeFiles/FitCoreTest.dir/src/widgets/ReportsWidget.cpp.obj.d"
+  "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/SettingsWidget.cpp" "CMakeFiles/FitCoreTest.dir/src/widgets/SettingsWidget.cpp.obj" "gcc" "CMakeFiles/FitCoreTest.dir/src/widgets/SettingsWidget.cpp.obj.d"
+  "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/TrainersWidget.cpp" "CMakeFiles/FitCoreTest.dir/src/widgets/TrainersWidget.cpp.obj" "gcc" "CMakeFiles/FitCoreTest.dir/src/widgets/TrainersWidget.cpp.obj.d"
+  "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/WorkoutWidget.cpp" "CMakeFiles/FitCoreTest.dir/src/widgets/WorkoutWidget.cpp.obj" "gcc" "CMakeFiles/FitCoreTest.dir/src/widgets/WorkoutWidget.cpp.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
