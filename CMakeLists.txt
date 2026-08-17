@@ -27,6 +27,8 @@ include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/include/widgets
 )
 
+add_definitions(-DQT_NO_FLOAT16)
+
 # Source files
 set(SOURCES
     src/main.cpp
@@ -53,7 +55,7 @@ if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/assets/resources.qrc")
     list(APPEND RESOURCES assets/resources.qrc)
 endif()
 
-add_executable(FitCore WIN32 ${SOURCES} ${RESOURCES})
+add_executable(FitCore ${SOURCES} ${RESOURCES})
 
 target_link_libraries(FitCore PRIVATE
     Qt6::Core
