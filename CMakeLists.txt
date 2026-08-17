@@ -31,7 +31,7 @@ add_definitions(-DQT_NO_FLOAT16)
 
 # Source files
 set(SOURCES
-    src/main.cpp
+    main.cpp
     src/database/DatabaseManager.cpp
     src/models/User.cpp
     src/models/Member.cpp

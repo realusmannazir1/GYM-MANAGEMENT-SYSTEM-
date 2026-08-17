@@ -93,20 +93,20 @@ CMakeFiles/FitCore.dir/FitCore_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/FitCore_autogen/mocs_compilation.cpp.s"
 	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\build\FitCore_autogen\mocs_compilation.cpp" -o CMakeFiles\FitCore.dir\FitCore_autogen\mocs_compilation.cpp.s
 
-CMakeFiles/FitCore.dir/src/main.cpp.obj: CMakeFiles/FitCore.dir/flags.make
-CMakeFiles/FitCore.dir/src/main.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
-CMakeFiles/FitCore.dir/src/main.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/main.cpp
-CMakeFiles/FitCore.dir/src/main.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FitCore.dir/src/main.cpp.obj"
-	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/main.cpp.obj -MF CMakeFiles\FitCore.dir\src\main.cpp.obj.d -o CMakeFiles\FitCore.dir\src\main.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\main.cpp"
+CMakeFiles/FitCore.dir/main.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/main.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/main.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/main.cpp
+CMakeFiles/FitCore.dir/main.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/FitCore.dir/main.cpp.obj"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/main.cpp.obj -MF CMakeFiles\FitCore.dir\main.cpp.obj.d -o CMakeFiles\FitCore.dir\main.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\main.cpp"
 
-CMakeFiles/FitCore.dir/src/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/main.cpp.i"
-	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\main.cpp" > CMakeFiles\FitCore.dir\src\main.cpp.i
+CMakeFiles/FitCore.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/main.cpp.i"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\main.cpp" > CMakeFiles\FitCore.dir\main.cpp.i
 
-CMakeFiles/FitCore.dir/src/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/main.cpp.s"
-	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\main.cpp" -o CMakeFiles\FitCore.dir\src\main.cpp.s
+CMakeFiles/FitCore.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/main.cpp.s"
+	D:\Software\mingw64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\main.cpp" -o CMakeFiles\FitCore.dir\main.cpp.s
 
 CMakeFiles/FitCore.dir/src/database/DatabaseManager.cpp.obj: CMakeFiles/FitCore.dir/flags.make
 CMakeFiles/FitCore.dir/src/database/DatabaseManager.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
@@ -891,7 +891,7 @@ CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.s: cmake_force
 # Object files for target FitCore
 FitCore_OBJECTS = \
 "CMakeFiles/FitCore.dir/FitCore_autogen/mocs_compilation.cpp.obj" \
-"CMakeFiles/FitCore.dir/src/main.cpp.obj" \
+"CMakeFiles/FitCore.dir/main.cpp.obj" \
 "CMakeFiles/FitCore.dir/src/database/DatabaseManager.cpp.obj" \
 "CMakeFiles/FitCore.dir/src/models/User.cpp.obj" \
 "CMakeFiles/FitCore.dir/src/models/Member.cpp.obj" \
@@ -949,7 +949,7 @@ FitCore_OBJECTS = \
 FitCore_EXTERNAL_OBJECTS =
 
 FitCore.exe: CMakeFiles/FitCore.dir/FitCore_autogen/mocs_compilation.cpp.obj
-FitCore.exe: CMakeFiles/FitCore.dir/src/main.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/main.cpp.obj
 FitCore.exe: CMakeFiles/FitCore.dir/src/database/DatabaseManager.cpp.obj
 FitCore.exe: CMakeFiles/FitCore.dir/src/models/User.cpp.obj
 FitCore.exe: CMakeFiles/FitCore.dir/src/models/Member.cpp.obj

@@ -10,8 +10,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "" "FitCore_autogen/timestamp" "custom" "FitCore_autogen/deps"
   "D:/Projects/GYM MANAGEMENT SYSTEM/build/FitCore_autogen/mocs_compilation.cpp" "CMakeFiles/FitCore.dir/FitCore_autogen/mocs_compilation.cpp.obj" "gcc" "CMakeFiles/FitCore.dir/FitCore_autogen/mocs_compilation.cpp.obj.d"
+  "D:/Projects/GYM MANAGEMENT SYSTEM/main.cpp" "CMakeFiles/FitCore.dir/main.cpp.obj" "gcc" "CMakeFiles/FitCore.dir/main.cpp.obj.d"
   "D:/Projects/GYM MANAGEMENT SYSTEM/src/database/DatabaseManager.cpp" "CMakeFiles/FitCore.dir/src/database/DatabaseManager.cpp.obj" "gcc" "CMakeFiles/FitCore.dir/src/database/DatabaseManager.cpp.obj.d"
-  "D:/Projects/GYM MANAGEMENT SYSTEM/src/main.cpp" "CMakeFiles/FitCore.dir/src/main.cpp.obj" "gcc" "CMakeFiles/FitCore.dir/src/main.cpp.obj.d"
   "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Attendance.cpp" "CMakeFiles/FitCore.dir/src/models/Attendance.cpp.obj" "gcc" "CMakeFiles/FitCore.dir/src/models/Attendance.cpp.obj.d"
   "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/AuditLog.cpp" "CMakeFiles/FitCore.dir/src/models/AuditLog.cpp.obj" "gcc" "CMakeFiles/FitCore.dir/src/models/AuditLog.cpp.obj.d"
   "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Equipment.cpp" "CMakeFiles/FitCore.dir/src/models/Equipment.cpp.obj" "gcc" "CMakeFiles/FitCore.dir/src/models/Equipment.cpp.obj.d"
