@@ -136,6 +136,22 @@ D:/Projects/GYM MANAGEMENT SYSTEM/build/FitCoreTest_autogen/timestamp
  D:/Projects/GYM MANAGEMENT SYSTEM/src/services/ReportService.cpp
  D:/Projects/GYM MANAGEMENT SYSTEM/src/tests/test_main.cpp
  D:/Projects/GYM MANAGEMENT SYSTEM/src/utils/ThemeManager.cpp
+ D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/AttendanceWidget.cpp
+ D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/AuditLogsWidget.cpp
+ D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/DashboardWidget.cpp
+ D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/EquipmentWidget.cpp
+ D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/ExpensesWidget.cpp
+ D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/LoginWindow.cpp
+ D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/MainWindow.cpp
+ D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/MembersWidget.cpp
+ D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/MembershipsWidget.cpp
+ D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/NotificationsWidget.cpp
+ D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/PaymentsWidget.cpp
+ D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/ProgressWidget.cpp
+ D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/ReportsWidget.cpp
+ D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/SettingsWidget.cpp
+ D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/TrainersWidget.cpp
+ D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/WorkoutWidget.cpp
  D:/Qt/6.7.2/mingw_64/include/QtCore/QDate
  D:/Qt/6.7.2/mingw_64/include/QtCore/QDateTime
  D:/Qt/6.7.2/mingw_64/include/QtCore/QString
