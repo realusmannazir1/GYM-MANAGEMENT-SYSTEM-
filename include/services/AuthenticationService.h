@@ -1,4 +1,4 @@
-#ifndef AUTHENTICATIONS SERVICE_H
+#ifndef AUTHENTICATIONSERVICE_H
 #define AUTHENTICATIONSERVICE_H
 
 #include "models/User.h"

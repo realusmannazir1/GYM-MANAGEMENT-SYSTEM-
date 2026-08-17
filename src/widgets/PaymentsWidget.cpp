@@ -6,6 +6,7 @@
 #include <QHeaderView>
 #include <QDialog>
 #include <QMessageBox>
+#include <QLineEdit>
 #include <QDoubleSpinBox>
 #include <QComboBox>
 #include <QLabel>

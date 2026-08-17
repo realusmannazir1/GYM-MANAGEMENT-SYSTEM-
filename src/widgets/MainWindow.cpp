@@ -98,10 +98,10 @@ void MainWindow::setupUi() {
     m_headerQuickCheckIn->setPlaceholderText("Quick Check-In (Scan barcode or enter MEM #)...");
     m_headerQuickCheckIn->setFixedWidth(320);
 
-    m_userLabel = new QLabel(m_currentUser.getFirstName() + " " + m_currentUser.getLastName(), headerFrame);
+    m_userLabel = new QLabel(m_currentUser.getFullName(), headerFrame);
     m_userLabel->setStyleSheet("font-size: 14px; font-weight: bold; color: #F8FAFC;");
 
-    m_roleBadge = new QLabel(m_currentUser.getRoleString(), headerFrame);
+    m_roleBadge = new QLabel(m_currentUser.getRoleName(), headerFrame);
     m_roleBadge->setObjectName("roleBadge");
 
     headerLayout->addWidget(headerTitle);
