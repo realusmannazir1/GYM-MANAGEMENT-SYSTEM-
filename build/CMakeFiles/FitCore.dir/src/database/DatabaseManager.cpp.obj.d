@@ -354,6 +354,15 @@ CMakeFiles/FitCore.dir/src/database/DatabaseManager.cpp.obj: \
  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/mutex \
  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/std_mutex.h \
  D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/unique_lock.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/QCoreApplication \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qcoreapplication.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qcoreevent.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qdeadlinetimer.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qelapsedtimer.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qeventloop.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qnativeinterface.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qcoreapplication_platform.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qcoreapplication.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/QDir \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qdir.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qfile.h \

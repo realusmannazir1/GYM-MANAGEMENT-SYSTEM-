@@ -1004,6 +1004,7 @@ CMakeFiles/FitCore.dir/main.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/main.cp
 
 CMakeFiles/FitCore.dir/src/database/DatabaseManager.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/database/DatabaseManager.cpp \
   D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/database/DatabaseManager.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/QCoreApplication \
   D:/Qt/6.7.2/mingw_64/include/QtCore/QDebug \
   D:/Qt/6.7.2/mingw_64/include/QtCore/QDir \
   D:/Qt/6.7.2/mingw_64/include/QtCore/QFile \
@@ -1041,11 +1042,17 @@ CMakeFiles/FitCore.dir/src/database/DatabaseManager.cpp.obj: D:/Projects/GYM\ MA
   D:/Qt/6.7.2/mingw_64/include/QtCore/qcontainerinfo.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qcontainertools_impl.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qcontiguouscache.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/qcoreapplication.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/qcoreapplication_platform.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/qcoreevent.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qdarwinhelpers.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qdatastream.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qdatetime.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/qdeadlinetimer.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qdebug.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qdir.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/qelapsedtimer.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/qeventloop.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qexceptionhandling.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qfile.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qfiledevice.h \
@@ -1075,6 +1082,7 @@ CMakeFiles/FitCore.dir/src/database/DatabaseManager.cpp.obj: D:/Projects/GYM\ MA
   D:/Qt/6.7.2/mingw_64/include/QtCore/qmetatype.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qminmax.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qnamespace.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/qnativeinterface.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qnumeric.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qobject.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qobject_impl.h \
@@ -21642,6 +21650,8 @@ D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Charts/Qt6ChartsConfigVersionImpl.cmake:
 D:/Qt/6.7.2/mingw_64/include/QtGui/qfont.h:
 
 D:/Qt/6.7.2/mingw_64/include/QtGui/qfontmetrics.h:
+
+D:/Qt/6.7.2/mingw_64/include/QtCore/QCoreApplication:
 
 D:/Qt/6.7.2/mingw_64/include/QtGui/qimage.h:
 

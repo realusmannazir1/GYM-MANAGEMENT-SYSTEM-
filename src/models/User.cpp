@@ -72,3 +72,5 @@ QString User::roleToString(UserRole role) {
 }
 
 } // namespace FitCore
+// Incremental compilation verification comment
+

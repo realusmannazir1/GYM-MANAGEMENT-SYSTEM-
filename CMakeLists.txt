@@ -230,3 +230,6 @@ if(NOT MSVC)
     target_link_options(FitCoreTest PRIVATE -Wl,--allow-multiple-definition)
 endif()
 
+# Incremental configuration test comment
+
+

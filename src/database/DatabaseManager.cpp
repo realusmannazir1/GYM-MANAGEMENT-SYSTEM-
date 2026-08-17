@@ -1,4 +1,5 @@
 #include "database/DatabaseManager.h"
+#include <QCoreApplication>
 #include <QDir>
 #include <QFile>
 #include <QFileInfo>
@@ -44,17 +45,43 @@ bool DatabaseManager::initialize(const QString& dbPath) {
 
     if (needSchema) {
         qInfo() << "Initializing SQLite Database Schema from schema.sql...";
-        if (!executeScriptFile("database/schema.sql")) {
-            qWarning() << "Failed to run schema.sql directly, attempting fallback path...";
-            if (!executeScriptFile("schema.sql")) {
-                m_lastError = "Failed to execute database schema creation script.";
-                qCritical() << m_lastError;
-                return false;
+        QStringList schemaPaths = {
+            "database/schema.sql",
+            "../database/schema.sql",
+            QCoreApplication::applicationDirPath() + "/database/schema.sql",
+            QCoreApplication::applicationDirPath() + "/../database/schema.sql",
+            "schema.sql"
+        };
+
+        bool schemaExecuted = false;
+        for (const QString& path : schemaPaths) {
+            if (QFile::exists(path) && executeScriptFile(path)) {
+                schemaExecuted = true;
+                qInfo() << "Successfully executed schema from:" << path;
+                break;
             }
         }
 
+        if (!schemaExecuted) {
+            m_lastError = "Failed to locate and execute database schema creation script (schema.sql).";
+            qCritical() << m_lastError;
+            return false;
+        }
+
         qInfo() << "Seeding initial database records from seed.sql...";
-        executeScriptFile("database/seed.sql");
+        QStringList seedPaths = {
+            "database/seed.sql",
+            "../database/seed.sql",
+            QCoreApplication::applicationDirPath() + "/database/seed.sql",
+            QCoreApplication::applicationDirPath() + "/../database/seed.sql",
+            "seed.sql"
+        };
+        for (const QString& path : seedPaths) {
+            if (QFile::exists(path) && executeScriptFile(path)) {
+                qInfo() << "Successfully seeded database from:" << path;
+                break;
+            }
+        }
     }
 
     return true;
