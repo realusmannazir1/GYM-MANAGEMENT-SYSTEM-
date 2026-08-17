@@ -22,7 +22,6 @@
 #define __cpp_static_assert 201411L
 #define __BFLT16_MIN_10_EXP__ (-37)
 #define __cpp_inheriting_constructors 201511L
-#define QT_NEEDS_QMAIN 1
 #define QT_GUI_LIB 1
 #define __ORDER_LITTLE_ENDIAN__ 1234
 #define __WCHAR_MAX__ 0xffff
@@ -292,6 +291,7 @@
 #define __INT_FAST16_MAX__ 0x7fff
 #define __GCC_CONSTRUCTIVE_SIZE 64
 #define __FLT64_DIG__ 15
+#define QT_NO_FLOAT16 1
 #define __UINT_FAST32_MAX__ 0xffffffffU
 #define __UINT_LEAST64_TYPE__ long long unsigned int
 #define __FLT16_EPSILON__ 9.76562500000000000000000000000000000e-4F16

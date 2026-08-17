@@ -382,7 +382,6 @@ FitCore.exe: D:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a
 FitCore.exe: D:/Qt/6.7.2/mingw_64/lib/libQt6OpenGL.a
 FitCore.exe: D:/Qt/6.7.2/mingw_64/lib/libQt6Gui.a
 FitCore.exe: D:/Qt/6.7.2/mingw_64/lib/libQt6Core.a
-FitCore.exe: D:/Qt/6.7.2/mingw_64/lib/libQt6EntryPoint.a
 FitCore.exe: CMakeFiles/FitCore.dir/linkLibs.rsp
 FitCore.exe: CMakeFiles/FitCore.dir/objects1.rsp
 FitCore.exe: CMakeFiles/FitCore.dir/link.txt
