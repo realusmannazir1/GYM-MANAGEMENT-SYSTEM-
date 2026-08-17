@@ -33,7 +33,7 @@ void runTests() {
     };
 
     // Test 1: Database Initialization
-    bool dbOk = DatabaseManager::instance().open("data/fitcore.db");
+    bool dbOk = DatabaseManager::instance().open();
     testAssert(dbOk, "DatabaseManager Connection & Auto Schema Initialization");
 
     // Test 2: Authentication Service Admin Login
