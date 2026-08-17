@@ -3,6 +3,7 @@
 #include <QSqlQuery>
 #include <QSqlError>
 #include <QVariant>
+#include <QDate>
 #include <QDebug>
 
 namespace FitCore {

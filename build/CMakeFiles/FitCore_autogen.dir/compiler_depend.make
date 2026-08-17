@@ -61,6 +61,43 @@ FitCore_autogen/timestamp: C:/Users/uk078/AppData/Local/Programs/Python/Python31
   D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/Trainer.cpp \
   D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/User.cpp \
   D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/WorkoutPlan.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/AttendanceRepository.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/AuditRepository.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/EquipmentRepository.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/ExpenseRepository.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/MemberRepository.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/MembershipPlanRepository.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/MembershipRepository.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/NotificationRepository.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/PaymentRepository.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/ProgressRepository.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/SettingsRepository.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/TrainerRepository.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/UserRepository.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/WorkoutRepository.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/AttendanceService.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/AuthenticationService.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/BackupService.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/MembershipService.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/NotificationService.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/ReportService.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/utils/ThemeManager.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/AttendanceWidget.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/AuditLogsWidget.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/DashboardWidget.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/EquipmentWidget.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/ExpensesWidget.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/LoginWindow.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/MainWindow.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/MembersWidget.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/MembershipsWidget.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/NotificationsWidget.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/PaymentsWidget.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/ProgressWidget.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/ReportsWidget.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/SettingsWidget.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/TrainersWidget.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/WorkoutWidget.cpp \
   D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake \
   D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake \
   D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake \
@@ -289,6 +326,8 @@ C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/d
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeLanguageInformation.cmake:
 
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/AuditRepository.cpp:
+
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreVersionlessTargets.cmake:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeRCInformation.cmake:
@@ -296,10 +335,6 @@ C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/d
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake:
-
-D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake:
-
-D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake:
 
@@ -345,7 +380,7 @@ C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/d
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckCompilerFlag.cmake:
 
-D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/EquipmentRepository.cpp:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckSourceCompiles.cmake:
 
@@ -353,9 +388,13 @@ D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Linker/GNU.cmake:
 
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/ExpenseRepository.cpp:
+
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginTargets.cmake:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Linker/Windows-CXX.cmake:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/AttendanceRepository.cpp:
 
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/database/DatabaseManager.cpp:
 
@@ -366,6 +405,8 @@ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/CMakeLists.txt:
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU.cmake:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU-CXX.cmake:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/AttendanceWidget.cpp:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX-ABI.cmake:
 
@@ -389,12 +430,6 @@ D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiTargets.cmake:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows.cmake:
 
-D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:
-
-D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets.cmake:
-
-D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake:
-
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets-relwithdebinfo.cmake:
 
 CMakeFiles/4.4.2/CMakeCXXCompiler.cmake:
@@ -415,6 +450,8 @@ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/Equipment.cpp:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginConfig.cmake:
 
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/NotificationService.cpp:
+
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/Exercise.cpp:
 
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/Membership.cpp:
@@ -430,6 +467,100 @@ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/ProgressRecord.cpp:
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/User.cpp:
 
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/Trainer.cpp:
+
+D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Charts/Qt6ChartsConfigVersionImpl.cmake:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/MemberRepository.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/MembershipPlanRepository.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/MembershipRepository.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/NotificationRepository.cpp:
+
+D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake:
+
+D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Charts/Qt6ChartsConfigVersion.cmake:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/PaymentRepository.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/ProgressRepository.cpp:
+
+D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/SettingsRepository.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/TrainerRepository.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/UserRepository.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/WorkoutRepository.cpp:
+
+D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/AttendanceService.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/AuthenticationService.cpp:
+
+D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets-relwithdebinfo.cmake:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/BackupService.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/MembershipService.cpp:
+
+D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/ReportService.cpp:
+
+D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/FindWrapVulkanHeaders.cmake:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/utils/ThemeManager.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/AuditLogsWidget.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/DashboardWidget.cpp:
+
+D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets-relwithdebinfo.cmake:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/EquipmentWidget.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/ExpensesWidget.cpp:
+
+D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/LoginWindow.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/MainWindow.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/MembersWidget.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/MembershipsWidget.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/NotificationsWidget.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/PaymentsWidget.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/ProgressWidget.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/ReportsWidget.cpp:
+
+D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginAdditionalTargetInfo.cmake:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/SettingsWidget.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/TrainersWidget.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/WorkoutWidget.cpp:
+
+D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets.cmake:
+
+D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/FindWrapAtomic.cmake:
+
+D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Config.cmake:
+
+D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QJpegPluginConfig.cmake:
+
+D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6ConfigExtras.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake:
 
@@ -455,8 +586,6 @@ D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicCMakeVersionHelpers.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicDependencyHelpers.cmake:
 
-D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake:
-
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicTestHelpers.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake:
@@ -468,12 +597,6 @@ D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicWalkLibsHelpers.cmake:
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Charts/Qt6ChartsAdditionalTargetInfo.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Charts/Qt6ChartsConfig.cmake:
-
-D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiPlugins.cmake:
-
-D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Charts/Qt6ChartsConfigVersion.cmake:
-
-D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Charts/Qt6ChartsConfigVersionImpl.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Charts/Qt6ChartsDependencies.cmake:
 
@@ -593,8 +716,6 @@ D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfig.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QMinimalIntegrationPluginTargets.cmake:
 
-D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginAdditionalTargetInfo.cmake:
-
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QOffscreenIntegrationPluginConfig.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginConfig.cmake:
@@ -639,15 +760,11 @@ D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Svg/Qt6SvgTargets.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsIntegrationPluginTargets.cmake:
 
-D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfig.cmake:
-
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersion.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6WidgetsConfigVersion.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsConfigVersionImpl.cmake:
-
-D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsDependencies.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6GuiTools/Qt6GuiToolsTargets.cmake:
 
@@ -663,8 +780,6 @@ D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6OpenGL/Qt6OpenGLConfigVersionImpl.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6OpenGL/Qt6OpenGLDependencies.cmake:
 
-D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets-relwithdebinfo.cmake:
-
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6OpenGL/Qt6OpenGLTargets.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6OpenGL/Qt6OpenGLVersionlessTargets.cmake:
@@ -676,8 +791,6 @@ D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfig.cmake:
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfigVersion.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsDependencies.cmake:
-
-D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets-relwithdebinfo.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsTargets.cmake:
 
@@ -696,8 +809,6 @@ D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginTargets-relwithdeb
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginAdditionalTargetInfo.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginAdditionalTargetInfo.cmake:
-
-D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginAdditionalTargetInfo.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Sql/Qt6QSQLiteDriverPluginTargets-relwithdebinfo.cmake:
 

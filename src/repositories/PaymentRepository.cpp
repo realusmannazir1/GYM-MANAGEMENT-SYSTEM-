@@ -1,6 +1,7 @@
 #include "repositories/PaymentRepository.h"
 #include "database/DatabaseManager.h"
 #include <QSqlQuery>
+#include <QSqlRecord>
 #include <QSqlError>
 #include <QVariant>
 #include <QDate>
