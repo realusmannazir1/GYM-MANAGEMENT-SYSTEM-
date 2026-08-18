@@ -1,4 +1,6 @@
 {
+    "C_Cpp.default.compileCommands": "${workspaceFolder}/compile_commands.json",
+    "C_Cpp.debugShortcut": false,
     "code-runner.cwd": "$workspaceRoot",
     "code-runner.executorMap": {
         "cpp": ".\\run.bat",
