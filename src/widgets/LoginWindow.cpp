@@ -13,9 +13,10 @@ namespace FitCore {
 LoginWindow::LoginWindow(QWidget *parent)
     : QDialog(parent) {
     setWindowTitle("FitCore — Gym Management System Login");
-    setFixedSize(450, 420);
+    resize(480, 450);
+    setMinimumSize(380, 360);
     setStyleSheet(ThemeManager::getLightThemeQss());
-    setWindowFlags(Qt::Dialog | Qt::CustomizeWindowHint | Qt::WindowTitleHint);
+    setWindowFlags(Qt::Window | Qt::WindowMinMaxButtonsHint | Qt::WindowCloseButtonHint);
 
     QVBoxLayout *mainLayout = new QVBoxLayout(this);
     mainLayout->setContentsMargins(30, 30, 30, 30);
