@@ -389,14 +389,33 @@ CMakeFiles/FitCore.dir/src/main.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtGui/qfontinfo.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/database/DatabaseManager.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/QString \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qstring.h \
  D:/Qt/6.7.2/mingw_64/include/QtSql/QSqlDatabase \
  D:/Qt/6.7.2/mingw_64/include/QtSql/qsqldatabase.h \
  D:/Qt/6.7.2/mingw_64/include/QtSql/qtsqlglobal.h \
  D:/Qt/6.7.2/mingw_64/include/QtSql/qtsql-config.h \
  D:/Qt/6.7.2/mingw_64/include/QtSql/qtsqlexports.h \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/fstream \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/istream \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/ios \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/basic_ios.h \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/locale_facets.h \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/cwctype \
+ D:/Software/mingw64/mingw64/x86_64-w64-mingw32/include/wctype.h \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/locale_facets.tcc \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/basic_ios.tcc \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/ostream \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/ostream.h \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/ostream.tcc \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/istream.tcc \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/codecvt.h \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32/bits/basic_file.h \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/x86_64-w64-mingw32/bits/c++io.h \
+ D:/Software/mingw64/mingw64/lib/gcc/x86_64-w64-mingw32/15.1.0/include/c++/bits/fstream.tcc \
+ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/database/DatabaseManager.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/QString \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qstring.h \
  D:/Qt/6.7.2/mingw_64/include/QtSql/QSqlQuery \
  D:/Qt/6.7.2/mingw_64/include/QtSql/qsqlquery.h \
  D:/Qt/6.7.2/mingw_64/include/QtSql/qsqldatabase.h \
