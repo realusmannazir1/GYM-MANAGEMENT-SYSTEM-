@@ -241,30 +241,6 @@ FitCore_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/FitCore_autogen/mocs_compilation.cpp.s
 .PHONY : FitCore_autogen/mocs_compilation.cpp.s
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
-
-# target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/main.cpp.obj
-.PHONY : main.cpp.obj
-
-main.i: main.cpp.i
-.PHONY : main.i
-
-# target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/main.cpp.i
-.PHONY : main.cpp.i
-
-main.s: main.cpp.s
-.PHONY : main.s
-
-# target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/main.cpp.s
-.PHONY : main.cpp.s
-
 src/database/DatabaseManager.obj: src/database/DatabaseManager.cpp.obj
 .PHONY : src/database/DatabaseManager.obj
 
@@ -291,6 +267,30 @@ src/database/DatabaseManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/database/DatabaseManager.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/database/DatabaseManager.cpp.s
 .PHONY : src/database/DatabaseManager.cpp.s
+
+src/main.obj: src/main.cpp.obj
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 src/models/Attendance.obj: src/models/Attendance.cpp.obj
 .PHONY : src/models/Attendance.obj
@@ -1713,12 +1713,12 @@ help:
 	@echo ... FitCore_autogen/mocs_compilation.obj
 	@echo ... FitCore_autogen/mocs_compilation.i
 	@echo ... FitCore_autogen/mocs_compilation.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
 	@echo ... src/database/DatabaseManager.obj
 	@echo ... src/database/DatabaseManager.i
 	@echo ... src/database/DatabaseManager.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 	@echo ... src/models/Attendance.obj
 	@echo ... src/models/Attendance.i
 	@echo ... src/models/Attendance.s

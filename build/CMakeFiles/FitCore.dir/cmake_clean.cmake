@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/FitCore.dir/FitCore_autogen/mocs_compilation.cpp.obj"
   "CMakeFiles/FitCore.dir/FitCore_autogen/mocs_compilation.cpp.obj.d"
-  "CMakeFiles/FitCore.dir/main.cpp.obj"
-  "CMakeFiles/FitCore.dir/main.cpp.obj.d"
   "CMakeFiles/FitCore.dir/src/database/DatabaseManager.cpp.obj"
   "CMakeFiles/FitCore.dir/src/database/DatabaseManager.cpp.obj.d"
+  "CMakeFiles/FitCore.dir/src/main.cpp.obj"
+  "CMakeFiles/FitCore.dir/src/main.cpp.obj.d"
   "CMakeFiles/FitCore.dir/src/models/Attendance.cpp.obj"
   "CMakeFiles/FitCore.dir/src/models/Attendance.cpp.obj.d"
   "CMakeFiles/FitCore.dir/src/models/AuditLog.cpp.obj"

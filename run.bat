@@ -9,5 +9,6 @@ echo Checking incremental build status...
 cmake --build build --target FitCore
 if %ERRORLEVEL% EQU 0 (
     echo Launching FitCore...
-    start "" "build\FitCore.exe"
+    start "" "%~dp0build\FitCore.exe"
 )
+

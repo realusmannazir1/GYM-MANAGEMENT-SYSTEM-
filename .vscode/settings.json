@@ -1,21 +1,20 @@
 {
+    "code-runner.cwd": "$workspaceRoot",
     "code-runner.executorMap": {
-        "cpp": "cmd /c .\\run.bat",
-        "c": "cmd /c .\\run.bat"
+        "cpp": ".\\run.bat",
+        "c": ".\\run.bat"
     },
     "code-runner.executorMapByFileExtension": {
-        ".cpp": "cmd /c .\\run.bat",
-        ".c": "cmd /c .\\run.bat",
-        ".h": "cmd /c .\\run.bat",
-        ".hpp": "cmd /c .\\run.bat"
+        ".cpp": ".\\run.bat",
+        ".c": ".\\run.bat",
+        ".h": ".\\run.bat",
+        ".hpp": ".\\run.bat"
     },
     "code-runner.executorMapByGlob": {
-        "*.cpp": "cmd /c .\\run.bat"
+        "*.cpp": ".\\run.bat"
     },
     "code-runner.clearPreviousOutput": true,
     "code-runner.showExecutionMessage": true,
     "code-runner.saveFileBeforeRun": true,
     "code-runner.runInTerminal": true
 }
-
-

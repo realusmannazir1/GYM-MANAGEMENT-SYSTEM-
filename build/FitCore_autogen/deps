@@ -95,8 +95,8 @@ FitCore_autogen/timestamp: \
 	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/SettingsWidget.h \
 	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/TrainersWidget.h \
 	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/WorkoutWidget.h \
-	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/main.cpp \
 	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/database/DatabaseManager.cpp \
+	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/main.cpp \
 	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/Attendance.cpp \
 	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/AuditLog.cpp \
 	D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/Equipment.cpp \

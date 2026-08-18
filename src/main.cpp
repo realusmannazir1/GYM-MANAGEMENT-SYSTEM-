@@ -8,6 +8,10 @@
 #include "utils/ThemeManager.h"
 
 int main(int argc, char *argv[]) {
+    QCoreApplication::addLibraryPath("D:/Qt/6.7.2/mingw_64/plugins");
+    QCoreApplication::addLibraryPath(QCoreApplication::applicationDirPath() + "/plugins");
+    QCoreApplication::addLibraryPath(QCoreApplication::applicationDirPath());
+
     QApplication app(argc, argv);
     app.setApplicationName("FitCore Gym Management System");
     app.setOrganizationName("FitCore Software");
@@ -17,7 +21,7 @@ int main(int argc, char *argv[]) {
     app.setStyleSheet(FitCore::ThemeManager::getDarkThemeQss());
 
     // 1. Initialize SQLite Database Singleton
-    if (!FitCore::DatabaseManager::instance().open()) {
+    if (!FitCore::DatabaseManager::instance().initialize("database/fitcore.db")) {
         QMessageBox::critical(nullptr, "Database Error", "Failed to connect to SQLite database.\nPlease check file permissions.");
         return 1;
     }

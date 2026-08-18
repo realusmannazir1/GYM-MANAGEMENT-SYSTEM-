@@ -98,8 +98,8 @@ FitCore_autogen/timestamp: C:/Users/uk078/AppData/Local/Programs/Python/Python31
   D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/SettingsWidget.h \
   D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/TrainersWidget.h \
   D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/WorkoutWidget.h \
-  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/main.cpp \
   D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/database/DatabaseManager.cpp \
+  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/main.cpp \
   D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/Attendance.cpp \
   D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/AuditLog.cpp \
   D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/Equipment.cpp \
@@ -907,8 +907,6 @@ D:/Software/mingw64/mingw64/x86_64-w64-mingw32/include/mcfgthread/version.h:
 
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/ProgressRecord.h:
 
-D:/Projects/GYM\ MANAGEMENT\ SYSTEM/main.cpp:
-
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6GuiDependencies.cmake:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Linker/GNU.cmake:
@@ -1144,6 +1142,10 @@ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/SettingsWidget.h:
 D:/Qt/6.7.2/mingw_64/include/QtCore/qforeach.h:
 
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/database/DatabaseManager.cpp:
+
+D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/main.cpp:
+
+D:/Qt/6.7.2/mingw_64/include/QtCore/qendian.h:
 
 D:/Qt/6.7.2/mingw_64/include/QtCore/qstringliteral.h:
 
@@ -1462,8 +1464,6 @@ D:/Qt/6.7.2/mingw_64/include/QtCore/qcontainerfwd.h:
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Dependencies.cmake:
 
 D:/Qt/6.7.2/mingw_64/include/QtCore/qdarwinhelpers.h:
-
-D:/Qt/6.7.2/mingw_64/include/QtCore/qendian.h:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessTargets.cmake:
 
