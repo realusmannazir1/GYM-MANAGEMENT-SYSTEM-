@@ -150,8 +150,7 @@ if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/assets/resources.qrc")
 endif()
 
 add_executable(FitCore ${SOURCES} ${HEADERS} ${RESOURCES})
-
-
+set_target_properties(FitCore PROPERTIES QT_NO_ENTRYPOINT TRUE)
 
 target_link_libraries(FitCore PRIVATE
     Qt6::Core
@@ -227,6 +226,8 @@ set(TEST_SOURCES
 )
 
 add_executable(FitCoreTest ${TEST_SOURCES} ${HEADERS})
+set_target_properties(FitCoreTest PROPERTIES QT_NO_ENTRYPOINT TRUE)
+
 target_link_libraries(FitCoreTest PRIVATE Qt6::Core Qt6::Gui Qt6::Widgets Qt6::Sql Qt6::Charts Qt6::Svg)
 if(NOT MSVC)
     target_link_options(FitCoreTest PRIVATE -Wl,--allow-multiple-definition)
