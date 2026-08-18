@@ -49,6 +49,8 @@ void ExpensesWidget::setupUi() {
     m_table->setColumnCount(6);
     m_table->setHorizontalHeaderLabels({"Category", "Description", "Amount", "Expense Date", "Payment Method", "Action"});
     m_table->horizontalHeader()->setSectionResizeMode(1, QHeaderView::Stretch);
+    m_table->verticalHeader()->setDefaultSectionSize(42);
+    m_table->verticalHeader()->setVisible(false);
     mainLayout->addWidget(m_table);
 
     connect(addBtn, &QPushButton::clicked, this, &ExpensesWidget::onAddExpenseClicked);
@@ -73,9 +75,10 @@ void ExpensesWidget::loadExpensesTable() {
         m_table->setItem(r, 3, new QTableWidgetItem(e.getExpenseDate()));
         m_table->setItem(r, 4, new QTableWidgetItem(e.getPaymentMethod()));
 
-        QPushButton *delBtn = new QPushButton("Delete", this);
+        QPushButton *delBtn = new QPushButton("🗑️", this);
         delBtn->setObjectName("dangerBtn");
-        delBtn->setStyleSheet("padding: 4px 8px; font-size: 11px;");
+        delBtn->setToolTip("Delete Expense Entry");
+        delBtn->setFixedSize(30, 30);
         int id = e.getId();
         connect(delBtn, &QPushButton::clicked, this, [this, id]() {
             if (m_expenseRepo.remove(id)) loadExpensesTable();

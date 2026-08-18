@@ -50,6 +50,8 @@ void TrainersWidget::setupUi() {
     m_trainersTable->setHorizontalHeaderLabels({"Employee #", "Full Name", "Specialization", "Experience", "Phone", "Status", "Actions"});
     m_trainersTable->horizontalHeader()->setSectionResizeMode(1, QHeaderView::Stretch);
     m_trainersTable->horizontalHeader()->setSectionResizeMode(6, QHeaderView::ResizeToContents);
+    m_trainersTable->verticalHeader()->setDefaultSectionSize(42);
+    m_trainersTable->verticalHeader()->setVisible(false);
     tLayout->addWidget(m_trainersTable);
     tabs->addTab(tTab, "Trainers Directory");
 
@@ -60,6 +62,8 @@ void TrainersWidget::setupUi() {
     m_sessionsTable->setColumnCount(6);
     m_sessionsTable->setHorizontalHeaderLabels({"Trainer", "Member", "Date", "Start Time", "End Time", "Status"});
     m_sessionsTable->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+    m_sessionsTable->verticalHeader()->setDefaultSectionSize(42);
+    m_sessionsTable->verticalHeader()->setVisible(false);
     sLayout->addWidget(m_sessionsTable);
     tabs->addTab(sTab, "Training Sessions Calendar");
 
@@ -93,15 +97,18 @@ void TrainersWidget::loadTrainersTable() {
 
         QWidget *actWidget = new QWidget(this);
         QHBoxLayout *actLayout = new QHBoxLayout(actWidget);
-        actLayout->setContentsMargins(2, 2, 2, 2);
-        actLayout->setSpacing(4);
+        actLayout->setContentsMargins(4, 2, 4, 2);
+        actLayout->setSpacing(6);
 
-        QPushButton *assignBtn = new QPushButton("Assign", actWidget);
+        QPushButton *assignBtn = new QPushButton("👤+", actWidget);
         assignBtn->setObjectName("secondaryBtn");
-        assignBtn->setStyleSheet("padding: 4px 8px; font-size: 11px;");
+        assignBtn->setToolTip("Assign Member to Trainer");
+        assignBtn->setFixedSize(30, 30);
 
-        QPushButton *schedBtn = new QPushButton("Schedule", actWidget);
-        schedBtn->setStyleSheet("padding: 4px 8px; font-size: 11px;");
+        QPushButton *schedBtn = new QPushButton("📅", actWidget);
+        schedBtn->setObjectName("secondaryBtn");
+        schedBtn->setToolTip("Schedule PT Session");
+        schedBtn->setFixedSize(30, 30);
 
         int id = t.getId();
         connect(assignBtn, &QPushButton::clicked, this, [this, id]() { onAssignMemberClicked(id); });

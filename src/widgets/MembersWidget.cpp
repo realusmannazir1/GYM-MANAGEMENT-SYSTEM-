@@ -59,6 +59,8 @@ void MembersWidget::setupUi() {
     m_table->setHorizontalHeaderLabels({"Membership #", "Full Name", "Gender", "Phone", "Registration Date", "Status", "Actions"});
     m_table->horizontalHeader()->setSectionResizeMode(1, QHeaderView::Stretch);
     m_table->horizontalHeader()->setSectionResizeMode(6, QHeaderView::ResizeToContents);
+    m_table->verticalHeader()->setDefaultSectionSize(42);
+    m_table->verticalHeader()->setVisible(false);
     mainLayout->addWidget(m_table);
 
     // Section 4: Pagination Bar
@@ -137,18 +139,22 @@ void MembersWidget::loadMembersTable() {
         QWidget *actionWidget = new QWidget(this);
         QHBoxLayout *actLayout = new QHBoxLayout(actionWidget);
         actLayout->setContentsMargins(4, 2, 4, 2);
-        actLayout->setSpacing(4);
+        actLayout->setSpacing(6);
 
-        QPushButton *viewBtn = new QPushButton("View", actionWidget);
+        QPushButton *viewBtn = new QPushButton("👁️", actionWidget);
         viewBtn->setObjectName("secondaryBtn");
-        viewBtn->setStyleSheet("padding: 4px 8px; font-size: 11px;");
+        viewBtn->setToolTip("View Member Profile");
+        viewBtn->setFixedSize(30, 30);
 
-        QPushButton *editBtn = new QPushButton("Edit", actionWidget);
-        editBtn->setStyleSheet("padding: 4px 8px; font-size: 11px;");
+        QPushButton *editBtn = new QPushButton("✏️", actionWidget);
+        editBtn->setObjectName("secondaryBtn");
+        editBtn->setToolTip("Edit Member Details");
+        editBtn->setFixedSize(30, 30);
 
-        QPushButton *delBtn = new QPushButton("Archive", actionWidget);
+        QPushButton *delBtn = new QPushButton("🗑️", actionWidget);
         delBtn->setObjectName("dangerBtn");
-        delBtn->setStyleSheet("padding: 4px 8px; font-size: 11px;");
+        delBtn->setToolTip("Archive Member");
+        delBtn->setFixedSize(30, 30);
 
         int id = m.getId();
         connect(viewBtn, &QPushButton::clicked, this, [this, id]() { onViewProfileClicked(id); });

@@ -47,6 +47,8 @@ void PaymentsWidget::setupUi() {
     m_table->setColumnCount(7);
     m_table->setHorizontalHeaderLabels({"Receipt #", "Member Name", "Amount", "Discount", "Final Paid", "Method", "Date"});
     m_table->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+    m_table->verticalHeader()->setDefaultSectionSize(42);
+    m_table->verticalHeader()->setVisible(false);
     mainLayout->addWidget(m_table);
 
     connect(recordBtn, &QPushButton::clicked, this, &PaymentsWidget::onRecordPaymentClicked);

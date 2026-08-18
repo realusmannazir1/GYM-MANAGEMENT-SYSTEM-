@@ -65,6 +65,8 @@ void AttendanceWidget::setupUi() {
     m_todayTable->setHorizontalHeaderLabels({"Membership #", "Member Name", "Check-In Time", "Check-Out Time", "Duration", "Action"});
     m_todayTable->horizontalHeader()->setSectionResizeMode(1, QHeaderView::Stretch);
     m_todayTable->horizontalHeader()->setSectionResizeMode(5, QHeaderView::ResizeToContents);
+    m_todayTable->verticalHeader()->setDefaultSectionSize(42);
+    m_todayTable->verticalHeader()->setVisible(false);
     tLayout->addWidget(m_todayTable);
 
     mainLayout->addWidget(todayBox);
@@ -102,9 +104,10 @@ void AttendanceWidget::loadTodayAttendance() {
         m_todayTable->setCellWidget(r, 4, durLbl);
 
         if (!a.isCheckedOut()) {
-            QPushButton *checkOutBtn = new QPushButton("Check Out", this);
+            QPushButton *checkOutBtn = new QPushButton("🚪 Check Out", this);
             checkOutBtn->setObjectName("secondaryBtn");
-            checkOutBtn->setStyleSheet("padding: 4px 10px; font-size: 11px;");
+            checkOutBtn->setToolTip("Check Out Member");
+            checkOutBtn->setStyleSheet("padding: 4px 10px; font-weight: 600;");
             int attId = a.getId();
             connect(checkOutBtn, &QPushButton::clicked, this, [this, attId]() { onCheckOutClicked(attId); });
             m_todayTable->setCellWidget(r, 5, checkOutBtn);

@@ -47,6 +47,8 @@ void EquipmentWidget::setupUi() {
     m_equipmentTable->setColumnCount(7);
     m_equipmentTable->setHorizontalHeaderLabels({"Code", "Name", "Category", "Brand", "Condition", "Status", "Action"});
     m_equipmentTable->horizontalHeader()->setSectionResizeMode(1, QHeaderView::Stretch);
+    m_equipmentTable->verticalHeader()->setDefaultSectionSize(42);
+    m_equipmentTable->verticalHeader()->setVisible(false);
     eqLayout->addWidget(m_equipmentTable);
     tabs->addTab(eqTab, "Equipment Assets");
 
@@ -57,6 +59,8 @@ void EquipmentWidget::setupUi() {
     m_maintenanceTable->setColumnCount(7);
     m_maintenanceTable->setHorizontalHeaderLabels({"Equipment Code", "Equipment Name", "Service Date", "Problem", "Technician", "Cost", "Status"});
     m_maintenanceTable->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+    m_maintenanceTable->verticalHeader()->setDefaultSectionSize(42);
+    m_maintenanceTable->verticalHeader()->setVisible(false);
     mLayout->addWidget(m_maintenanceTable);
     tabs->addTab(mTab, "Maintenance Due & History");
 
@@ -87,8 +91,10 @@ void EquipmentWidget::loadEquipmentTable() {
         badge->setAlignment(Qt::AlignCenter);
         m_equipmentTable->setCellWidget(r, 5, badge);
 
-        QPushButton *maintBtn = new QPushButton("Service Log", this);
-        maintBtn->setStyleSheet("padding: 4px 8px; font-size: 11px;");
+        QPushButton *maintBtn = new QPushButton("🔧 Service Log", this);
+        maintBtn->setObjectName("secondaryBtn");
+        maintBtn->setToolTip("Log Equipment Maintenance Service");
+        maintBtn->setStyleSheet("padding: 4px 10px; font-weight: 600;");
         int id = e.getId();
         connect(maintBtn, &QPushButton::clicked, this, [this, id]() { onLogMaintenanceClicked(id); });
         m_equipmentTable->setCellWidget(r, 6, maintBtn);

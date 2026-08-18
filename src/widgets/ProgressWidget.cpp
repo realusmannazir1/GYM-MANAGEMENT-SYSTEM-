@@ -48,6 +48,8 @@ void ProgressWidget::setupUi() {
     m_table->setColumnCount(9);
     m_table->setHorizontalHeaderLabels({"Member", "Date", "Weight (kg)", "Height (cm)", "BMI", "Body Fat %", "Waist (cm)", "Chest (cm)", "Arms (cm)"});
     m_table->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+    m_table->verticalHeader()->setDefaultSectionSize(42);
+    m_table->verticalHeader()->setVisible(false);
     mainLayout->addWidget(m_table);
 
     connect(addRecordBtn, &QPushButton::clicked, this, &ProgressWidget::onAddRecordClicked);

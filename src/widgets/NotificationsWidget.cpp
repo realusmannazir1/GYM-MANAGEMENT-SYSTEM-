@@ -34,6 +34,8 @@ void NotificationsWidget::setupUi() {
     m_table->setColumnCount(4);
     m_table->setHorizontalHeaderLabels({"Alert Type", "Message", "Timestamp", "Status"});
     m_table->horizontalHeader()->setSectionResizeMode(1, QHeaderView::Stretch);
+    m_table->verticalHeader()->setDefaultSectionSize(42);
+    m_table->verticalHeader()->setVisible(false);
     mainLayout->addWidget(m_table);
 
     connect(markAllBtn, &QPushButton::clicked, this, &NotificationsWidget::onMarkAllReadClicked);

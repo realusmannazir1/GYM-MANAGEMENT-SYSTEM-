@@ -54,6 +54,8 @@ void WorkoutWidget::setupUi() {
     m_exercisesTable->setColumnCount(5);
     m_exercisesTable->setHorizontalHeaderLabels({"Exercise Name", "Muscle Group", "Equipment Required", "Difficulty", "Status"});
     m_exercisesTable->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+    m_exercisesTable->verticalHeader()->setDefaultSectionSize(42);
+    m_exercisesTable->verticalHeader()->setVisible(false);
     exLayout->addWidget(m_exercisesTable);
     tabs->addTab(exTab, "Exercise Library");
 
@@ -64,6 +66,8 @@ void WorkoutWidget::setupUi() {
     m_plansTable->setColumnCount(6);
     m_plansTable->setHorizontalHeaderLabels({"Plan Name", "Member", "Goal", "Start Date", "End Date", "Status"});
     m_plansTable->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+    m_plansTable->verticalHeader()->setDefaultSectionSize(42);
+    m_plansTable->verticalHeader()->setVisible(false);
     plLayout->addWidget(m_plansTable);
     tabs->addTab(plTab, "Workout Plans");
 
@@ -74,6 +78,8 @@ void WorkoutWidget::setupUi() {
     m_logsTable->setColumnCount(7);
     m_logsTable->setHorizontalHeaderLabels({"Date", "Member", "Exercise", "Sets", "Reps", "Weight (kg)", "Duration"});
     m_logsTable->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+    m_logsTable->verticalHeader()->setDefaultSectionSize(42);
+    m_logsTable->verticalHeader()->setVisible(false);
     lgLayout->addWidget(m_logsTable);
     tabs->addTab(lgTab, "Workout Logs & Performance");
 

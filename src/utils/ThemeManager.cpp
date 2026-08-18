@@ -383,14 +383,15 @@ QString ThemeManager::getLightThemeQss() {
         /* Table Styling */
         QTableWidget {
             background-color: #FFFFFF;
-            border: 1px solid #E2E8F0;
-            gridline-color: #E2E8F0;
+            border: 1px solid #CBD5E1;
+            gridline-color: #F1F5F9;
             border-radius: 8px;
             color: #0F172A;
+            outline: 0;
         }
 
         QTableWidget::item {
-            padding: 8px;
+            padding: 8px 12px;
             color: #1E293B;
         }
 
@@ -400,12 +401,55 @@ QString ThemeManager::getLightThemeQss() {
         }
 
         QHeaderView::section {
-            background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #F1F5F9, stop:1 #E2E8F0);
+            background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #F8FAFC, stop:1 #E2E8F0);
             color: #334155;
             padding: 10px;
-            font-weight: bold;
+            font-weight: 700;
+            font-size: 12px;
             border: none;
             border-bottom: 2px solid #CBD5E1;
+        }
+
+        /* Table Cell Action Buttons */
+        QTableWidget QPushButton {
+            border-radius: 6px;
+            font-size: 13px;
+        }
+
+        QTableWidget QPushButton#secondaryBtn {
+            background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FFFFFF, stop:1 #F1F5F9);
+            border: 1px solid #CBD5E1;
+            color: #334155;
+        }
+
+        QTableWidget QPushButton#secondaryBtn:hover {
+            background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #EFF6FF, stop:1 #DBEAFE);
+            border: 1px solid #3B82F6;
+            color: #1E40AF;
+        }
+
+        QTableWidget QPushButton#dangerBtn {
+            background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #FEE2E2, stop:1 #FECACA);
+            border: 1px solid #FCA5A5;
+            color: #991B1B;
+        }
+
+        QTableWidget QPushButton#dangerBtn:hover {
+            background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #EF4444, stop:1 #DC2626);
+            border: 1px solid #DC2626;
+            color: #FFFFFF;
+        }
+
+        QTableWidget QPushButton#successBtn {
+            background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #D1FAE5, stop:1 #A7F3D0);
+            border: 1px solid #6EE7B7;
+            color: #065F46;
+        }
+
+        QTableWidget QPushButton#successBtn:hover {
+            background: qlineargradient(spread:pad, x1:0, y1:0, x2:0, y2:1, stop:0 #10B981, stop:1 #059669);
+            border: 1px solid #059669;
+            color: #FFFFFF;
         }
 
         /* Dialog Styling */

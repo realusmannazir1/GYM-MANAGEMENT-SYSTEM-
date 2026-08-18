@@ -124,6 +124,8 @@ void DashboardWidget::setupUi() {
     m_expiringTable->setColumnCount(4);
     m_expiringTable->setHorizontalHeaderLabels({"Member", "Plan", "End Date", "Action"});
     m_expiringTable->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+    m_expiringTable->verticalHeader()->setDefaultSectionSize(42);
+    m_expiringTable->verticalHeader()->setVisible(false);
     expLayout->addWidget(m_expiringTable);
     tablesLayout->addWidget(expiringBox, 1);
 
@@ -134,6 +136,8 @@ void DashboardWidget::setupUi() {
     m_recentPaymentsTable->setColumnCount(4);
     m_recentPaymentsTable->setHorizontalHeaderLabels({"Receipt", "Member", "Amount", "Date"});
     m_recentPaymentsTable->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
+    m_recentPaymentsTable->verticalHeader()->setDefaultSectionSize(42);
+    m_recentPaymentsTable->verticalHeader()->setVisible(false);
     payLayout->addWidget(m_recentPaymentsTable);
     tablesLayout->addWidget(recentPayBox, 1);
 
@@ -199,8 +203,10 @@ void DashboardWidget::refreshData() {
         m_expiringTable->setItem(r, 1, new QTableWidgetItem(ms.getPlanName()));
         m_expiringTable->setItem(r, 2, new QTableWidgetItem(ms.getEndDate()));
 
-        QPushButton *renewBtn = new QPushButton("Renew", this);
-        renewBtn->setStyleSheet("padding: 4px 8px; font-size: 11px;");
+        QPushButton *renewBtn = new QPushButton("🔄 Renew", this);
+        renewBtn->setObjectName("successBtn");
+        renewBtn->setToolTip("Renew Membership Plan");
+        renewBtn->setStyleSheet("padding: 4px 10px; font-weight: 600;");
         connect(renewBtn, &QPushButton::clicked, this, [this]() { emit navigateToModule(2); }); // Memberships module
         m_expiringTable->setCellWidget(r, 3, renewBtn);
         r++;

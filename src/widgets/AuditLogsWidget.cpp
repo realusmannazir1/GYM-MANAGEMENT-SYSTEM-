@@ -30,6 +30,8 @@ void AuditLogsWidget::setupUi() {
     m_table->setColumnCount(6);
     m_table->setHorizontalHeaderLabels({"Audit ID", "User", "Action", "Target Entity", "Entity ID", "Description / Timestamp"});
     m_table->horizontalHeader()->setSectionResizeMode(5, QHeaderView::Stretch);
+    m_table->verticalHeader()->setDefaultSectionSize(42);
+    m_table->verticalHeader()->setVisible(false);
     mainLayout->addWidget(m_table);
 }
 
