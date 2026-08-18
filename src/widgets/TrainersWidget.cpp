@@ -103,12 +103,12 @@ void TrainersWidget::loadTrainersTable() {
         QPushButton *assignBtn = new QPushButton("👤+", actWidget);
         assignBtn->setObjectName("secondaryBtn");
         assignBtn->setToolTip("Assign Member to Trainer");
-        assignBtn->setFixedSize(30, 30);
+        assignBtn->setFixedSize(36, 34);
 
         QPushButton *schedBtn = new QPushButton("📅", actWidget);
         schedBtn->setObjectName("secondaryBtn");
         schedBtn->setToolTip("Schedule PT Session");
-        schedBtn->setFixedSize(30, 30);
+        schedBtn->setFixedSize(36, 34);
 
         int id = t.getId();
         connect(assignBtn, &QPushButton::clicked, this, [this, id]() { onAssignMemberClicked(id); });

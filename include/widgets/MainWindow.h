@@ -35,12 +35,19 @@ private slots:
     void onSidebarSelectionChanged(int row);
     void onQuickCheckInSubmitted();
     void onLogoutClicked();
+    void onToggleSidebarClicked();
 
 private:
     void setupUi();
     void applyRoleRestrictions();
 
     User m_currentUser;
+
+    QFrame *m_sidebarFrame;
+    QLabel *m_logoLbl;
+    QLabel *m_subLogoLbl;
+    QPushButton *m_toggleSidebarBtn;
+    bool m_sidebarCollapsed = false;
 
     QListWidget *m_sidebarList;
     QStackedWidget *m_stackedWidget;

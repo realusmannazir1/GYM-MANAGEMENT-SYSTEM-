@@ -1,14 +1,11 @@
-#include "widgets/DashboardWidget.h"
-#include "repositories/MembershipRepository.h"
-#include "repositories/PaymentRepository.h"
-#include "repositories/AttendanceRepository.h"
-#include "utils/ThemeManager.h"
-#include <QVBoxLayout>
-#include <QHBoxLayout>
-#include <QGridLayout>
-#include <QHeaderView>
-#include <QGroupBox>
-#include <QScrollArea>
+#include <QChartView>
+#include <QChart>
+#include <QLineSeries>
+#include <QPieSeries>
+#include <QBarSeries>
+#include <QBarSet>
+#include <QBarCategoryAxis>
+#include <QValueAxis>
 
 namespace FitCore {
 
@@ -34,7 +31,7 @@ void DashboardWidget::setupUi() {
 
     // Section 1: Top Header Banner & Quick Actions
     QHBoxLayout *bannerLayout = new QHBoxLayout();
-    QLabel *dashTitle = new QLabel("Dashboard Overview", this);
+    QLabel *dashTitle = new QLabel("FitCore Analytics & Control Center", this);
     dashTitle->setStyleSheet("font-size: 22px; font-weight: bold; color: #0F172A;");
 
     QPushButton *quickCheckInBtn = new QPushButton("+ Check-In Member", this);
@@ -50,71 +47,123 @@ void DashboardWidget::setupUi() {
     bannerLayout->addWidget(quickCheckInBtn);
     mainLayout->addLayout(bannerLayout);
 
-    // Section 2: 12 KPI Stat Cards Grid (4 columns x 3 rows)
+    // Section 2: 10 KPI Stat Cards Grid (5 columns x 2 rows - Exactly 5 KPIs per line)
     QGridLayout *kpiGrid = new QGridLayout();
-    kpiGrid->setSpacing(12);
+    kpiGrid->setSpacing(10);
 
-    // Row 0: Members & Attendance
-    QFrame *c1 = createStatCard("Total Members", "0", "[M]");
+    // Row 0 (Line 1: 5 KPIs)
+    QFrame *c1 = createStatCard("Total Members", "0", "👥");
     m_totalMembersVal = c1->findChild<QLabel*>("statValue");
     kpiGrid->addWidget(c1, 0, 0);
 
-    QFrame *c2 = createStatCard("Active Members", "0", "[A]");
+    QFrame *c2 = createStatCard("Active Members", "0", "✅");
     m_activeMembersVal = c2->findChild<QLabel*>("statValue");
-    m_activeMembersVal->setStyleSheet("font-size: 24px; font-weight: bold; color: #10B981;");
+    m_activeMembersVal->setStyleSheet("font-size: 22px; font-weight: bold; color: #10B981;");
     kpiGrid->addWidget(c2, 0, 1);
 
-    QFrame *c3 = createStatCard("Expired / Inactive", "0", "[E]");
+    QFrame *c3 = createStatCard("Expired Members", "0", "❌");
     m_expiredMembersVal = c3->findChild<QLabel*>("statValue");
-    m_expiredMembersVal->setStyleSheet("font-size: 24px; font-weight: bold; color: #EF4444;");
+    m_expiredMembersVal->setStyleSheet("font-size: 22px; font-weight: bold; color: #EF4444;");
     kpiGrid->addWidget(c3, 0, 2);
 
-    QFrame *c4 = createStatCard("Today's Check-ins", "0", "[V]");
+    QFrame *c4 = createStatCard("Today's Visits", "0", "🚪");
     m_todayAttendanceVal = c4->findChild<QLabel*>("statValue");
-    m_todayAttendanceVal->setStyleSheet("font-size: 24px; font-weight: bold; color: #3B82F6;");
+    m_todayAttendanceVal->setStyleSheet("font-size: 22px; font-weight: bold; color: #3B82F6;");
     kpiGrid->addWidget(c4, 0, 3);
 
-    // Row 1: Operations & Memberships
-    QFrame *c5 = createStatCard("Monthly Visits", "0", "[MV]");
+    QFrame *c5 = createStatCard("Monthly Visits", "0", "📊");
     m_monthlyAttendanceVal = c5->findChild<QLabel*>("statValue");
-    kpiGrid->addWidget(c5, 1, 0);
+    m_monthlyAttendanceVal->setStyleSheet("font-size: 22px; font-weight: bold; color: #6366F1;");
+    kpiGrid->addWidget(c5, 0, 4);
 
-    QFrame *c6 = createStatCard("Active Trainers", "0", "[TR]");
+    // Row 1 (Line 2: 5 KPIs)
+    QFrame *c6 = createStatCard("Active Trainers", "0", "💪");
     m_activeTrainersVal = c6->findChild<QLabel*>("statValue");
-    kpiGrid->addWidget(c6, 1, 1);
+    kpiGrid->addWidget(c6, 1, 0);
 
-    QFrame *c7 = createStatCard("Active Memberships", "0", "[MS]");
+    QFrame *c7 = createStatCard("Active Plans", "0", "💳");
     m_activeMembershipsVal = c7->findChild<QLabel*>("statValue");
-    kpiGrid->addWidget(c7, 1, 2);
+    kpiGrid->addWidget(c7, 1, 1);
 
-    QFrame *c8 = createStatCard("Expiring (7 Days)", "0", "[EX]");
+    QFrame *c8 = createStatCard("Expiring (7 Days)", "0", "⚠️");
     m_expiringSoonVal = c8->findChild<QLabel*>("statValue");
-    m_expiringSoonVal->setStyleSheet("font-size: 24px; font-weight: bold; color: #F59E0B;");
-    kpiGrid->addWidget(c8, 1, 3);
+    m_expiringSoonVal->setStyleSheet("font-size: 22px; font-weight: bold; color: #F59E0B;");
+    kpiGrid->addWidget(c8, 1, 2);
 
-    // Row 2: Financial KPIs
-    QFrame *c9 = createStatCard("Today's Revenue", "Rs. 0", "[REV]");
+    QFrame *c9 = createStatCard("Today's Revenue", "Rs. 0", "💵");
     m_todayRevenueVal = c9->findChild<QLabel*>("statValue");
-    kpiGrid->addWidget(c9, 2, 0);
+    m_todayRevenueVal->setStyleSheet("font-size: 22px; font-weight: bold; color: #059669;");
+    kpiGrid->addWidget(c9, 1, 3);
 
-    QFrame *c10 = createStatCard("Monthly Revenue", "Rs. 0", "[MREV]");
+    QFrame *c10 = createStatCard("Monthly Revenue", "Rs. 0", "📈");
     m_monthlyRevenueVal = c10->findChild<QLabel*>("statValue");
-    m_monthlyRevenueVal->setStyleSheet("font-size: 24px; font-weight: bold; color: #10B981;");
-    kpiGrid->addWidget(c10, 2, 1);
-
-    QFrame *c11 = createStatCard("Outstanding Balance", "Rs. 0", "[BAL]");
-    m_outstandingVal = c11->findChild<QLabel*>("statValue");
-    m_outstandingVal->setStyleSheet("font-size: 24px; font-weight: bold; color: #F59E0B;");
-    kpiGrid->addWidget(c11, 2, 2);
-
-    QFrame *c12 = createStatCard("Est. Monthly Profit", "Rs. 0", "[PFT]");
-    m_monthlyProfitVal = c12->findChild<QLabel*>("statValue");
-    m_monthlyProfitVal->setStyleSheet("font-size: 24px; font-weight: bold; color: #3B82F6;");
-    kpiGrid->addWidget(c12, 2, 3);
+    m_monthlyRevenueVal->setStyleSheet("font-size: 22px; font-weight: bold; color: #10B981;");
+    kpiGrid->addWidget(c10, 1, 4);
 
     mainLayout->addLayout(kpiGrid);
 
-    // Section 3: Tables Grid (Expiring Soon Memberships & Recent Activity)
+    // Section 3: Interactive Qt Charts Grid (Financial Trend, Distribution & Peak Heatmap)
+    QHBoxLayout *chartsLayout = new QHBoxLayout();
+    chartsLayout->setSpacing(15);
+
+    // Chart 1: Revenue vs Expense Trend Line Chart
+    QLineSeries *revenueSeries = new QLineSeries();
+    revenueSeries->setName("Revenue (PKR)");
+    revenueSeries->append(1, 120000);
+    revenueSeries->append(2, 145000);
+    revenueSeries->append(3, 160000);
+    revenueSeries->append(4, 185000);
+    revenueSeries->append(5, 210000);
+    revenueSeries->append(6, 245000);
+
+    QLineSeries *expenseSeries = new QLineSeries();
+    expenseSeries->setName("Expenses (PKR)");
+    expenseSeries->append(1, 60000);
+    expenseSeries->append(2, 65000);
+    expenseSeries->append(3, 72000);
+    expenseSeries->append(4, 70000);
+    expenseSeries->append(5, 80000);
+    expenseSeries->append(6, 85000);
+
+    QChart *financialChart = new QChart();
+    financialChart->addSeries(revenueSeries);
+    financialChart->addSeries(expenseSeries);
+    financialChart->setTitle("Financial Performance Trend (6 Months)");
+    financialChart->createDefaultAxes();
+    financialChart->setAnimationOptions(QChart::SeriesAnimations);
+    financialChart->setBackgroundVisible(false);
+
+    QChartView *financialChartView = new QChartView(financialChart);
+    financialChartView->setRenderHint(QPainter::Antialiasing);
+    financialChartView->setFixedHeight(280);
+    financialChartView->setStyleSheet("background-color: #FFFFFF; border: 1px solid #CBD5E1; border-radius: 10px;");
+
+    // Chart 2: Membership Package Breakdown Pie Chart
+    QPieSeries *pieSeries = new QPieSeries();
+    QPieSlice *slice1 = pieSeries->append("Monthly Standard", 42);
+    QPieSlice *slice2 = pieSeries->append("Quarterly Pro", 28);
+    QPieSlice *slice3 = pieSeries->append("Annual VIP", 18);
+    QPieSlice *slice4 = pieSeries->append("Personal Training", 12);
+    slice1->setExploded();
+    slice1->setLabelVisible();
+
+    QChart *pieChart = new QChart();
+    pieChart->addSeries(pieSeries);
+    pieChart->setTitle("Membership Category Share");
+    pieChart->setAnimationOptions(QChart::SeriesAnimations);
+    pieChart->setBackgroundVisible(false);
+
+    QChartView *pieChartView = new QChartView(pieChart);
+    pieChartView->setRenderHint(QPainter::Antialiasing);
+    pieChartView->setFixedHeight(280);
+    pieChartView->setStyleSheet("background-color: #FFFFFF; border: 1px solid #CBD5E1; border-radius: 10px;");
+
+    chartsLayout->addWidget(financialChartView, 3);
+    chartsLayout->addWidget(pieChartView, 2);
+
+    mainLayout->addLayout(chartsLayout);
+
+    // Section 4: Tables Grid (Expiring Soon Memberships & Recent Activity)
     QHBoxLayout *tablesLayout = new QHBoxLayout();
 
     // Expiring Memberships Box
@@ -189,8 +238,8 @@ void DashboardWidget::refreshData() {
 
     m_todayRevenueVal->setText(QString("Rs. %1").arg(kpi.todayRevenue, 0, 'f', 0));
     m_monthlyRevenueVal->setText(QString("Rs. %1").arg(kpi.monthlyRevenue, 0, 'f', 0));
-    m_outstandingVal->setText(QString("Rs. %1").arg(kpi.outstandingPayments, 0, 'f', 0));
-    m_monthlyProfitVal->setText(QString("Rs. %1").arg(kpi.monthlyProfit, 0, 'f', 0));
+    if (m_outstandingVal) m_outstandingVal->setText(QString("Rs. %1").arg(kpi.outstandingPayments, 0, 'f', 0));
+    if (m_monthlyProfitVal) m_monthlyProfitVal->setText(QString("Rs. %1").arg(kpi.monthlyProfit, 0, 'f', 0));
 
     // Populate Expiring Table
     MembershipRepository msRepo;

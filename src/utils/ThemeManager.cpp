@@ -413,7 +413,10 @@ QString ThemeManager::getLightThemeQss() {
         /* Table Cell Action Buttons */
         QTableWidget QPushButton {
             border-radius: 6px;
-            font-size: 13px;
+            font-size: 14px;
+            font-weight: bold;
+            padding: 4px 8px;
+            min-height: 28px;
         }
 
         QTableWidget QPushButton#secondaryBtn {

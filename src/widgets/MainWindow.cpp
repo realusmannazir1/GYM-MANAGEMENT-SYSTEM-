@@ -30,53 +30,53 @@ void MainWindow::setupUi() {
     mainLayout->setSpacing(0);
 
     // Section 1: Sidebar Frame
-    QFrame *sidebarFrame = new QFrame(this);
-    sidebarFrame->setObjectName("sidebarFrame");
-    sidebarFrame->setFixedWidth(240);
+    m_sidebarFrame = new QFrame(this);
+    m_sidebarFrame->setObjectName("sidebarFrame");
+    m_sidebarFrame->setFixedWidth(240);
 
-    QVBoxLayout *sbLayout = new QVBoxLayout(sidebarFrame);
+    QVBoxLayout *sbLayout = new QVBoxLayout(m_sidebarFrame);
     sbLayout->setContentsMargins(10, 20, 10, 20);
     sbLayout->setSpacing(15);
 
     // App Logo Banner
-    QLabel *logoLbl = new QLabel("FITCORE", sidebarFrame);
-    logoLbl->setAlignment(Qt::AlignCenter);
-    logoLbl->setStyleSheet("font-size: 26px; font-weight: 900; color: #1E40AF; letter-spacing: 2px;");
+    m_logoLbl = new QLabel("FITCORE", m_sidebarFrame);
+    m_logoLbl->setAlignment(Qt::AlignCenter);
+    m_logoLbl->setStyleSheet("font-size: 26px; font-weight: 900; color: #1E40AF; letter-spacing: 2px;");
 
-    QLabel *subLogoLbl = new QLabel("MANAGEMENT SYSTEM", sidebarFrame);
-    subLogoLbl->setAlignment(Qt::AlignCenter);
-    subLogoLbl->setStyleSheet("font-size: 10px; font-weight: 700; color: #1E3A8A; letter-spacing: 1px;");
+    m_subLogoLbl = new QLabel("MANAGEMENT SYSTEM", m_sidebarFrame);
+    m_subLogoLbl->setAlignment(Qt::AlignCenter);
+    m_subLogoLbl->setStyleSheet("font-size: 10px; font-weight: 700; color: #1E3A8A; letter-spacing: 1px;");
 
-    sbLayout->addWidget(logoLbl);
-    sbLayout->addWidget(subLogoLbl);
+    sbLayout->addWidget(m_logoLbl);
+    sbLayout->addWidget(m_subLogoLbl);
 
-    m_sidebarList = new QListWidget(sidebarFrame);
+    m_sidebarList = new QListWidget(m_sidebarFrame);
     m_sidebarList->setObjectName("sidebarList");
 
-    m_sidebarList->addItem("Dashboard");
-    m_sidebarList->addItem("Members Directory");
-    m_sidebarList->addItem("Memberships & Renewals");
-    m_sidebarList->addItem("Trainers & PT");
-    m_sidebarList->addItem("Attendance Terminal");
-    m_sidebarList->addItem("Payments & Receipts");
-    m_sidebarList->addItem("Workout Plans");
-    m_sidebarList->addItem("Body Progress");
-    m_sidebarList->addItem("Equipment Assets");
-    m_sidebarList->addItem("Expense Outflow");
-    m_sidebarList->addItem("Reports & Analytics");
-    m_sidebarList->addItem("Notification Alerts");
-    m_sidebarList->addItem("System Settings");
-    m_sidebarList->addItem("Audit Logs");
+    m_sidebarList->addItem("📊 Dashboard");
+    m_sidebarList->addItem("👥 Members Directory");
+    m_sidebarList->addItem("💳 Memberships & Renewals");
+    m_sidebarList->addItem("💪 Trainers & PT");
+    m_sidebarList->addItem("🚪 Attendance Terminal");
+    m_sidebarList->addItem("🧾 Payments & Receipts");
+    m_sidebarList->addItem("🏋️ Workout Plans");
+    m_sidebarList->addItem("📈 Body Progress");
+    m_sidebarList->addItem("⚙️ Equipment Assets");
+    m_sidebarList->addItem("💸 Expense Outflow");
+    m_sidebarList->addItem("📄 Reports & Analytics");
+    m_sidebarList->addItem("🔔 Notification Alerts");
+    m_sidebarList->addItem("🛠️ System Settings");
+    m_sidebarList->addItem("📋 Audit Logs");
 
     m_sidebarList->setCurrentRow(0);
     sbLayout->addWidget(m_sidebarList);
 
-    QPushButton *logoutBtn = new QPushButton("Logout", sidebarFrame);
+    QPushButton *logoutBtn = new QPushButton("Logout", m_sidebarFrame);
     logoutBtn->setObjectName("secondaryBtn");
     connect(logoutBtn, &QPushButton::clicked, this, &MainWindow::onLogoutClicked);
     sbLayout->addWidget(logoutBtn);
 
-    mainLayout->addWidget(sidebarFrame);
+    mainLayout->addWidget(m_sidebarFrame);
 
     // Section 2: Right Content Container (Header + QStackedWidget)
     QWidget *rightContainer = new QWidget(this);
@@ -90,7 +90,14 @@ void MainWindow::setupUi() {
     headerFrame->setFixedHeight(65);
 
     QHBoxLayout *headerLayout = new QHBoxLayout(headerFrame);
-    headerLayout->setContentsMargins(20, 0, 20, 0);
+    headerLayout->setContentsMargins(15, 0, 20, 0);
+
+    m_toggleSidebarBtn = new QPushButton("☰ Menu", headerFrame);
+    m_toggleSidebarBtn->setObjectName("secondaryBtn");
+    m_toggleSidebarBtn->setToolTip("Toggle Collapsible Navigation Sidebar (Open/Close)");
+    m_toggleSidebarBtn->setCursor(Qt::PointingHandCursor);
+    m_toggleSidebarBtn->setStyleSheet("font-size: 13px; font-weight: bold; padding: 6px 12px; border-radius: 6px;");
+    connect(m_toggleSidebarBtn, &QPushButton::clicked, this, &MainWindow::onToggleSidebarClicked);
 
     QLabel *headerTitle = new QLabel("FitCore Enterprise Dashboard", headerFrame);
     headerTitle->setObjectName("headerTitle");
@@ -105,6 +112,8 @@ void MainWindow::setupUi() {
     m_roleBadge = new QLabel(m_currentUser.getRoleName(), headerFrame);
     m_roleBadge->setObjectName("roleBadge");
 
+    headerLayout->addWidget(m_toggleSidebarBtn);
+    headerLayout->addSpacing(10);
     headerLayout->addWidget(headerTitle);
     headerLayout->addStretch();
     headerLayout->addWidget(m_headerQuickCheckIn);
@@ -216,6 +225,24 @@ void MainWindow::onQuickCheckInSubmitted() {
 void MainWindow::onLogoutClicked() {
     AuthenticationService::instance().logout();
     close();
+}
+
+void MainWindow::onToggleSidebarClicked() {
+    m_sidebarCollapsed = !m_sidebarCollapsed;
+
+    if (m_sidebarCollapsed) {
+        m_sidebarFrame->setFixedWidth(68);
+        m_logoLbl->setText("FC");
+        m_subLogoLbl->hide();
+        m_toggleSidebarBtn->setText("▶ Open Menu");
+        m_toggleSidebarBtn->setToolTip("Expand Navigation Sidebar");
+    } else {
+        m_sidebarFrame->setFixedWidth(240);
+        m_logoLbl->setText("FITCORE");
+        m_subLogoLbl->show();
+        m_toggleSidebarBtn->setText("☰ Menu");
+        m_toggleSidebarBtn->setToolTip("Collapse Navigation Sidebar");
+    }
 }
 
 } // namespace FitCore

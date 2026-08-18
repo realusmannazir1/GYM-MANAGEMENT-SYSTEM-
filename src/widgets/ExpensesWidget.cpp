@@ -78,7 +78,7 @@ void ExpensesWidget::loadExpensesTable() {
         QPushButton *delBtn = new QPushButton("🗑️", this);
         delBtn->setObjectName("dangerBtn");
         delBtn->setToolTip("Delete Expense Entry");
-        delBtn->setFixedSize(30, 30);
+        delBtn->setFixedSize(36, 34);
         int id = e.getId();
         connect(delBtn, &QPushButton::clicked, this, [this, id]() {
             if (m_expenseRepo.remove(id)) loadExpensesTable();

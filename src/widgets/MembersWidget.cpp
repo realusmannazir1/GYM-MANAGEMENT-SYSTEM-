@@ -144,17 +144,17 @@ void MembersWidget::loadMembersTable() {
         QPushButton *viewBtn = new QPushButton("👁️", actionWidget);
         viewBtn->setObjectName("secondaryBtn");
         viewBtn->setToolTip("View Member Profile");
-        viewBtn->setFixedSize(30, 30);
+        viewBtn->setFixedSize(36, 34);
 
         QPushButton *editBtn = new QPushButton("✏️", actionWidget);
         editBtn->setObjectName("secondaryBtn");
         editBtn->setToolTip("Edit Member Details");
-        editBtn->setFixedSize(30, 30);
+        editBtn->setFixedSize(36, 34);
 
         QPushButton *delBtn = new QPushButton("🗑️", actionWidget);
         delBtn->setObjectName("dangerBtn");
         delBtn->setToolTip("Archive Member");
-        delBtn->setFixedSize(30, 30);
+        delBtn->setFixedSize(36, 34);
 
         int id = m.getId();
         connect(viewBtn, &QPushButton::clicked, this, [this, id]() { onViewProfileClicked(id); });
