@@ -150,9 +150,7 @@ if(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/assets/resources.qrc")
 endif()
 
 add_executable(FitCore ${SOURCES} ${HEADERS} ${RESOURCES})
-if(WIN32)
-    set_target_properties(FitCore PROPERTIES WIN32_EXECUTABLE TRUE)
-endif()
+
 
 
 target_link_libraries(FitCore PRIVATE
