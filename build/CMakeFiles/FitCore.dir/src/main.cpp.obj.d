@@ -449,21 +449,8 @@ CMakeFiles/FitCore.dir/src/main.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlabel.h \
  D:/Qt/6.7.2/mingw_64/include/QtGui/qpicture.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qiodevice.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/User.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/QDateTime \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/MainWindow.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/QMainWindow \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/QStackedWidget \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qstackedwidget.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/QListWidget \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlistwidget.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlistview.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemview.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qabstractitemmodel.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qitemselectionmodel.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/QComboBox \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qcombobox.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qstyleoption.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
@@ -473,7 +460,22 @@ CMakeFiles/FitCore.dir/src/main.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractslider.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qstyle.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabbar.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qrubberband.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qabstractitemmodel.h \
+ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/User.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/QDateTime \
+ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/MainWindow.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/QMainWindow \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/QStackedWidget \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qstackedwidget.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/QListWidget \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlistwidget.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlistview.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemview.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qitemselectionmodel.h \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/DashboardWidget.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QWidget \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qwidget.h \
@@ -482,8 +484,6 @@ CMakeFiles/FitCore.dir/src/main.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtableview.h \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/services/ReportService.h \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/MembersWidget.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/QComboBox \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qcombobox.h \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/AttendanceRepository.h \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/Attendance.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/QTime \

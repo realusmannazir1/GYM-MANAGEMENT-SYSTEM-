@@ -5,6 +5,7 @@
 #include <QLineEdit>
 #include <QPushButton>
 #include <QLabel>
+#include <QComboBox>
 #include "models/User.h"
 
 namespace FitCore {
@@ -18,6 +19,7 @@ public:
 
 private slots:
     void onLoginClicked();
+    void onRolePresetChanged(int index);
 
 private:
     QLineEdit *m_usernameInput;
@@ -25,6 +27,7 @@ private:
     QPushButton *m_loginBtn;
     QPushButton *m_exitBtn;
     QLabel *m_errorLabel;
+    QComboBox *m_rolePresetCombo;
 
     std::optional<User> m_authenticatedUser;
 };

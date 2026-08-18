@@ -47,9 +47,9 @@ int main(int argc, char *argv[]) {
     if (loginWindow.exec() == QDialog::Accepted) {
         auto userOpt = loginWindow.getAuthenticatedUser();
         if (userOpt.has_value()) {
-            std::cout << "[MAIN] Login accepted, launching MainWindow..." << std::endl;
+            std::cout << "[MAIN] Login accepted, launching MainWindow in maximized mode..." << std::endl;
             FitCore::MainWindow mainWindow(userOpt.value());
-            mainWindow.show();
+            mainWindow.showMaximized();
             return app.exec();
         }
     }

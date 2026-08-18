@@ -383,13 +383,27 @@ CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlabel.h \
  D:/Qt/6.7.2/mingw_64/include/QtGui/qpicture.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qiodevice.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/QComboBox \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qcombobox.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qstyleoption.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qlocale.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qvalidator.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qregularexpression.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qslider.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractslider.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qstyle.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabbar.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qrubberband.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qabstractitemmodel.h \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/User.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/QString \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qstring.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/QDateTime \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qdatetime.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qcalendar.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qlocale.h \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/services/AuthenticationService.h \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/UserRepository.h \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/AuditRepository.h \
