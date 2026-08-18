@@ -10,22 +10,23 @@ INSERT OR IGNORE INTO roles (role_id, role_name, description) VALUES
 (3, 'Receptionist', 'Access to member registration, check-ins, memberships, and payment recording'),
 (4, 'Trainer', 'Access to assigned members, workout plans, progress tracking, and training sessions');
 
--- 2. Default Users (Passwords hashed using SHA-256 with salt 'FitCoreSalt2026')
+-- 2. Default Users (Passwords hashed using SHA-256(password + salt) with salt 'FitCoreSalt2026')
+-- NOTE: hash format matches AuthenticationService::hashPassword() -> sha256(password + salt)
 -- Default Passwords:
 -- admin -> 'admin123'
 -- manager -> 'manager123'
 -- receptionist -> 'receptionist123'
 -- trainer -> 'trainer123'
--- Hash of 'admin123' + 'FitCoreSalt2026' = '240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9'
--- Hash of 'manager123' + 'FitCoreSalt2026' = 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3'
--- Hash of 'receptionist123' + 'FitCoreSalt2026' = '1d871901d8ab1f810141bb0223707297ddb2f32e6522c069b2d8614cb9f67a29'
--- Hash of 'trainer123' + 'FitCoreSalt2026' = '942fa790d970e7e17c093a1d120a44f481c7f8f906f23c932a3dd737227d8847'
+-- Hash of 'admin123' + 'FitCoreSalt2026' = 'd94ea2385c8e2c085aab668a33d99df131d68b217c1dc8231cd573350dff9fba'
+-- Hash of 'manager123' + 'FitCoreSalt2026' = '3897c62e753abb8d3d36dd7a694596bf7a2e025587104e1a9a4310e87a2c5757'
+-- Hash of 'receptionist123' + 'FitCoreSalt2026' = 'f938a6a93f570a7fba5fbe56e32926ff7822077adcb2926a034edf80166d965e'
+-- Hash of 'trainer123' + 'FitCoreSalt2026' = '99259d6c46f7523f4c6e7e21999a7dd248644a83318a5bad6f1bd7a450f0122f'
 
 INSERT OR IGNORE INTO users (user_id, username, password_hash, salt, full_name, email, phone, role_id, is_active) VALUES
-(1, 'admin', '240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9', 'FitCoreSalt2026', 'System Administrator', 'admin@fitcoregym.com', '+92-300-1112233', 1, 1),
-(2, 'manager', 'a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3', 'FitCoreSalt2026', 'Tariq Mahmood', 'manager@fitcoregym.com', '+92-301-2223344', 2, 1),
-(3, 'receptionist', '1d871901d8ab1f810141bb0223707297ddb2f32e6522c069b2d8614cb9f67a29', 'FitCoreSalt2026', 'Ayesha Khan', 'reception@fitcoregym.com', '+92-302-3334455', 3, 1),
-(4, 'trainer1', '942fa790d970e7e17c093a1d120a44f481c7f8f906f23c932a3dd737227d8847', 'FitCoreSalt2026', 'Bilal Ahmed', 'bilal.trainer@fitcoregym.com', '+92-303-4445566', 4, 1);
+(1, 'admin', 'd94ea2385c8e2c085aab668a33d99df131d68b217c1dc8231cd573350dff9fba', 'FitCoreSalt2026', 'System Administrator', 'admin@fitcoregym.com', '+92-300-1112233', 1, 1),
+(2, 'manager', '3897c62e753abb8d3d36dd7a694596bf7a2e025587104e1a9a4310e87a2c5757', 'FitCoreSalt2026', 'Tariq Mahmood', 'manager@fitcoregym.com', '+92-301-2223344', 2, 1),
+(3, 'receptionist', 'f938a6a93f570a7fba5fbe56e32926ff7822077adcb2926a034edf80166d965e', 'FitCoreSalt2026', 'Ayesha Khan', 'reception@fitcoregym.com', '+92-302-3334455', 3, 1),
+(4, 'trainer1', '99259d6c46f7523f4c6e7e21999a7dd248644a83318a5bad6f1bd7a450f0122f', 'FitCoreSalt2026', 'Bilal Ahmed', 'bilal.trainer@fitcoregym.com', '+92-303-4445566', 4, 1);
 
 -- 3. System Settings
 INSERT OR IGNORE INTO settings (setting_key, setting_value, description) VALUES

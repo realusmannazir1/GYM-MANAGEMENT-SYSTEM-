@@ -1,5 +1,6 @@
 #include <QCoreApplication>
 #include <QDebug>
+#include <QFile>
 #include <iostream>
 #include <cassert>
 #include "database/DatabaseManager.h"
@@ -33,7 +34,11 @@ void runTests() {
     };
 
     // Test 1: Database Initialization
-    bool dbOk = DatabaseManager::instance().open();
+    // NOTE: must use initialize() (not open()) so the schema + seed are applied.
+    QFile::remove("testdata/fitcore_test.db");
+    QFile::remove("testdata/fitcore_test.db-wal");
+    QFile::remove("testdata/fitcore_test.db-shm");
+    bool dbOk = DatabaseManager::instance().initialize("testdata/fitcore_test.db");
     testAssert(dbOk, "DatabaseManager Connection & Auto Schema Initialization");
 
     // Test 2: Authentication Service Admin Login
