@@ -64,52 +64,42 @@ void DashboardWidget::setupUi() {
     kpiGrid->setSpacing(10);
 
     // Row 0 (Line 1: 5 KPIs)
-    QFrame *c1 = createStatCard("Total Members", "0", "👥");
-    m_totalMembersVal = c1->findChild<QLabel*>("statValue");
+    QFrame *c1 = createStatCard("Total Members", "0", "👥", &m_totalMembersVal);
     kpiGrid->addWidget(c1, 0, 0);
 
-    QFrame *c2 = createStatCard("Active Members", "0", "✅");
-    m_activeMembersVal = c2->findChild<QLabel*>("statValue");
-    m_activeMembersVal->setStyleSheet("font-size: 22px; font-weight: bold; color: #10B981;");
+    QFrame *c2 = createStatCard("Active Members", "0", "✅", &m_activeMembersVal);
+    if (m_activeMembersVal) m_activeMembersVal->setStyleSheet("font-size: 22px; font-weight: bold; color: #10B981;");
     kpiGrid->addWidget(c2, 0, 1);
 
-    QFrame *c3 = createStatCard("Expired Members", "0", "❌");
-    m_expiredMembersVal = c3->findChild<QLabel*>("statValue");
-    m_expiredMembersVal->setStyleSheet("font-size: 22px; font-weight: bold; color: #EF4444;");
+    QFrame *c3 = createStatCard("Expired Members", "0", "❌", &m_expiredMembersVal);
+    if (m_expiredMembersVal) m_expiredMembersVal->setStyleSheet("font-size: 22px; font-weight: bold; color: #EF4444;");
     kpiGrid->addWidget(c3, 0, 2);
 
-    QFrame *c4 = createStatCard("Today's Visits", "0", "🚪");
-    m_todayAttendanceVal = c4->findChild<QLabel*>("statValue");
-    m_todayAttendanceVal->setStyleSheet("font-size: 22px; font-weight: bold; color: #3B82F6;");
+    QFrame *c4 = createStatCard("Today's Visits", "0", "🚪", &m_todayAttendanceVal);
+    if (m_todayAttendanceVal) m_todayAttendanceVal->setStyleSheet("font-size: 22px; font-weight: bold; color: #3B82F6;");
     kpiGrid->addWidget(c4, 0, 3);
 
-    QFrame *c5 = createStatCard("Monthly Visits", "0", "📊");
-    m_monthlyAttendanceVal = c5->findChild<QLabel*>("statValue");
-    m_monthlyAttendanceVal->setStyleSheet("font-size: 22px; font-weight: bold; color: #6366F1;");
+    QFrame *c5 = createStatCard("Monthly Visits", "0", "📊", &m_monthlyAttendanceVal);
+    if (m_monthlyAttendanceVal) m_monthlyAttendanceVal->setStyleSheet("font-size: 22px; font-weight: bold; color: #6366F1;");
     kpiGrid->addWidget(c5, 0, 4);
 
     // Row 1 (Line 2: 5 KPIs)
-    QFrame *c6 = createStatCard("Active Trainers", "0", "💪");
-    m_activeTrainersVal = c6->findChild<QLabel*>("statValue");
+    QFrame *c6 = createStatCard("Active Trainers", "0", "💪", &m_activeTrainersVal);
     kpiGrid->addWidget(c6, 1, 0);
 
-    QFrame *c7 = createStatCard("Active Plans", "0", "💳");
-    m_activeMembershipsVal = c7->findChild<QLabel*>("statValue");
+    QFrame *c7 = createStatCard("Active Plans", "0", "💳", &m_activeMembershipsVal);
     kpiGrid->addWidget(c7, 1, 1);
 
-    QFrame *c8 = createStatCard("Expiring (7 Days)", "0", "⚠️");
-    m_expiringSoonVal = c8->findChild<QLabel*>("statValue");
-    m_expiringSoonVal->setStyleSheet("font-size: 22px; font-weight: bold; color: #F59E0B;");
+    QFrame *c8 = createStatCard("Expiring (7 Days)", "0", "⚠️", &m_expiringSoonVal);
+    if (m_expiringSoonVal) m_expiringSoonVal->setStyleSheet("font-size: 22px; font-weight: bold; color: #F59E0B;");
     kpiGrid->addWidget(c8, 1, 2);
 
-    QFrame *c9 = createStatCard("Today's Revenue", "Rs. 0", "💵");
-    m_todayRevenueVal = c9->findChild<QLabel*>("statValue");
-    m_todayRevenueVal->setStyleSheet("font-size: 22px; font-weight: bold; color: #059669;");
+    QFrame *c9 = createStatCard("Today's Revenue", "Rs. 0", "💵", &m_todayRevenueVal);
+    if (m_todayRevenueVal) m_todayRevenueVal->setStyleSheet("font-size: 22px; font-weight: bold; color: #059669;");
     kpiGrid->addWidget(c9, 1, 3);
 
-    QFrame *c10 = createStatCard("Monthly Revenue", "Rs. 0", "📈");
-    m_monthlyRevenueVal = c10->findChild<QLabel*>("statValue");
-    m_monthlyRevenueVal->setStyleSheet("font-size: 22px; font-weight: bold; color: #10B981;");
+    QFrame *c10 = createStatCard("Monthly Revenue", "Rs. 0", "📈", &m_monthlyRevenueVal);
+    if (m_monthlyRevenueVal) m_monthlyRevenueVal->setStyleSheet("font-size: 22px; font-weight: bold; color: #10B981;");
     kpiGrid->addWidget(c10, 1, 4);
 
     mainLayout->addLayout(kpiGrid);
@@ -208,7 +198,7 @@ void DashboardWidget::setupUi() {
     outerLayout->addWidget(scrollArea);
 }
 
-QFrame* DashboardWidget::createStatCard(const QString& title, const QString& initialValue, const QString& iconStr) {
+QFrame* DashboardWidget::createStatCard(const QString& title, const QString& initialValue, const QString& iconStr, QLabel** labelOut) {
     QFrame *card = new QFrame(this);
     card->setObjectName("statCard");
 
@@ -233,58 +223,64 @@ QFrame* DashboardWidget::createStatCard(const QString& title, const QString& ini
     layout->addLayout(topRow);
     layout->addWidget(valLbl);
 
+    if (labelOut) *labelOut = valLbl;
+
     return card;
 }
 
 void DashboardWidget::refreshData() {
     DashboardKPIs kpi = m_reportService.getDashboardKPIs();
 
-    m_totalMembersVal->setText(QString::number(kpi.totalMembers));
-    m_activeMembersVal->setText(QString::number(kpi.activeMembers));
-    m_expiredMembersVal->setText(QString::number(kpi.expiredMembers));
-    m_todayAttendanceVal->setText(QString::number(kpi.todayAttendance));
-    m_monthlyAttendanceVal->setText(QString::number(kpi.monthlyAttendance));
-    m_activeTrainersVal->setText(QString::number(kpi.activeTrainers));
-    m_activeMembershipsVal->setText(QString::number(kpi.activeMemberships));
-    m_expiringSoonVal->setText(QString::number(kpi.expiringSoonCount));
+    if (m_totalMembersVal) m_totalMembersVal->setText(QString::number(kpi.totalMembers));
+    if (m_activeMembersVal) m_activeMembersVal->setText(QString::number(kpi.activeMembers));
+    if (m_expiredMembersVal) m_expiredMembersVal->setText(QString::number(kpi.expiredMembers));
+    if (m_todayAttendanceVal) m_todayAttendanceVal->setText(QString::number(kpi.todayAttendance));
+    if (m_monthlyAttendanceVal) m_monthlyAttendanceVal->setText(QString::number(kpi.monthlyAttendance));
+    if (m_activeTrainersVal) m_activeTrainersVal->setText(QString::number(kpi.activeTrainers));
+    if (m_activeMembershipsVal) m_activeMembershipsVal->setText(QString::number(kpi.activeMemberships));
+    if (m_expiringSoonVal) m_expiringSoonVal->setText(QString::number(kpi.expiringSoonCount));
 
-    m_todayRevenueVal->setText(QString("Rs. %1").arg(kpi.todayRevenue, 0, 'f', 0));
-    m_monthlyRevenueVal->setText(QString("Rs. %1").arg(kpi.monthlyRevenue, 0, 'f', 0));
+    if (m_todayRevenueVal) m_todayRevenueVal->setText(QString("Rs. %1").arg(kpi.todayRevenue, 0, 'f', 0));
+    if (m_monthlyRevenueVal) m_monthlyRevenueVal->setText(QString("Rs. %1").arg(kpi.monthlyRevenue, 0, 'f', 0));
     if (m_outstandingVal) m_outstandingVal->setText(QString("Rs. %1").arg(kpi.outstandingPayments, 0, 'f', 0));
     if (m_monthlyProfitVal) m_monthlyProfitVal->setText(QString("Rs. %1").arg(kpi.monthlyProfit, 0, 'f', 0));
 
     // Populate Expiring Table
-    MembershipRepository msRepo;
-    auto expiringList = msRepo.findExpiringSoon(7);
-    m_expiringTable->setRowCount(0);
-    int r = 0;
-    for (const auto& ms : expiringList) {
-        m_expiringTable->insertRow(r);
-        m_expiringTable->setItem(r, 0, new QTableWidgetItem(ms.getMemberName()));
-        m_expiringTable->setItem(r, 1, new QTableWidgetItem(ms.getPlanName()));
-        m_expiringTable->setItem(r, 2, new QTableWidgetItem(ms.getEndDate()));
+    if (m_expiringTable) {
+        MembershipRepository msRepo;
+        auto expiringList = msRepo.findExpiringSoon(7);
+        m_expiringTable->setRowCount(0);
+        int r = 0;
+        for (const auto& ms : expiringList) {
+            m_expiringTable->insertRow(r);
+            m_expiringTable->setItem(r, 0, new QTableWidgetItem(ms.getMemberName()));
+            m_expiringTable->setItem(r, 1, new QTableWidgetItem(ms.getPlanName()));
+            m_expiringTable->setItem(r, 2, new QTableWidgetItem(ms.getEndDate()));
 
-        QPushButton *renewBtn = new QPushButton("🔄 Renew", this);
-        renewBtn->setObjectName("successBtn");
-        renewBtn->setToolTip("Renew Membership Plan");
-        renewBtn->setStyleSheet("padding: 4px 10px; font-weight: 600;");
-        connect(renewBtn, &QPushButton::clicked, this, [this]() { emit navigateToModule(2); }); // Memberships module
-        m_expiringTable->setCellWidget(r, 3, renewBtn);
-        r++;
+            QPushButton *renewBtn = new QPushButton("🔄 Renew", this);
+            renewBtn->setObjectName("successBtn");
+            renewBtn->setToolTip("Renew Membership Plan");
+            renewBtn->setStyleSheet("padding: 4px 10px; font-weight: 600;");
+            connect(renewBtn, &QPushButton::clicked, this, [this]() { emit navigateToModule(2); }); // Memberships module
+            m_expiringTable->setCellWidget(r, 3, renewBtn);
+            r++;
+        }
     }
 
     // Populate Recent Payments Table
-    PaymentRepository payRepo;
-    auto paymentsList = payRepo.findAllPaged(5, 0);
-    m_recentPaymentsTable->setRowCount(0);
-    r = 0;
-    for (const auto& p : paymentsList) {
-        m_recentPaymentsTable->insertRow(r);
-        m_recentPaymentsTable->setItem(r, 0, new QTableWidgetItem(p.getReceiptNumber()));
-        m_recentPaymentsTable->setItem(r, 1, new QTableWidgetItem(p.getMemberName()));
-        m_recentPaymentsTable->setItem(r, 2, new QTableWidgetItem(QString("Rs. %1").arg(p.getFinalAmount(), 0, 'f', 0)));
-        m_recentPaymentsTable->setItem(r, 3, new QTableWidgetItem(p.getPaymentDate()));
-        r++;
+    if (m_recentPaymentsTable) {
+        PaymentRepository payRepo;
+        auto paymentsList = payRepo.findAllPaged(5, 0);
+        m_recentPaymentsTable->setRowCount(0);
+        int r = 0;
+        for (const auto& p : paymentsList) {
+            m_recentPaymentsTable->insertRow(r);
+            m_recentPaymentsTable->setItem(r, 0, new QTableWidgetItem(p.getReceiptNumber()));
+            m_recentPaymentsTable->setItem(r, 1, new QTableWidgetItem(p.getMemberName()));
+            m_recentPaymentsTable->setItem(r, 2, new QTableWidgetItem(QString("Rs. %1").arg(p.getFinalAmount(), 0, 'f', 0)));
+            m_recentPaymentsTable->setItem(r, 3, new QTableWidgetItem(p.getPaymentDate()));
+            r++;
+        }
     }
 }
 
