@@ -391,7 +391,6 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/database/DatabaseManager.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/models/AuditLog.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/services/MembershipService.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Attendance.h
-D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Equipment.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/ProgressWidget.h
  mmc:Q_OBJECT
  mdp:D:/Projects/GYM MANAGEMENT SYSTEM/build/FitCore_autogen/moc_predefs.h
@@ -783,6 +782,7 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/ProgressWidget.h
  mdp:D:/Software/mingw64/mingw64/x86_64-w64-mingw32/include/time.h
  mdp:D:/Software/mingw64/mingw64/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/Software/mingw64/mingw64/x86_64-w64-mingw32/include/wchar.h
+D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Equipment.h
 D:/Projects/GYM MANAGEMENT SYSTEM/main.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Expense.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/PaymentRepository.h

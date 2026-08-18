@@ -8,7 +8,7 @@ set QT_PLUGIN_PATH=D:\Qt\6.7.2\mingw_64\plugins
 echo Checking incremental build status...
 cmake --build build --target FitCore
 if %ERRORLEVEL% EQU 0 (
+    powershell -NoProfile -ExecutionPolicy Bypass -Command "$cert = Get-ChildItem Cert:\CurrentUser\My -CodeSigningCert | Select-Object -First 1; if ($cert) { Set-AuthenticodeSignature -FilePath '%~dp0build\FitCore.exe' -Certificate $cert | Out-Null }"
     echo Launching FitCore...
     start "" "%~dp0build\FitCore.exe"
 )
-
