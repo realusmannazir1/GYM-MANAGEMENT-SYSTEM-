@@ -98,8 +98,10 @@ void ProgressWidget::loadProgressTable() {
 void ProgressWidget::onAddRecordClicked() {
     QDialog dlg(this);
     dlg.setWindowTitle("Log Body Progress & Measurements");
-    dlg.setFixedSize(480, 500);
-    dlg.setStyleSheet(ThemeManager::getDarkThemeQss());
+    dlg.resize(500, 520);
+    dlg.setMinimumSize(400, 400);
+    dlg.setStyleSheet(ThemeManager::getLightThemeQss());
+    dlg.setWindowFlags(Qt::Window | Qt::WindowMinMaxButtonsHint | Qt::WindowCloseButtonHint);
 
     QVBoxLayout *layout = new QVBoxLayout(&dlg);
     QFormLayout *form = new QFormLayout();

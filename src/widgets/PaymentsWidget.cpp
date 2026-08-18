@@ -86,8 +86,10 @@ void PaymentsWidget::loadPaymentsTable() {
 void PaymentsWidget::onRecordPaymentClicked() {
     QDialog dlg(this);
     dlg.setWindowTitle("Record Payment Receipt");
-    dlg.setFixedSize(450, 420);
-    dlg.setStyleSheet(ThemeManager::getDarkThemeQss());
+    dlg.resize(480, 440);
+    dlg.setMinimumSize(380, 350);
+    dlg.setStyleSheet(ThemeManager::getLightThemeQss());
+    dlg.setWindowFlags(Qt::Window | Qt::WindowMinMaxButtonsHint | Qt::WindowCloseButtonHint);
 
     QVBoxLayout *layout = new QVBoxLayout(&dlg);
     QFormLayout *form = new QFormLayout();

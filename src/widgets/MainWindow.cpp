@@ -14,6 +14,7 @@ MainWindow::MainWindow(const User& currentUser, QWidget *parent)
     : QMainWindow(parent), m_currentUser(currentUser) {
     setWindowTitle("FitCore — Gym Management System [C++17 & Qt 6 & SQLite]");
     resize(1360, 850);
+    setMinimumSize(960, 640);
     setStyleSheet(ThemeManager::getLightThemeQss());
 
     setupUi();

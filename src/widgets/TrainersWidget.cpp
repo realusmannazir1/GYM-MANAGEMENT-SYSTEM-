@@ -137,8 +137,10 @@ void TrainersWidget::loadSessionsTable() {
 void TrainersWidget::onAddTrainerClicked() {
     QDialog dlg(this);
     dlg.setWindowTitle("Register New Trainer");
-    dlg.setFixedSize(480, 480);
-    dlg.setStyleSheet(ThemeManager::getDarkThemeQss());
+    dlg.resize(500, 500);
+    dlg.setMinimumSize(400, 380);
+    dlg.setStyleSheet(ThemeManager::getLightThemeQss());
+    dlg.setWindowFlags(Qt::Window | Qt::WindowMinMaxButtonsHint | Qt::WindowCloseButtonHint);
 
     QVBoxLayout *layout = new QVBoxLayout(&dlg);
     QFormLayout *form = new QFormLayout();
@@ -215,8 +217,10 @@ void TrainersWidget::onAddTrainerClicked() {
 void TrainersWidget::onAssignMemberClicked(int trainerId) {
     QDialog dlg(this);
     dlg.setWindowTitle("Assign Member to Trainer");
-    dlg.setFixedSize(420, 220);
-    dlg.setStyleSheet(ThemeManager::getDarkThemeQss());
+    dlg.resize(440, 240);
+    dlg.setMinimumSize(360, 200);
+    dlg.setStyleSheet(ThemeManager::getLightThemeQss());
+    dlg.setWindowFlags(Qt::Window | Qt::WindowMinMaxButtonsHint | Qt::WindowCloseButtonHint);
 
     QVBoxLayout *layout = new QVBoxLayout(&dlg);
     QFormLayout *form = new QFormLayout();
@@ -259,8 +263,10 @@ void TrainersWidget::onAssignMemberClicked(int trainerId) {
 void TrainersWidget::onScheduleSessionClicked(int trainerId) {
     QDialog dlg(this);
     dlg.setWindowTitle("Schedule Personal Training Session");
-    dlg.setFixedSize(460, 380);
-    dlg.setStyleSheet(ThemeManager::getDarkThemeQss());
+    dlg.resize(480, 400);
+    dlg.setMinimumSize(380, 320);
+    dlg.setStyleSheet(ThemeManager::getLightThemeQss());
+    dlg.setWindowFlags(Qt::Window | Qt::WindowMinMaxButtonsHint | Qt::WindowCloseButtonHint);
 
     QVBoxLayout *layout = new QVBoxLayout(&dlg);
     QFormLayout *form = new QFormLayout();

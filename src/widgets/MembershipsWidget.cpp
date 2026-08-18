@@ -176,8 +176,10 @@ void MembershipsWidget::loadPlansTable() {
 void MembershipsWidget::onRenewClicked() {
     QDialog dlg(this);
     dlg.setWindowTitle("Membership Renewal / Assignment Modal");
-    dlg.setFixedSize(480, 420);
-    dlg.setStyleSheet(ThemeManager::getDarkThemeQss());
+    dlg.resize(500, 440);
+    dlg.setMinimumSize(400, 350);
+    dlg.setStyleSheet(ThemeManager::getLightThemeQss());
+    dlg.setWindowFlags(Qt::Window | Qt::WindowMinMaxButtonsHint | Qt::WindowCloseButtonHint);
 
     QVBoxLayout *layout = new QVBoxLayout(&dlg);
     QFormLayout *form = new QFormLayout();
@@ -247,8 +249,10 @@ void MembershipsWidget::onRenewClicked() {
 void MembershipsWidget::onAddPlanClicked() {
     QDialog dlg(this);
     dlg.setWindowTitle("Create New Membership Plan");
-    dlg.setFixedSize(450, 360);
-    dlg.setStyleSheet(ThemeManager::getDarkThemeQss());
+    dlg.resize(480, 380);
+    dlg.setMinimumSize(380, 300);
+    dlg.setStyleSheet(ThemeManager::getLightThemeQss());
+    dlg.setWindowFlags(Qt::Window | Qt::WindowMinMaxButtonsHint | Qt::WindowCloseButtonHint);
 
     QVBoxLayout *layout = new QVBoxLayout(&dlg);
     QFormLayout *form = new QFormLayout();

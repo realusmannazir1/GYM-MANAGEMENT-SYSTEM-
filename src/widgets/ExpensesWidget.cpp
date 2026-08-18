@@ -88,8 +88,10 @@ void ExpensesWidget::loadExpensesTable() {
 void ExpensesWidget::onAddExpenseClicked() {
     QDialog dlg(this);
     dlg.setWindowTitle("Record Operational Expense");
-    dlg.setFixedSize(450, 380);
-    dlg.setStyleSheet(ThemeManager::getDarkThemeQss());
+    dlg.resize(480, 400);
+    dlg.setMinimumSize(380, 320);
+    dlg.setStyleSheet(ThemeManager::getLightThemeQss());
+    dlg.setWindowFlags(Qt::Window | Qt::WindowMinMaxButtonsHint | Qt::WindowCloseButtonHint);
 
     QVBoxLayout *layout = new QVBoxLayout(&dlg);
     QFormLayout *form = new QFormLayout();

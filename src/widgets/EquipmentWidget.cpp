@@ -120,8 +120,10 @@ void EquipmentWidget::loadMaintenanceTable() {
 void EquipmentWidget::onAddEquipmentClicked() {
     QDialog dlg(this);
     dlg.setWindowTitle("Add Gym Equipment");
-    dlg.setFixedSize(450, 440);
-    dlg.setStyleSheet(ThemeManager::getDarkThemeQss());
+    dlg.resize(480, 460);
+    dlg.setMinimumSize(380, 360);
+    dlg.setStyleSheet(ThemeManager::getLightThemeQss());
+    dlg.setWindowFlags(Qt::Window | Qt::WindowMinMaxButtonsHint | Qt::WindowCloseButtonHint);
 
     QVBoxLayout *layout = new QVBoxLayout(&dlg);
     QFormLayout *form = new QFormLayout();
@@ -187,8 +189,10 @@ void EquipmentWidget::onAddEquipmentClicked() {
 void EquipmentWidget::onLogMaintenanceClicked(int equipmentId) {
     QDialog dlg(this);
     dlg.setWindowTitle("Log Maintenance Service");
-    dlg.setFixedSize(450, 380);
-    dlg.setStyleSheet(ThemeManager::getDarkThemeQss());
+    dlg.resize(480, 400);
+    dlg.setMinimumSize(380, 320);
+    dlg.setStyleSheet(ThemeManager::getLightThemeQss());
+    dlg.setWindowFlags(Qt::Window | Qt::WindowMinMaxButtonsHint | Qt::WindowCloseButtonHint);
 
     QVBoxLayout *layout = new QVBoxLayout(&dlg);
     QFormLayout *form = new QFormLayout();

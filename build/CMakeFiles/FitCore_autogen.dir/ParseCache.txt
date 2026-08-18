@@ -384,10 +384,10 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/EquipmentWidget.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/wchar.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/AttendanceRepository.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/database/DatabaseManager.h
-D:/Projects/GYM MANAGEMENT SYSTEM/include/models/AuditLog.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/services/MembershipService.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Attendance.h
-D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Equipment.h
+D:/Projects/GYM MANAGEMENT SYSTEM/include/models/AuditLog.h
+D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Expense.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/ProgressWidget.h
  mmc:Q_OBJECT
  mdp:D:/Projects/GYM MANAGEMENT SYSTEM/build/FitCore_autogen/moc_predefs.h
@@ -775,9 +775,10 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/ProgressWidget.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/time.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/wchar.h
-D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Expense.h
-D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/PaymentRepository.h
+D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Equipment.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Member.h
+D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/PaymentRepository.h
+D:/Projects/GYM MANAGEMENT SYSTEM/include/services/NotificationService.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Exercise.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/WorkoutWidget.h
  mmc:Q_OBJECT
@@ -1167,11 +1168,10 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/WorkoutWidget.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/time.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/wchar.h
-D:/Projects/GYM MANAGEMENT SYSTEM/include/services/NotificationService.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Membership.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/models/MembershipPlan.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Notification.h
-D:/Projects/GYM MANAGEMENT SYSTEM/src/models/MembershipPlan.cpp
+D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Payment.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/ExpensesWidget.h
  mmc:Q_OBJECT
  mdp:D:/Projects/GYM MANAGEMENT SYSTEM/build/FitCore_autogen/moc_predefs.h
@@ -2013,10 +2013,10 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/MainWindow.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/time.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/wchar.h
-D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Payment.h
+D:/Projects/GYM MANAGEMENT SYSTEM/src/models/MembershipPlan.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/src/services/ReportService.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/include/models/ProgressRecord.h
-D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Membership.cpp
+D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Trainer.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/TrainersWidget.h
  mmc:Q_OBJECT
  mdp:D:/Projects/GYM MANAGEMENT SYSTEM/build/FitCore_autogen/moc_predefs.h
@@ -2403,11 +2403,12 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/TrainersWidget.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/time.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/wchar.h
-D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Trainer.h
-D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/AuditRepository.h
+D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Membership.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/include/models/User.h
+D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/AuditRepository.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/models/WorkoutPlan.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/EquipmentRepository.h
+D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/ExpenseRepository.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/LoginWindow.h
  mmc:Q_OBJECT
  mdp:D:/Projects/GYM MANAGEMENT SYSTEM/build/FitCore_autogen/moc_predefs.h
@@ -2790,16 +2791,14 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/LoginWindow.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/wchar.h
 D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Attendance.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Notification.cpp
-D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/ExpenseRepository.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/MemberRepository.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/MembershipPlanRepository.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/MembershipRepository.h
-D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/ProgressRepository.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/NotificationRepository.h
+D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/ProgressRepository.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/SettingsRepository.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/TrainerRepository.h
-D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Member.cpp
-D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Expense.cpp
+D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/UserRepository.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/AuditLogsWidget.h
  mmc:Q_OBJECT
  mdp:D:/Projects/GYM MANAGEMENT SYSTEM/build/FitCore_autogen/moc_predefs.h
@@ -3180,15 +3179,16 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/AuditLogsWidget.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/time.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/wchar.h
-D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/UserRepository.h
+D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Expense.cpp
+D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Member.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/WorkoutRepository.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/services/AttendanceService.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/services/AuthenticationService.h
 D:/Projects/GYM MANAGEMENT SYSTEM/src/services/NotificationService.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/include/services/BackupService.h
+D:/Projects/GYM MANAGEMENT SYSTEM/include/services/ReportService.h
 D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/MembersWidget.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/include/utils/ThemeManager.h
-D:/Projects/GYM MANAGEMENT SYSTEM/include/services/ReportService.h
 D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/AttendanceWidget.h
  mmc:Q_OBJECT
  mdp:D:/Projects/GYM MANAGEMENT SYSTEM/build/FitCore_autogen/moc_predefs.h
@@ -3983,12 +3983,26 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/DashboardWidget.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/time.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/wchar.h
-D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/ReportsWidget.h
+D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/MembersWidget.h
  mmc:Q_OBJECT
  mdp:D:/Projects/GYM MANAGEMENT SYSTEM/build/FitCore_autogen/moc_predefs.h
- mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/services/ReportService.h
- mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/ReportsWidget.h
+ mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Attendance.h
+ mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Exercise.h
+ mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Member.h
+ mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Membership.h
+ mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Payment.h
+ mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/models/ProgressRecord.h
+ mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/models/WorkoutPlan.h
+ mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/AttendanceRepository.h
+ mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/MemberRepository.h
+ mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/MembershipRepository.h
+ mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/PaymentRepository.h
+ mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/ProgressRepository.h
+ mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/WorkoutRepository.h
+ mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/MembersWidget.h
+ mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/QDate
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/QString
+ mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/QTime
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/q20functional.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/q20memory.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/q20type_traits.h
@@ -4008,6 +4022,7 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/ReportsWidget.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qbytearrayalgorithms.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qbytearraylist.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qbytearrayview.h
+ mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qcalendar.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qchar.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qcompare.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qcompare_impl.h
@@ -4021,6 +4036,7 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/ReportsWidget.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qcontiguouscache.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qdarwinhelpers.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qdatastream.h
+ mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qdatetime.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qdebug.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qendian.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qexceptionhandling.h
@@ -4034,7 +4050,9 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/ReportsWidget.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qglobalstatic.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qhash.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qhashfunctions.h
+ mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qiodevice.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qiodevicebase.h
+ mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qitemselectionmodel.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qiterable.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qiterator.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qlatin1stringview.h
@@ -4124,6 +4142,7 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/ReportsWidget.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtGui/qpaintdevice.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtGui/qpalette.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtGui/qpen.h
+ mdp:D:/Qt/6.7.2/mingw_64/include/QtGui/qpicture.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtGui/qpixelformat.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtGui/qpixmap.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtGui/qpolygon.h
@@ -4142,16 +4161,21 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/ReportsWidget.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/QComboBox
+ mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/QLabel
+ mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/QLineEdit
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/QPushButton
- mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/QTextEdit
+ mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/QTableWidget
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/QWidget
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h
+ mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemview.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractscrollarea.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractslider.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractspinbox.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qcombobox.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qframe.h
+ mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlabel.h
+ mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlineedit.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qrubberband.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h
@@ -4159,8 +4183,9 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/ReportsWidget.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qstyle.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qstyleoption.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabbar.h
+ mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtableview.h
+ mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtablewidget.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h
- mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtextedit.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsexports.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h
@@ -4370,26 +4395,12 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/ReportsWidget.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/time.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/vadefs.h
  mdp:D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/wchar.h
-D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/MembersWidget.h
+D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/ReportsWidget.h
  mmc:Q_OBJECT
  mdp:D:/Projects/GYM MANAGEMENT SYSTEM/build/FitCore_autogen/moc_predefs.h
- mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Attendance.h
- mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Exercise.h
- mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Member.h
- mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Membership.h
- mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/models/Payment.h
- mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/models/ProgressRecord.h
- mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/models/WorkoutPlan.h
- mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/AttendanceRepository.h
- mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/MemberRepository.h
- mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/MembershipRepository.h
- mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/PaymentRepository.h
- mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/ProgressRepository.h
- mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/repositories/WorkoutRepository.h
- mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/MembersWidget.h
- mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/QDate
+ mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/services/ReportService.h
+ mdp:D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/ReportsWidget.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/QString
- mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/QTime
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/q20functional.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/q20memory.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/q20type_traits.h
@@ -4409,7 +4420,6 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/MembersWidget.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qbytearrayalgorithms.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qbytearraylist.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qbytearrayview.h
- mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qcalendar.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qchar.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qcompare.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qcompare_impl.h
@@ -4423,7 +4433,6 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/MembersWidget.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qcontiguouscache.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qdarwinhelpers.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qdatastream.h
- mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qdatetime.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qdebug.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qendian.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qexceptionhandling.h
@@ -4437,9 +4446,7 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/MembersWidget.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qglobalstatic.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qhash.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qhashfunctions.h
- mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qiodevice.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qiodevicebase.h
- mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qitemselectionmodel.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qiterable.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qiterator.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtCore/qlatin1stringview.h
@@ -4529,7 +4536,6 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/MembersWidget.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtGui/qpaintdevice.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtGui/qpalette.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtGui/qpen.h
- mdp:D:/Qt/6.7.2/mingw_64/include/QtGui/qpicture.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtGui/qpixelformat.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtGui/qpixmap.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtGui/qpolygon.h
@@ -4548,21 +4554,16 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/MembersWidget.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/QComboBox
- mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/QLabel
- mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/QLineEdit
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/QPushButton
- mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/QTableWidget
+ mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/QTextEdit
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/QWidget
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h
- mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemview.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractscrollarea.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractslider.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractspinbox.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qcombobox.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qframe.h
- mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlabel.h
- mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlineedit.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qrubberband.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h
@@ -4570,9 +4571,8 @@ D:/Projects/GYM MANAGEMENT SYSTEM/include/widgets/MembersWidget.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qstyle.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qstyleoption.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabbar.h
- mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtableview.h
- mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtablewidget.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h
+ mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtextedit.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsexports.h
  mdp:D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h
@@ -6341,8 +6341,8 @@ D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Exercise.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Payment.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/src/models/ProgressRecord.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Trainer.cpp
-D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/TrainersWidget.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/src/models/User.cpp
+D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/TrainersWidget.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/src/models/WorkoutPlan.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/AttendanceRepository.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/AuditRepository.cpp
@@ -6351,8 +6351,8 @@ D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/ExpenseRepository.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/MemberRepository.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/MembershipPlanRepository.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/MembershipRepository.cpp
-D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/ProgressRepository.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/NotificationRepository.cpp
+D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/ProgressRepository.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/PaymentRepository.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/SettingsRepository.cpp
 D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/TrainerRepository.cpp

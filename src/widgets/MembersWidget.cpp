@@ -217,8 +217,10 @@ void MembersWidget::openMemberDialog(const std::optional<Member>& memberOpt) {
     QDialog dlg(this);
     bool isEdit = memberOpt.has_value();
     dlg.setWindowTitle(isEdit ? "Edit Member Details" : "Register New Member");
-    dlg.setFixedSize(500, 580);
-    dlg.setStyleSheet(ThemeManager::getDarkThemeQss());
+    dlg.resize(520, 600);
+    dlg.setMinimumSize(440, 420);
+    dlg.setStyleSheet(ThemeManager::getLightThemeQss());
+    dlg.setWindowFlags(Qt::Window | Qt::WindowMinMaxButtonsHint | Qt::WindowCloseButtonHint);
 
     QVBoxLayout *layout = new QVBoxLayout(&dlg);
     QFormLayout *form = new QFormLayout();
@@ -329,7 +331,9 @@ void MembersWidget::openMemberProfileDialog(int memberId) {
     QDialog dlg(this);
     dlg.setWindowTitle("Member Profile Dashboard — " + member.getFullName() + " (" + member.getMembershipNumber() + ")");
     dlg.resize(750, 550);
-    dlg.setStyleSheet(ThemeManager::getDarkThemeQss());
+    dlg.setMinimumSize(550, 420);
+    dlg.setStyleSheet(ThemeManager::getLightThemeQss());
+    dlg.setWindowFlags(Qt::Window | Qt::WindowMinMaxButtonsHint | Qt::WindowCloseButtonHint);
 
     QVBoxLayout *layout = new QVBoxLayout(&dlg);
 

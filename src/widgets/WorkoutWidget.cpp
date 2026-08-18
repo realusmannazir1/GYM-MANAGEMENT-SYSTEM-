@@ -155,8 +155,10 @@ void WorkoutWidget::loadLogsTable() {
 void WorkoutWidget::onAddExerciseClicked() {
     QDialog dlg(this);
     dlg.setWindowTitle("Add New Exercise");
-    dlg.setFixedSize(450, 420);
-    dlg.setStyleSheet(ThemeManager::getDarkThemeQss());
+    dlg.resize(480, 440);
+    dlg.setMinimumSize(380, 350);
+    dlg.setStyleSheet(ThemeManager::getLightThemeQss());
+    dlg.setWindowFlags(Qt::Window | Qt::WindowMinMaxButtonsHint | Qt::WindowCloseButtonHint);
 
     QVBoxLayout *layout = new QVBoxLayout(&dlg);
     QFormLayout *form = new QFormLayout();
@@ -218,8 +220,10 @@ void WorkoutWidget::onAddExerciseClicked() {
 void WorkoutWidget::onCreatePlanClicked() {
     QDialog dlg(this);
     dlg.setWindowTitle("Build Personalized Workout Plan");
-    dlg.setFixedSize(550, 480);
-    dlg.setStyleSheet(ThemeManager::getDarkThemeQss());
+    dlg.resize(580, 500);
+    dlg.setMinimumSize(450, 400);
+    dlg.setStyleSheet(ThemeManager::getLightThemeQss());
+    dlg.setWindowFlags(Qt::Window | Qt::WindowMinMaxButtonsHint | Qt::WindowCloseButtonHint);
 
     QVBoxLayout *layout = new QVBoxLayout(&dlg);
     QFormLayout *form = new QFormLayout();
@@ -309,8 +313,10 @@ void WorkoutWidget::onCreatePlanClicked() {
 void WorkoutWidget::onLogWorkoutClicked() {
     QDialog dlg(this);
     dlg.setWindowTitle("Log Completed Workout");
-    dlg.setFixedSize(450, 400);
-    dlg.setStyleSheet(ThemeManager::getDarkThemeQss());
+    dlg.resize(480, 420);
+    dlg.setMinimumSize(380, 340);
+    dlg.setStyleSheet(ThemeManager::getLightThemeQss());
+    dlg.setWindowFlags(Qt::Window | Qt::WindowMinMaxButtonsHint | Qt::WindowCloseButtonHint);
 
     QVBoxLayout *layout = new QVBoxLayout(&dlg);
     QFormLayout *form = new QFormLayout();
