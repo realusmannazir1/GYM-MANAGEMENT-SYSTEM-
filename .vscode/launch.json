@@ -12,7 +12,7 @@
             "environment": [
                 {
                     "name": "PATH",
-                    "value": "D:\\Qt\\6.7.2\\mingw_64\\bin;${env:PATH}"
+                    "value": "D:\\Qt\\6.7.2\\mingw_64\\bin;D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin;${env:PATH}"
                 },
                 {
                     "name": "QT_PLUGIN_PATH",
@@ -21,7 +21,7 @@
             ],
             "externalConsole": false,
             "MIMode": "gdb",
-            "miDebuggerPath": "D:/Qt/6.7.2/mingw_64/bin/gdb.exe"
+            "miDebuggerPath": "D:/Qt/Tools/mingw1310_64/mingw64/bin/gdb.exe"
         }
     ]
 }

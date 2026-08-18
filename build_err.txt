@@ -1,0 +1,57 @@
+D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\PaymentRepository.cpp: In member function 'bool FitCore::PaymentRepository::create(FitCore::Payment&)':
+D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\PaymentRepository.cpp:111:116: warning: 'QVariant::QVariant(Type)' is deprecated: Use the constructor taking a QMetaType instead. [-Wdeprecated-declarations]
+  111 |     query.addBindValue(payment.getMembershipId() > 0 ? QVariant(payment.getMembershipId()) : QVariant(QVariant::Int));
+      |                                                                                                                    ^
+In file included from D:/Qt/6.7.2/mingw_64/include/QtSql/qsqlquery.h:10,
+                 from D:/Qt/6.7.2/mingw_64/include/QtSql/QSqlQuery:1,
+                 from D:/Projects/GYM MANAGEMENT SYSTEM/include/database/DatabaseManager.h:6,
+                 from D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\PaymentRepository.cpp:2:
+D:/Qt/6.7.2/mingw_64/include/QtCore/qvariant.h:428:14: note: declared here
+  428 |     explicit QVariant(Type type)
+      |              ^~~~~~~~
+D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\WorkoutRepository.cpp: In member function 'bool FitCore::WorkoutRepository::createWorkoutPlan(FitCore::WorkoutPlan&)':
+D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\WorkoutRepository.cpp:163:104: warning: 'QVariant::QVariant(Type)' is deprecated: Use the constructor taking a QMetaType instead. [-Wdeprecated-declarations]
+  163 |     query.addBindValue(plan.getTrainerId() > 0 ? QVariant(plan.getTrainerId()) : QVariant(QVariant::Int));
+      |                                                                                                        ^
+In file included from D:/Qt/6.7.2/mingw_64/include/QtSql/qsqlquery.h:10,
+                 from D:/Qt/6.7.2/mingw_64/include/QtSql/QSqlQuery:1,
+                 from D:/Projects/GYM MANAGEMENT SYSTEM/include/database/DatabaseManager.h:6,
+                 from D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\WorkoutRepository.cpp:2:
+D:/Qt/6.7.2/mingw_64/include/QtCore/qvariant.h:428:14: note: declared here
+  428 |     explicit QVariant(Type type)
+      |              ^~~~~~~~
+D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\WorkoutRepository.cpp: In member function 'bool FitCore::WorkoutRepository::logWorkout(FitCore::WorkoutLogItem&)':
+D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\WorkoutRepository.cpp:261:100: warning: 'QVariant::QVariant(Type)' is deprecated: Use the constructor taking a QMetaType instead. [-Wdeprecated-declarations]
+  261 |     query.addBindValue(log.workoutPlanId > 0 ? QVariant(log.workoutPlanId) : QVariant(QVariant::Int));
+      |                                                                                                    ^
+D:/Qt/6.7.2/mingw_64/include/QtCore/qvariant.h:428:14: note: declared here
+  428 |     explicit QVariant(Type type)
+      |              ^~~~~~~~
+D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\NotificationRepository.cpp: In member function 'bool FitCore::NotificationRepository::create(FitCore::Notification&)':
+D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\NotificationRepository.cpp:57:114: warning: 'QVariant::QVariant(Type)' is deprecated: Use the constructor taking a QMetaType instead. [-Wdeprecated-declarations]
+   57 |     query.addBindValue(notification.getUserId() > 0 ? QVariant(notification.getUserId()) : QVariant(QVariant::Int));
+      |                                                                                                                  ^
+In file included from D:/Qt/6.7.2/mingw_64/include/QtSql/qsqlquery.h:10,
+                 from D:/Qt/6.7.2/mingw_64/include/QtSql/QSqlQuery:1,
+                 from D:/Projects/GYM MANAGEMENT SYSTEM/include/database/DatabaseManager.h:6,
+                 from D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\NotificationRepository.cpp:2:
+D:/Qt/6.7.2/mingw_64/include/QtCore/qvariant.h:428:14: note: declared here
+  428 |     explicit QVariant(Type type)
+      |              ^~~~~~~~
+D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\AuditRepository.cpp: In member function 'bool FitCore::AuditRepository::logAction(int, const QString&, const QString&, int, const QString&)':
+D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\AuditRepository.cpp:40:78: warning: 'QVariant::QVariant(Type)' is deprecated: Use the constructor taking a QMetaType instead. [-Wdeprecated-declarations]
+   40 |     query.addBindValue(userId > 0 ? QVariant(userId) : QVariant(QVariant::Int));
+      |                                                                              ^
+In file included from D:/Qt/6.7.2/mingw_64/include/QtSql/qsqlquery.h:10,
+                 from D:/Qt/6.7.2/mingw_64/include/QtSql/QSqlQuery:1,
+                 from D:/Projects/GYM MANAGEMENT SYSTEM/include/database/DatabaseManager.h:6,
+                 from D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\AuditRepository.cpp:2:
+D:/Qt/6.7.2/mingw_64/include/QtCore/qvariant.h:428:14: note: declared here
+  428 |     explicit QVariant(Type type)
+      |              ^~~~~~~~
+D:\Projects\GYM MANAGEMENT SYSTEM\src\repositories\AuditRepository.cpp:43:82: warning: 'QVariant::QVariant(Type)' is deprecated: Use the constructor taking a QMetaType instead. [-Wdeprecated-declarations]
+   43 |     query.addBindValue(entityId > 0 ? QVariant(entityId) : QVariant(QVariant::Int));
+      |                                                                                  ^
+D:/Qt/6.7.2/mingw_64/include/QtCore/qvariant.h:428:14: note: declared here
+  428 |     explicit QVariant(Type type)
+      |              ^~~~~~~~

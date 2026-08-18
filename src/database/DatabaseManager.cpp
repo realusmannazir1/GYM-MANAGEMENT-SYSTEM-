@@ -7,6 +7,100 @@
 #include <QDebug>
 #include <iostream>
 
+namespace {
+
+// Removes SQL '--' line comments and '/* ... */' block comments while
+// preserving semicolons inside quoted string literals, so statements can be
+// safely split on ';' afterwards without dropping trailing SQL that follows a
+// comment line (e.g. "CREATE TABLE ..." after "-- 3. Members").
+QString stripSqlComments(const QString& sql) {
+    QString out;
+    out.reserve(sql.size());
+    const int n = sql.size();
+    int i = 0;
+    bool inLineComment = false;
+    bool inBlockComment = false;
+    bool inSingleQuote = false;
+    bool inDoubleQuote = false;
+
+    while (i < n) {
+        const QChar c = sql.at(i);
+        const QChar nx = (i + 1 < n) ? sql.at(i + 1) : QChar();
+
+        if (inLineComment) {
+            if (c == '\n') {
+                inLineComment = false;
+                out.append(c);
+            }
+            ++i;
+            continue;
+        }
+        if (inBlockComment) {
+            if (c == '*' && nx == '/') {
+                inBlockComment = false;
+                i += 2;
+                continue;
+            }
+            ++i;
+            continue;
+        }
+        if (inSingleQuote) {
+            out.append(c);
+            if (c == '\'') {
+                if (nx == '\'') { // escaped '' inside string literal
+                    out.append(nx);
+                    i += 2;
+                    continue;
+                }
+                inSingleQuote = false;
+            }
+            ++i;
+            continue;
+        }
+        if (inDoubleQuote) {
+            out.append(c);
+            if (c == '"') {
+                if (nx == '"') { // escaped "" inside identifier
+                    out.append(nx);
+                    i += 2;
+                    continue;
+                }
+                inDoubleQuote = false;
+            }
+            ++i;
+            continue;
+        }
+
+        if (c == '-' && nx == '-') {
+            inLineComment = true;
+            i += 2;
+            continue;
+        }
+        if (c == '/' && nx == '*') {
+            inBlockComment = true;
+            i += 2;
+            continue;
+        }
+        if (c == '\'') {
+            inSingleQuote = true;
+            out.append(c);
+            ++i;
+            continue;
+        }
+        if (c == '"') {
+            inDoubleQuote = true;
+            out.append(c);
+            ++i;
+            continue;
+        }
+        out.append(c);
+        ++i;
+    }
+    return out;
+}
+
+} // namespace
+
 namespace FitCore {
 
 DatabaseManager& DatabaseManager::instance() {
@@ -169,13 +263,21 @@ bool DatabaseManager::executeScriptFile(const QString& filePath) {
     QString script = in.readAll();
     file.close();
 
-    QStringList statements = script.split(';', Qt::SkipEmptyParts);
+    // Strip SQL comments before splitting so statements that follow a
+    // comment line are executed instead of being skipped.
+    QString cleanScript = stripSqlComments(script);
+    QStringList statements = cleanScript.split(';', Qt::SkipEmptyParts);
     QSqlDatabase db = getDatabase();
 
-    db.transaction();
+    if (!db.transaction()) {
+        m_lastError = db.lastError().text();
+        qWarning() << "Transaction start failed:" << m_lastError;
+        return false;
+    }
+
     for (QString statement : statements) {
         statement = statement.trimmed();
-        if (statement.isEmpty() || statement.startsWith("--")) {
+        if (statement.isEmpty()) {
             continue;
         }
 
@@ -187,6 +289,7 @@ bool DatabaseManager::executeScriptFile(const QString& filePath) {
             return false;
         }
     }
+
     return db.commit();
 }
 

@@ -71,7 +71,7 @@ FitCore_autogen/timestamp: D:/Qt/6.7.2/mingw_64/./bin/moc.exe
 FitCore_autogen/timestamp: D:/Qt/6.7.2/mingw_64/./bin/uic.exe
 FitCore_autogen/timestamp: CMakeFiles/FitCore_autogen.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target FitCore"
-	C:\Users\uk078\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E cmake_autogen "D:/Projects/GYM MANAGEMENT SYSTEM/build/CMakeFiles/FitCore_autogen.dir/AutogenInfo.json" ""
+	C:\Users\uk078\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E cmake_autogen "D:/Projects/GYM MANAGEMENT SYSTEM/build/CMakeFiles/FitCore_autogen.dir/AutogenInfo.json" Release
 	C:\Users\uk078\AppData\Local\Programs\Python\Python312\Lib\site-packages\cmake\data\bin\cmake.exe -E touch "D:/Projects/GYM MANAGEMENT SYSTEM/build/FitCore_autogen/timestamp"
 
 CMakeFiles/FitCore_autogen.dir/codegen:
