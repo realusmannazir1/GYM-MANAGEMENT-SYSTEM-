@@ -175,7 +175,8 @@ void DashboardWidget::setupUi() {
     m_expiringTable->setColumnCount(4);
     m_expiringTable->setHorizontalHeaderLabels({"Member", "Plan", "End Date", "Action"});
     m_expiringTable->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
-    m_expiringTable->verticalHeader()->setDefaultSectionSize(42);
+    m_expiringTable->horizontalHeader()->setSectionResizeMode(3, QHeaderView::ResizeToContents);
+    m_expiringTable->verticalHeader()->setDefaultSectionSize(40);
     m_expiringTable->verticalHeader()->setVisible(false);
     expLayout->addWidget(m_expiringTable);
     tablesLayout->addWidget(expiringBox, 1);
@@ -257,12 +258,18 @@ void DashboardWidget::refreshData() {
             m_expiringTable->setItem(r, 1, new QTableWidgetItem(ms.getPlanName()));
             m_expiringTable->setItem(r, 2, new QTableWidgetItem(ms.getEndDate()));
 
-            QPushButton *renewBtn = new QPushButton("🔄 Renew", this);
-            renewBtn->setObjectName("successBtn");
+            QWidget *actWidget = new QWidget(this);
+            QHBoxLayout *actLayout = new QHBoxLayout(actWidget);
+            actLayout->setContentsMargins(2, 2, 2, 2);
+            actLayout->setAlignment(Qt::AlignCenter);
+
+            QPushButton *renewBtn = new QPushButton("🔄", actWidget);
+            renewBtn->setObjectName("iconSuccessBtn");
             renewBtn->setToolTip("Renew Membership Plan");
-            renewBtn->setStyleSheet("padding: 4px 10px; font-weight: 600;");
+            renewBtn->setCursor(Qt::PointingHandCursor);
+            renewBtn->setFixedSize(30, 28);
             connect(renewBtn, &QPushButton::clicked, this, [this]() { emit navigateToModule(2); }); // Memberships module
-            m_expiringTable->setCellWidget(r, 3, renewBtn);
+            m_expiringTable->setCellWidget(r, 3, actWidget);
             r++;
         }
     }

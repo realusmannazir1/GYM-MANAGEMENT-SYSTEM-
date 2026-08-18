@@ -31,6 +31,12 @@ public:
     explicit MainWindow(const User& currentUser, QWidget *parent = nullptr);
     ~MainWindow() override = default;
 
+signals:
+    void logoutRequested();
+
+protected:
+    void closeEvent(QCloseEvent *event) override;
+
 private slots:
     void onSidebarSelectionChanged(int row);
     void onQuickCheckInSubmitted();
@@ -48,6 +54,7 @@ private:
     QLabel *m_subLogoLbl;
     QPushButton *m_toggleSidebarBtn;
     bool m_sidebarCollapsed = false;
+    bool m_loggingOut = false;
 
     QListWidget *m_sidebarList;
     QStackedWidget *m_stackedWidget;

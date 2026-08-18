@@ -1,5 +1,6 @@
 #include "widgets/SettingsWidget.h"
 #include "utils/ThemeManager.h"
+#include "utils/ToastNotification.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QFormLayout>
@@ -93,7 +94,7 @@ void SettingsWidget::onSaveSettingsClicked() {
     m_settingsRepo.set("currency_symbol", m_currencyInput->text().trimmed());
     m_settingsRepo.set("tax_rate", m_taxRateInput->text().trimmed());
 
-    QMessageBox::information(this, "Settings Saved", "System configuration saved successfully.");
+    ToastNotification::show(this, "System configuration saved successfully.", ToastType::Success);
 }
 
 void SettingsWidget::onCreateBackupClicked() {
@@ -101,7 +102,7 @@ void SettingsWidget::onCreateBackupClicked() {
     if (res.success) {
         m_backupStatusLbl->setStyleSheet("color: #10B981; font-weight: bold;");
         m_backupStatusLbl->setText(res.message);
-        QMessageBox::information(this, "Backup Created", res.message);
+        ToastNotification::show(this, res.message, ToastType::Success);
     } else {
         m_backupStatusLbl->setStyleSheet("color: #EF4444; font-weight: bold;");
         m_backupStatusLbl->setText(res.message);

@@ -1,5 +1,6 @@
 #include "widgets/MembersWidget.h"
 #include "utils/ThemeManager.h"
+#include "utils/ToastNotification.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QFormLayout>
@@ -57,10 +58,23 @@ void MembersWidget::setupUi() {
     m_table = new QTableWidget(this);
     m_table->setColumnCount(7);
     m_table->setHorizontalHeaderLabels({"Membership #", "Full Name", "Gender", "Phone", "Registration Date", "Status", "Actions"});
+    m_table->horizontalHeader()->setSectionResizeMode(QHeaderView::Interactive);
+    m_table->setColumnWidth(0, 120);
     m_table->horizontalHeader()->setSectionResizeMode(1, QHeaderView::Stretch);
-    m_table->horizontalHeader()->setSectionResizeMode(6, QHeaderView::ResizeToContents);
-    m_table->verticalHeader()->setDefaultSectionSize(42);
+    m_table->setColumnWidth(2, 80);
+    m_table->setColumnWidth(3, 135);
+    m_table->setColumnWidth(4, 115);
+    m_table->setColumnWidth(5, 95);
+    m_table->horizontalHeader()->setSectionResizeMode(6, QHeaderView::Fixed);
+    m_table->setColumnWidth(6, 110);
+    m_table->verticalHeader()->setDefaultSectionSize(40);
     m_table->verticalHeader()->setVisible(false);
+    m_table->setShowGrid(false);
+    m_table->setAlternatingRowColors(true);
+    m_table->setSelectionBehavior(QAbstractItemView::SelectRows);
+    m_table->setSelectionMode(QAbstractItemView::SingleSelection);
+    m_table->setEditTriggers(QAbstractItemView::NoEditTriggers);
+    m_table->setFocusPolicy(Qt::NoFocus);
     mainLayout->addWidget(m_table);
 
     // Section 4: Pagination Bar
@@ -135,26 +149,30 @@ void MembersWidget::loadMembersTable() {
         statusBadge->setAlignment(Qt::AlignCenter);
         m_table->setCellWidget(r, 5, statusBadge);
 
-        // Action Buttons Widget
+        // Action Buttons Widget (compact icon buttons)
         QWidget *actionWidget = new QWidget(this);
         QHBoxLayout *actLayout = new QHBoxLayout(actionWidget);
-        actLayout->setContentsMargins(4, 2, 4, 2);
-        actLayout->setSpacing(6);
+        actLayout->setContentsMargins(2, 2, 2, 2);
+        actLayout->setSpacing(4);
+        actLayout->setAlignment(Qt::AlignCenter);
 
         QPushButton *viewBtn = new QPushButton("👁️", actionWidget);
-        viewBtn->setObjectName("secondaryBtn");
+        viewBtn->setObjectName("iconBtn");
         viewBtn->setToolTip("View Member Profile");
-        viewBtn->setFixedSize(36, 34);
+        viewBtn->setCursor(Qt::PointingHandCursor);
+        viewBtn->setFixedSize(30, 28);
 
         QPushButton *editBtn = new QPushButton("✏️", actionWidget);
-        editBtn->setObjectName("secondaryBtn");
+        editBtn->setObjectName("iconBtn");
         editBtn->setToolTip("Edit Member Details");
-        editBtn->setFixedSize(36, 34);
+        editBtn->setCursor(Qt::PointingHandCursor);
+        editBtn->setFixedSize(30, 28);
 
         QPushButton *delBtn = new QPushButton("🗑️", actionWidget);
-        delBtn->setObjectName("dangerBtn");
+        delBtn->setObjectName("iconDangerBtn");
         delBtn->setToolTip("Archive Member");
-        delBtn->setFixedSize(36, 34);
+        delBtn->setCursor(Qt::PointingHandCursor);
+        delBtn->setFixedSize(30, 28);
 
         int id = m.getId();
         connect(viewBtn, &QPushButton::clicked, this, [this, id]() { onViewProfileClicked(id); });
@@ -215,6 +233,7 @@ void MembersWidget::onDeleteMemberClicked(int memberId) {
 
     if (reply == QMessageBox::Yes) {
         m_memberRepo.setStatus(memberId, "Archived");
+        ToastNotification::show(this->window(), "Member archived successfully.", ToastType::Success);
         loadMembersTable();
     }
 }
@@ -316,6 +335,10 @@ void MembersWidget::openMemberDialog(const std::optional<Member>& memberOpt) {
         bool ok = isEdit ? m_memberRepo.update(m) : m_memberRepo.create(m);
         if (ok) {
             dlg.accept();
+            ToastNotification::show(this->window(),
+                isEdit ? "Member details updated successfully: " + m.getFullName()
+                       : "Member registered successfully: " + m.getFullName(),
+                ToastType::Success);
             loadMembersTable();
         } else {
             QMessageBox::critical(&dlg, "Database Error", "Failed to save member details into database.");

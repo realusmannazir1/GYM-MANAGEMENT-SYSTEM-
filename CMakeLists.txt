@@ -15,7 +15,7 @@ if(NOT Qt6_DIR AND EXISTS "D:/Qt/6.7.2/mingw_64")
     list(APPEND CMAKE_PREFIX_PATH "D:/Qt/6.7.2/mingw_64")
 endif()
 
-find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets Sql Charts Svg)
+find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets Sql Charts Svg Network)
 
 include_directories(
     ${CMAKE_CURRENT_SOURCE_DIR}/include
@@ -68,7 +68,9 @@ set(SOURCES
     src/services/ReportService.cpp
     src/services/BackupService.cpp
     src/services/NotificationService.cpp
+    src/services/WebLauncherServer.cpp
     src/utils/ThemeManager.cpp
+    src/utils/ToastNotification.cpp
     src/widgets/LoginWindow.cpp
     src/widgets/MainWindow.cpp
     src/widgets/DashboardWidget.cpp
@@ -124,7 +126,9 @@ set(HEADERS
     include/services/ReportService.h
     include/services/BackupService.h
     include/services/NotificationService.h
+    include/services/WebLauncherServer.h
     include/utils/ThemeManager.h
+    include/utils/ToastNotification.h
     include/widgets/LoginWindow.h
     include/widgets/MainWindow.h
     include/widgets/DashboardWidget.h
@@ -159,6 +163,7 @@ target_link_libraries(FitCore PRIVATE
     Qt6::Sql
     Qt6::Charts
     Qt6::Svg
+    Qt6::Network
 )
 
 if(MSVC)
@@ -206,7 +211,9 @@ set(TEST_SOURCES
     src/services/ReportService.cpp
     src/services/BackupService.cpp
     src/services/NotificationService.cpp
+    src/services/WebLauncherServer.cpp
     src/utils/ThemeManager.cpp
+    src/utils/ToastNotification.cpp
     src/widgets/LoginWindow.cpp
     src/widgets/MainWindow.cpp
     src/widgets/DashboardWidget.cpp
@@ -228,7 +235,7 @@ set(TEST_SOURCES
 add_executable(FitCoreTest ${TEST_SOURCES} ${HEADERS})
 set_target_properties(FitCoreTest PROPERTIES QT_NO_ENTRYPOINT TRUE)
 
-target_link_libraries(FitCoreTest PRIVATE Qt6::Core Qt6::Gui Qt6::Widgets Qt6::Sql Qt6::Charts Qt6::Svg)
+target_link_libraries(FitCoreTest PRIVATE Qt6::Core Qt6::Gui Qt6::Widgets Qt6::Sql Qt6::Charts Qt6::Svg Qt6::Network)
 if(NOT MSVC)
     target_link_options(FitCoreTest PRIVATE -Wl,--allow-multiple-definition)
 endif()

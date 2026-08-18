@@ -633,11 +633,26 @@ CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.s"
 	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\NotificationService.cpp" -o CMakeFiles\FitCore.dir\src\services\NotificationService.cpp.s
 
+CMakeFiles/FitCore.dir/src/services/WebLauncherServer.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/services/WebLauncherServer.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/services/WebLauncherServer.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/WebLauncherServer.cpp
+CMakeFiles/FitCore.dir/src/services/WebLauncherServer.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/FitCore.dir/src/services/WebLauncherServer.cpp.obj"
+	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/services/WebLauncherServer.cpp.obj -MF CMakeFiles\FitCore.dir\src\services\WebLauncherServer.cpp.obj.d -o CMakeFiles\FitCore.dir\src\services\WebLauncherServer.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\WebLauncherServer.cpp"
+
+CMakeFiles/FitCore.dir/src/services/WebLauncherServer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/services/WebLauncherServer.cpp.i"
+	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\WebLauncherServer.cpp" > CMakeFiles\FitCore.dir\src\services\WebLauncherServer.cpp.i
+
+CMakeFiles/FitCore.dir/src/services/WebLauncherServer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/services/WebLauncherServer.cpp.s"
+	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\services\WebLauncherServer.cpp" -o CMakeFiles\FitCore.dir\src\services\WebLauncherServer.cpp.s
+
 CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.obj: CMakeFiles/FitCore.dir/flags.make
 CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
 CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/utils/ThemeManager.cpp
 CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.obj -MF CMakeFiles\FitCore.dir\src\utils\ThemeManager.cpp.obj.d -o CMakeFiles\FitCore.dir\src\utils\ThemeManager.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\utils\ThemeManager.cpp"
 
 CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.i: cmake_force
@@ -648,11 +663,26 @@ CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.s"
 	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\utils\ThemeManager.cpp" -o CMakeFiles\FitCore.dir\src\utils\ThemeManager.cpp.s
 
+CMakeFiles/FitCore.dir/src/utils/ToastNotification.cpp.obj: CMakeFiles/FitCore.dir/flags.make
+CMakeFiles/FitCore.dir/src/utils/ToastNotification.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
+CMakeFiles/FitCore.dir/src/utils/ToastNotification.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/utils/ToastNotification.cpp
+CMakeFiles/FitCore.dir/src/utils/ToastNotification.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/FitCore.dir/src/utils/ToastNotification.cpp.obj"
+	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/utils/ToastNotification.cpp.obj -MF CMakeFiles\FitCore.dir\src\utils\ToastNotification.cpp.obj.d -o CMakeFiles\FitCore.dir\src\utils\ToastNotification.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\utils\ToastNotification.cpp"
+
+CMakeFiles/FitCore.dir/src/utils/ToastNotification.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/FitCore.dir/src/utils/ToastNotification.cpp.i"
+	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Projects\GYM MANAGEMENT SYSTEM\src\utils\ToastNotification.cpp" > CMakeFiles\FitCore.dir\src\utils\ToastNotification.cpp.i
+
+CMakeFiles/FitCore.dir/src/utils/ToastNotification.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/FitCore.dir/src/utils/ToastNotification.cpp.s"
+	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Projects\GYM MANAGEMENT SYSTEM\src\utils\ToastNotification.cpp" -o CMakeFiles\FitCore.dir\src\utils\ToastNotification.cpp.s
+
 CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.obj: CMakeFiles/FitCore.dir/flags.make
 CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
 CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/LoginWindow.cpp
 CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\LoginWindow.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\LoginWindow.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\LoginWindow.cpp"
 
 CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.i: cmake_force
@@ -667,7 +697,7 @@ CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.obj: CMakeFiles/FitCore.dir/fl
 CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
 CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/MainWindow.cpp
 CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\MainWindow.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\MainWindow.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\MainWindow.cpp"
 
 CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.i: cmake_force
@@ -682,7 +712,7 @@ CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj: CMakeFiles/FitCore.d
 CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
 CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/DashboardWidget.cpp
 CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\DashboardWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\DashboardWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\DashboardWidget.cpp"
 
 CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.i: cmake_force
@@ -697,7 +727,7 @@ CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.obj: CMakeFiles/FitCore.dir
 CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
 CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/MembersWidget.cpp
 CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\MembersWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\MembersWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\MembersWidget.cpp"
 
 CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.i: cmake_force
@@ -712,7 +742,7 @@ CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.obj: CMakeFiles/FitCore
 CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
 CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/MembershipsWidget.cpp
 CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\MembershipsWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\MembershipsWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\MembershipsWidget.cpp"
 
 CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.i: cmake_force
@@ -727,7 +757,7 @@ CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.obj: CMakeFiles/FitCore.di
 CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
 CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/TrainersWidget.cpp
 CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\TrainersWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\TrainersWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\TrainersWidget.cpp"
 
 CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.i: cmake_force
@@ -742,7 +772,7 @@ CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.obj: CMakeFiles/FitCore.
 CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
 CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/AttendanceWidget.cpp
 CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\AttendanceWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\AttendanceWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\AttendanceWidget.cpp"
 
 CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.i: cmake_force
@@ -757,7 +787,7 @@ CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.obj: CMakeFiles/FitCore.di
 CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
 CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/PaymentsWidget.cpp
 CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\PaymentsWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\PaymentsWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\PaymentsWidget.cpp"
 
 CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.i: cmake_force
@@ -772,7 +802,7 @@ CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.obj: CMakeFiles/FitCore.dir
 CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
 CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/WorkoutWidget.cpp
 CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\WorkoutWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\WorkoutWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\WorkoutWidget.cpp"
 
 CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.i: cmake_force
@@ -787,7 +817,7 @@ CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.obj: CMakeFiles/FitCore.di
 CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
 CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/ProgressWidget.cpp
 CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\ProgressWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\ProgressWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\ProgressWidget.cpp"
 
 CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.i: cmake_force
@@ -802,7 +832,7 @@ CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.obj: CMakeFiles/FitCore.d
 CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
 CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/EquipmentWidget.cpp
 CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\EquipmentWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\EquipmentWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\EquipmentWidget.cpp"
 
 CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.i: cmake_force
@@ -817,7 +847,7 @@ CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.obj: CMakeFiles/FitCore.di
 CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
 CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/ExpensesWidget.cpp
 CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\ExpensesWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\ExpensesWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\ExpensesWidget.cpp"
 
 CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.i: cmake_force
@@ -832,7 +862,7 @@ CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.obj: CMakeFiles/FitCore.dir
 CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
 CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/ReportsWidget.cpp
 CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\ReportsWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\ReportsWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\ReportsWidget.cpp"
 
 CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.i: cmake_force
@@ -847,7 +877,7 @@ CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.obj: CMakeFiles/FitCo
 CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
 CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/NotificationsWidget.cpp
 CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\NotificationsWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\NotificationsWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\NotificationsWidget.cpp"
 
 CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.i: cmake_force
@@ -862,7 +892,7 @@ CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.obj: CMakeFiles/FitCore.di
 CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
 CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/SettingsWidget.cpp
 CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\SettingsWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\SettingsWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\SettingsWidget.cpp"
 
 CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.i: cmake_force
@@ -877,7 +907,7 @@ CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.obj: CMakeFiles/FitCore.d
 CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.obj: CMakeFiles/FitCore.dir/includes_CXX.rsp
 CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/AuditLogsWidget.cpp
 CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.obj: CMakeFiles/FitCore.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building CXX object CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.obj"
 	D:\Qt\Tools\mingw1310_64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.obj -MF CMakeFiles\FitCore.dir\src\widgets\AuditLogsWidget.cpp.obj.d -o CMakeFiles\FitCore.dir\src\widgets\AuditLogsWidget.cpp.obj -c "D:\Projects\GYM MANAGEMENT SYSTEM\src\widgets\AuditLogsWidget.cpp"
 
 CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.i: cmake_force
@@ -927,7 +957,9 @@ FitCore_OBJECTS = \
 "CMakeFiles/FitCore.dir/src/services/ReportService.cpp.obj" \
 "CMakeFiles/FitCore.dir/src/services/BackupService.cpp.obj" \
 "CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/services/WebLauncherServer.cpp.obj" \
 "CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.obj" \
+"CMakeFiles/FitCore.dir/src/utils/ToastNotification.cpp.obj" \
 "CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.obj" \
 "CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.obj" \
 "CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj" \
@@ -985,7 +1017,9 @@ FitCore.exe: CMakeFiles/FitCore.dir/src/services/AttendanceService.cpp.obj
 FitCore.exe: CMakeFiles/FitCore.dir/src/services/ReportService.cpp.obj
 FitCore.exe: CMakeFiles/FitCore.dir/src/services/BackupService.cpp.obj
 FitCore.exe: CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/services/WebLauncherServer.cpp.obj
 FitCore.exe: CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.obj
+FitCore.exe: CMakeFiles/FitCore.dir/src/utils/ToastNotification.cpp.obj
 FitCore.exe: CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.obj
 FitCore.exe: CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.obj
 FitCore.exe: CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj
@@ -1006,6 +1040,7 @@ FitCore.exe: CMakeFiles/FitCore.dir/build.make
 FitCore.exe: D:/Qt/6.7.2/mingw_64/lib/libQt6Sql.a
 FitCore.exe: D:/Qt/6.7.2/mingw_64/lib/libQt6Charts.a
 FitCore.exe: D:/Qt/6.7.2/mingw_64/lib/libQt6Svg.a
+FitCore.exe: D:/Qt/6.7.2/mingw_64/lib/libQt6Network.a
 FitCore.exe: D:/Qt/6.7.2/mingw_64/lib/libQt6OpenGLWidgets.a
 FitCore.exe: D:/Qt/6.7.2/mingw_64/lib/libQt6Widgets.a
 FitCore.exe: D:/Qt/6.7.2/mingw_64/lib/libQt6OpenGL.a
@@ -1014,7 +1049,7 @@ FitCore.exe: D:/Qt/6.7.2/mingw_64/lib/libQt6Core.a
 FitCore.exe: CMakeFiles/FitCore.dir/linkLibs.rsp
 FitCore.exe: CMakeFiles/FitCore.dir/objects1.rsp
 FitCore.exe: CMakeFiles/FitCore.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Linking CXX executable FitCore.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="D:\Projects\GYM MANAGEMENT SYSTEM\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Linking CXX executable FitCore.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FitCore.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

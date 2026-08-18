@@ -1,11 +1,11 @@
 CMakeFiles/FitCore.dir/FitCore_autogen/mocs_compilation.cpp.obj: \
  D:\Projects\GYM\ MANAGEMENT\ SYSTEM\build\FitCore_autogen\mocs_compilation.cpp \
- D:\Projects\GYM\ MANAGEMENT\ SYSTEM\build\FitCore_autogen\MROXUFLNXW/moc_AttendanceWidget.cpp \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/AttendanceWidget.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/QWidget \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qwidget.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qtguiglobal.h \
+ D:\Projects\GYM\ MANAGEMENT\ SYSTEM\build\FitCore_autogen\VEA5UQ63SX/moc_WebLauncherServer.cpp \
+ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/services/WebLauncherServer.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/QObject \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qobject.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qobjectdefs.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qnamespace.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qglobal.h \
  D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/type_traits \
  D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
@@ -142,13 +142,6 @@ CMakeFiles/FitCore.dir/FitCore_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qtresource.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qttranslation.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qversiontagging.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qtgui-config.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qtguiexports.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qobjectdefs.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qnamespace.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qtmetamacros.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qobjectdefs_impl.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qfunctionaltools_impl.h \
@@ -202,8 +195,6 @@ CMakeFiles/FitCore.dir/FitCore_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward/auto_ptr.h \
  D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/glue_memory_defs.h \
  D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/pstl/execution_defs.h \
- D:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qobject.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qstring.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qchar.h \
  D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/functional \
@@ -326,8 +317,56 @@ CMakeFiles/FitCore.dir/FitCore_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/chrono.h \
  D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ratio \
  D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ctime \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qmargins.h \
+ D:/Qt/6.7.2/mingw_64/include/QtNetwork/QTcpServer \
+ D:/Qt/6.7.2/mingw_64/include/QtNetwork/qtcpserver.h \
+ D:/Qt/6.7.2/mingw_64/include/QtNetwork/qtnetworkglobal.h \
+ D:/Qt/6.7.2/mingw_64/include/QtNetwork/qtnetwork-config.h \
+ D:/Qt/6.7.2/mingw_64/include/QtNetwork/qtnetworkexports.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qobject.h \
+ D:/Qt/6.7.2/mingw_64/include/QtNetwork/qabstractsocket.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qiodevice.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qdebug.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qtextstream.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qcontiguouscache.h \
+ D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qsharedpointer.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qshareddata.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qsharedpointer_impl.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qmap.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qshareddata_impl.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qset.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qhash.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qvarlengtharray.h \
+ D:/Qt/6.7.2/mingw_64/include/QtNetwork/qhostaddress.h \
+ D:/Qt/6.7.2/mingw_64/include/QtNetwork/QTcpSocket \
+ D:/Qt/6.7.2/mingw_64/include/QtNetwork/qtcpsocket.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qvariant.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/q23utility.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/QByteArray \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qbytearray.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/QMap \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qmap.h \
+ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/User.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/QString \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qstring.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/QDateTime \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qdatetime.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qcalendar.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qlocale.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qtmochelpers.h \
+ D:\Projects\GYM\ MANAGEMENT\ SYSTEM\build\FitCore_autogen\MROXUFLNXW/moc_AttendanceWidget.cpp \
+ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/AttendanceWidget.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/QWidget \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qwidget.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qtguiglobal.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qtgui-config.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qtguiexports.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qmargins.h \
  D:/Qt/6.7.2/mingw_64/include/QtGui/qaction.h \
  D:/Qt/6.7.2/mingw_64/include/QtGui/qkeysequence.h \
  D:/Qt/6.7.2/mingw_64/include/QtGui/qicon.h \
@@ -339,25 +378,12 @@ CMakeFiles/FitCore.dir/FitCore_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtGui/qcolor.h \
  D:/Qt/6.7.2/mingw_64/include/QtGui/qrgb.h \
  D:/Qt/6.7.2/mingw_64/include/QtGui/qrgba64.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qshareddata.h \
  D:/Qt/6.7.2/mingw_64/include/QtGui/qimage.h \
  D:/Qt/6.7.2/mingw_64/include/QtGui/qpixelformat.h \
  D:/Qt/6.7.2/mingw_64/include/QtGui/qtransform.h \
  D:/Qt/6.7.2/mingw_64/include/QtGui/qpolygon.h \
  D:/Qt/6.7.2/mingw_64/include/QtGui/qregion.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qline.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qvariant.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qdebug.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qtextstream.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qcontiguouscache.h \
- D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/climits \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qsharedpointer.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qsharedpointer_impl.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qmap.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qshareddata_impl.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qset.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qhash.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qvarlengtharray.h \
  D:/Qt/6.7.2/mingw_64/include/QtGui/qpalette.h \
  D:/Qt/6.7.2/mingw_64/include/QtGui/qbrush.h \
  D:/Qt/6.7.2/mingw_64/include/QtGui/qfont.h \
@@ -386,7 +412,6 @@ CMakeFiles/FitCore.dir/FitCore_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qitemselectionmodel.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qstyleoption.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qlocale.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
  D:/Qt/6.7.2/mingw_64/include/QtGui/qvalidator.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qregularexpression.h \
@@ -402,14 +427,9 @@ CMakeFiles/FitCore.dir/FitCore_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QLabel \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlabel.h \
  D:/Qt/6.7.2/mingw_64/include/QtGui/qpicture.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qiodevice.h \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/services/AttendanceService.h \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/Attendance.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/QString \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qstring.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/QTime \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qdatetime.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qcalendar.h \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/AttendanceRepository.h \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/MemberRepository.h \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/Member.h \
@@ -418,7 +438,6 @@ CMakeFiles/FitCore.dir/FitCore_autogen/mocs_compilation.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtCore/QDate \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/AuditRepository.h \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/AuditLog.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/qtmochelpers.h \
  D:\Projects\GYM\ MANAGEMENT\ SYSTEM\build\FitCore_autogen\MROXUFLNXW/moc_AuditLogsWidget.cpp \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/AuditLogsWidget.h \
  D:\Projects\GYM\ MANAGEMENT\ SYSTEM\build\FitCore_autogen\MROXUFLNXW/moc_DashboardWidget.cpp \
@@ -438,8 +457,6 @@ CMakeFiles/FitCore.dir/FitCore_autogen/mocs_compilation.cpp.obj: \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/LoginWindow.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QDialog \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialog.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/User.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/QDateTime \
  D:\Projects\GYM\ MANAGEMENT\ SYSTEM\build\FitCore_autogen\MROXUFLNXW/moc_MainWindow.cpp \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/MainWindow.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QMainWindow \

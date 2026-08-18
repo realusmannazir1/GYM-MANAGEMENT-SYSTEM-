@@ -4,6 +4,7 @@
 #include "database/DatabaseManager.h"
 #include "services/MembershipService.h"
 #include "services/NotificationService.h"
+#include "services/AuthenticationService.h"
 #include "widgets/LoginWindow.h"
 #include "widgets/MainWindow.h"
 #include "utils/ThemeManager.h"
@@ -40,20 +41,38 @@ int main(int argc, char *argv[]) {
     notificationService.checkAndGenerateExpiriesAndAlerts();
     std::cout << "[MAIN] NotificationService done." << std::endl;
 
-    // 3. Show Authentication Login Window
-    std::cout << "[MAIN] Creating LoginWindow..." << std::endl;
-    FitCore::LoginWindow loginWindow;
-    std::cout << "[MAIN] Showing LoginWindow..." << std::endl;
-    if (loginWindow.exec() == QDialog::Accepted) {
-        auto userOpt = loginWindow.getAuthenticatedUser();
-        if (userOpt.has_value()) {
-            std::cout << "[MAIN] Login accepted, launching MainWindow in maximized mode..." << std::endl;
-            FitCore::MainWindow mainWindow(userOpt.value());
-            mainWindow.showMaximized();
-            return app.exec();
+    // 3. Native C++ Desktop Application Flow (100% C++ Qt GUI)
+    bool running = true;
+    while (running) {
+        std::cout << "[MAIN] Opening Native C++ LoginWindow Desktop Dialog..." << std::endl;
+        FitCore::LoginWindow loginWindow;
+        if (loginWindow.exec() == QDialog::Accepted) {
+            auto userOpt = loginWindow.getAuthenticatedUser();
+            if (userOpt.has_value()) {
+                std::cout << "[MAIN] Login accepted. Launching Native C++ MainWindow..." << std::endl;
+                FitCore::MainWindow mainWindow(userOpt.value());
+                mainWindow.showMaximized();
+
+                app.exec(); // Run Qt desktop event loop for main window
+
+                // Check if user logged out or closed app window
+                if (FitCore::AuthenticationService::instance().currentUser().has_value()) {
+                    // User closed main window directly -> exit app
+                    running = false;
+                } else {
+                    // User clicked Logout -> re-open LoginWindow dialog
+                    std::cout << "[MAIN] User logged out. Re-opening Native C++ LoginWindow..." << std::endl;
+                }
+            } else {
+                running = false;
+            }
+        } else {
+            // User cancelled login or clicked Exit
+            std::cout << "[MAIN] Login dialog closed or exited. Quitting application." << std::endl;
+            running = false;
         }
     }
 
-    std::cout << "[MAIN] Login cancelled or no user. Exiting." << std::endl;
+    std::cout << "[MAIN] Application shutdown completed cleanly." << std::endl;
     return 0;
 }

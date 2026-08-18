@@ -1,5 +1,6 @@
 #include "widgets/EquipmentWidget.h"
 #include "utils/ThemeManager.h"
+#include "utils/ToastNotification.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QFormLayout>
@@ -46,9 +47,22 @@ void EquipmentWidget::setupUi() {
     m_equipmentTable = new QTableWidget(eqTab);
     m_equipmentTable->setColumnCount(7);
     m_equipmentTable->setHorizontalHeaderLabels({"Code", "Name", "Category", "Brand", "Condition", "Status", "Action"});
+    m_equipmentTable->horizontalHeader()->setSectionResizeMode(QHeaderView::Interactive);
+    m_equipmentTable->setColumnWidth(0, 100);
     m_equipmentTable->horizontalHeader()->setSectionResizeMode(1, QHeaderView::Stretch);
-    m_equipmentTable->verticalHeader()->setDefaultSectionSize(42);
+    m_equipmentTable->setColumnWidth(2, 130);
+    m_equipmentTable->setColumnWidth(3, 120);
+    m_equipmentTable->setColumnWidth(4, 100);
+    m_equipmentTable->setColumnWidth(5, 95);
+    m_equipmentTable->horizontalHeader()->setSectionResizeMode(6, QHeaderView::Fixed);
+    m_equipmentTable->setColumnWidth(6, 44);
+    m_equipmentTable->verticalHeader()->setDefaultSectionSize(40);
     m_equipmentTable->verticalHeader()->setVisible(false);
+    m_equipmentTable->setShowGrid(false);
+    m_equipmentTable->setAlternatingRowColors(true);
+    m_equipmentTable->setSelectionBehavior(QAbstractItemView::SelectRows);
+    m_equipmentTable->setEditTriggers(QAbstractItemView::NoEditTriggers);
+    m_equipmentTable->setFocusPolicy(Qt::NoFocus);
     eqLayout->addWidget(m_equipmentTable);
     tabs->addTab(eqTab, "Equipment Assets");
 
@@ -91,13 +105,19 @@ void EquipmentWidget::loadEquipmentTable() {
         badge->setAlignment(Qt::AlignCenter);
         m_equipmentTable->setCellWidget(r, 5, badge);
 
-        QPushButton *maintBtn = new QPushButton("🔧 Service Log", this);
-        maintBtn->setObjectName("secondaryBtn");
+        QWidget *actWidget = new QWidget(this);
+        QHBoxLayout *actLayout = new QHBoxLayout(actWidget);
+        actLayout->setContentsMargins(2, 2, 2, 2);
+        actLayout->setAlignment(Qt::AlignCenter);
+
+        QPushButton *maintBtn = new QPushButton("🔧", actWidget);
+        maintBtn->setObjectName("iconBtn");
         maintBtn->setToolTip("Log Equipment Maintenance Service");
-        maintBtn->setStyleSheet("padding: 4px 10px; font-weight: 600;");
+        maintBtn->setCursor(Qt::PointingHandCursor);
+        maintBtn->setFixedSize(30, 28);
         int id = e.getId();
         connect(maintBtn, &QPushButton::clicked, this, [this, id]() { onLogMaintenanceClicked(id); });
-        m_equipmentTable->setCellWidget(r, 6, maintBtn);
+        m_equipmentTable->setCellWidget(r, 6, actWidget);
         r++;
     }
 }
@@ -185,6 +205,7 @@ void EquipmentWidget::onAddEquipmentClicked() {
 
         if (m_equipmentRepo.create(e)) {
             dlg.accept();
+            ToastNotification::show(this->window(), "Equipment added successfully: " + e.getEquipmentName(), ToastType::Success);
             refreshData();
         }
     });
@@ -251,8 +272,8 @@ void EquipmentWidget::onLogMaintenanceClicked(int equipmentId) {
         item.status = statusCombo->currentText();
 
         if (m_equipmentRepo.addMaintenanceRecord(item)) {
-            QMessageBox::information(&dlg, "Service Logged", "Equipment maintenance record saved.");
             dlg.accept();
+            ToastNotification::show(this->window(), "Equipment maintenance record saved.", ToastType::Success);
             refreshData();
         }
     });

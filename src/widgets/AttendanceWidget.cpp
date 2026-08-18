@@ -1,5 +1,6 @@
 #include "widgets/AttendanceWidget.h"
 #include "utils/ThemeManager.h"
+#include "utils/ToastNotification.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QGroupBox>
@@ -63,10 +64,21 @@ void AttendanceWidget::setupUi() {
     m_todayTable = new QTableWidget(this);
     m_todayTable->setColumnCount(6);
     m_todayTable->setHorizontalHeaderLabels({"Membership #", "Member Name", "Check-In Time", "Check-Out Time", "Duration", "Action"});
+    m_todayTable->horizontalHeader()->setSectionResizeMode(QHeaderView::Interactive);
+    m_todayTable->setColumnWidth(0, 120);
     m_todayTable->horizontalHeader()->setSectionResizeMode(1, QHeaderView::Stretch);
-    m_todayTable->horizontalHeader()->setSectionResizeMode(5, QHeaderView::ResizeToContents);
-    m_todayTable->verticalHeader()->setDefaultSectionSize(42);
+    m_todayTable->setColumnWidth(2, 115);
+    m_todayTable->setColumnWidth(3, 115);
+    m_todayTable->setColumnWidth(4, 90);
+    m_todayTable->horizontalHeader()->setSectionResizeMode(5, QHeaderView::Fixed);
+    m_todayTable->setColumnWidth(5, 44);
+    m_todayTable->verticalHeader()->setDefaultSectionSize(40);
     m_todayTable->verticalHeader()->setVisible(false);
+    m_todayTable->setShowGrid(false);
+    m_todayTable->setAlternatingRowColors(true);
+    m_todayTable->setSelectionBehavior(QAbstractItemView::SelectRows);
+    m_todayTable->setEditTriggers(QAbstractItemView::NoEditTriggers);
+    m_todayTable->setFocusPolicy(Qt::NoFocus);
     tLayout->addWidget(m_todayTable);
 
     mainLayout->addWidget(todayBox);
@@ -104,13 +116,19 @@ void AttendanceWidget::loadTodayAttendance() {
         m_todayTable->setCellWidget(r, 4, durLbl);
 
         if (!a.isCheckedOut()) {
-            QPushButton *checkOutBtn = new QPushButton("🚪 Check Out", this);
-            checkOutBtn->setObjectName("secondaryBtn");
+            QWidget *actWidget = new QWidget(this);
+            QHBoxLayout *actLayout = new QHBoxLayout(actWidget);
+            actLayout->setContentsMargins(2, 2, 2, 2);
+            actLayout->setAlignment(Qt::AlignCenter);
+
+            QPushButton *checkOutBtn = new QPushButton("🚪", actWidget);
+            checkOutBtn->setObjectName("iconSuccessBtn");
             checkOutBtn->setToolTip("Check Out Member");
-            checkOutBtn->setStyleSheet("padding: 4px 10px; font-weight: 600;");
+            checkOutBtn->setCursor(Qt::PointingHandCursor);
+            checkOutBtn->setFixedSize(30, 28);
             int attId = a.getId();
             connect(checkOutBtn, &QPushButton::clicked, this, [this, attId]() { onCheckOutClicked(attId); });
-            m_todayTable->setCellWidget(r, 5, checkOutBtn);
+            m_todayTable->setCellWidget(r, 5, actWidget);
         } else {
             QLabel *doneLbl = new QLabel("Completed", this);
             doneLbl->setStyleSheet("color: #64748B; font-size: 11px;");
@@ -133,6 +151,7 @@ void AttendanceWidget::onFastCheckIn() {
     if (result.success) {
         m_statusFeedbackLbl->setStyleSheet("color: #10B981; font-weight: bold;");
         m_statusFeedbackLbl->setText(result.message);
+        ToastNotification::show(this->window(), result.message, ToastType::Success);
         m_checkInInput->clear();
         loadTodayAttendance();
     } else {
@@ -145,6 +164,7 @@ void AttendanceWidget::onCheckOutClicked(int attendanceId) {
     if (m_attendanceService.checkOut(attendanceId, 1)) {
         m_statusFeedbackLbl->setStyleSheet("color: #3B82F6; font-weight: bold;");
         m_statusFeedbackLbl->setText("Member checked out successfully.");
+        ToastNotification::show(this->window(), "Member checked out successfully.", ToastType::Info);
         loadTodayAttendance();
     }
 }

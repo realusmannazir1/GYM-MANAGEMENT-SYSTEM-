@@ -7,6 +7,8 @@
 #include <QFrame>
 #include <QMessageBox>
 #include <QStatusBar>
+#include <QApplication>
+#include <QCloseEvent>
 
 namespace FitCore {
 
@@ -41,11 +43,11 @@ void MainWindow::setupUi() {
     // App Logo Banner
     m_logoLbl = new QLabel("FITCORE", m_sidebarFrame);
     m_logoLbl->setAlignment(Qt::AlignCenter);
-    m_logoLbl->setStyleSheet("font-size: 26px; font-weight: 900; color: #1E40AF; letter-spacing: 2px;");
+    m_logoLbl->setStyleSheet("font-size: 24px; font-weight: 900; color: #FFFFFF; letter-spacing: 2px;");
 
     m_subLogoLbl = new QLabel("MANAGEMENT SYSTEM", m_sidebarFrame);
     m_subLogoLbl->setAlignment(Qt::AlignCenter);
-    m_subLogoLbl->setStyleSheet("font-size: 10px; font-weight: 700; color: #1E3A8A; letter-spacing: 1px;");
+    m_subLogoLbl->setStyleSheet("font-size: 9px; font-weight: 700; color: #94A3B8; letter-spacing: 1.5px;");
 
     sbLayout->addWidget(m_logoLbl);
     sbLayout->addWidget(m_subLogoLbl);
@@ -224,7 +226,17 @@ void MainWindow::onQuickCheckInSubmitted() {
 
 void MainWindow::onLogoutClicked() {
     AuthenticationService::instance().logout();
+    m_loggingOut = true;
+    emit logoutRequested();
     close();
+}
+
+void MainWindow::closeEvent(QCloseEvent *event) {
+    if (!m_loggingOut) {
+        // Normal window close (X button) exits the whole application.
+        QApplication::quit();
+    }
+    QMainWindow::closeEvent(event);
 }
 
 void MainWindow::onToggleSidebarClicked() {

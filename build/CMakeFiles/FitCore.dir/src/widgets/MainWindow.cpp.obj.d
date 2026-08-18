@@ -485,4 +485,36 @@ CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialog.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialogbuttonbox.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QStatusBar \
- D:/Qt/6.7.2/mingw_64/include/QtWidgets/qstatusbar.h
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qstatusbar.h \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/QApplication \
+ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qapplication.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qcoreapplication.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qcoreevent.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qdeadlinetimer.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qelapsedtimer.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qeventloop.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qnativeinterface.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qcoreapplication_platform.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qguiapplication.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qinputmethod.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qguiapplication_platform.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/QCloseEvent \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qevent.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qeventpoint.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qvector2d.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qvectornd.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qpointingdevice.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qinputdevice.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qscreen.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/QList \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qlist.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/QObject \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qobject.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/QRect \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qrect.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/QSize \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/qsize.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/QSizeF \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/QTransform \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qtransform.h \
+ D:/Qt/6.7.2/mingw_64/include/QtGui/qscreen_platform.h

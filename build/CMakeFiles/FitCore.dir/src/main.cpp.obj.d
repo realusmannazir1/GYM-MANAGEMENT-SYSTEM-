@@ -430,6 +430,10 @@ CMakeFiles/FitCore.dir/src/main.cpp.obj: \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/services/NotificationService.h \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/Notification.h \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/NotificationRepository.h \
+ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/services/AuthenticationService.h \
+ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/User.h \
+ D:/Qt/6.7.2/mingw_64/include/QtCore/QDateTime \
+ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/UserRepository.h \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/LoginWindow.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QDialog \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialog.h \
@@ -463,8 +467,6 @@ CMakeFiles/FitCore.dir/src/main.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qrubberband.h \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qabstractitemmodel.h \
- D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/User.h \
- D:/Qt/6.7.2/mingw_64/include/QtCore/QDateTime \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/MainWindow.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QMainWindow \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qmainwindow.h \

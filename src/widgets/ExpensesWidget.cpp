@@ -1,5 +1,6 @@
 #include "widgets/ExpensesWidget.h"
 #include "utils/ThemeManager.h"
+#include "utils/ToastNotification.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QFormLayout>
@@ -48,9 +49,21 @@ void ExpensesWidget::setupUi() {
     m_table = new QTableWidget(this);
     m_table->setColumnCount(6);
     m_table->setHorizontalHeaderLabels({"Category", "Description", "Amount", "Expense Date", "Payment Method", "Action"});
+    m_table->horizontalHeader()->setSectionResizeMode(QHeaderView::Interactive);
+    m_table->setColumnWidth(0, 130);
     m_table->horizontalHeader()->setSectionResizeMode(1, QHeaderView::Stretch);
-    m_table->verticalHeader()->setDefaultSectionSize(42);
+    m_table->setColumnWidth(2, 100);
+    m_table->setColumnWidth(3, 115);
+    m_table->setColumnWidth(4, 130);
+    m_table->horizontalHeader()->setSectionResizeMode(5, QHeaderView::Fixed);
+    m_table->setColumnWidth(5, 44);
+    m_table->verticalHeader()->setDefaultSectionSize(40);
     m_table->verticalHeader()->setVisible(false);
+    m_table->setShowGrid(false);
+    m_table->setAlternatingRowColors(true);
+    m_table->setSelectionBehavior(QAbstractItemView::SelectRows);
+    m_table->setEditTriggers(QAbstractItemView::NoEditTriggers);
+    m_table->setFocusPolicy(Qt::NoFocus);
     mainLayout->addWidget(m_table);
 
     connect(addBtn, &QPushButton::clicked, this, &ExpensesWidget::onAddExpenseClicked);
@@ -75,15 +88,24 @@ void ExpensesWidget::loadExpensesTable() {
         m_table->setItem(r, 3, new QTableWidgetItem(e.getExpenseDate()));
         m_table->setItem(r, 4, new QTableWidgetItem(e.getPaymentMethod()));
 
-        QPushButton *delBtn = new QPushButton("🗑️", this);
-        delBtn->setObjectName("dangerBtn");
+        QWidget *actWidget = new QWidget(this);
+        QHBoxLayout *actLayout = new QHBoxLayout(actWidget);
+        actLayout->setContentsMargins(2, 2, 2, 2);
+        actLayout->setAlignment(Qt::AlignCenter);
+
+        QPushButton *delBtn = new QPushButton("🗑️", actWidget);
+        delBtn->setObjectName("iconDangerBtn");
         delBtn->setToolTip("Delete Expense Entry");
-        delBtn->setFixedSize(36, 34);
+        delBtn->setCursor(Qt::PointingHandCursor);
+        delBtn->setFixedSize(30, 28);
         int id = e.getId();
         connect(delBtn, &QPushButton::clicked, this, [this, id]() {
-            if (m_expenseRepo.remove(id)) loadExpensesTable();
+            if (m_expenseRepo.remove(id)) {
+                ToastNotification::show(this->window(), "Expense entry deleted successfully.", ToastType::Success);
+                loadExpensesTable();
+            }
         });
-        m_table->setCellWidget(r, 5, delBtn);
+        m_table->setCellWidget(r, 5, actWidget);
         r++;
     }
 }
@@ -149,6 +171,7 @@ void ExpensesWidget::onAddExpenseClicked() {
 
         if (m_expenseRepo.create(e)) {
             dlg.accept();
+            ToastNotification::show(this->window(), "Expense recorded successfully: Rs. " + QString::number(amountSpin->value(), 'f', 0), ToastType::Success);
             refreshData();
         }
     });

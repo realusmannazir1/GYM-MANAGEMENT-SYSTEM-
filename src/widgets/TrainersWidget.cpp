@@ -1,5 +1,6 @@
 #include "widgets/TrainersWidget.h"
 #include "utils/ThemeManager.h"
+#include "utils/ToastNotification.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QFormLayout>
@@ -48,10 +49,22 @@ void TrainersWidget::setupUi() {
     m_trainersTable = new QTableWidget(tTab);
     m_trainersTable->setColumnCount(7);
     m_trainersTable->setHorizontalHeaderLabels({"Employee #", "Full Name", "Specialization", "Experience", "Phone", "Status", "Actions"});
+    m_trainersTable->horizontalHeader()->setSectionResizeMode(QHeaderView::Interactive);
+    m_trainersTable->setColumnWidth(0, 110);
     m_trainersTable->horizontalHeader()->setSectionResizeMode(1, QHeaderView::Stretch);
-    m_trainersTable->horizontalHeader()->setSectionResizeMode(6, QHeaderView::ResizeToContents);
-    m_trainersTable->verticalHeader()->setDefaultSectionSize(42);
+    m_trainersTable->setColumnWidth(2, 180);
+    m_trainersTable->setColumnWidth(3, 90);
+    m_trainersTable->setColumnWidth(4, 130);
+    m_trainersTable->setColumnWidth(5, 95);
+    m_trainersTable->horizontalHeader()->setSectionResizeMode(6, QHeaderView::Fixed);
+    m_trainersTable->setColumnWidth(6, 76);
+    m_trainersTable->verticalHeader()->setDefaultSectionSize(40);
     m_trainersTable->verticalHeader()->setVisible(false);
+    m_trainersTable->setShowGrid(false);
+    m_trainersTable->setAlternatingRowColors(true);
+    m_trainersTable->setSelectionBehavior(QAbstractItemView::SelectRows);
+    m_trainersTable->setEditTriggers(QAbstractItemView::NoEditTriggers);
+    m_trainersTable->setFocusPolicy(Qt::NoFocus);
     tLayout->addWidget(m_trainersTable);
     tabs->addTab(tTab, "Trainers Directory");
 
@@ -97,18 +110,21 @@ void TrainersWidget::loadTrainersTable() {
 
         QWidget *actWidget = new QWidget(this);
         QHBoxLayout *actLayout = new QHBoxLayout(actWidget);
-        actLayout->setContentsMargins(4, 2, 4, 2);
-        actLayout->setSpacing(6);
+        actLayout->setContentsMargins(2, 2, 2, 2);
+        actLayout->setSpacing(4);
+        actLayout->setAlignment(Qt::AlignCenter);
 
         QPushButton *assignBtn = new QPushButton("👤+", actWidget);
-        assignBtn->setObjectName("secondaryBtn");
+        assignBtn->setObjectName("iconBtn");
         assignBtn->setToolTip("Assign Member to Trainer");
-        assignBtn->setFixedSize(36, 34);
+        assignBtn->setCursor(Qt::PointingHandCursor);
+        assignBtn->setFixedSize(30, 28);
 
         QPushButton *schedBtn = new QPushButton("📅", actWidget);
-        schedBtn->setObjectName("secondaryBtn");
+        schedBtn->setObjectName("iconSuccessBtn");
         schedBtn->setToolTip("Schedule PT Session");
-        schedBtn->setFixedSize(36, 34);
+        schedBtn->setCursor(Qt::PointingHandCursor);
+        schedBtn->setFixedSize(30, 28);
 
         int id = t.getId();
         connect(assignBtn, &QPushButton::clicked, this, [this, id]() { onAssignMemberClicked(id); });
@@ -212,6 +228,7 @@ void TrainersWidget::onAddTrainerClicked() {
 
         if (m_trainerRepo.create(t)) {
             dlg.accept();
+            ToastNotification::show(this->window(), "Trainer registered successfully: " + t.getFullName(), ToastType::Success);
             refreshData();
         } else {
             QMessageBox::critical(&dlg, "Database Error", "Failed to create trainer.");
@@ -256,8 +273,8 @@ void TrainersWidget::onAssignMemberClicked(int trainerId) {
         if (memberCombo->currentIndex() >= 0) {
             int memberId = memberCombo->currentData().toInt();
             if (m_trainerRepo.assignMemberToTrainer(trainerId, memberId)) {
-                QMessageBox::information(&dlg, "Assignment Successful", "Member assigned to trainer.");
                 dlg.accept();
+                ToastNotification::show(this->window(), "Member assigned to trainer successfully.", ToastType::Success);
             } else {
                 QMessageBox::critical(&dlg, "Error", "Failed to assign member.");
             }
@@ -331,8 +348,8 @@ void TrainersWidget::onScheduleSessionClicked(int trainerId) {
         s.status = "Scheduled";
 
         if (m_trainerRepo.createSession(s)) {
-            QMessageBox::information(&dlg, "Session Scheduled", "Personal training session scheduled cleanly.");
             dlg.accept();
+            ToastNotification::show(this->window(), "Personal training session scheduled successfully.", ToastType::Success);
             refreshData();
         } else {
             QMessageBox::warning(&dlg, "Scheduling Conflict", "Trainer already has an overlapping session during this time slot.");

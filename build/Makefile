@@ -1210,6 +1210,33 @@ src/services/ReportService.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/ReportService.cpp.s
 .PHONY : src/services/ReportService.cpp.s
 
+src/services/WebLauncherServer.obj: src/services/WebLauncherServer.cpp.obj
+.PHONY : src/services/WebLauncherServer.obj
+
+# target to build an object file
+src/services/WebLauncherServer.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/WebLauncherServer.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/WebLauncherServer.cpp.obj
+.PHONY : src/services/WebLauncherServer.cpp.obj
+
+src/services/WebLauncherServer.i: src/services/WebLauncherServer.cpp.i
+.PHONY : src/services/WebLauncherServer.i
+
+# target to preprocess a source file
+src/services/WebLauncherServer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/WebLauncherServer.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/WebLauncherServer.cpp.i
+.PHONY : src/services/WebLauncherServer.cpp.i
+
+src/services/WebLauncherServer.s: src/services/WebLauncherServer.cpp.s
+.PHONY : src/services/WebLauncherServer.s
+
+# target to generate assembly for a file
+src/services/WebLauncherServer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/services/WebLauncherServer.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/services/WebLauncherServer.cpp.s
+.PHONY : src/services/WebLauncherServer.cpp.s
+
 src/tests/test_main.obj: src/tests/test_main.cpp.obj
 .PHONY : src/tests/test_main.obj
 
@@ -1260,6 +1287,33 @@ src/utils/ThemeManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.s
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/utils/ThemeManager.cpp.s
 .PHONY : src/utils/ThemeManager.cpp.s
+
+src/utils/ToastNotification.obj: src/utils/ToastNotification.cpp.obj
+.PHONY : src/utils/ToastNotification.obj
+
+# target to build an object file
+src/utils/ToastNotification.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/utils/ToastNotification.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/utils/ToastNotification.cpp.obj
+.PHONY : src/utils/ToastNotification.cpp.obj
+
+src/utils/ToastNotification.i: src/utils/ToastNotification.cpp.i
+.PHONY : src/utils/ToastNotification.i
+
+# target to preprocess a source file
+src/utils/ToastNotification.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/utils/ToastNotification.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/utils/ToastNotification.cpp.i
+.PHONY : src/utils/ToastNotification.cpp.i
+
+src/utils/ToastNotification.s: src/utils/ToastNotification.cpp.s
+.PHONY : src/utils/ToastNotification.s
+
+# target to generate assembly for a file
+src/utils/ToastNotification.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCore.dir\build.make CMakeFiles/FitCore.dir/src/utils/ToastNotification.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\FitCoreTest.dir\build.make CMakeFiles/FitCoreTest.dir/src/utils/ToastNotification.cpp.s
+.PHONY : src/utils/ToastNotification.cpp.s
 
 src/widgets/AttendanceWidget.obj: src/widgets/AttendanceWidget.cpp.obj
 .PHONY : src/widgets/AttendanceWidget.obj
@@ -1821,12 +1875,18 @@ help:
 	@echo ... src/services/ReportService.obj
 	@echo ... src/services/ReportService.i
 	@echo ... src/services/ReportService.s
+	@echo ... src/services/WebLauncherServer.obj
+	@echo ... src/services/WebLauncherServer.i
+	@echo ... src/services/WebLauncherServer.s
 	@echo ... src/tests/test_main.obj
 	@echo ... src/tests/test_main.i
 	@echo ... src/tests/test_main.s
 	@echo ... src/utils/ThemeManager.obj
 	@echo ... src/utils/ThemeManager.i
 	@echo ... src/utils/ThemeManager.s
+	@echo ... src/utils/ToastNotification.obj
+	@echo ... src/utils/ToastNotification.i
+	@echo ... src/utils/ToastNotification.s
 	@echo ... src/widgets/AttendanceWidget.obj
 	@echo ... src/widgets/AttendanceWidget.i
 	@echo ... src/widgets/AttendanceWidget.s

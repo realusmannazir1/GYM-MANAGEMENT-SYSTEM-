@@ -1,5 +1,6 @@
 #include "widgets/MembershipsWidget.h"
 #include "utils/ThemeManager.h"
+#include "utils/ToastNotification.h"
 #include <QVBoxLayout>
 #include <QHBoxLayout>
 #include <QFormLayout>
@@ -63,7 +64,8 @@ void MembershipsWidget::setupUi() {
     m_expiringTable->setColumnCount(6);
     m_expiringTable->setHorizontalHeaderLabels({"Member", "Plan", "Start Date", "End Date", "Price", "Action"});
     m_expiringTable->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
-    m_expiringTable->verticalHeader()->setDefaultSectionSize(42);
+    m_expiringTable->horizontalHeader()->setSectionResizeMode(5, QHeaderView::ResizeToContents);
+    m_expiringTable->verticalHeader()->setDefaultSectionSize(40);
     m_expiringTable->verticalHeader()->setVisible(false);
     expLayout->addWidget(m_expiringTable);
     tabs->addTab(expiringTab, "Expiring Within 7 Days");
@@ -75,7 +77,8 @@ void MembershipsWidget::setupUi() {
     m_expiredTable->setColumnCount(5);
     m_expiredTable->setHorizontalHeaderLabels({"Member", "Plan", "Start Date", "End Date", "Action"});
     m_expiredTable->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);
-    m_expiredTable->verticalHeader()->setDefaultSectionSize(42);
+    m_expiredTable->horizontalHeader()->setSectionResizeMode(4, QHeaderView::ResizeToContents);
+    m_expiredTable->verticalHeader()->setDefaultSectionSize(40);
     m_expiredTable->verticalHeader()->setVisible(false);
     exLayout->addWidget(m_expiredTable);
     tabs->addTab(expiredTab, "Expired Memberships");
@@ -138,12 +141,18 @@ void MembershipsWidget::loadExpiringTable() {
         m_expiringTable->setItem(r, 3, new QTableWidgetItem(ms.getEndDate()));
         m_expiringTable->setItem(r, 4, new QTableWidgetItem(QString("Rs. %1").arg(ms.getFinalAmount(), 0, 'f', 0)));
 
-        QPushButton *renewBtn = new QPushButton("🔄 Renew", this);
-        renewBtn->setObjectName("successBtn");
+        QWidget *actWidget = new QWidget(this);
+        QHBoxLayout *actLayout = new QHBoxLayout(actWidget);
+        actLayout->setContentsMargins(2, 2, 2, 2);
+        actLayout->setAlignment(Qt::AlignCenter);
+
+        QPushButton *renewBtn = new QPushButton("🔄", actWidget);
+        renewBtn->setObjectName("iconSuccessBtn");
         renewBtn->setToolTip("Renew Membership Plan");
-        renewBtn->setStyleSheet("padding: 4px 12px; font-weight: bold;");
+        renewBtn->setCursor(Qt::PointingHandCursor);
+        renewBtn->setFixedSize(30, 28);
         connect(renewBtn, &QPushButton::clicked, this, &MembershipsWidget::onRenewClicked);
-        m_expiringTable->setCellWidget(r, 5, renewBtn);
+        m_expiringTable->setCellWidget(r, 5, actWidget);
         r++;
     }
 }
@@ -159,12 +168,18 @@ void MembershipsWidget::loadExpiredTable() {
         m_expiredTable->setItem(r, 2, new QTableWidgetItem(ms.getStartDate()));
         m_expiredTable->setItem(r, 3, new QTableWidgetItem(ms.getEndDate()));
 
-        QPushButton *renewBtn = new QPushButton("🔄 Renew", this);
-        renewBtn->setObjectName("successBtn");
+        QWidget *actWidget = new QWidget(this);
+        QHBoxLayout *actLayout = new QHBoxLayout(actWidget);
+        actLayout->setContentsMargins(2, 2, 2, 2);
+        actLayout->setAlignment(Qt::AlignCenter);
+
+        QPushButton *renewBtn = new QPushButton("🔄", actWidget);
+        renewBtn->setObjectName("iconSuccessBtn");
         renewBtn->setToolTip("Renew Membership Plan");
-        renewBtn->setStyleSheet("padding: 4px 12px; font-weight: bold;");
+        renewBtn->setCursor(Qt::PointingHandCursor);
+        renewBtn->setFixedSize(30, 28);
         connect(renewBtn, &QPushButton::clicked, this, &MembershipsWidget::onRenewClicked);
-        m_expiredTable->setCellWidget(r, 4, renewBtn);
+        m_expiredTable->setCellWidget(r, 4, actWidget);
         r++;
     }
 }
@@ -246,8 +261,8 @@ void MembershipsWidget::onRenewClicked() {
         ServiceResult res = m_membershipService.renewMembership(memberId, planId, discount, method, 1);
 
         if (res.success) {
-            QMessageBox::information(&dlg, "Renewal Success", res.message);
             dlg.accept();
+            ToastNotification::show(this->window(), res.message, ToastType::Success);
             refreshData();
         } else {
             QMessageBox::critical(&dlg, "Renewal Failed", res.message);
@@ -318,6 +333,7 @@ void MembershipsWidget::onAddPlanClicked() {
 
         if (m_planRepo.create(plan)) {
             dlg.accept();
+            ToastNotification::show(this->window(), "Membership plan created successfully: " + plan.getPlanName(), ToastType::Success);
             refreshData();
         } else {
             QMessageBox::critical(&dlg, "Database Error", "Failed to insert new membership plan.");

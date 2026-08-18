@@ -1,649 +1,673 @@
 [
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\FitCore_autogen\\mocs_compilation.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\build\\FitCore_autogen\\mocs_compilation.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\FitCore_autogen\\mocs_compilation.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\build\\FitCore_autogen\\mocs_compilation.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/build/FitCore_autogen/mocs_compilation.cpp",
   "output": "CMakeFiles/FitCore.dir/FitCore_autogen/mocs_compilation.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\main.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\main.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\main.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\main.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/main.cpp",
   "output": "CMakeFiles/FitCore.dir/src/main.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\database\\DatabaseManager.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\database\\DatabaseManager.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\database\\DatabaseManager.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\database\\DatabaseManager.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/database/DatabaseManager.cpp",
   "output": "CMakeFiles/FitCore.dir/src/database/DatabaseManager.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\User.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\User.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\User.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\User.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/User.cpp",
   "output": "CMakeFiles/FitCore.dir/src/models/User.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\Member.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Member.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\Member.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Member.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Member.cpp",
   "output": "CMakeFiles/FitCore.dir/src/models/Member.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\MembershipPlan.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\MembershipPlan.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\MembershipPlan.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\MembershipPlan.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/MembershipPlan.cpp",
   "output": "CMakeFiles/FitCore.dir/src/models/MembershipPlan.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\Membership.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Membership.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\Membership.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Membership.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Membership.cpp",
   "output": "CMakeFiles/FitCore.dir/src/models/Membership.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\Trainer.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Trainer.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\Trainer.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Trainer.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Trainer.cpp",
   "output": "CMakeFiles/FitCore.dir/src/models/Trainer.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\Attendance.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Attendance.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\Attendance.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Attendance.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Attendance.cpp",
   "output": "CMakeFiles/FitCore.dir/src/models/Attendance.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\Payment.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Payment.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\Payment.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Payment.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Payment.cpp",
   "output": "CMakeFiles/FitCore.dir/src/models/Payment.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\Expense.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Expense.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\Expense.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Expense.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Expense.cpp",
   "output": "CMakeFiles/FitCore.dir/src/models/Expense.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\Exercise.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Exercise.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\Exercise.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Exercise.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Exercise.cpp",
   "output": "CMakeFiles/FitCore.dir/src/models/Exercise.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\WorkoutPlan.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\WorkoutPlan.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\WorkoutPlan.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\WorkoutPlan.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/WorkoutPlan.cpp",
   "output": "CMakeFiles/FitCore.dir/src/models/WorkoutPlan.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\ProgressRecord.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\ProgressRecord.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\ProgressRecord.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\ProgressRecord.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/ProgressRecord.cpp",
   "output": "CMakeFiles/FitCore.dir/src/models/ProgressRecord.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\Equipment.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Equipment.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\Equipment.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Equipment.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Equipment.cpp",
   "output": "CMakeFiles/FitCore.dir/src/models/Equipment.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\Notification.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Notification.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\Notification.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Notification.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Notification.cpp",
   "output": "CMakeFiles/FitCore.dir/src/models/Notification.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\AuditLog.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\AuditLog.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\models\\AuditLog.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\AuditLog.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/AuditLog.cpp",
   "output": "CMakeFiles/FitCore.dir/src/models/AuditLog.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\UserRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\UserRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\UserRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\UserRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/UserRepository.cpp",
   "output": "CMakeFiles/FitCore.dir/src/repositories/UserRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\MemberRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\MemberRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\MemberRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\MemberRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/MemberRepository.cpp",
   "output": "CMakeFiles/FitCore.dir/src/repositories/MemberRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\MembershipPlanRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\MembershipPlanRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\MembershipPlanRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\MembershipPlanRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/MembershipPlanRepository.cpp",
   "output": "CMakeFiles/FitCore.dir/src/repositories/MembershipPlanRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\MembershipRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\MembershipRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\MembershipRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\MembershipRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/MembershipRepository.cpp",
   "output": "CMakeFiles/FitCore.dir/src/repositories/MembershipRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\TrainerRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\TrainerRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\TrainerRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\TrainerRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/TrainerRepository.cpp",
   "output": "CMakeFiles/FitCore.dir/src/repositories/TrainerRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\AttendanceRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\AttendanceRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\AttendanceRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\AttendanceRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/AttendanceRepository.cpp",
   "output": "CMakeFiles/FitCore.dir/src/repositories/AttendanceRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\PaymentRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\PaymentRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\PaymentRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\PaymentRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/PaymentRepository.cpp",
   "output": "CMakeFiles/FitCore.dir/src/repositories/PaymentRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\ExpenseRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\ExpenseRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\ExpenseRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\ExpenseRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/ExpenseRepository.cpp",
   "output": "CMakeFiles/FitCore.dir/src/repositories/ExpenseRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\WorkoutRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\WorkoutRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\WorkoutRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\WorkoutRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/WorkoutRepository.cpp",
   "output": "CMakeFiles/FitCore.dir/src/repositories/WorkoutRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\ProgressRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\ProgressRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\ProgressRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\ProgressRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/ProgressRepository.cpp",
   "output": "CMakeFiles/FitCore.dir/src/repositories/ProgressRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\EquipmentRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\EquipmentRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\EquipmentRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\EquipmentRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/EquipmentRepository.cpp",
   "output": "CMakeFiles/FitCore.dir/src/repositories/EquipmentRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\NotificationRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\NotificationRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\NotificationRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\NotificationRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/NotificationRepository.cpp",
   "output": "CMakeFiles/FitCore.dir/src/repositories/NotificationRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\AuditRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\AuditRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\AuditRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\AuditRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/AuditRepository.cpp",
   "output": "CMakeFiles/FitCore.dir/src/repositories/AuditRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\SettingsRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\SettingsRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\repositories\\SettingsRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\SettingsRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/SettingsRepository.cpp",
   "output": "CMakeFiles/FitCore.dir/src/repositories/SettingsRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\services\\AuthenticationService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\AuthenticationService.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\services\\AuthenticationService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\AuthenticationService.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/services/AuthenticationService.cpp",
   "output": "CMakeFiles/FitCore.dir/src/services/AuthenticationService.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\services\\MembershipService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\MembershipService.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\services\\MembershipService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\MembershipService.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/services/MembershipService.cpp",
   "output": "CMakeFiles/FitCore.dir/src/services/MembershipService.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\services\\AttendanceService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\AttendanceService.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\services\\AttendanceService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\AttendanceService.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/services/AttendanceService.cpp",
   "output": "CMakeFiles/FitCore.dir/src/services/AttendanceService.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\services\\ReportService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\ReportService.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\services\\ReportService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\ReportService.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/services/ReportService.cpp",
   "output": "CMakeFiles/FitCore.dir/src/services/ReportService.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\services\\BackupService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\BackupService.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\services\\BackupService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\BackupService.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/services/BackupService.cpp",
   "output": "CMakeFiles/FitCore.dir/src/services/BackupService.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\services\\NotificationService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\NotificationService.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\services\\NotificationService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\NotificationService.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/services/NotificationService.cpp",
   "output": "CMakeFiles/FitCore.dir/src/services/NotificationService.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\utils\\ThemeManager.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\utils\\ThemeManager.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\services\\WebLauncherServer.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\WebLauncherServer.cpp\"",
+  "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/services/WebLauncherServer.cpp",
+  "output": "CMakeFiles/FitCore.dir/src/services/WebLauncherServer.cpp.obj"
+},
+{
+  "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\utils\\ThemeManager.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\utils\\ThemeManager.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/utils/ThemeManager.cpp",
   "output": "CMakeFiles/FitCore.dir/src/utils/ThemeManager.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\LoginWindow.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\LoginWindow.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\utils\\ToastNotification.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\utils\\ToastNotification.cpp\"",
+  "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/utils/ToastNotification.cpp",
+  "output": "CMakeFiles/FitCore.dir/src/utils/ToastNotification.cpp.obj"
+},
+{
+  "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\LoginWindow.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\LoginWindow.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/LoginWindow.cpp",
   "output": "CMakeFiles/FitCore.dir/src/widgets/LoginWindow.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\MainWindow.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\MainWindow.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\MainWindow.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\MainWindow.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/MainWindow.cpp",
   "output": "CMakeFiles/FitCore.dir/src/widgets/MainWindow.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\DashboardWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\DashboardWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\DashboardWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\DashboardWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/DashboardWidget.cpp",
   "output": "CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\MembersWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\MembersWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\MembersWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\MembersWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/MembersWidget.cpp",
   "output": "CMakeFiles/FitCore.dir/src/widgets/MembersWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\MembershipsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\MembershipsWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\MembershipsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\MembershipsWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/MembershipsWidget.cpp",
   "output": "CMakeFiles/FitCore.dir/src/widgets/MembershipsWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\TrainersWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\TrainersWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\TrainersWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\TrainersWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/TrainersWidget.cpp",
   "output": "CMakeFiles/FitCore.dir/src/widgets/TrainersWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\AttendanceWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\AttendanceWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\AttendanceWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\AttendanceWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/AttendanceWidget.cpp",
   "output": "CMakeFiles/FitCore.dir/src/widgets/AttendanceWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\PaymentsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\PaymentsWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\PaymentsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\PaymentsWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/PaymentsWidget.cpp",
   "output": "CMakeFiles/FitCore.dir/src/widgets/PaymentsWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\WorkoutWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\WorkoutWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\WorkoutWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\WorkoutWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/WorkoutWidget.cpp",
   "output": "CMakeFiles/FitCore.dir/src/widgets/WorkoutWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\ProgressWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\ProgressWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\ProgressWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\ProgressWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/ProgressWidget.cpp",
   "output": "CMakeFiles/FitCore.dir/src/widgets/ProgressWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\EquipmentWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\EquipmentWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\EquipmentWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\EquipmentWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/EquipmentWidget.cpp",
   "output": "CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\ExpensesWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\ExpensesWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\ExpensesWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\ExpensesWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/ExpensesWidget.cpp",
   "output": "CMakeFiles/FitCore.dir/src/widgets/ExpensesWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\ReportsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\ReportsWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\ReportsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\ReportsWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/ReportsWidget.cpp",
   "output": "CMakeFiles/FitCore.dir/src/widgets/ReportsWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\NotificationsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\NotificationsWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\NotificationsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\NotificationsWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/NotificationsWidget.cpp",
   "output": "CMakeFiles/FitCore.dir/src/widgets/NotificationsWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\SettingsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\SettingsWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\SettingsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\SettingsWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/SettingsWidget.cpp",
   "output": "CMakeFiles/FitCore.dir/src/widgets/SettingsWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\AuditLogsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\AuditLogsWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCore.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -Wall -Wextra -o CMakeFiles\\FitCore.dir\\src\\widgets\\AuditLogsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\AuditLogsWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/AuditLogsWidget.cpp",
   "output": "CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\FitCoreTest_autogen\\mocs_compilation.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\build\\FitCoreTest_autogen\\mocs_compilation.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\FitCoreTest_autogen\\mocs_compilation.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\build\\FitCoreTest_autogen\\mocs_compilation.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/build/FitCoreTest_autogen/mocs_compilation.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/FitCoreTest_autogen/mocs_compilation.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\tests\\test_main.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\tests\\test_main.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\tests\\test_main.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\tests\\test_main.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/tests/test_main.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/tests/test_main.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\database\\DatabaseManager.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\database\\DatabaseManager.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\database\\DatabaseManager.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\database\\DatabaseManager.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/database/DatabaseManager.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/database/DatabaseManager.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\User.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\User.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\User.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\User.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/User.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/models/User.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\Member.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Member.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\Member.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Member.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Member.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/models/Member.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\MembershipPlan.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\MembershipPlan.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\MembershipPlan.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\MembershipPlan.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/MembershipPlan.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/models/MembershipPlan.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\Membership.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Membership.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\Membership.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Membership.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Membership.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/models/Membership.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\Trainer.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Trainer.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\Trainer.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Trainer.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Trainer.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/models/Trainer.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\Attendance.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Attendance.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\Attendance.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Attendance.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Attendance.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/models/Attendance.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\Payment.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Payment.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\Payment.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Payment.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Payment.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/models/Payment.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\Expense.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Expense.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\Expense.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Expense.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Expense.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/models/Expense.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\Exercise.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Exercise.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\Exercise.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Exercise.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Exercise.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/models/Exercise.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\WorkoutPlan.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\WorkoutPlan.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\WorkoutPlan.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\WorkoutPlan.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/WorkoutPlan.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/models/WorkoutPlan.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\ProgressRecord.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\ProgressRecord.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\ProgressRecord.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\ProgressRecord.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/ProgressRecord.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/models/ProgressRecord.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\Equipment.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Equipment.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\Equipment.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Equipment.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Equipment.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/models/Equipment.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\Notification.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Notification.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\Notification.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\Notification.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/Notification.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/models/Notification.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\AuditLog.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\AuditLog.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\models\\AuditLog.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\models\\AuditLog.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/models/AuditLog.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/models/AuditLog.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\UserRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\UserRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\UserRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\UserRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/UserRepository.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/repositories/UserRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\MemberRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\MemberRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\MemberRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\MemberRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/MemberRepository.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/repositories/MemberRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\MembershipPlanRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\MembershipPlanRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\MembershipPlanRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\MembershipPlanRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/MembershipPlanRepository.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/repositories/MembershipPlanRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\MembershipRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\MembershipRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\MembershipRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\MembershipRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/MembershipRepository.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/repositories/MembershipRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\TrainerRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\TrainerRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\TrainerRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\TrainerRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/TrainerRepository.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/repositories/TrainerRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\AttendanceRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\AttendanceRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\AttendanceRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\AttendanceRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/AttendanceRepository.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/repositories/AttendanceRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\PaymentRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\PaymentRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\PaymentRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\PaymentRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/PaymentRepository.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/repositories/PaymentRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\ExpenseRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\ExpenseRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\ExpenseRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\ExpenseRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/ExpenseRepository.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/repositories/ExpenseRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\WorkoutRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\WorkoutRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\WorkoutRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\WorkoutRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/WorkoutRepository.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/repositories/WorkoutRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\ProgressRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\ProgressRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\ProgressRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\ProgressRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/ProgressRepository.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/repositories/ProgressRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\EquipmentRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\EquipmentRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\EquipmentRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\EquipmentRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/EquipmentRepository.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/repositories/EquipmentRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\NotificationRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\NotificationRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\NotificationRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\NotificationRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/NotificationRepository.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/repositories/NotificationRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\AuditRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\AuditRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\AuditRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\AuditRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/AuditRepository.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/repositories/AuditRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\SettingsRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\SettingsRepository.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\repositories\\SettingsRepository.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\repositories\\SettingsRepository.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/repositories/SettingsRepository.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/repositories/SettingsRepository.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\services\\AuthenticationService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\AuthenticationService.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\services\\AuthenticationService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\AuthenticationService.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/services/AuthenticationService.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/services/AuthenticationService.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\services\\MembershipService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\MembershipService.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\services\\MembershipService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\MembershipService.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/services/MembershipService.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/services/MembershipService.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\services\\AttendanceService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\AttendanceService.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\services\\AttendanceService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\AttendanceService.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/services/AttendanceService.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/services/AttendanceService.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\services\\ReportService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\ReportService.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\services\\ReportService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\ReportService.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/services/ReportService.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/services/ReportService.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\services\\BackupService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\BackupService.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\services\\BackupService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\BackupService.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/services/BackupService.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/services/BackupService.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\services\\NotificationService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\NotificationService.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\services\\NotificationService.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\NotificationService.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/services/NotificationService.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/services/NotificationService.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\utils\\ThemeManager.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\utils\\ThemeManager.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\services\\WebLauncherServer.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\services\\WebLauncherServer.cpp\"",
+  "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/services/WebLauncherServer.cpp",
+  "output": "CMakeFiles/FitCoreTest.dir/src/services/WebLauncherServer.cpp.obj"
+},
+{
+  "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\utils\\ThemeManager.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\utils\\ThemeManager.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/utils/ThemeManager.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/utils/ThemeManager.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\LoginWindow.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\LoginWindow.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\utils\\ToastNotification.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\utils\\ToastNotification.cpp\"",
+  "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/utils/ToastNotification.cpp",
+  "output": "CMakeFiles/FitCoreTest.dir/src/utils/ToastNotification.cpp.obj"
+},
+{
+  "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\LoginWindow.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\LoginWindow.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/LoginWindow.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/widgets/LoginWindow.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\MainWindow.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\MainWindow.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\MainWindow.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\MainWindow.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/MainWindow.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/widgets/MainWindow.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\DashboardWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\DashboardWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\DashboardWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\DashboardWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/DashboardWidget.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/widgets/DashboardWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\MembersWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\MembersWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\MembersWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\MembersWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/MembersWidget.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/widgets/MembersWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\MembershipsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\MembershipsWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\MembershipsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\MembershipsWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/MembershipsWidget.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/widgets/MembershipsWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\TrainersWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\TrainersWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\TrainersWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\TrainersWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/TrainersWidget.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/widgets/TrainersWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\AttendanceWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\AttendanceWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\AttendanceWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\AttendanceWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/AttendanceWidget.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/widgets/AttendanceWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\PaymentsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\PaymentsWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\PaymentsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\PaymentsWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/PaymentsWidget.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/widgets/PaymentsWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\WorkoutWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\WorkoutWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\WorkoutWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\WorkoutWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/WorkoutWidget.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/widgets/WorkoutWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\ProgressWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\ProgressWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\ProgressWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\ProgressWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/ProgressWidget.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/widgets/ProgressWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\EquipmentWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\EquipmentWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\EquipmentWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\EquipmentWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/EquipmentWidget.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/widgets/EquipmentWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\ExpensesWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\ExpensesWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\ExpensesWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\ExpensesWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/ExpensesWidget.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/widgets/ExpensesWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\ReportsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\ReportsWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\ReportsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\ReportsWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/ReportsWidget.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/widgets/ReportsWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\NotificationsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\NotificationsWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\NotificationsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\NotificationsWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/NotificationsWidget.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/widgets/NotificationsWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\SettingsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\SettingsWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\SettingsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\SettingsWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/SettingsWidget.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/widgets/SettingsWidget.cpp.obj"
 },
 {
   "directory": "D:/Projects/GYM MANAGEMENT SYSTEM/build",
-  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\AuditLogsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\AuditLogsWidget.cpp\"",
+  "command": "D:\\Qt\\Tools\\mingw1310_64\\mingw64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CHARTS_LIB -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_NO_DEBUG -DQT_NO_FLOAT16 -DQT_OPENGLWIDGETS_LIB -DQT_OPENGL_LIB -DQT_SQL_LIB -DQT_SVG_LIB -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles\\FitCoreTest.dir\\includes_CXX.rsp -O3 -DNDEBUG -std=gnu++17 -o CMakeFiles\\FitCoreTest.dir\\src\\widgets\\AuditLogsWidget.cpp.obj -c \"D:\\Projects\\GYM MANAGEMENT SYSTEM\\src\\widgets\\AuditLogsWidget.cpp\"",
   "file": "D:/Projects/GYM MANAGEMENT SYSTEM/src/widgets/AuditLogsWidget.cpp",
   "output": "CMakeFiles/FitCoreTest.dir/src/widgets/AuditLogsWidget.cpp.obj"
 }

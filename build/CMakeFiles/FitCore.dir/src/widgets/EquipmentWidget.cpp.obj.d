@@ -395,6 +395,7 @@ CMakeFiles/FitCore.dir/src/widgets/EquipmentWidget.cpp.obj: \
  D:/Qt/6.7.2/mingw_64/include/QtCore/QString \
  D:/Qt/6.7.2/mingw_64/include/QtCore/qstring.h \
  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/utils/ThemeManager.h \
+ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/utils/ToastNotification.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QVBoxLayout \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qboxlayout.h \
  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlayout.h \
