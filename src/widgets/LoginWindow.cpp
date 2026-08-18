@@ -14,7 +14,7 @@ LoginWindow::LoginWindow(QWidget *parent)
     : QDialog(parent) {
     setWindowTitle("FitCore — Gym Management System Login");
     setFixedSize(450, 420);
-    setStyleSheet(ThemeManager::getDarkThemeQss());
+    setStyleSheet(ThemeManager::getLightThemeQss());
     setWindowFlags(Qt::Dialog | Qt::CustomizeWindowHint | Qt::WindowTitleHint);
 
     QVBoxLayout *mainLayout = new QVBoxLayout(this);
@@ -24,11 +24,11 @@ LoginWindow::LoginWindow(QWidget *parent)
     // Title & Logo Label
     QLabel *titleLabel = new QLabel("FitCore", this);
     titleLabel->setAlignment(Qt::AlignCenter);
-    titleLabel->setStyleSheet("font-size: 32px; font-weight: bold; color: #3B82F6; letter-spacing: 1px;");
+    titleLabel->setStyleSheet("font-size: 32px; font-weight: bold; color: #1E40AF; letter-spacing: 1px;");
 
     QLabel *subtitleLabel = new QLabel("Gym Management System", this);
     subtitleLabel->setAlignment(Qt::AlignCenter);
-    subtitleLabel->setStyleSheet("font-size: 14px; color: #94A3B8; font-weight: 500;");
+    subtitleLabel->setStyleSheet("font-size: 14px; color: #475569; font-weight: 600;");
 
     mainLayout->addWidget(titleLabel);
     mainLayout->addWidget(subtitleLabel);
@@ -59,7 +59,7 @@ LoginWindow::LoginWindow(QWidget *parent)
     // Demo Credentials Box
     QLabel *demoLabel = new QLabel("Demo Logins:\nadmin / admin123  |  manager / manager123\nreceptionist / receptionist123  |  trainer1 / trainer123", this);
     demoLabel->setAlignment(Qt::AlignCenter);
-    demoLabel->setStyleSheet("color: #64748B; font-size: 11px; background-color: #1E293B; padding: 8px; border-radius: 6px;");
+    demoLabel->setStyleSheet("color: #1E40AF; font-size: 11px; background-color: #EFF6FF; border: 1px solid #BFDBFE; padding: 8px; border-radius: 6px;");
     mainLayout->addWidget(demoLabel);
 
     // Buttons

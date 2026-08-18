@@ -25,7 +25,7 @@ void MembersWidget::setupUi() {
     // Section 1: Header Bar & Actions
     QHBoxLayout *topLayout = new QHBoxLayout();
     QLabel *title = new QLabel("Member Directory", this);
-    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #F8FAFC;");
+    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #0F172A;");
 
     QPushButton *addMemberBtn = new QPushButton("+ Add New Member", this);
     addMemberBtn->setObjectName("successBtn");
@@ -69,7 +69,7 @@ void MembersWidget::setupUi() {
     m_nextBtn->setObjectName("secondaryBtn");
 
     m_pageLabel = new QLabel("Page 1 of 1", this);
-    m_pageLabel->setStyleSheet("color: #94A3B8; font-weight: 600;");
+    m_pageLabel->setStyleSheet("color: #64748B; font-weight: 600;");
 
     pageLayout->addWidget(m_pageLabel);
     pageLayout->addStretch();
@@ -340,11 +340,11 @@ void MembersWidget::openMemberProfileDialog(int memberId) {
 
     QVBoxLayout *infoCol = new QVBoxLayout();
     QLabel *nameLbl = new QLabel(member.getFullName(), topFrame);
-    nameLbl->setStyleSheet("font-size: 20px; font-weight: bold; color: #F8FAFC;");
+    nameLbl->setStyleSheet("font-size: 20px; font-weight: bold; color: #0F172A;");
 
     QLabel *subLbl = new QLabel(QString("Membership: %1 | Registered: %2 | Phone: %3")
                                    .arg(member.getMembershipNumber(), member.getRegistrationDate(), member.getPhone()), topFrame);
-    subLbl->setStyleSheet("color: #94A3B8; font-size: 12px;");
+    subLbl->setStyleSheet("color: #64748B; font-size: 12px;");
 
     infoCol->addWidget(nameLbl);
     infoCol->addWidget(subLbl);

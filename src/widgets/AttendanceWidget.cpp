@@ -23,10 +23,10 @@ void AttendanceWidget::setupUi() {
     // Section 1: Title & Stats Header
     QHBoxLayout *topLayout = new QHBoxLayout();
     QLabel *title = new QLabel("Attendance & Fast Check-In Terminal", this);
-    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #F8FAFC;");
+    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #0F172A;");
 
     m_todayCountLbl = new QLabel("Today's Visits: 0", this);
-    m_todayCountLbl->setStyleSheet("font-size: 14px; font-weight: bold; color: #3B82F6; background-color: #1E293B; padding: 6px 14px; border-radius: 8px;");
+    m_todayCountLbl->setStyleSheet("font-size: 14px; font-weight: bold; color: #1E40AF; background-color: #EFF6FF; border: 1px solid #BFDBFE; padding: 6px 14px; border-radius: 8px;");
 
     topLayout->addWidget(title);
     topLayout->addStretch();

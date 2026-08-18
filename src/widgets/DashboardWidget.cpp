@@ -35,7 +35,7 @@ void DashboardWidget::setupUi() {
     // Section 1: Top Header Banner & Quick Actions
     QHBoxLayout *bannerLayout = new QHBoxLayout();
     QLabel *dashTitle = new QLabel("Dashboard Overview", this);
-    dashTitle->setStyleSheet("font-size: 22px; font-weight: bold; color: #F8FAFC;");
+    dashTitle->setStyleSheet("font-size: 22px; font-weight: bold; color: #0F172A;");
 
     QPushButton *quickCheckInBtn = new QPushButton("+ Check-In Member", this);
     quickCheckInBtn->setObjectName("successBtn");

@@ -27,8 +27,8 @@ void EquipmentWidget::setupUi() {
     mainLayout->setSpacing(15);
 
     QHBoxLayout *topLayout = new QHBoxLayout();
-    QLabel *title = new QLabel("Equipment Inventory & Maintenance", this);
-    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #F8FAFC;");
+    QLabel *title = new QLabel("Equipment Assets & Maintenance Inventory", this);
+    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #0F172A;");
 
     QPushButton *addBtn = new QPushButton("+ Add New Equipment", this);
     addBtn->setObjectName("successBtn");

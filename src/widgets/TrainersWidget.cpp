@@ -29,8 +29,8 @@ void TrainersWidget::setupUi() {
     mainLayout->setSpacing(15);
 
     QHBoxLayout *topLayout = new QHBoxLayout();
-    QLabel *title = new QLabel("Trainer & Personal Training Management", this);
-    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #F8FAFC;");
+    QLabel *title = new QLabel("Personal Trainers & Staff Directory", this);
+    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #0F172A;");
 
     QPushButton *addTrainerBtn = new QPushButton("+ Add New Trainer", this);
     addTrainerBtn->setObjectName("successBtn");

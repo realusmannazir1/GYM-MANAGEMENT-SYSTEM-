@@ -27,8 +27,8 @@ void MembershipsWidget::setupUi() {
 
     // Header
     QHBoxLayout *topLayout = new QHBoxLayout();
-    QLabel *title = new QLabel("Memberships & Renewal Center", this);
-    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #F8FAFC;");
+    QLabel *title = new QLabel("Memberships & Renewals Control Center", this);
+    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #0F172A;");
 
     QPushButton *renewBtn = new QPushButton("Renew / Assign Membership", this);
     renewBtn->setObjectName("successBtn");

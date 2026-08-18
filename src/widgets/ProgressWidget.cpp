@@ -24,8 +24,8 @@ void ProgressWidget::setupUi() {
     mainLayout->setSpacing(15);
 
     QHBoxLayout *topLayout = new QHBoxLayout();
-    QLabel *title = new QLabel("Body Composition & Progress Tracking", this);
-    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #F8FAFC;");
+    QLabel *title = new QLabel("Body Progress & Fitness Metrics Tracking", this);
+    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #0F172A;");
 
     QPushButton *addRecordBtn = new QPushButton("+ Log Measurements", this);
     addRecordBtn->setObjectName("successBtn");

@@ -20,7 +20,7 @@ void AuditLogsWidget::setupUi() {
 
     QHBoxLayout *topLayout = new QHBoxLayout();
     QLabel *title = new QLabel("System Audit Trail & Security Logs", this);
-    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #F8FAFC;");
+    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #0F172A;");
 
     topLayout->addWidget(title);
     topLayout->addStretch();

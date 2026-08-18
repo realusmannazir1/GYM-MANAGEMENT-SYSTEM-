@@ -17,7 +17,7 @@ int main(int argc, char *argv[]) {
     std::cout << "[MAIN] App created." << std::endl;
 
     // Apply global stylesheet theme
-    app.setStyleSheet(FitCore::ThemeManager::getDarkThemeQss());
+    app.setStyleSheet(FitCore::ThemeManager::getLightThemeQss());
     std::cout << "[MAIN] Theme applied." << std::endl;
 
     // 1. Initialize SQLite Database Singleton

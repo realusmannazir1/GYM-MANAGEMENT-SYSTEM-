@@ -25,8 +25,8 @@ void PaymentsWidget::setupUi() {
     mainLayout->setSpacing(15);
 
     QHBoxLayout *topLayout = new QHBoxLayout();
-    QLabel *title = new QLabel("Financial Payments & Receipt Log", this);
-    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #F8FAFC;");
+    QLabel *title = new QLabel("Payments & Financial Transactions", this);
+    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #0F172A;");
 
     QPushButton *recordBtn = new QPushButton("+ Record Manual Payment", this);
     recordBtn->setObjectName("successBtn");

@@ -21,7 +21,7 @@ void SettingsWidget::setupUi() {
     mainLayout->setSpacing(20);
 
     QLabel *title = new QLabel("System Configuration & Database Terminal", this);
-    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #F8FAFC;");
+    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #0F172A;");
     mainLayout->addWidget(title);
 
     // Box 1: Gym Profile Parameters
@@ -52,7 +52,7 @@ void SettingsWidget::setupUi() {
     QVBoxLayout *dbLayout = new QVBoxLayout(dbBox);
 
     QLabel *dbDesc = new QLabel("FitCore supports live hot SQLite backups ('VACUUM INTO') without locking database connections.", dbBox);
-    dbDesc->setStyleSheet("color: #94A3B8; font-size: 12px;");
+    dbDesc->setStyleSheet("color: #64748B; font-size: 12px;");
     dbLayout->addWidget(dbDesc);
 
     QHBoxLayout *dbBtnLayout = new QHBoxLayout();

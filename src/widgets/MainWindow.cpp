@@ -14,7 +14,7 @@ MainWindow::MainWindow(const User& currentUser, QWidget *parent)
     : QMainWindow(parent), m_currentUser(currentUser) {
     setWindowTitle("FitCore — Gym Management System [C++17 & Qt 6 & SQLite]");
     resize(1360, 850);
-    setStyleSheet(ThemeManager::getDarkThemeQss());
+    setStyleSheet(ThemeManager::getLightThemeQss());
 
     setupUi();
     applyRoleRestrictions();
@@ -40,11 +40,11 @@ void MainWindow::setupUi() {
     // App Logo Banner
     QLabel *logoLbl = new QLabel("FITCORE", sidebarFrame);
     logoLbl->setAlignment(Qt::AlignCenter);
-    logoLbl->setStyleSheet("font-size: 26px; font-weight: 900; color: #3B82F6; letter-spacing: 2px;");
+    logoLbl->setStyleSheet("font-size: 26px; font-weight: 900; color: #1E40AF; letter-spacing: 2px;");
 
     QLabel *subLogoLbl = new QLabel("MANAGEMENT SYSTEM", sidebarFrame);
     subLogoLbl->setAlignment(Qt::AlignCenter);
-    subLogoLbl->setStyleSheet("font-size: 10px; font-weight: 700; color: #94A3B8; letter-spacing: 1px;");
+    subLogoLbl->setStyleSheet("font-size: 10px; font-weight: 700; color: #1E3A8A; letter-spacing: 1px;");
 
     sbLayout->addWidget(logoLbl);
     sbLayout->addWidget(subLogoLbl);
@@ -99,7 +99,7 @@ void MainWindow::setupUi() {
     m_headerQuickCheckIn->setFixedWidth(320);
 
     m_userLabel = new QLabel(m_currentUser.getFullName(), headerFrame);
-    m_userLabel->setStyleSheet("font-size: 14px; font-weight: bold; color: #F8FAFC;");
+    m_userLabel->setStyleSheet("font-size: 14px; font-weight: bold; color: #0F172A;");
 
     m_roleBadge = new QLabel(m_currentUser.getRoleName(), headerFrame);
     m_roleBadge->setObjectName("roleBadge");

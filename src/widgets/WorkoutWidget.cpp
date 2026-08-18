@@ -28,7 +28,7 @@ void WorkoutWidget::setupUi() {
 
     QHBoxLayout *topLayout = new QHBoxLayout();
     QLabel *title = new QLabel("Workout & Exercise Center", this);
-    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #F8FAFC;");
+    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #0F172A;");
 
     QPushButton *addExBtn = new QPushButton("+ Add Exercise", this);
     addExBtn->setObjectName("secondaryBtn");

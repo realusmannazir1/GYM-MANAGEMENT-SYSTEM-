@@ -22,8 +22,8 @@ void ReportsWidget::setupUi() {
     mainLayout->setSpacing(15);
 
     QHBoxLayout *topLayout = new QHBoxLayout();
-    QLabel *title = new QLabel("Reports & Data Export Center", this);
-    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #F8FAFC;");
+    QLabel *title = new QLabel("Analytics & Financial Reports", this);
+    title->setStyleSheet("font-size: 20px; font-weight: bold; color: #0F172A;");
 
     topLayout->addWidget(title);
     topLayout->addStretch();
