@@ -33,14 +33,16 @@ FitCore is a modern desktop Gym Management System built with **C++17**, **Qt 6**
 ### Prerequisites
 - Qt 6.7 installed (e.g. `D:\Qt\6.7.2\mingw_64`)
 - CMake 3.16+
-- MinGW C++ Compiler
+- **MinGW-w64 GCC 13.1.0 (posix-seh, MSVCRT)** — this must match the compiler Qt 6.7.2 was built with
+  (recommended location: `D:\Qt\Tools\mingw1310_64\mingw64`). Using a different GCC version
+  (e.g. GCC 15 MCF) causes heap-corruption crashes because the GNU runtime DLLs are incompatible.
 
 ### 1. Build the Project
 Open PowerShell in the project directory and run:
 
 ```powershell
-# Configure build files
-cmake -B build -G "MinGW Makefiles"
+# Configure build files (point to the Qt-matching GCC 13.1 toolchain)
+cmake -B build -G "MinGW Makefiles" -DCMAKE_CXX_COMPILER="D:/Qt/Tools/mingw1310_64/mingw64/bin/g++.exe"
 
 # Compile FitCore target
 cmake --build build --target FitCore
@@ -48,13 +50,10 @@ cmake --build build --target FitCore
 
 ### 2. Run the Application
 
-```powershell
-# Add Qt binaries to PATH and run
-$env:PATH = "D:\Qt\6.7.2\mingw_64\bin;" + $env:PATH
-.\build\FitCore.exe
-```
-
-Or double-click [`run.bat`](run.bat) in the project root folder.
+Double-click [`run.bat`](run.bat) in the project root folder. It automatically
+builds, deploys the matching Qt + MinGW 13.1 runtime DLLs and plugins into
+`build\`, code-signs the executable (required by Windows Smart App Control),
+and launches the GUI.
 
 ---
 
