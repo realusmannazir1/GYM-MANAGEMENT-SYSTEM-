@@ -13665,23 +13665,50 @@ CMakeFiles/FitCore.dir/src/widgets/AuditLogsWidget.cpp.obj: D:/Projects/GYM\ MAN
   D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/wchar.h
 
 CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj: D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/DashboardWidget.cpp \
-  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/Attendance.h \
-  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/Membership.h \
-  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/Payment.h \
-  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/AttendanceRepository.h \
-  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/MembershipRepository.h \
-  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/PaymentRepository.h \
-  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/services/ReportService.h \
-  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/utils/ThemeManager.h \
-  D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/DashboardWidget.h \
-  D:/Qt/6.7.2/mingw_64/include/QtCore/QDate \
-  D:/Qt/6.7.2/mingw_64/include/QtCore/QString \
-  D:/Qt/6.7.2/mingw_64/include/QtCore/QTime \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/QAbstractAxis \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/QAbstractBarSeries \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/QAbstractSeries \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/QBarCategoryAxis \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/QBarSeries \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/QBarSet \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/QChart \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/QChartGlobal \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/QChartView \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/QLegend \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/QLineSeries \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/QPieSeries \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/QPieSlice \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/QValueAxis \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/QXYSeries \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/qabstractaxis.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/qabstractbarseries.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/qabstractseries.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/qbarcategoryaxis.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/qbarseries.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/qbarset.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/qchart.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/qchartglobal.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/qchartview.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/qlegend.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/qlineseries.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/qpieseries.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/qpieslice.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/qtcharts-config.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/qtchartsexports.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/qvalueaxis.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCharts/qxyseries.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/QList \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/QMargins \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/QObject \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/QRect \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/QSize \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/QSizeF \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/QStringList \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/QVariant \
   D:/Qt/6.7.2/mingw_64/include/QtCore/q20functional.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/q20memory.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/q20type_traits.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/q23utility.h \
-  D:/Qt/6.7.2/mingw_64/include/QtCore/qabstractitemmodel.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qalgorithms.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qanystringview.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qarraydata.h \
@@ -13696,7 +13723,6 @@ CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj: D:/Projects/GYM\ MAN
   D:/Qt/6.7.2/mingw_64/include/QtCore/qbytearrayalgorithms.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qbytearraylist.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qbytearrayview.h \
-  D:/Qt/6.7.2/mingw_64/include/QtCore/qcalendar.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qchar.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qcompare.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qcompare_impl.h \
@@ -13708,11 +13734,16 @@ CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj: D:/Projects/GYM\ MAN
   D:/Qt/6.7.2/mingw_64/include/QtCore/qcontainerinfo.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qcontainertools_impl.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qcontiguouscache.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/qcoreapplication.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/qcoreapplication_platform.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/qcoreevent.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qdarwinhelpers.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qdatastream.h \
-  D:/Qt/6.7.2/mingw_64/include/QtCore/qdatetime.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/qdeadlinetimer.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qdebug.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/qelapsedtimer.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qendian.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/qeventloop.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qexceptionhandling.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qflags.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qfloat16.h \
@@ -13726,7 +13757,6 @@ CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj: D:/Projects/GYM\ MAN
   D:/Qt/6.7.2/mingw_64/include/QtCore/qhashfunctions.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qiodevice.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qiodevicebase.h \
-  D:/Qt/6.7.2/mingw_64/include/QtCore/qitemselectionmodel.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qiterable.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qiterator.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qlatin1stringview.h \
@@ -13742,6 +13772,7 @@ CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj: D:/Projects/GYM\ MAN
   D:/Qt/6.7.2/mingw_64/include/QtCore/qmetatype.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qminmax.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qnamespace.h \
+  D:/Qt/6.7.2/mingw_64/include/QtCore/qnativeinterface.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qnumeric.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qobject.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qobject_impl.h \
@@ -13753,7 +13784,6 @@ CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj: D:/Projects/GYM\ MAN
   D:/Qt/6.7.2/mingw_64/include/QtCore/qprocessordetection.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qrect.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qrefcount.h \
-  D:/Qt/6.7.2/mingw_64/include/QtCore/qregularexpression.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qscopedpointer.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qscopeguard.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qset.h \
@@ -13802,69 +13832,62 @@ CMakeFiles/FitCore.dir/src/widgets/DashboardWidget.cpp.obj: D:/Projects/GYM\ MAN
   D:/Qt/6.7.2/mingw_64/include/QtCore/qversiontagging.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qxptype_traits.h \
   D:/Qt/6.7.2/mingw_64/include/QtCore/qyieldcpu.h \
+  D:/Qt/6.7.2/mingw_64/include/QtGui/QBrush \
+  D:/Qt/6.7.2/mingw_64/include/QtGui/QFont \
+  D:/Qt/6.7.2/mingw_64/include/QtGui/QImage \
+  D:/Qt/6.7.2/mingw_64/include/QtGui/QPen \
+  D:/Qt/6.7.2/mingw_64/include/QtGui/QTransform \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qaction.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qbitmap.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qbrush.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qcolor.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qcursor.h \
+  D:/Qt/6.7.2/mingw_64/include/QtGui/qevent.h \
+  D:/Qt/6.7.2/mingw_64/include/QtGui/qeventpoint.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qfont.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qfontinfo.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qfontmetrics.h \
+  D:/Qt/6.7.2/mingw_64/include/QtGui/qguiapplication.h \
+  D:/Qt/6.7.2/mingw_64/include/QtGui/qguiapplication_platform.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qicon.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qimage.h \
+  D:/Qt/6.7.2/mingw_64/include/QtGui/qinputdevice.h \
+  D:/Qt/6.7.2/mingw_64/include/QtGui/qinputmethod.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qkeysequence.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qpaintdevice.h \
+  D:/Qt/6.7.2/mingw_64/include/QtGui/qpainter.h \
+  D:/Qt/6.7.2/mingw_64/include/QtGui/qpainterpath.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qpalette.h \
-  D:/Qt/6.7.2/mingw_64/include/QtGui/qpicture.h \
+  D:/Qt/6.7.2/mingw_64/include/QtGui/qpen.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qpixelformat.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qpixmap.h \
+  D:/Qt/6.7.2/mingw_64/include/QtGui/qpointingdevice.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qpolygon.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qregion.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qrgb.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qrgba64.h \
-  D:/Qt/6.7.2/mingw_64/include/QtGui/qtextdocument.h \
+  D:/Qt/6.7.2/mingw_64/include/QtGui/qscreen.h \
+  D:/Qt/6.7.2/mingw_64/include/QtGui/qscreen_platform.h \
+  D:/Qt/6.7.2/mingw_64/include/QtGui/qtextoption.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qtgui-config.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qtguiexports.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qtguiglobal.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qtransform.h \
-  D:/Qt/6.7.2/mingw_64/include/QtGui/qvalidator.h \
+  D:/Qt/6.7.2/mingw_64/include/QtGui/qvector2d.h \
+  D:/Qt/6.7.2/mingw_64/include/QtGui/qvectornd.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs.h \
   D:/Qt/6.7.2/mingw_64/include/QtGui/qwindowdefs_win.h \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QGridLayout \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QGroupBox \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QHBoxLayout \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QHeaderView \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QLabel \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QPushButton \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QScrollArea \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QTableWidget \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QVBoxLayout \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QWidget \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractbutton.h \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemdelegate.h \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractitemview.h \
+  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QGraphicsView \
+  D:/Qt/6.7.2/mingw_64/include/QtWidgets/QGraphicsWidget \
   D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractscrollarea.h \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractslider.h \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qabstractspinbox.h \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qboxlayout.h \
   D:/Qt/6.7.2/mingw_64/include/QtWidgets/qframe.h \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qgridlayout.h \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qgroupbox.h \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qheaderview.h \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlabel.h \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlayout.h \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlayoutitem.h \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qpushbutton.h \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qrubberband.h \
+  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qgraphicsitem.h \
+  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qgraphicslayoutitem.h \
+  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qgraphicsscene.h \
+  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qgraphicsview.h \
+  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qgraphicswidget.h \
   D:/Qt/6.7.2/mingw_64/include/QtWidgets/qscrollarea.h \
   D:/Qt/6.7.2/mingw_64/include/QtWidgets/qsizepolicy.h \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qslider.h \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qstyle.h \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qstyleoption.h \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabbar.h \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtableview.h \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtablewidget.h \
-  D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtabwidget.h \
   D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgets-config.h \
   D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsexports.h \
   D:/Qt/6.7.2/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -20653,6 +20676,8 @@ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qstackedwidget.h:
 
 D:/Qt/6.7.2/mingw_64/include/QtCore/q20memory.h:
 
+D:/Qt/6.7.2/mingw_64/include/QtGui/qvectornd.h:
+
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/services/MembershipService.h:
 
 D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/numeric:
@@ -20663,7 +20688,11 @@ D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/b
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Linker/Windows-CXX.cmake:
 
+D:/Qt/6.7.2/mingw_64/include/QtGui/qpainter.h:
+
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/WorkoutRepository.h:
+
+D:/Qt/6.7.2/mingw_64/include/QtCore/QSizeF:
 
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/models/MembershipPlan.h:
 
@@ -20711,6 +20740,8 @@ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/AttendanceRepository.h:
 
 D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/stdarg.h:
 
+D:/Qt/6.7.2/mingw_64/include/QtCharts/QLegend:
+
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/AuditRepository.h:
 
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/EquipmentRepository.h:
@@ -20723,6 +20754,8 @@ D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/b
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXSourceCompiles.cmake:
 
+D:/Qt/6.7.2/mingw_64/include/QtCharts/QXYSeries:
+
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/ExpenseRepository.h:
 
 D:/Qt/6.7.2/mingw_64/include/QtSql/qsqlrecord.h:
@@ -20734,6 +20767,8 @@ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/repositories/MemberRepository.h:
 D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/pthread_signal.h:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Internal/CheckFlagCommonConfig.cmake:
+
+D:/Qt/6.7.2/mingw_64/include/QtCore/QMargins:
 
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/include/widgets/AuditLogsWidget.h:
 
@@ -20777,6 +20812,8 @@ C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/d
 
 D:/Qt/6.7.2/mingw_64/include/QtCore/qnativeinterface.h:
 
+D:/Qt/6.7.2/mingw_64/include/QtWidgets/QGraphicsView:
+
 D:/Qt/6.7.2/mingw_64/include/QtCore/qanystringview.h:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QSvgPluginTargets.cmake:
@@ -20814,6 +20851,8 @@ D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QModernWindowsStylePluginConfig.cma
 D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/exception:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/FindPackageHandleStandardArgs.cmake:
+
+D:/Qt/6.7.2/mingw_64/include/QtCharts/QLineSeries:
 
 D:/Qt/6.7.2/mingw_64/include/QtCore/qrandom.h:
 
@@ -20907,6 +20946,8 @@ D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/c
 
 D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/sec_api/stdio_s.h:
 
+D:/Qt/6.7.2/mingw_64/include/QtCharts/QBarCategoryAxis:
+
 D:/Qt/6.7.2/mingw_64/include/QtCore/qassert.h:
 
 D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/hashtable_policy.h:
@@ -20981,6 +21022,8 @@ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/User.cpp:
 
 D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/tr1/ell_integral.tcc:
 
+D:/Qt/6.7.2/mingw_64/include/QtGui/qpainterpath.h:
+
 D:/Qt/6.7.2/mingw_64/include/QtCore/qconfig.h:
 
 D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/ostream_insert.h:
@@ -21045,6 +21088,8 @@ D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/b
 
 D:/Qt/6.7.2/mingw_64/include/QtCore/qflags.h:
 
+D:/Qt/6.7.2/mingw_64/include/QtGui/qinputdevice.h:
+
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/database/DatabaseManager.cpp:
 
 D:/Qt/6.7.2/mingw_64/include/QtCore/qforeach.h:
@@ -21105,6 +21150,8 @@ D:/Qt/6.7.2/mingw_64/include/QtGui/qtextcursor.h:
 
 D:/Qt/6.7.2/mingw_64/include/QtCore/qline.h:
 
+D:/Qt/6.7.2/mingw_64/include/QtCharts/QPieSlice:
+
 D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/locale_facets_nonio.tcc:
 
 D:/Qt/6.7.2/mingw_64/include/QtCore/qlist.h:
@@ -21127,7 +21174,11 @@ D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6EntryPointPrivate/Qt6EntryPointPrivateAdditionalTargetInfo.cmake:
 
+D:/Qt/6.7.2/mingw_64/include/QtCharts/QChartGlobal:
+
 D:/Qt/6.7.2/mingw_64/include/QtCore/qmargins.h:
+
+D:/Qt/6.7.2/mingw_64/include/QtWidgets/qgraphicslayoutitem.h:
 
 D:/Qt/6.7.2/mingw_64/include/QtCore/qmath.h:
 
@@ -21255,11 +21306,15 @@ D:/Qt/6.7.2/mingw_64/include/QtCore/qstringconverter_base.h:
 
 D:/Qt/6.7.2/mingw_64/include/QtCore/qstringlist.h:
 
+D:/Qt/6.7.2/mingw_64/include/QtCharts/qbarcategoryaxis.h:
+
 D:/Qt/6.7.2/mingw_64/include/QtCore/qstringtokenizer.h:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Gui/Qt6QWindowsDirect2DIntegrationPluginTargets.cmake:
 
 D:/Qt/6.7.2/mingw_64/include/QtCore/qstringview.h:
+
+D:/Qt/6.7.2/mingw_64/include/QtCharts/qchartglobal.h:
 
 D:/Qt/6.7.2/mingw_64/include/QtCore/qswap.h:
 
@@ -21401,6 +21456,10 @@ D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/stdint.h:
 
 D:/Qt/6.7.2/mingw_64/include/QtCore/QVariant:
 
+D:/Qt/6.7.2/mingw_64/include/QtCharts/qabstractaxis.h:
+
+D:/Qt/6.7.2/mingw_64/include/QtCharts/QPieSeries:
+
 D:/Qt/6.7.2/mingw_64/include/QtGui/qpalette.h:
 
 D:/Qt/6.7.2/mingw_64/include/QtGui/qpicture.h:
@@ -21488,6 +21547,8 @@ D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/_mingw_secapi.h:
 D:/Qt/6.7.2/mingw_64/include/QtWidgets/qcombobox.h:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Core/Qt6CoreDependencies.cmake:
+
+D:/Qt/6.7.2/mingw_64/include/QtGui/qeventpoint.h:
 
 D:/Qt/6.7.2/mingw_64/include/QtWidgets/qdialog.h:
 
@@ -21667,6 +21728,8 @@ D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/b
 
 D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/pthread.h:
 
+D:/Qt/6.7.2/mingw_64/include/QtCharts/qpieslice.h:
+
 D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/stl_bvector.h:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/AppleClang-DetermineCompiler.cmake:
@@ -21779,9 +21842,13 @@ D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/stdde
 
 D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/limits:
 
+D:/Qt/6.7.2/mingw_64/include/QtCharts/qtcharts-config.h:
+
 D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/new:
 
 D:/Qt/Tools/mingw1310_64/mingw64/x86_64-w64-mingw32/include/pthread_unistd.h:
+
+D:/Qt/6.7.2/mingw_64/include/QtGui/QTransform:
 
 D:/Qt/Tools/mingw1310_64/mingw64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/map:
 
@@ -22033,6 +22100,8 @@ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/AuditLog.cpp:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCompilerCommon.cmake:
 
+D:/Qt/6.7.2/mingw_64/include/QtCharts/QChartView:
+
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/services/NotificationService.cpp:
 
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/Exercise.cpp:
@@ -22053,11 +22122,11 @@ D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicFinalizerHelpers.cmake:
 
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/models/WorkoutPlan.cpp:
 
-D:/Qt/6.7.2/mingw_64/include/QtWidgets/QScrollArea:
-
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/AttendanceRepository.cpp:
 
 D:/Qt/6.7.2/mingw_64/include/QtSql/QSqlRecord:
+
+D:/Qt/6.7.2/mingw_64/include/QtGui/qevent.h:
 
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/AuditRepository.cpp:
 
@@ -22066,6 +22135,8 @@ D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/EquipmentRepository.cpp:
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/ExpenseRepository.cpp:
 
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/MemberRepository.cpp:
+
+D:/Qt/6.7.2/mingw_64/include/QtGui/qscreen.h:
 
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/repositories/MembershipPlanRepository.cpp:
 
@@ -22137,7 +22208,95 @@ D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicAppleHelpers.cmake:
 
 D:/Qt/6.7.2/mingw_64/include/QtWidgets/qlayoutitem.h:
 
-D:/Qt/6.7.2/mingw_64/include/QtWidgets/QGridLayout:
+D:/Qt/6.7.2/mingw_64/include/QtCharts/QAbstractAxis:
+
+D:/Qt/6.7.2/mingw_64/include/QtCharts/QAbstractBarSeries:
+
+D:/Qt/6.7.2/mingw_64/include/QtCharts/QAbstractSeries:
+
+D:/Qt/6.7.2/mingw_64/include/QtCharts/QBarSeries:
+
+D:/Qt/6.7.2/mingw_64/include/QtCharts/QBarSet:
+
+D:/Qt/6.7.2/mingw_64/include/QtCharts/QChart:
+
+D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtFeatureCommon.cmake:
+
+D:/Qt/6.7.2/mingw_64/include/QtCharts/QValueAxis:
+
+C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeRCInformation.cmake:
+
+D:/Qt/6.7.2/mingw_64/include/QtCharts/qabstractbarseries.h:
+
+C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestRCCompiler.cmake:
+
+D:/Qt/6.7.2/mingw_64/include/QtCharts/qabstractseries.h:
+
+D:/Qt/6.7.2/mingw_64/include/QtCharts/qbarseries.h:
+
+C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-Determine-CXX.cmake:
+
+D:/Qt/6.7.2/mingw_64/include/QtCharts/qbarset.h:
+
+D:/Qt/6.7.2/mingw_64/include/QtCharts/qchart.h:
+
+D:/Qt/6.7.2/mingw_64/include/QtCharts/qchartview.h:
+
+D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginConfig.cmake:
+
+D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginAdditionalTargetInfo.cmake:
+
+D:/Qt/6.7.2/mingw_64/include/QtCharts/qlegend.h:
+
+D:/Qt/6.7.2/mingw_64/include/QtCharts/qlineseries.h:
+
+C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
+
+D:/Qt/6.7.2/mingw_64/include/QtCharts/qpieseries.h:
+
+D:/Qt/6.7.2/mingw_64/include/QtCharts/qtchartsexports.h:
+
+D:/Qt/6.7.2/mingw_64/include/QtCharts/qvalueaxis.h:
+
+D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake:
+
+D:/Qt/6.7.2/mingw_64/include/QtCharts/qxyseries.h:
+
+C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU.cmake:
+
+D:/Qt/6.7.2/mingw_64/include/QtCore/QList:
+
+D:/Qt/6.7.2/mingw_64/include/QtCore/QObject:
+
+D:/Qt/6.7.2/mingw_64/include/QtCore/QRect:
+
+D:/Qt/6.7.2/mingw_64/include/QtCore/QSize:
+
+D:/Qt/6.7.2/mingw_64/include/QtGui/QBrush:
+
+D:/Qt/6.7.2/mingw_64/include/QtWidgets/QSpinBox:
+
+D:/Qt/6.7.2/mingw_64/include/QtGui/QFont:
+
+D:/Qt/6.7.2/mingw_64/include/QtGui/QImage:
+
+D:/Qt/6.7.2/mingw_64/include/QtGui/QPen:
+
+D:/Qt/6.7.2/mingw_64/include/QtGui/qpointingdevice.h:
+
+D:/Qt/6.7.2/mingw_64/include/QtGui/qscreen_platform.h:
+
+D:/Qt/6.7.2/mingw_64/include/QtGui/qvector2d.h:
+
+D:/Qt/6.7.2/mingw_64/include/QtWidgets/QGraphicsWidget:
+
+D:/Qt/6.7.2/mingw_64/include/QtWidgets/qgraphicsitem.h:
+
+D:/Qt/6.7.2/mingw_64/include/QtWidgets/qgraphicsscene.h:
+
+D:/Qt/6.7.2/mingw_64/include/QtWidgets/qgraphicsview.h:
+
+D:/Qt/6.7.2/mingw_64/include/QtWidgets/qgraphicswidget.h:
 
 D:/Qt/6.7.2/mingw_64/include/QtWidgets/QFormLayout:
 
@@ -22162,8 +22321,6 @@ D:/Qt/6.7.2/mingw_64/include/QtWidgets/qstatusbar.h:
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/MembersWidget.cpp:
 
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/MembershipsWidget.cpp:
-
-D:/Qt/6.7.2/mingw_64/include/QtWidgets/QSpinBox:
 
 D:/Projects/GYM\ MANAGEMENT\ SYSTEM/src/widgets/NotificationsWidget.cpp:
 
@@ -22225,8 +22382,6 @@ C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/d
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeRCCompiler.cmake.in:
 
-C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeRCInformation.cmake:
-
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeSystem.cmake.in:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeSystemSpecificInformation.cmake:
@@ -22236,8 +22391,6 @@ C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/d
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeSystemSpecificInitialize.cmake:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestCXXCompiler.cmake:
-
-C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CMakeTestRCCompiler.cmake:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/CheckCXXCompilerFlag.cmake:
 
@@ -22255,8 +22408,6 @@ C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/d
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Diab-DetermineCompiler.cmake:
 
-C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/Fujitsu-DetermineCompiler.cmake:
-
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GHS-DetermineCompiler.cmake:
@@ -22266,8 +22417,6 @@ D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6CoreTools/Qt6CoreToolsConfigVersion.cmake:
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU-CXX.cmake:
-
-C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/GNU.cmake:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake:
 
@@ -22311,8 +22460,6 @@ C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/d
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Linker/Windows-GNU.cmake:
 
-C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-Determine-CXX.cmake:
-
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-GNU-CXX-ABI.cmake:
 
 C:/Users/uk078/AppData/Local/Programs/Python/Python312/Lib/site-packages/cmake/data/share/cmake-4.4/Modules/Platform/Windows-Initialize.cmake:
@@ -22330,8 +22477,6 @@ D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6ConfigVersion.cmake:
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6Targets.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/Qt6VersionlessTargets.cmake:
-
-D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtFeatureCommon.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6/QtPublicTargetHelpers.cmake:
 
@@ -22457,10 +22602,6 @@ D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsConfigVersionImp
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6OpenGLWidgets/Qt6OpenGLWidgetsVersionlessTargets.cmake:
 
-D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Sql/Qt6QPSQLDriverPluginConfig.cmake:
-
-D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginAdditionalTargetInfo.cmake:
-
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Sql/Qt6QMimerSQLDriverPluginConfig.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6Sql/Qt6QODBCDriverPluginAdditionalTargetInfo.cmake:
@@ -22508,8 +22649,6 @@ D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersion.cmak
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsConfigVersionImpl.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsDependencies.cmake:
-
-D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsTargets-relwithdebinfo.cmake:
 
 D:/Qt/6.7.2/mingw_64/lib/cmake/Qt6WidgetsTools/Qt6WidgetsToolsVersionlessTargets.cmake:
 

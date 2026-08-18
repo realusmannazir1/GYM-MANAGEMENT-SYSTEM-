@@ -1,3 +1,15 @@
+#include "widgets/DashboardWidget.h"
+#include "repositories/MembershipRepository.h"
+#include "repositories/PaymentRepository.h"
+#include "repositories/AttendanceRepository.h"
+#include "utils/ThemeManager.h"
+#include <QVBoxLayout>
+#include <QHBoxLayout>
+#include <QGridLayout>
+#include <QHeaderView>
+#include <QGroupBox>
+#include <QScrollArea>
+#include <QPushButton>
 #include <QChartView>
 #include <QChart>
 #include <QLineSeries>
